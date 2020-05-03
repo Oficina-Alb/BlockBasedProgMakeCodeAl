@@ -2,54 +2,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Project Task - Forward and Backward &#8212; Block-based programming in MakeCode</title>
+    <meta charset="utf-8" />
+    <title>Detyrë - Para dhe Pas &#8212; Block-based programming in MakeCode</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
-    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
     <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css" />
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/flatly.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/petlja.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/runestonebase.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/reveal.js"></script>
-    <script type="text/javascript" src="_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="_static/parsons.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/jquery.highlight.js"></script>
     <script type="text/javascript" src="_static/bookfuncs.js"></script>
     <script type="text/javascript" src="_static/codemirror.js"></script>
@@ -58,38 +43,52 @@
     <script type="text/javascript" src="_static/python.js"></script>
     <script type="text/javascript" src="_static/htmlmixed.js"></script>
     <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
     <script type="text/javascript" src="_static/skulpt.min.js"></script>
     <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="_static/activecode.js"></script>
     <script type="text/javascript" src="_static/clike.js"></script>
     <script type="text/javascript" src="_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
     <script type="text/javascript" src="_static/mchoice.js"></script>
     <script type="text/javascript" src="_static/timedmc.js"></script>
     <script type="text/javascript" src="_static/timed.js"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
     <script type="text/javascript" src="_static/clickable.js"></script>
     <script type="text/javascript" src="_static/timedclickable.js"></script>
-    <script type="text/javascript" src="_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
     <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="_static/pytutor.js"></script>
     <script type="text/javascript" src="_static/codelens.js"></script>
-    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/dragndrop.js"></script>
     <script type="text/javascript" src="_static/timeddnd.js"></script>
     <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/matrixeq.js"></script>
     <script type="text/javascript" src="_static/fitb.js"></script>
     <script type="text/javascript" src="_static/timedfitb.js"></script>
     <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
     <script type="text/javascript" src="_static/shortanswer.js"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
     <script type="text/javascript" src="_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
@@ -141,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Project Task - Middle Button" href="Project Task - Middle Button.html" />
-    <link rel="prev" title="Project Task - Happy or Sad" href="Project Task - Happy or Sad.html" />
+    <link rel="next" title="Detyrë - Butoni i mesit" href="Project Task - Middle Button.html" />
+    <link rel="prev" title="Detyrë - Happy or Sad" href="Project Task - Happy or Sad.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -205,69 +204,69 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="project-task-forward-and-backward">
-<h1>Project Task - Forward and Backward<a class="headerlink" href="#project-task-forward-and-backward" title="Permalink to this headline">¶</a></h1>
-<p>In more complex applications, it is necessary to perform an action several times, until some of the conditions for its termination are fulfilled.</p>
-<img alt="../_images/_imageEV3/64.png" class="align-center" src="../_images/_imageEV3/64.png" />
-<p><strong>Loops</strong> provide the ability to repeat the same code sequence until one of the conditions for breaking it is fulfilled.7</p>
-<p>The running of the loop can be controlled in a number of ways:</p>
+  <div class="section" id="detyre-para-dhe-pas">
+<h1>Detyrë - Para dhe Pas<a class="headerlink" href="#detyre-para-dhe-pas" title="Permalink to this headline">¶</a></h1>
+<p>Në aplikime më komplekse, është e nevojshme të kryeni një veprim disa herë, derisa të përmbushen disa nga kushtet për përfundimin e tij.</p>
+<img alt="../_images/_imageEV3/64.png" class="align-center" src="../_images/64.png" />
+<p><strong>Ciklet</strong> sigurojnë mundësinë për të përsëritur sekuencën e të njëjtit kod derisa të përmbushet një prej kushteve për thyerjen e tij.</p>
+<p>Drejtimi i ciklit mund të kontrollohet në një numër mënyrash:</p>
 <ul class="simple">
-<li>Unlimited (no limitations),</li>
-<li>Sensor (it runs until the program reacts to one of the sensors),</li>
-<li>Time (it can be time-limited),</li>
-<li>Count (a number of times it repeats can be determined in advance) and</li>
-<li>Logic (it can run until a logical condition has been fulfilled).</li>
+<li><p>Pafund (pa kufizime),</p></li>
+<li><p>Sensori (funksionon derisa programi të reagojë te njëri prej sensorëve),</p></li>
+<li><p>Koha (mund të jetë e kufizuar me kohë),</p></li>
+<li><p>Me numërim (një numër herë që përsëritet mund të përcaktohet paraprakisht) dhe</p></li>
+<li><p>Logjika (mund të funksionojë derisa të përmbushet një kusht logjik).</p></li>
 </ul>
-<p>We will first explain the loops in a simple example of the infinite movement of a robot forward and backward.</p>
-<p>We will solve this task by dividing it into two parts. The first part will consist of two blocks with which the robot will move forward and backward.</p>
-<p>Drag the block <img alt="tank" src="_images/631.png" /> to the work surface, click on the sign <code class="docutils literal notranslate"><span class="pre">+</span></code> and choose the option “rotations”. Then, set the number of rotations to 1.</p>
-<p>Finally, for the robot to move forward, the value (representing power) has to be positive, we will set it to be 50.</p>
-<p>In the second block, we will set the power of the motor to be -50, so the robot can move backward. To allow the robot to move continuously (without stopping), we need to put the block presented above into an infinite loop, we will achieve this by adding the block <img alt="Forever" src="_images/46.png" />, which will enable the robot to go forward and backward continuously (an infinite number of times), until the program is stopped by force.</p>
-<p>The look of the program:</p>
-<img alt="../_images/_imageEV3/65.png" class="align-center" src="../_images/_imageEV3/65.png" />
-<p>Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/_imageEV3/download.png" style="width: 199px;" /></a>. By dragging the file onto the EV3, it is ready to start working.</p>
-<p>We can also limit the robot’s movement; for example, we want the robot to move forward and backward three times.</p>
-<p>To do this, we will use the loop where blocks run a determined number of times. The robot will move forward and backward three times.</p>
-<p>To set the code sequence to stop after a certain number of repetitions, you need to drag the block <img alt="Repeat" src="_images/66.png" />, where we will define how many times an action should be repeated, into the block <img alt="Start" src="_images/8.png" />. In our case, the value will be 3.</p>
-<p>The look of the program:</p>
-<img alt="../_images/_imageEV3/67.png" class="align-center" src="../_images/_imageEV3/67.png" />
-<p>Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/_imageEV3/download.png" style="width: 199px;" /></a>. By dragging the file onto the EV3, it is ready to start working.</p>
-<p>The third way we can repeat a certain action is by using the block that will repeat it until a specified condition has been fulfilled. This block should be used when we don’t know how many times we need to repeat some part of the code, so we want it to keep repeating until a specific condition has been fulfilled.</p>
-<p>To demonstrate conditional repetition, we will create a program which will allow the robot to move around a box in the shape of a square until it encounters an obstacle (touches the box).</p>
-<p>The code looks like this:</p>
-<img alt="../_images/_imageEV3/68.png" class="align-center" src="../_images/_imageEV3/68.png" />
-<p>Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/_imageEV3/download.png" style="width: 199px;" /></a>. By dragging the file onto the EV3, it is ready to start working.</p>
-<p>This task can be solved by using <strong>functions</strong>.</p>
-<p>Some complex problems can be solved more easily if they are divided into smaller units that can be solved independently. In other programming languages, these units are called subprograms: functions and procedures. We know that we can simplify the code by using repetition commands. However, this is often not enough.</p>
-<p>Whenever we want the robot to repeat some activity within a program, or in another program, we can use procedures, or more specifically, the block <img alt="Funkcije" src="../_images/_imageEV3/82.png" />.</p>
-<p>Since we have been using the forward and backward motion of the robot in our previous examples, we will try to use these two blocks to create our own function forward and backward. How is this done?</p>
-<p>The first step is to create the Function with activities which will be repeated. In our case, this will be the robot moving forward and backward repeatedly.</p>
-<p>We create a Function by, opening the category <code class="docutils literal notranslate"><span class="pre">Function</span></code> (1), clicking on the button <code class="docutils literal notranslate"><span class="pre">Make</span> <span class="pre">a</span> <span class="pre">Function</span></code> (2) and entering the name of the function we would like to create (3). We have finished creating a function when we click on the <code class="docutils literal notranslate"><span class="pre">OK</span></code> button (4).</p>
-<img alt="../_images/_imageEV3/85.png" class="align-center" src="../_images/_imageEV3/85.png" />
-<p>Add the two movement blocks, the first block will enable the robot to move one rotation forward, and the second block will enable it to move one rotation backward.</p>
-<p>Look of the function forward and backward:</p>
-<img alt="../_images/_imageEV3/86.png" class="align-center" src="../_images/_imageEV3/86.png" />
-<p>In order for a function to be used in a program, it is necessary to “call” it using the block <img alt="pozovi" src="_images/87.png" />.</p>
-<p>The look of the code for moving forward and backward by using the function:</p>
-<img alt="../_images/_imageEV3/88.png" class="align-center" src="../_images/_imageEV3/88.png" />
-<p>Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/_imageEV3/download.png" style="width: 199px;" /></a>. By dragging the file onto the EV3, it is ready to start working.</p>
+<p>Ne së pari do t’i shpjegojmë ciklet në një shembull të thjeshtë të lëvizjes së pafundme të një roboti përpara dhe prapa.</p>
+<p>Ne do ta zgjidhim këtë detyrë duke e ndarë atë në dy pjesë. Pjesa e parë do të përbëhet nga dy blloqe me të cilat roboti do të ecë përpara dhe prapa.</p>
+<p>Zvarrit bllokun <img alt="tank" src="_images/631.png" /> në sipërfaqen e punës, klikoni në shenjën <code class="docutils literal notranslate"><span class="pre">+</span></code> dhe zgjidhni opsionin “rotation”. Pastaj, vendosni numrin e rrotullimeve në 1.</p>
+<p>Më në fund, që roboti të ecë përpara, vlera (fuqia përfaqësuese) duhet të jetë pozitive, ne do ta vendosim atë të jetë 50.</p>
+<p>Në bllokun e dytë, ne do të vendosim fuqinë e motorit të jetë -50, në mënyrë që roboti të lëvizë prapa. Për të lejuar që roboti të lëvizë vazhdimisht (pa ndalur), duhet ta vendosim bllokun e paraqitur më sipër në një cikël të pafund, do ta arrijmë këtë duke shtuar bllokun <img alt="Forever" src="_images/46.png" />, i cili do të mundësojë që roboti të shkojë përpara dhe prapa vazhdimisht (një numri i pafund i herave), derisa programi të ndalet me forcë.</p>
+<p>Pamja e programit:</p>
+<img alt="../_images/_imageEV3/65.png" class="align-center" src="../_images/65.png" />
+<p>Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/download.png" style="width: 199px;" /></a>. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.</p>
+<p>Ne gjithashtu mund të kufizojmë lëvizjen e robotit; për shembull, ne duam që roboti të lëvizë përpara dhe prapa tre herë.</p>
+<p>Për ta bërë këtë, ne do të përdorim cikël ku blloqet ekzekutojnë një numër të caktuar herë. Roboti do të ecë përpara dhe prapa tre herë.</p>
+<p>Për të vendosur sekuencën e kodit për të ndaluar pas një numri të caktuar përsëritjesh, duhet të tërhiqni bllokun <img alt="Repeat" src="_images/66.png" />, ku do të përcaktojmë se sa herë duhet të përsëritet një veprim, në bllokun <a href="#id1"><span class="problematic" id="id2">|onstart|</span></a> Në rastin tonë, vlera do të jetë 3.</p>
+<p>Pamja e programit:</p>
+<img alt="../_images/_imageEV3/67.png" class="align-center" src="../_images/67.png" />
+<p>Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/download.png" style="width: 199px;" /></a>. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.</p>
+<p>Mënyra e tretë për të përsëritur një veprim të caktuar është duke përdorur bllokun që do ta përsëris atë derisa të plotësohet një kusht i caktuar. Ky bllok duhet të përdoret kur nuk e dimë se sa herë na duhet të përsërisim një pjesë të kodit, kështu që duam që ai të vazhdojë të përsëritet derisa të përmbushet një kusht specifik.</p>
+<p>Për të demonstruar përsëritjen e kushtëzuar, ne do të krijojmë një program i cili do të lejojë që roboti të lëvizë rreth një kuti në formën e një sheshi derisa të hasë një pengesë (prek kutinë).</p>
+<p>Kodi duket si ky:</p>
+<img alt="../_images/_imageEV3/68.png" class="align-center" src="../_images/68.png" />
+<p>Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/download.png" style="width: 199px;" /></a>. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.</p>
+<p>Kjo detyrë mund të zgjidhet duke përdorur <strong>funksionet</strong>.</p>
+<p>Disa probleme komplekse mund të zgjidhen më lehtë nëse ato ndahen në njësi më të vogla që mund të zgjidhen në mënyrë të pavarur. Në gjuhët e tjera të programimit, këto njësi quhen nënprogram: funksione dhe procedura. Ne e dimë që ne mund të thjeshtojmë kodin duke përdorur komanda të përsëritjes. Sidoqoftë, kjo shpesh nuk është e mjaftueshme.</p>
+<p>Kurdoherë që duam që roboti të përsërisë disa aktivitete brenda një programi, ose në një program tjetër, mund të përdorim procedura, ose më saktë, bllokun <img alt="Funkcije" src="../_images/82.png" />.</p>
+<p>Meqenëse në shembujt e mëparshëm kemi përdorur lëvizjen përpara dhe prapa të robotit, ne do të përpiqemi t’i përdorim këto dy blloqe për të krijuar funksionin tonë përpara dhe prapa. Si bëhet kjo?</p>
+<p>Hapi i parë është krijimi i Funksionit me aktivitete që do të përsëriten. Në rastin tonë, ky do të jetë robot që shkon përpara dhe prapa në mënyrë të përsëritur.</p>
+<p>Ne krijojmë një Funksion duke, duke hapur kategorinë <code class="docutils literal notranslate"><span class="pre">Function</span></code> (1), duke klikuar në butonin <code class="docutils literal notranslate"><span class="pre">Make</span> <span class="pre">a</span> <span class="pre">Function`</span> <span class="pre">(2)</span> <span class="pre">dhe</span> <span class="pre">duke</span> <span class="pre">futur</span> <span class="pre">emrin</span> <span class="pre">e</span> <span class="pre">funksionit</span> <span class="pre">që</span> <span class="pre">do</span> <span class="pre">të</span> <span class="pre">donim</span> <span class="pre">të</span> <span class="pre">krijonim</span> <span class="pre">(3).</span> <span class="pre">Ne</span> <span class="pre">kemi</span> <span class="pre">përfunduar</span> <span class="pre">krijimin</span> <span class="pre">e</span> <span class="pre">një</span> <span class="pre">funksioni</span> <span class="pre">kur</span> <span class="pre">klikojmë</span> <span class="pre">në</span> <span class="pre">butonin</span> <span class="pre">``OK</span></code> (4).</p>
+<img alt="../_images/_imageEV3/85.png" class="align-center" src="../_images/85.png" />
+<p>Shtoni dy blloqet e lëvizjes, blloku i parë do të mundësojë që roboti të lëvizë një rrotullim përpara, dhe blloku i dytë do t’i mundësojë që të lëvizë një rrotullim prapa.</p>
+<p>Pamja e funksionit para dhe pas:</p>
+<img alt="../_images/_imageEV3/86.png" class="align-center" src="../_images/86.png" />
+<p>Në mënyrë që një funksion të përdoret në një program, është e nevojshme ta “thirrni” atë duke përdorur bllokun <img alt="pozovi" src="_images/87.png" />.</p>
+<p>Pamja e kodit për të ecur përpara dhe prapa duke përdorur funksionin:</p>
+<img alt="../_images/_imageEV3/88.png" class="align-center" src="../_images/88.png" />
+<p>Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/download.png" style="width: 199px;" /></a>. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.</p>
 </div>
 
 
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Project Task - Happy or Sad' data-toggle="tooltip"><a href="Project Task - Happy or Sad.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Detyrë - Happy or Sad' data-toggle="tooltip"><a href="Project Task - Happy or Sad.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Project Task - Middle Button' data-toggle="tooltip"><a href="Project Task - Middle Button.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Detyrë - Butoni i mesit' data-toggle="tooltip"><a href="Project Task - Middle Button.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Project Task - Happy or Sad' data-toggle="tooltip"><a href="Project Task - Happy or Sad.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Detyrë - Happy or Sad' data-toggle="tooltip"><a href="Project Task - Happy or Sad.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Project Task - Middle Button' data-toggle="tooltip"><a href="Project Task - Middle Button.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Detyrë - Butoni i mesit' data-toggle="tooltip"><a href="Project Task - Middle Button.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

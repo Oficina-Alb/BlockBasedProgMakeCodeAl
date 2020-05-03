@@ -1,84 +1,85 @@
-Working with Blocks from the Loops Category
+Puna me blloqet nga kategoria e Loops
 ================================================
 
-There are processes in nature that are repeated constantly or from time to time. As in nature, in programming, sometimes it is necessary to repeat certain parts of the program several times. We have already mentioned that repeating one or more commands (blocks) is a powerful concept in programming. When some of the program commands are repeated several times, we say that the program contains loops. We have used this concept several times before.  
+Ka procese në natyrë që përsëriten vazhdimisht ose herë pas here. Ashtu si në natyrë, në programim, ndonjëherë është e nevojshme të përsërisni disa pjesë të programit disa herë. Ne kemi përmendur tashmë se përsëritja e një ose më shumë komandave (blloqeve) është një koncept i fuqishëm në programim. Kur disa nga komandat e programit përsëriten disa herë, ne themi se programi përmban sythe. Ne e kemi përdorur këtë koncept disa raste më parë.
 
-Repeating commands is a very common occurrence in programming.
+Përsëritja e komandave është një dukuri shumë e zakonshme në programim.
 
 .. |stop| image:: ../_images/_imageMicroBit/p2.png
 
 
-MakeCode has three types of blocks into which other blocks, whose execution needs to be repeated, can be inserted. Blocks can be repeated:
+MakeCode ka tre lloje të blloqeve në të cilat blloqe të tjerë, ekzekutimi i të cilave duhet të përsëritet, mund të futen. Blloqet mund të përsëriten:
 
-  - a certain number of times:
+  - disa herë:
 
   .. image:: ../_images/_imageMicroBit/p68.png
         :align: center
 
-  We should use this block when we know the exact number of repetitions in advance (they are also called iterations).
+  Ne duhet ta përdorim këtë bllok kur e dimë paraprakisht numrin e saktë të përsëritjeve (ato quhen edhe përsëritje).
 
-  - an infinite number of times (continuously, until the user stops the program):
+   - një numër i pafund herësh (vazhdimisht, derisa përdoruesi të ndalojë programin):
 
   .. image:: ../_images/_imageMicroBit/s1.png
         :align: center
 
-  This is one of the most frequently used blocks. The running of this block is stopped when the user clicks the stop button (|stop|).
+  Ky është një nga blloqet më të përdorura. Ekzekutimi i këtij blloku ndalet kur përdoruesi klikon butonin stop (|stop|).
 
-  - until a certain condition is fulfilled:
+   - derisa të përmbushet një kusht i caktuar:
 
   .. image:: ../_images/_imageMicroBit/p68.png
           :align: center
 
-  We should use this block when we do not know how many times blocks inserted into the repetition block should be executed, and therefore, we want them to run until a certain condition is fulfilled.
-  Blocks, which need to be repeated, are dragged and inserted into repetition blocks.
+  Ne duhet ta përdorim këtë bllok kur nuk e dimë se sa herë blloqet e futura në bllokun e përsëritjes duhet të ekzekutohen, dhe për këtë arsye, duam që ata të ecin derisa të përmbushet një gjendje e caktuar.
+   Blloqet, të cilat duhet të përsëriten, tërhiqen dhe futen në blloqe përsëritje.
 
-The block, which will repeat other blocks an exact number of times, can be used to reproduce the tone C three times.
+Blloku, i cili do të përsërisë blloqe të tjera në një numër të saktë, mund të përdoret për të riprodhuar tonin C tre herë.
 
-The look of the code:
+Pamja e kodit:
 
 .. image:: ../_images/_imageMicroBit/p70.png
       :align: center
 
-The block for repeating commands will be executed an infinite number of times. The running will never stop on its own. We can stop the running by clicking on the stop button (|stop|).
+Blloku për përsëritjen e komandave do të ekzekutohet një numër të pafund herësh. Vrapimi nuk do të ndalet kurrë më vete. Mund të ndalojmë ekzekutimin duke klikuar në butonin stop (|stop|).
 
-We used the blocks for repeating in our previous lessons when we displayed the animation of a square.
+Ne i përdorëm blloqet për të përsëritur në mësimet tona të mëparshme kur shfaqëm animacionin e një katrori.
 
 .. mchoice:: L7Z1
-    :answer_a: New blocks can be inserted into the block itself, so there is no need to continue the script.
-    :answer_b: It is a bug in MakeCode. The block that repeats commands an infinite number of times must have the option to continue stacking the script.
-    :answer_c: Adding further blocks would be pointless since they would never be executed.    :feedback_a: The answer is correct!
-    :correct: a
-    :feedback_b: The answer is not correct!
-    :feedback_c: The answer is not correct!
+     : answer_a: Blloqe të reja mund të futen në bllok vetë, kështu që nuk ka nevojë për të vazhduar skenarin.
+     : answer_b: ashtë një gabim në MakeCode. Blloku që përsërit komandat një numër të pafund herësh duhet të ketë mundësinë që të vazhdojë stacking skenarin.
+     : answer_c: Shtimi i blloqeve të mëtejshme do të ishte i kotë pasi ato nuk do të ekzekutoheshin kurrë.
+     : feedback_a: Përgjigja është e saktë!
+     : e saktë: a
+     : feedback_b: Përgjigja nuk është e saktë!
+     : feedback_c: Përgjigja nuk është e saktë!
     
-    Analyze the look of the blocks. You can see that the forever block used for repeating commands indefinitely does not have the option for connecting to other blocks, other blocks cannot be added onto it. Why?
+    Analizoni pamjen e blloqeve. Ju mund të shihni që blloku foever i përdorur për përsëritjen e komandave në kohë të pacaktuar nuk ka mundësinë e lidhjes me blloqe të tjera, blloqe të tjera nuk mund të shtohen në të. Pse?
 
-The block which repeats other blocks (commands) runs until a specific condition is fulfilled. The blocks within this block are executed based on checking whether the condition is fulfilled or not. We use this block when we do not know how many times we need to repeat the commands inside it, and we want them to run until a specific condition is fulfilled. 
+Blloku që përsërit blloqet e tjera (komandat) funksionon derisa të përmbushet një kusht specifik. Blloqet brenda këtij blloku ekzekutohen bazuar në kontrollin nëse kushti është përmbushur apo jo. Ne e përdorim këtë bllok kur nuk e dimë sa herë duhet të përsërisim komandat brenda tij, dhe duam që ata të ekzekutojnë derisa të përmbushet një kusht specifik.
 
 .. mchoice:: L7Z2
-    :answer_a: The block that repeats commands a certain number of times.
-    :answer_b: The block that repeats commands an infinite number of times.
-    :answer_c: The block that repeats commands until a certain condition is fulfilled.
+    :answer_a: Blloku që përsërit komandat një numër të caktuar herësh.
+    :answer_b: Blloku që përsërit komandon një numër të pafund herësh.
+    :answer_c: Blloku që përsërit komandat derisa të përmbushet një kusht i caktuar.
     :correct: c
-    :feedback_a: The answer is not correct!
-    :feedback_b: The answer is not correct!
-    :feedback_c: The answer is correct!
+    :feedback_a: Përgjigja nuk është e saktë!
+    :feedback_b: Përgjigja nuk është e saktë!
+    :feedback_c: Përgjigja është e saktë!
     
 
-    You want to create a program, which continuously turns on the LED on the screen with coordinates (2,2) until the light level drops below a certain value. Which blocks will you use for repeating commands?
+    Ju dëshironi të krijoni një program, i cili vazhdimisht ndizet LED në ekran me koordinatat (2,2) derisa niveli i dritës të bjerë nën një vlerë të caktuar. Cilat blloqe do të përdorni për përsëritjen e komandave?
 
-We will demonstrate the use of this block by creating a program that plays a tune as long as the light level is lower than 120.
+Ne do të demonstrojmë përdorimin e këtij blloku duke krijuar një program që luan një ton për aq kohë sa niveli i dritës është më i ulët se 120.
 
 .. |svetlost| image:: ../_images/_imageMicroBit/p71.png
 
-For the purposes of this program, we will define the variable |svetlost|, which will store the value of the light level reading. As long as the light level value is less than 120, a sound signal will be emitted.
-In the figure below you can find our suggestion for the code, along with comments which explain it. Programmers consider commenting on scripts and explaining what each block does to be useful. Commenting makes it easier for other programmers to understand and upgrade programs we created. 
-You can add a comment by right-clicking on the script and selecting the option **Add comment**. 
+Për qëllimet e këtij programi, ne do të përcaktojmë variablin |svetlost|, e cila do të ruajë vlerën e leximit të nivelit të dritës. Për sa kohë që vlera e nivelit të dritës është më pak se 120, një sinjal i zërit do të lëshohet.
+Në figurën më poshtë mund të gjeni sugjerimin tonë për kodin, së bashku me komentet që e shpjegojnë atë. Programuesit konsiderojnë të komentojnë skriptet dhe të shpjegojnë se çfarë është e dobishme në secilin bllok. Komentimi ua lehtëson programuesve të tjerë të kuptojnë dhe azhornojnë programet që kemi krijuar.
+Mund të shtoni një koment duke klikuar me të djathtën në skenar dhe duke zgjedhur opsionin **Add comment**.
  
 
 .. image:: ../_images/_imageMicroBit/p72.png
       :align: center
 
-To test the program, we will run it in the simulator by clicking the |play| button.
+Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar butonin |play|.
 
 .. |play| image:: ../_images/_imageMicroBit/p3.png

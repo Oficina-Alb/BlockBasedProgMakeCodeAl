@@ -1,37 +1,37 @@
-Blocks from the Music Category
+Blloqe nga Kategoria Music
 ===============================
 
-The category |Music| contains blocks which reproduce tones/melodies, the block that serves as a "trigger" for activating the program when a melody is played, as well as the block for storing the values of basic tones and their duration in milliseconds.
+Kategoria |Music| përmban blloqe të cilat riprodhojnë tone/melodi, blloku që shërben si një "shkas" për aktivizimin e programit kur luhet një melodi, si dhe bllok për ruajtjen e vlerave të toneve themelore dhe kohëzgjatjen e tyre në milisekonda.
 
 .. |Music| image:: ../_images/_imageMicroBit/s66.png
 
-Let's create a program which plays the tone D for 1/4 beat when button A is pressed.
+Le të krijojmë një program i cili luan tonin D për tonin 1/4 kur shtypet butoni A.
 
-We will have to drag the block |onpress| from the category |Input| onto the work surface, and then we insert the block |playtone| into it.
+Ne do të duhet të tërheqim bllokun |onpress| nga kategoria |Input| mbi ekranin e punës, dhe më pas vendosim bllokun |playtone| në të.
 
 .. |onpress| image:: ../_images/_imageMicroBit/p18.png
 .. |Input| image:: ../_images/_imageMicroBit/s6.png
 .. |playtone| image:: ../_images/_imageMicroBit/p19.png
 
-From the drop-down lists of the given block, we will choose the tone and its duration in milliseconds.
+Nga listat drop-down të bllokut të dhënë, ne do të zgjedhim tonin dhe kohëzgjatjen e tij në milisekonda.
 
 .. image:: ../_images/_imageMicroBit/p20.png
       :align: center
 
-**Note:** Sound is heard through speakers or headphones connected to the computer.
+**Shënim:** Tingulli dëgjohet përmes altoparlantëve ose kufjeve të lidhur me kompjuterin.
 
-The final look of the code:
+Pamja përfundimtare e kodit:
 
 .. image:: ../_images/_imageMicroBit/p21.png
       :align: center
 
 .. |play| image:: ../_images/_imageMicroBit/p3.png
 
-To test the program, we can run it in the simulator by clicking on the |play| button.
+Për të provuar programin, ne mund ta ekzekutojmë atë në simulator duke klikuar në butonin |play|.
 
-**Task.** Create a program, which will play the melody of the song "London Bridge".
+**Detyrë** Krijoni një program, i cili do të interpretojë melodinë e këngës "London Bridge".
 
-You should use these notes:
+Ju duhet të përdorni këto shënime:
 
 •	g, a, g, f, e, f, g
 
@@ -41,15 +41,15 @@ You should use these notes:
 
 •	d, g, e, c.
 
-You can compare your solution with ours: https://makecode.microbit.org/_LW3UUKAzocbo
+Ju mund të krahasoni zgjidhjen tuaj me tonën: https://makecode.microbit.org/_LW3UUKAzocbo
 
-If we want to play a melody (a series of notes lasting a certain amount of time, and played one after the other) we use the block |playmelody|, from the drop-down list of this block we will choose the melody and how long it will last (whether it will be played once, forever, ...)
+Nëse duam të luajmë një melodi (një seri shënimesh që zgjasin një sasi të caktuar kohe, dhe luajtëm njëra pas tjetrës) përdorim bllokun |playmelody|, nga lista drop-down e këtij blloku do të zgjedhim melodinë dhe si do të zgjasë (do të luhet një herë, gjithmonë, ...)
 
-The final look of the code:
+Pamja përfundimtare e kodit:
 
 .. image:: ../_images/_imageMicroBit/p23.png
       :align: center
 
 .. |playmelody| image:: ../_images/_imageMicroBit/p22.png
 
-To test the program, we can run it in the simulator by clicking on the |play| button.
+Për të provuar programin, ne mund ta ekzekutojmë atë në simulator duke klikuar në butonin |play|.

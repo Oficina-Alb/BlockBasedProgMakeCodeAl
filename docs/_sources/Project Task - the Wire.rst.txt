@@ -1,113 +1,113 @@
 =========================
-Project Task - the Wire
+Detyrë - the Wire
 =========================
 
-We encounter motor skills issues (slower reaction time, clumsiness and inability to perform certain activities) almost daily. Many of the jobs today require a steady hand. For example, architects, welders, dentists and surgeons must have a "steady" hand for their work to be successful. Motor skills issues are especially pronounced when it comes to the non-dominant hand.
+Ne hasim çështje të aftësive motorike (koha më e ngadaltë e reagimit, ngathtësia dhe pamundësia për të kryer aktivitete të caktuara) pothuajse çdo ditë. Shumë nga punët sot kërkojnë një dorë të qëndrueshme. Për shembull, arkitektët, saldatorët, dentistët dhe kirurgët duhet të kenë një dorë "të qëndrueshme" që puna e tyre të jetë e suksesshme. Issuesështjet e aftësive motorike janë veçanërisht të theksuara kur bëhet fjalë për dorën jo-mbizotëruese.
 
-Researches show that 96% of the world population uses their right hand (are right-handed). For the majority of these people, the left hand is completely neglected, and they are unable to perform many activities which require precision with this hand.
+Studimet tregojnë se 96% e popullsisë botërore përdor dorën e djathtë (janë të dorës së djathtë). Për shumicën e këtyre njerëzve, dora e majtë është plotësisht e lënë pas dore, dhe ata nuk janë në gjendje të kryejnë shumë aktivitete që kërkojnë saktësi me këtë dorë.
 
-One of the ways to overcome this issue is the device called the Wire; with this device, a person can practice motor skills by receiving feedback on the level of success of task execution. With the assistance of this device, everyone can practice their concentration and fine motor skills. Depending on the feedback, the user can determine whether he or she is dexterous, or whether there are some motor skill issues and more practice is required.
+Një nga mënyrat për të kapërcyer këtë çështje është pajisja e quajtur Wire; me këtë pajisje, një person mund të praktikojë aftësi motorike duke marrë reagime mbi nivelin e suksesit të ekzekutimit të detyrës. Me ndihmën e kësaj pajisje, të gjithë mund të praktikojnë përqendrimin e tyre dhe aftësitë e shkëlqyera motorike. Në varësi të reagimeve, përdoruesi mund të përcaktojë nëse ai ose ajo është i shkathët, ose nëse ka disa çështje të aftësive motorike dhe kërkohet më shumë praktikë.
 
-For the construction of the Wire device, you will need:
+Për ndërtimin e pajisjes Wire, do t'ju duhet:
 
-•	4 Micro:bits
-•	Crocodile clips
-•	Wires of various sizes
-•	Wooden base or styrodur
-•	Speakers or headphones
-•	Clip (hook)
+• 4 Micro:bit
+• Klipet e krokodilit
+• Tela me madhësi të ndryshme
+• Baza prej druri ose styrodur
+• Altoparlantë ose kufje
+• Clip (hook)
 
-In order to make the Wire device, first, we have to make a device comprised of the wire on which we can practice our motor skills, wooden (or some other) base and Micro:bits.  
+Në mënyrë që të bëjmë pajisjen Wire, së pari, duhet të bëjmë një pajisje të përbërë nga tela mbi të cilën mund të praktikojmë aftësitë tona motorike, bazën prej druri (ose ndonjë tjetër) dhe Micro:bit.  
 
 .. image:: ../_images/_imageMicroBit/z4.jpg
       :align: center
       :width: 500px
 
-**Procedure for connecting Micro:bits**
+**Proçedura për lidhjen e Micro:bits**
 
-Now that we are familiar with the basic characteristics and components of the Micro:bit, we can proceed with the construction of the Wire device. We should connect Micro:bits using crocodile clips to the configuration mentioned above.
-We will connect the first Micro:bit by connecting the grounding (GND) to the wire, using crocodile clips. The figure below shows the connection between the grounding and the Micro:bit (only for one device). 
+Tani që jemi njohur me karakteristikat themelore dhe përbërësit e Micro:bit, ne mund të vazhdojmë me ndërtimin e pajisjes Wire. Ne duhet të lidhim Micro:bit duke përdorur kapëse krokodili në konfigurimin e përmendur më lart.
+Ne do të lidhim Micro:bit duke lidhur tokëzimin (GND) me tela, duke përdorur kapëse të krokodilit. Figura më poshtë tregon lidhjen midis tokëzimit dhe Micro:bit (vetëm për një pajisje).
 
 .. image:: ../_images/_imageMicroBit/z3.jpg
       :align: center
       :width: 500px
 
-Additionally, we have to connect the Micro:bit with the part of the device which tests motor skills (hook).
-Once the “Wire” device is constructed, it is time to create programs for each Micro:bit.
+Për më tepër, ne duhet të lidhim Micro: bit me pjesën e pajisjes që teston aftësitë motorike (goditje).
+Sapo të ndërtohet pajisja “Wire”, është koha për të krijuar programe për secilin Micro: bit.
 
 .. image:: ../_images/_imageMicroBit/z5.jpg
       :align: center
       :width: 500px
 
-**Programming**
+**Programim** 
 
-Each of the four Micro:bits has to be programmed individually:
-­
-1. ­The first detects and counts the mistakes made by the user
-2. ­The second starts the time
-3. ­The third measures the time
-4. ­The fourth makes a sound when the user makes a mistake.
+Secila nga katër Micro:bit duhet të programohen individualisht:
 
-**Step 1**
+1. E para zbulon dhe numëron gabimet e bëra nga përdoruesi
+2. E dyta fillon kohën
+3. E treta mat kohën
+4. E katërta bën një tingull kur përdoruesi bën një gabim.
 
-Go to https://makecode.microbit.org/.
+**Hapi 1**
 
-**Step 2**
+Vizitoni https://makecode.microbit.org/.
 
-Create a new project.
-Now, we wish to program mistakes detection, more precisely we want to detect, using the Micro:bit, when the hook touches the main wire.
-Based on the physical Wire device, we can conclude that the pin ``P0`` is the "trigger" for all events.
+**Hapi 2**
 
-Since the ``P0`` pin is connected via the crocodile clips to the hook, the mistake is detected by touching the main wire and the Micro:bit should display a cross (we are programming mistake detection). 
+Krijoni një projekt të ri.
+Tani, ne dëshirojmë të programojmë zbulimin e gabimeve, më saktë ne duam të zbulojmë, duke përdorur Micro:bit, kur kapësja prek telat kryesorë.
+Bazuar në pajisjen fizike Wire, mund të konkludojmë se kutia ``P0`` është "shkas" për të gjitha ngjarjet.
 
-**Step 3**
+Meqenëse kunja ``P0`` është e lidhur përmes klipeve të krokodilit në goditje, gabimi zbulohet duke prekur telin kryesor dhe Micro:bit duhet të shfaqë një kryq (ne po programojmë zbulimin e gabimit).
 
-From the category |Input| choose the block |press| and from the drop-down list choose pin ``P0``.
+**Hapi 3**
+
+Nga kategoria |Input| zgjidh bllokun |press| dhe nga lista drop-down zgjidh pinin ``P0``.
 
 .. |Input| image:: ../_images/_imageMicroBit/s6.png
 .. |press| image:: ../_images/_imageMicroBit/3.png
 
-This block will be our "trigger" for the visual display of the mistake.
+Ky bllok do të jetë “nxitësi” ynë për shfaqjen vizuale të gabimit.
 
-**Step 4**
+**Hapi 4**
 
-Now, we have to add the block displaying the cross sign on the screen, which will appear when the user touches the main wire with the hook.
-Choose the category |Basic| and the block |leds|.
+Tani, duhet të shtojmë bllokun që tregon shenjën e kryqit në ekran, i cili do të shfaqet kur përdoruesi prek tela kryesore me pin.
+Zgjidhni kategorinë |Basic| dhe bllokun |leds|.
 
 .. |Basic| image:: ../_images/_imageMicroBit/s2.png
 .. |leds| image:: ../_images/_imageMicroBit/s12.png
 
-The look of the code and the mistake simulator:
+Pamja e kodit dhe gabimi i simulatorit:
 
 .. image:: ../_images/_imageMicroBit/4_5.png
       :align: center
 
-In the code, we will add the block for pause with which we ensure timely system response (Wire device).
-Choose the category |Basic| and the block |Pause| where you can set time in milliseconds (1000 milliseconds = 1 second).
+Në kod, ne do të shtojmë bllokun për pauzë me të cilin sigurojmë përgjigjen në kohë të sistemit (Pajisja me tela).
+Zgjidh kategorinë |Basic| dhe bllokun |Pause| ku mund të vendosni kohën në milisekonda (1000 milliseconds = 1 second).
 
 .. |Pause| image:: ../_images/_imageMicroBit/s39.png
 
-The look of the code:
+Pamja e kodit:
 
 .. image:: ../_images/_imageMicroBit/7.png
       :align: center
 
-**Step 5**
+**Hapi 5**
 
-The upper part of the code only shows the detection of the mistake that happens when the hook touches the main wire.
+Pjesa e sipërme e kodit tregon vetëm zbulimin e gabimit që ndodh kur goditje prek telat kryesorë.
 
-Now, we shall add the part which will count the number of times the user has made a mistake. To fulfill this requirement, we have to find a way to store and, if needed, change the number of mistakes the user makes.
-Solution for this problem is the introduction of the **variable**.
+Tani, do të shtojmë pjesën që do të numërojë numrin e herëve që përdoruesi ka bërë një gabim. Për të përmbushur këtë kërkesë, ne duhet të gjejmë një mënyrë për të ruajtur dhe, nëse është e nevojshme, të ndryshojmë numrin e gabimeve që bën përdoruesi.
+Zgjidhja për këtë problem është prezantimi i **variablës**.
 
-A variable can be understood as a space in the computer memory, something like a box, in which, during the execution of the program, we can store some interim values.
-Variables have names. When we want to use the value of the variable, it is enough to use its name.
+Një variabël mund të kuptohet si një hapësirë në kujtesën e kompjuterit, diçka si kuti, në të cilën, gjatë ekzekutimit të programit, ne mund të ruajmë disa vlera të përkohshme.
+Variablat kanë emra. Kur duam të përdorim vlerën e variablës, mjafton të përdorim emrin e saj.
 
-A variable is created in the following manner, in the category Variables (1), click on the button Make a variable (2) and type in the name of that variable in the field (3), in our case the name Counter. By clicking the button OK (4), you have created a variable (5).
+Një variabël është krijuar në mënyrën e mëposhtme, në kategorinë Variable (1), klikoni në butonin Make a variable (2) dhe shkruani emrin e asaj variable në fushën (3), në rastin tonë emrin Counter. Duke klikuar butonin OK (4), ju keni krijuar një variabël (5).
 
 .. image:: ../_images/_imageMicroBit/s29.png
       :align: center
 
-**Step 6**
+**Hapi 6**
 
 At the start of the "exercise", the number on the counter will be 0. Setting the starting value (reset to the starting value) will be defined by the user pressing button A. This means that when the user presses the button on the Micro:bit the counter value will be set to zero, and the counting of the mistakes can begin. 
 
@@ -115,90 +115,90 @@ From the category |Input| choose the block |Button|, and from the drop-down list
 
 .. |Button| image:: ../_images/_imageMicroBit/13.png
 
-This block will be our "trigger" for resetting the variable **Counter**.
+Ky bllok do të jetë “nxitësi” ynë për rivendosjen e variablës **Counter**.
 
-From the ``Variables`` category drag the block |set|.
+Nga kategoria ``Variabël`` tërhiqni bllokun |set|.
 
-We will connect this block to the block above and with the block displaying the value of the variable. (From the category |Basic| we choose the block |prikaz| into which we will drag the block |brojac| from the ``Variables`` category, and place it in the space with the number 0 written.
-This way, we create a block that shows the value of the variable **Counter**.
+Ne do ta lidhim këtë bllok në bllokun e mësipërm dhe me bllokun që tregon vlerën e variablës. (Nga kategoria |Basic| zgjedhim bllokun |prikaz| në të cilin do të tërheqim bllokun |brojac| nga kategoria ``Variable``, dhe e vendosim atë në hapësirë me numrin 0 të shkruar.
+Në këtë mënyrë, ne krijojmë një bllok që tregon vlerën e variablës **Counter**.
 
 .. |set| image:: ../_images/_imageMicroBit/14.png
 .. |prikaz| image:: ../_images/_imageMicroBit/15.png
 .. |brojac| image:: ../_images/_imageMicroBit/16.png
 
-Part of the code for resetting and displaying the variable **Counter**:
+Pjesë e kodit për rivendosjen dhe shfaqjen e variablit **Counter**:
 
 .. image:: ../_images/_imageMicroBit/18.png
       :align: center
 
-**Step 7**
+**Hapi 7**
 
-We can use the variable **Counter**, whose starting value is set at 0, to count the mistakes. The value of the variable will increase by 1 every time the user makes a mistake, or more specifically, every time the hook touches the main wire.
-For this, we will use the block |change| from the category ``Variables``.
+Ne mund të përdorim variblën **Counter**, vlera fillestare e të cilit është vendosur në 0, për të llogaritur gabimet. Vlera e variablës do të rritet me 1 sa herë që përdoruesi bën një gabim, ose më saktë, sa herë që goditje prek tela kryesore.
+Për këtë, ne do të përdorim bllokun |change| nga kategoria ``Variable``.
 
-We will drag this block into the part of the code in which we have detected a mistake by displaying the X sign.
+Ne do ta tërheqim këtë bllok në pjesën e kodit në të cilin kemi zbuluar një gabim duke shfaqur shenjën X.
 
 .. |change| image:: ../_images/_imageMicroBit/19.png
 
-The look of the code and the running of the code in the simulator:
+Pamja e kodit dhe ekzekutimi në simulator:
 
 .. image:: ../_images/_imageMicroBit/202122.png
       :align: center
 
-**Step 8**
+**Hapi 8**
 
-In our next step, we want to upgrade the project by adding the sound every time the user touches the main wire. 
+Në hapin tonë tjetër, ne duam të përmirësojmë projektin duke shtuar tingullin sa herë që përdoruesi prek telat kryesorë.
 
-For this, we will have to make the connection between two Micro:bits, or more precisely to use the option of the radio communication between them. First and foremost, we have to create the group’s ID, which is used to "create" the space in which, in our case, the two Micro:bits will communicate. To create the ID, we will use the block |radioset| from the category |Radio|.  Any number can be chosen. We will leave 1 as the ID of the group. We will then drag this block into the block |Forever| from the category |Basic|.
+Për këtë, ne do të duhet të bëjmë lidhjen midis dy Micro:bitëve, ose më saktë për të përdorur opsionin e komunikimit radio midis tyre. Së pari dhe më e rëndësishmja, ne duhet të krijojmë identitetin e grupit, i cili përdoret për të "krijuar" hapësirën në të cilën, në rastin tonë, të dy Micro:bit do të komunikojnë. Për të krijuar ID, ne do të përdorim bllokun |radioset| nga kategoria |Radio|. Çdo numër mund të zgjidhet. Ne do të lëmë 1 si ID të grupit. Ne do ta tërheqim këtë bllok në bllok |Forever| nga kategoria |Basic|.
 
 .. |Radio| image:: ../_images/_imageMicroBit/s21.png
 .. |radioset| image:: ../_images/_imageMicroBit/23.png
 .. |Forever| image:: ../_images/_imageMicroBit/s2.png
 
-Part of the code, which creates the communication group:
+Pjesë e kodit,që krijon në grup komunikimi:
 
 .. image:: ../_images/_imageMicroBit/24.png
       :align: center
 
-To send a radio signal to another device, which will "react" based on that by emitting the sound when a mistake is made, we have to introduce the following block, into the section of the code that detects and counts mistakes.
+Për të dërguar një sinjal radio në një pajisje tjetër, e cila do të "reagojë" bazuar në atë duke lëshuar tingullin kur të bëhet një gabim, duhet të prezantojmë bllokun e mëposhtëm, në pjesën e kodit që zbulon dhe numëron gabimet.
 
 .. |radiosend| image:: ../_images/_imageMicroBit/25.png
 
-Upgraded code for detecting and counting mistakes:
+Kod i azhornuar për zbulimin dhe numërimin e gabimeve:
 
 .. image:: ../_images/_imageMicroBit/26.png
       :align: center
 
-The completed code for the first Micro:bit:
+Kodi i plotë për Micro:bit e parë:
 
 .. image:: ../_images/_imageMicroBit/27.png
       :align: center
 
-Download the .hex file to your computer by clicking on the button |dugme1| or button |dugme2|. The Micro:bit will be ready to start working once you have dragged the file onto it.
+Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin |dugme1| ose butonin |dugme2|. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.
 
 .. |dugme1| image:: ../_images/_imageMicroBit/28.png
 .. |dugme2| image:: ../_images/_imageMicroBit/29.png
             :width: 199px
 
-**Step 9**
+**Hapi 9**
 
-Our next step is to create the program for the other Micro:bit, which will control the sound every time the user makes a mistake.
-Our two Micro:bits should communicate in the space with the ID group 1. 
+Hapi ynë tjetër është të krijojmë programin për Micro:bit tjetër, i cili do të kontrollojë tingullin sa herë që përdoruesi bën një gabim.
+Dy Micro:bitet tona duhet të komunikojnë në hapësirë me grupin e identitetit 1.
 
-We drag the block |radioset| from the category |Radio| into the block |Forever| from the category |Basic|.
+Ne tërheqim bllokun |radioset| nga kategoria |Radio| në bllokun |Forever| nga kategoria |Basic|.
 
-Part of the code, which creates the communication group:
+Një pjesë e kodit, i cili krijon grupin e komunikimit:
 
 .. image:: ../_images/_imageMicroBit/24.png
       :align: center
 
-Next step is for this Micro:bit to receive the information (in our case a number) based on which it will "react" by emitting a sound. For this, we will drag the following block from the |Radio| category:
+Hapi tjetër është për këtë Micro:bit për të marrë informacionin (në rastin tonë një numër) në bazë të të cilit do të "reagojë" duke lëshuar një tingull. Për këtë, ne do të tërheqim bllokun e mëposhtëm nga kategoria |Radio|:
 
 .. image:: ../_images/_imageMicroBit/30.png
       :align: center
 
-Into this block, we will drag the block |Play|, which reproduces the sound, from the category |Music|.
-From the drop-down list of this block, we will choose the tone and the duration of the tone.
+Në këtë bllok, ne do të tërheqim bllokun |Play|, i cili riprodhon tingullin, nga kategoria |Music|.
+Nga lista drop-down e këtij blloku, ne do të zgjedhim tonin dhe kohëzgjatjen e tonit.
 
 .. |Play| image:: ../_images/_imageMicroBit/31_.png
 .. |Music| image:: ../_images/_imageMicroBit/s66.png
@@ -206,90 +206,90 @@ From the drop-down list of this block, we will choose the tone and the duration 
 .. image:: ../_images/_imageMicroBit/3132.png
       :align: center
 
-The look of the code, which reproduces the sound:
+Pamja e kodit, që riprodhon tingullin:
 
 .. image:: ../_images/_imageMicroBit/33.png
       :align: center
 
-**Note**: To reproduce the sound, Micro:bit has to be connected to the speakers or to the headphones in the following manner:
+**Shënim**: Për të riprodhuar tingullin, Micro:bit duhet të lidhet me folësit ose me kufjet në mënyrën e mëposhtme:
 
 .. image:: ../_images/_imageMicroBit/34.png
       :align: center
 
-The complete code for the Micro:bit, which has the sound activated:
+Kodi i plotë për Micro:bit, i cili aktivizon tingullin:
 
 .. image:: ../_images/_imageMicroBit/35.png
       :align: center
 
-In this way, we have created detection, counting and sound of the mistakes made by the user when the main wire is touched.
+Në këtë mënyrë, ne kemi krijuar zbulimin, numërimin dhe tingullin e gabimeve të bëra nga përdoruesi kur preket teli kryesor.
 
-**Step 10**
+**Hapi 10**
 
-To create the device, which will measure how much time the user needs to complete the "exercise" of his motor skills, we have to introduce two additional Micro:bit devices. One will only be a "trigger" starting the clock on the other Micro:bit. 
+Për të krijuar pajisjen, e cila do të matë sa kohë përdoruesi ka nevojë për të përfunduar "ushtrimin" e aftësive të tij motorike, duhet të prezantojmë dy pajisje shtesë Micro:bit. Njëra do të jetë vetëm një "shkas" që fillon orën në Micro:bit tjetër.
 
-By clicking button A, the device is reset, and the screen is cleared. The ``reset`` option is located in the category ``Advanced - Control``.
+Duke klikuar butonin A, pajisja është rivendosur dhe ekrani pastrohet. Opsioni ``reset`` ndodhet në kategorinë ``Advanced - Control``.
 
-Option for clearing the screen is in the subcategory More of the category |Basic|.
+Opsioni për pastrimin e ekranit është në nënkategorinë More të kategorisë |Basic|.
 
-Part of the code:
+Një pjesë e kodit:
 
 .. image:: ../_images/_imageMicroBit/37.png
       :align: center
 
-Then we create the space for communication with the ID group 50:
+Pastaj krijojmë hapësirën për komunikim me grupin e identitetit 50:
 
 .. image:: ../_images/_imageMicroBit/36.png
       :align: center
 
-Pin ``P1`` is the pin the hook is connected to via the crocodile clips.
-This pin will be used as the time "trigger". More precisely, the hook touching the wire sends a radio signal, which starts the time. Furthermore, to enable the user to see when the time started, the image |slika| will be displayed on the screen of the Micro:bit.
+Pini ``P1`` është kunja me të cilën lidhja është e lidhur përmes klipeve të krokodilit.
+Kjo kunj do të përdoret si koha "shkas". Më saktësisht, goditje që prek telin dërgon një sinjal radio, i cili fillon kohën. Për më tepër, për t'i mundësuar përdoruesit të shohë kur filloi koha, imazhi |slika| do të shfaqet në ekranin e Micro:bit.
 
 .. |slika| image:: ../_images/_imageMicroBit/37_.png
 
-The completed code for the Micro:bit, which signals the start of measuring time.
+Kodi i plotësuar për Micro:bit, i cili sinjalizon fillimin e kohës së matjes.
 
 .. image:: ../_images/_imageMicroBit/39.png
       :align: center
 
-**Step 11**
+**Hapi 11**
 
-We need to define two variables:
+Duhet të përcaktojmë dy variabel:
 
-- the variable **Time** with which we will measure the time from the start of the "game". The game starts upon the reception of the signal from the previous Micro:bit. 
+- Variabli **Time** me të cilën do të matim kohën nga fillimi i "lojës". Loja fillon pas pranimit të sinjalit nga Micro:bit i mëparshëm.
 
-- the variable **Counter** which has two possible values true and false – the wire has or has not been touched.
+- Variabli **Counter** e cila ka dy vlera të mundshme të vërteta dhe false - teli është prekur ose nuk është prekur.
 
-Clicking on button A resets the device and sets the initial values of the variables **Time** and **Counter**.
-Values for the variable **Counter** can be found in the category |Logic|:
+Klikimi në butonin A rivendos pajisjen dhe vendos vlerat fillestare të variablave **Time** dhe **Counter**.
+Vlerat për variablin **Counter** mund të gjenden në kategorinë |Logic|:
 
 .. |Logic| image:: ../_images/_imageMicroBit/s4.png
 
 .. image:: ../_images/_imageMicroBit/40.png
       :align: center
 
-The next step is to create the space for communication with the ID group 50:
+Hapi tjetër është krijimi i hapësirës për komunikim me grupin e identitetit 50:
 
 .. image:: ../_images/_imageMicroBit/36.png
       :align: center
 
-The ``P1`` pin is the pin the hook is connected to via the crocodile clips. This pin will be used as the time "trigger":
+Pini ``P1`` është kunja me të cilën lidhja është e lidhur përmes klipeve të krokodilit. Kjo kunj do të përdoret si koha që jep "shkas":
 
 .. image:: ../_images/_imageMicroBit/41.png
       :align: center
 
-When the user clicks button B, the time it took for the user to complete the "exercise" will be displayed:
+Kur përdoruesi klikon butonin B, koha e nevojshme për përdoruesin për të përfunduar "ushtrimin" do të shfaqet:
 
 .. image:: ../_images/_imageMicroBit/42.png
       :align: center
 
-When the Micro:bit accepts the radio signal (number) from the other Micro:bit device, the clock starts and the value of the variable **Time** changes by 1, after every second until the end of the "exercise":
+Kur Micro:bit pranon sinjalin e radios (numrin) nga pajisja tjetër Micro:bit, ora fillon dhe vlera e variablit **Koha** ndryshon me 1, pas çdo sekondi deri në fund të "ushtrimit":
 
 .. image:: ../_images/_imageMicroBit/43.png
       :align: center
 
-The completed code for the Micro:bit, which measures the time from the beginning of the "game":
+Kodi i kompletur për Micro:bit, i cili mat kohën nga fillimi i "lojës":
 
 .. image:: ../_images/_imageMicroBit/43_.png
       :align: center
 
-When you have transferred all of these codes to your Micro:bits, you will be ready to "test" your motor skills and begin to "exercise" your weaker hand.
+Kur të keni transferuar të gjitha këto kode në Micro:bit tuaj, do të jeni gati të "testoni" aftësitë tuaja motorike dhe të filloni të "ushtroni" dorën tuaj më të dobët.

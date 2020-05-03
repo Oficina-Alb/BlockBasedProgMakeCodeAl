@@ -1,37 +1,37 @@
-Blocks from the Basic Category
+Blloqe nga Kategoria Basic
 ===============================
 
-The category |Basic| includes the blocks used for running (starting) programs, as well as blocks for displaying numbers, text or images.
+Kategoria |Basic| përfshin blloqet e përdorura për ekzekutimin (fillimin) e programeve, si dhe blloqet për shfaqjen e numrave, tekstit ose imazheve.
 
-It's time to create a program, which will display the message "Hello!". 
+Është koha për të krijuar një program, i cili do të shfaq mesazhin "Përshëndetje!".
 
-To display the greeting message (on the simulator or on the Micro:bit display), we have to drag the block |showstring| from the category |Basic| to the work surface and insert it into the block |onstart|. We can type in the desired message "Hello!" by clicking on the text input field. 
+Për të shfaqur mesazhin përshëndetës (në ekranin Micro:bit), duhet të tërheqim bllokun |showstring| nga kategoria |Basic| në sipërfaqen e punës dhe futeni atë në bllokun |onstart|. Mund të shkruajmë mesazhin e dëshiruar "Përshëndetje!" duke klikuar në fushën e futjes së tekstit.
 
 .. |Basic| image:: ../_images/_imageMicroBit/s2.png
 .. |onstart| image:: ../_images/_imageMicroBit/s20.png
 .. |showstring| image:: ../_images/_imageMicroBit/p6.png
 
-The final look of the program, which displays the greeting message "Hello!":
+Vështrimi përfundimtar i programit, i cili shfaq mesazhin përshëndetës "Përshëndetje!":
 
 .. image:: ../_images/_imageMicroBit/p5.png
       :align: center
 
-We have two options to test the program:
+Kemi dy mundësi për të testuar programin:
 
-- to run it in the simulator by clicking the |play| button.
+- për ta ekzekutuar atë në imituesin duke klikuar në butonin |play|.
 
-- to download it to the Micro:bit device. In order to transfer the program to the Micro:bit device, we need to connect it to the computer by using the USB cable. You download the .hex file to your computer by clicking the |download| button.
+- për ta shkarkuar atë në pajisjen Micro:bit. Për ta transferuar programin në pajisjen Micro:bit, duhet ta lidhim atë me kompjuterin duke përdorur kabllon USB. Ju shkarkoni file-n .hex në kompjuterin tuaj duke klikuar në butonin |download|.
 
 .. |play| image:: ../_images/_imageMicroBit/p3.png
 .. |download| image:: ../_images/_imageMicroBit/p4.png
       :width: 200px
 
-We will use the simulator to test the program. The running of the program is triggered by clicking on the |play| button, i.e. the greeting message "Hello!" is displayed.
+Ne do të përdorim simulatorin për të testuar programin. Ekzekutimi i programit nxitet duke klikuar në butonin |play|, d.m.th. shfaqet fjalia përshëndetëse "Përshëndetje!"
 
-**Task.** Create a program which will display the message "Hello!" an infinite number of times. 
-**Little help:** The block |forever| is the block which will repeat the commands inserted in it an infinite number of times. The running of this block will never stop on its own. To stop the running of this block, you need to press the stop button.
+**Detyrë** Krijoni një program i cili do të shfaq mesazhin "Përshëndetje!" në një numër të pafund.
+**Ndihmë e vogël:** Blloku |forever| është blloku i cili do të përsërisë komandat e futura në të një numër të pafund. Drejtimi i këtij blloku nuk do të ndalet kurrë më vete. Për të ndaluar funksionimin e këtij blloku, duhet të shtypni butonin stop.
 
-You can compare your solution with ours: https://makecode.microbit.org/_9Cw5d6Czda1d
+Ju mund ta krahasoni zgjidhjen tuaj me tonën: https://makecode.microbit.org/_9Cw5d6Czda1d
 
 
 .. |forever| image:: ../_images/_imageMicroBit/s1.png
@@ -44,32 +44,32 @@ In the category |Basic| you can also find blocks for displaying defined images |
 .. |showleds| image:: ../_images/_imageMicroBit/s12.png
 
 
-**Task.** You want to create a program that displays a smiley face on the screen.
+**Detyrë** Ju dëshironi të krijoni një program që shfaq një fytyrë të buzëqeshur në ekran.
 
-You can compare your solution with ours: https://makecode.microbit.org/_CAdaFfKsY46a
+Ju mund ta krahasoni zgjidhjen tuaj me tonën: https://makecode.microbit.org/_CAdaFfKsY46a
 
 
-.. mchoice:: L1Z1
-    :answer_a: Block on start.
-    :answer_b: Block forever.
-    :feedback_a: The answer is not correct. The onstart block is one of the blocks from the category Basic, and blocks within it are executed only once during the running of the program.
-    :feedback_b: Bravo! The forever block is the block within which commands will be executed an infinite number of times. The running of this block will never stop on its own. To stop the running of this block, you need to press the stop button (|stop|).
-    :correct: b
+.. mchoice :: L1Z1
+    :answer_a: Blloku onstart.
+    :answer_b: Blloko forever.
+    :feedback_a: Përgjigja nuk është e saktë. Blloku në onstart është një nga blloqet nga kategoria Basic, dhe blloqet brenda tij ekzekutohen vetëm një herë gjatë ekzekutimit të programit.
+    :feedback_b: Bravo! Blloku forever është blloku brenda të cilit komandat do të ekzekutohen pafundësisht. Drejtimi i këtij blloku nuk do të ndalet kurrë më vete. Për të ndaluar funksionimin e këtij blloku, duhet të shtypni butonin stop (|stop|).
+    :correct: b
 
-    Which block, used for starting a program, will you have to use if you want the images of an empty square and a full square to alternate on the screen? 
+    Cilin bllok, të përdorur për fillimin e një programi, do të duhet të përdorni nëse doni imazhet e një kutie bosh dhe një kutie të plotë për të alternuar në ekran?
 
-Apart from the blocks mentioned above, in the category |Basic|, you can also find the blocks for displaying number values |shownumber|, blocks used to slow down the running of the program |pause|, the time interval code is presented in milliseconds 1000ms is 1 second, as well as the block for clearing the screen |clearall|.
+Përveç blloqeve të përmendura më lart, në kategorinë |Basic|, mund të gjesh gjithashtu blloqet për shfaqjen e vlerave të numrave |shownumber|, blloqet e përdorura për të ngadalësuar drejtimin e programit |pause|, kodi i intervalit kohor paraqitet në milisekonda 1000ms është 1 sekondë, si dhe blloku për pastrimin e ekranit |clearall|
 
 .. |shownumber| image:: ../_images/_imageMicroBit/15.png
 .. |pause| image:: ../_images/_imageMicroBit/s39.png
 .. |clearall| image:: ../_images/_imageMicroBit/s14.png
 .. |stop| image:: ../_images/_imageMicroBit/p2.png
 
-**Task.** Using the example from the question above, about the alternating images of squares, try to slow down the time it takes for the image to change, by two seconds. 
-**Little help:** Use the |pause| block.
+**Detyrë** Duke përdorur shembullin nga pyetja e mësipërme, për imazhet e alternuara të kutive, përpiquni të ngadalësoni kohën e nevojshme për ndryshimin e figurës, për dy sekonda.
+**Ndihmë e vogël:** Përdorni bllokun |pause|.
 
-Check our solution: https://makecode.microbit.org/_F5h5UKD2Vgau
+Shih zgjidhjen: https://makecode.microbit.org/_F5h5UKD2Vgau
 
-**Additional task.** You need to turn on 3/5 LEDs on the Micro:bit. The display of illuminated LEDs has to be unique!
+**Detyrë shtesë** Ju duhet të ndizni LED 3/5 në Micro:bit. Ekrani i LED-ve të ndriçuar duhet të jetë unik!
 
-You can compare your solution with one of the possible solutions: https://makecode.microbit.org/_29YWXrLHg22U
+Ju mund ta krahasoni zgjidhjen tuaj me një nga zgjidhjet e mundshme: https://makecode.microbit.org/_29YWXrLHg22U

@@ -1,12 +1,12 @@
-Project Task - Displaying Text and Graphics
+Detyra e projektit - Afishimi i tekstit dhe grafikës
 ============================================
 
-This is another simple example of creating a program, which allows the robot to say "Forward" and display the same message on the screen, and then moves forward.
+Ky është një tjetër shembull i thjeshtë i krijimit të një programi, i cili lejon që roboti të thotë "Forward" dhe të shfaq të njëjtin mesazh në ekran, dhe pastaj të ecë përpara.
 
-Based on the setup of the task, the robot should first say the message "Forward", display the same message and then start moving. It is important to first drag the block |Play| from the category |Music|, and then from its drop-down list choose the appropriate sound. This block will run until the desired message is spoken.
-After this, from the category |Brick| we will drag the block |Show|, which will display the message in line 6.
-We need to put the message ``Forward`` into the input field, and then we need to set the number of the line in which the message will be displayed on the brick's screen. 
-Afterward, we need to drag the block, which allows the robot to move for 2 rotations. To clear the screen, we will use the block |Clear|.
+Bazuar në konfigurimin e detyrës, roboti duhet së pari të thotë mesazhin "Forward", të shfaq të njëjtin mesazh dhe pastaj të fillojë lëvizjen. Është e rëndësishme që së pari të tërhiqeni bllokun |Play| nga kategoria |Music|, dhe pastaj nga lista e saj drop-down zgjedhni tingullin e duhur. Ky bllok do të funksionojë derisa të flitet mesazhi i dëshiruar.
+Pas kësaj, nga kategoria |Brick| ne do të tërheqim bllokun |Show|, i cili do të shfaq mesazhin në rreshtin 6.
+Duhet ta vendosim mesazhin ``Forward`` në fushën e hyrjes, dhe më pas duhet të vendosim numrin e linjës në të cilën do të shfaqet mesazhi në ekranin e tullave.
+Pas kësaj, duhet të tërheqim bllokun, i cili lejon që roboti të lëvizë për 2 rrotullime. Për të pastruar ekranin, ne do të përdorim bllokun |Clear|.
 
 .. |Play| image:: ../_images/_imageEV3/16.png
 .. |Music| image:: ../_images/_imageEV3/17.png
@@ -14,12 +14,12 @@ Afterward, we need to drag the block, which allows the robot to move for 2 rotat
 .. |Show| image:: ../_images/_imageEV3/19.png
 .. |Clear| image:: ../_images/_imageEV3/20.png
 
-The look of the program:
+Pamja e programit:
 
 .. image:: ../_images/_imageEV3/21.png
       :align: center
 
-Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button |dugme1|. By dragging the file onto the EV3, it is ready to start working.
+Lidhni Brick EV3 me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.
 
 .. |dugme1| image:: ../_images/_imageEV3/download.png
       :width: 199px

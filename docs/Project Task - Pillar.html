@@ -2,54 +2,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Project Task - Pillar &#8212; Block-based programming in MakeCode</title>
+    <meta charset="utf-8" />
+    <title>Detyrë - Pillar &#8212; Block-based programming in MakeCode</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
-    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
     <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css" />
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/flatly.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/petlja.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/runestonebase.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/reveal.js"></script>
-    <script type="text/javascript" src="_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="_static/parsons.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/jquery.highlight.js"></script>
     <script type="text/javascript" src="_static/bookfuncs.js"></script>
     <script type="text/javascript" src="_static/codemirror.js"></script>
@@ -58,38 +43,52 @@
     <script type="text/javascript" src="_static/python.js"></script>
     <script type="text/javascript" src="_static/htmlmixed.js"></script>
     <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
     <script type="text/javascript" src="_static/skulpt.min.js"></script>
     <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="_static/activecode.js"></script>
     <script type="text/javascript" src="_static/clike.js"></script>
     <script type="text/javascript" src="_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
     <script type="text/javascript" src="_static/mchoice.js"></script>
     <script type="text/javascript" src="_static/timedmc.js"></script>
     <script type="text/javascript" src="_static/timed.js"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
     <script type="text/javascript" src="_static/clickable.js"></script>
     <script type="text/javascript" src="_static/timedclickable.js"></script>
-    <script type="text/javascript" src="_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
     <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="_static/pytutor.js"></script>
     <script type="text/javascript" src="_static/codelens.js"></script>
-    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/dragndrop.js"></script>
     <script type="text/javascript" src="_static/timeddnd.js"></script>
     <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/matrixeq.js"></script>
     <script type="text/javascript" src="_static/fitb.js"></script>
     <script type="text/javascript" src="_static/timedfitb.js"></script>
     <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
     <script type="text/javascript" src="_static/shortanswer.js"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
     <script type="text/javascript" src="_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
@@ -141,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Project Task - Hot and Cold" href="Project Task - Hot and Cold.html" />
-    <link rel="prev" title="Project Task - How many trees are there?" href="Project Task - How many trees are there.html" />
+    <link rel="next" title="Detyrë - Hot and Cold" href="Project Task - Hot and Cold.html" />
+    <link rel="prev" title="Detyrë - Sa pemë janë?" href="Project Task - How many trees are there.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -205,93 +204,93 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="project-task-pillar">
-<h1>Project Task - Pillar<a class="headerlink" href="#project-task-pillar" title="Permalink to this headline">¶</a></h1>
-<p>Similar to how it is in nature (change of seasons, water circulation, day and night, the rise and fall of sea level, etc.), in programming we can repeat certain steps multiple times. As in nature, in programming, it is necessary to run parts of a program several times to complete certain tasks. For these types of programs, we say that they contain repetitions, and these repetitions are called <strong>loops</strong>.</p>
-<p>We will demonstrate repetition by creating a square-shaped pillar, the base of which is a square with sides of 5 blocks in length and 10 in height.
-In Minecraft, we can also use an <strong>agent</strong> for performing certain actions, such as planting and harvesting, mining, cutting down trees and building objects. The blocks which relate to the agent are located in the category <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/_imageMinecraft/s2.png" style="width: 100px;" /></a>:</p>
-<img alt="../_images/_imageMinecraft/s5.png" class="align-center" src="../_images/_imageMinecraft/s5.png" />
-<p><strong>Stage 1.</strong></p>
-<p>Thinking about the task: Moving forward 5 blocks and turning left and right (at a 90-degree angle) creates a square-shaped base. Moving on the z-axis allows the construction of the 10 blocks high tower.</p>
-<p><strong>Stage 2</strong></p>
-<p>Open <code class="docutils literal notranslate"><span class="pre">Code</span> <span class="pre">Builder</span></code> (by pressing the key <code class="docutils literal notranslate"><span class="pre">C</span></code>); an editor window will appear where you can stack blocks.</p>
-<p>We will divide this task into three parts:</p>
+  <div class="section" id="detyre-pillar">
+<h1>Detyrë - Pillar<a class="headerlink" href="#detyre-pillar" title="Permalink to this headline">¶</a></h1>
+<p>Ngjashëm me mënyrën sesi është në natyrë (ndryshimi i stinëve, qarkullimi i ujit, dita dhe nata, ngritja dhe rënia e nivelit të detit, etj.), Në programim mund të përsërisim hapa të caktuar disa herë. Ashtu si në natyrë, në programim, është e nevojshme të drejtoni pjesë të një programi disa herë për të përfunduar detyra të caktuara. Për këto lloje të programeve, ne themi se ato përmbajnë përsëritje, dhe këto përsëritje quhen <strong>cikle</strong>.</p>
+<p>Ne do të demonstrojmë përsëritjen duke krijuar një shtyllë në formë katrore, baza e së cilës është një shesh me anët e 5 blloqeve në gjatësi dhe 10 në lartësi.
+Në Minecraft, ne gjithashtu mund të përdorim një <strong>agjent</strong> për kryerjen e veprimeve të caktuara, të tilla si mbjellja dhe korrja, minierat, prerja e pemëve dhe ndërtimi i objekteve. Blloqet që kanë të bëjnë me agjentin gjenden në kategorinë <a href="#id1"><span class="problematic" id="id2">|Agenz|</span></a>:</p>
+<img alt="../_images/_imageMinecraft/s5.png" class="align-center" src="../_images/s5.png" />
+<p><strong>Hapi 1.</strong></p>
+<p>Të menduarit për detyrën: Kalimi përpara 5 blloqeve dhe kthimi majtas dhe djathtas (me kënd 90 gradë) krijon një bazë në formë katrore. Lëvizja në boshtin z mundëson ndërtimin e kullës së lartë prej 10 blloqesh.</p>
+<p><strong>Hapi 2</strong></p>
+<p>Hapni <code class="docutils literal notranslate"><span class="pre">Code</span> <span class="pre">Builder</span></code> (duke shtypur butonin <code class="docutils literal notranslate"><span class="pre">C</span></code>); do të shfaqet një dritare redaktori ku mund të vendosni blloqe.</p>
+<p>Ne do ta ndajmë këtë detyrë në tre pjesë:</p>
 <ul class="simple">
-<li>We place the agent in a specific position in the world and give it tools for building the desired object,</li>
-<li>creating the square base of the pillar,</li>
-<li>creating the vertical side of the pillar.</li>
+<li><p>Ne e vendosim agjentin në një pozicion specifik në botë dhe i japim mjete për ndërtimin e objektit të dëshiruar,</p></li>
+<li><p>krijimin e bazës katrore të shtyllës,</p></li>
+<li><p>krijimi i anës vertikale të shtyllës.</p></li>
 </ul>
-<p>To place the agent where we want it, we will use the block <img alt="chat" src="../_images/_imageMinecraft/s7.png" />. Entering the word <strong>come</strong> becomes the trigger for placing the agent in the desired spot. We use the block <a class="reference internal" href="../_images/_imageMinecraft/s6.png"><img alt="teleport" src="../_images/_imageMinecraft/s6.png" style="width: 450px;" /></a> form the category <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/_imageMinecraft/s2.png" style="width: 100px;" /></a> to place the agent in the desired spot. We will place the agent in the position of our character (player) moved two blocks (steps) to the left. To achieve this, we will use the variable <strong>position</strong>, which stores the current value of the character’s (player’s) position.</p>
-<p>We will create the variable <strong>position</strong> in the category <code class="docutils literal notranslate"><span class="pre">Variables</span></code>:</p>
-<img alt="../_images/_imageMinecraft/61.png" class="align-center" src="../_images/_imageMinecraft/61.png" />
-<p>In the beginning, the value of the variable <strong>position</strong> is the current position of the character in the world moved two blocks to the left.
-We will define the initial value with the block <a class="reference internal" href="_images/28.png"><img alt="start" src="_images/28.png" style="width: 150px;" /></a>. This means that each time program starts, Minecraft sets the value of the position to the desired spot (the agent is moved two blocks to the left from the character (player)), and we can start building the square base of the pillar.</p>
-<p>From the category <code class="docutils literal notranslate"><span class="pre">Variables</span></code> we drag the block <img alt="set" src="../_images/_imageMinecraft/s8.png" />, into which we will insert the block that gives us the current position of the player moved two blocks to the left.</p>
-<p>This can be achieved in the following manner, by using the block:</p>
-<img alt="../_images/_imageMinecraft/62.png" class="align-center" src="../_images/_imageMinecraft/62.png" />
-<p>from the category <a class="reference internal" href="../_images/_imageMinecraft/0.png"><img alt="Position" src="../_images/_imageMinecraft/0.png" style="width: 100px;" /></a>.</p>
-<p>Into the upper part of the block, we will drag the block <img alt="world" src="_images/28.png" />, which gives the current position of the character (player) from the category <a class="reference internal" href="_images/42_.png"><img alt="Player" src="_images/42_.png" style="width: 150px;" /></a>. In the lower part of the block, in the x coordinate input field, we will put number 2.</p>
-<p>The look of the <code class="docutils literal notranslate"><span class="pre">on</span> <span class="pre">start</span></code> block:</p>
-<img alt="../_images/_imageMinecraft/63.png" class="align-center" src="../_images/_imageMinecraft/63.png" />
-<p>To place the agent in the desired spot, we will use the block agent <a class="reference internal" href="../_images/_imageMinecraft/s6.png"><img alt="teleport" src="../_images/_imageMinecraft/s6.png" style="width: 450px;" /></a> from the category <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/_imageMinecraft/s2.png" style="width: 100px;" /></a>. We will put the variable <strong>position</strong> into the first argument block, and in the second argument block, we will choose <strong>East (positive X)</strong> from the drop-down list.</p>
-<p>The look of the code:</p>
-<img alt="../_images/_imageMinecraft/65.png" class="align-center" src="../_images/_imageMinecraft/65.png" />
-<p><strong>Stage 3.</strong></p>
-<p>We test the program by clicking the button <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/_imageMinecraft/15.png" style="width: 40px;" /></a>:</p>
+<p>Për të vendosur agjentin ku duam, do të përdorim bllokun <img alt="chat" src="../_images/s7.png" />. Futja e fjalës <strong>come</strong> bëhet shkas për vendosjen e agjentit në vendin e dëshiruar. Ne përdorim bllokun <a class="reference internal" href="../_images/_imageMinecraft/s6.png"><img alt="teleport" src="../_images/s6.png" style="width: 450px;" /></a> dhe formojmë kategorinë <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a> për të vendosur agjentin në vendin e dëshiruar. Ne do ta vendosim agjentin në pozicionin e karakterit tonë (lojtar) lëvizur dy blloqe (hapa) në të majtë. Për ta arritur këtë, ne do të përdorim variablin <strong>position</strong>, i cili ruan vlerën aktuale të pozicionit të personazhit (lojtarit).</p>
+<p>Do të krijojmë ndryshoren <strong>position</strong> në kategorinë <code class="docutils literal notranslate"><span class="pre">Variable</span></code>:</p>
+<img alt="../_images/_imageMinecraft/61.png" class="align-center" src="../_images/61.png" />
+<p>Në fillim, vlera e ndryshores <strong>postion</strong> është pozicioni aktual i personazhit në botë lëvizur dy blloqe në të majtë.
+Ne do të përcaktojmë vlerën fillestare me bllokun <a href="#id3"><span class="problematic" id="id4">|onstart|</span></a> Kjo do të thotë se çdo herë që fillon programi, Minecraft vendos vlerën e pozicionit në vendin e dëshiruar (agjenti lëvizet dy blloqe në të majtë nga karakteri (lojtari)), dhe ne mund të fillojmë ndërtimin e bazës katrore të shtyllës.</p>
+<p>Nga kategoria <code class="docutils literal notranslate"><span class="pre">Variables</span></code> ne tërheqim bllokun <img alt="set" src="../_images/s8.png" />, në të cilin do të futim bllokun që na jep pozicionin aktual të lojtarit të zhvendosur dy blloqe në të majtë.</p>
+<p>Kjo mund të arrihet në mënyrën e mëposhtme, duke përdorur bllokun:</p>
+<img alt="../_images/_imageMinecraft/62.png" class="align-center" src="../_images/62.png" />
+<p>nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/0.png"><img alt="Position" src="../_images/0.png" style="width: 100px;" /></a>.</p>
+<p>Në pjesën e sipërme të bllokut, ne do të tërheqim bllokun <img alt="world" src="_images/28.png" />, i cili jep pozicionin aktual të personazhit (lojtarit) nga kategoria | Player| Në pjesën e poshtme të bllokut, në fushën e hyrjes së koordinatave x, do të vendosim numrin 2.</p>
+<p>Shihni bllokun <code class="docutils literal notranslate"><span class="pre">on</span> <span class="pre">start</span></code>:</p>
+<img alt="../_images/_imageMinecraft/63.png" class="align-center" src="../_images/63.png" />
+<p>Për ta vendosur agjentin në vendin e dëshiruar, do të përdorim agjentin e bllokut <a class="reference internal" href="../_images/_imageMinecraft/s6.png"><img alt="teleport" src="../_images/s6.png" style="width: 450px;" /></a> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>. Ne do ta vendosim ndryshoren <strong>position</strong> në bllokun e parë të argumenteve, dhe në bllokun e dytë të argumenteve, do të zgjedhim * East (X positive)** nga lista rënëse.</p>
+<p>Pamja e kodit:</p>
+<img alt="../_images/_imageMinecraft/65.png" class="align-center" src="../_images/65.png" />
+<p><strong>Hapi 3.</strong></p>
+<p>Ne e testojmë programin duke klikuar butonin <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/15.png" style="width: 40px;" /></a>:</p>
 <img alt="_images/64.png" class="align-center" src="_images/64.png" />
-<p>In order for the agent to be able to set up blocks, we need to ensure that it has everything it needs for building pillars in its inventory. For this, we will use the block <a class="reference internal" href="../_images/_imageMinecraft/s14.png"><img alt="setagent" src="../_images/_imageMinecraft/s14.png" style="width: 350px;" /></a> from the category <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/_imageMinecraft/s2.png" style="width: 100px;" /></a>:</p>
-<img alt="../_images/_imageMinecraft/70.png" class="align-center" src="../_images/_imageMinecraft/70.png" />
-<p><strong>Important:</strong> The inventory, which is opened by pressing the key <code class="docutils literal notranslate"><span class="pre">E</span></code>, is used by the player to manage the items it owns (carries). It consists of slots 1 to 9 in which it can “store” items it needs to create different objects.
-Now we need to create the square-shaped base of the pillar. In order for the agent to be able to create the square base, we need some kind of a “trigger” for that event. For this, we will use the chat and the word square.</p>
-<p>To place the block into a square shape, with the length of 5 blocks, we will use the block <img alt="repeat" src="../_images/_imageMinecraft/s10.png" /> from the category <a class="reference internal" href="../_images/_imageMinecraft/2_.png"><img alt="Loops" src="../_images/_imageMinecraft/2_.png" style="width: 100px;" /></a>.</p>
-<p>A square is a geometric figure made up of four sides of equal length, with opposite sides parallel and angles between adjacent sides 90 degrees. The square has four sides, so we will enter the number <code class="docutils literal notranslate"><span class="pre">4</span></code> into the repetition block:</p>
-<img alt="../_images/_imageMinecraft/66.png" class="align-center" src="../_images/_imageMinecraft/66.png" />
-<p>To enable the agent to place blocks by moving around in the world, we need to use the block <img alt="placeagent" src="../_images/_imageMinecraft/s11.png" /> from the category <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/_imageMinecraft/s2.png" style="width: 100px;" /></a>.</p>
-<p>For it to be able to perform the action, we need to set the second argument block to <code class="docutils literal notranslate"><span class="pre">true</span></code>:</p>
-<img alt="../_images/_imageMinecraft/67.png" class="align-center" src="../_images/_imageMinecraft/67.png" />
-<p>The length of the side, which is 5 blocks, will be defined with the block <img alt="move" src="../_images/_imageMinecraft/s12.png" /> from the category <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/_imageMinecraft/s2.png" style="width: 100px;" /></a>:</p>
-<img alt="../_images/_imageMinecraft/68.png" class="align-center" src="../_images/_imageMinecraft/68.png" />
-<p>The angles in a square are 90 degrees, we will achieve this by using the block <img alt="turn" src="../_images/_imageMinecraft/s13.png" /> from the category <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/_imageMinecraft/s2.png" style="width: 100px;" /></a>:</p>
-<img alt="../_images/_imageMinecraft/69.png" class="align-center" src="../_images/_imageMinecraft/69.png" />
-<p>We can test the program by clicking the button <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/_imageMinecraft/15.png" style="width: 40px;" /></a>.</p>
+<p>Në mënyrë që agjenti të jetë në gjendje të krijojë blloqe, duhet të sigurohemi që ai ka gjithçka që nevojitet për ndërtimin e shtyllave në inventarin e tij. Për këtë, ne do të përdorim bllokun <a class="reference internal" href="../_images/_imageMinecraft/s14.png"><img alt="setagent" src="../_images/s14.png" style="width: 350px;" /></a> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>:</p>
+<img alt="../_images/_imageMinecraft/70.png" class="align-center" src="../_images/70.png" />
+<p><strong>E rëndësishme:</strong> Inventari, i cili hapet duke shtypur butonin <code class="docutils literal notranslate"><span class="pre">E</span></code>, përdoret nga lojtari për të menaxhuar artikujt që zotëron (mbart). Ai përbëhet nga lojëra elektronike 1 deri në 9 në të cilat mund të “ruajë” sendet që i duhen për të krijuar objekte të ndryshme.
+Tani duhet të krijojmë bazën në formë katrore të shtyllës. Në mënyrë që agjenti të jetë në gjendje të krijojë bazën katrore, na duhet një lloj “shkas” për atë ngjarje. Për këtë, ne do të përdorim chat dhe fjalën katror.</p>
+<p>Për ta vendosur bllokun në një formë katrore, me gjatësinë prej 5 blloqeve, ne do të përdorim bllokun <img alt="repeat" src="../_images/s10.png" /> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/2_.png"><img alt="Loops" src="../_images/2_.png" style="width: 100px;" /></a>.</p>
+<p>Një katror është një figurë gjeometrike e përbërë nga katër anët me gjatësi të barabartë, me anët e kundërta paralele dhe kënde midis palëve ngjitur 90 gradë. Katrori ka katër anët, kështu që ne do të futim numrin <code class="docutils literal notranslate"><span class="pre">4</span></code> në bllokun e përsëritjes:</p>
+<img alt="../_images/_imageMinecraft/66.png" class="align-center" src="../_images/66.png" />
+<p>Për të mundësuar që agjenti të vendosë blloqe duke lëvizur në botë, duhet të përdorim bllokun <img alt="placeagent" src="../_images/s11.png" /> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>.</p>
+<p>Që ajo të jetë në gjendje të kryejë veprimin, duhet të vendosim bllokun e dytë të argumentit në <code class="docutils literal notranslate"><span class="pre">true</span></code>:</p>
+<img alt="../_images/_imageMinecraft/67.png" class="align-center" src="../_images/67.png" />
+<p>Gjatësia e brinjës, e cila është 5 blloqe, do të përcaktohet me bllokun <img alt="move" src="../_images/s12.png" /> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>:</p>
+<img alt="../_images/_imageMinecraft/68.png" class="align-center" src="../_images/68.png" />
+<p>Gjatësia e brinjës, e cila është 5 blloqe, do të përcaktohet me bllokun <img alt="move" src="../_images/s12.png" /> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>:</p>
+<img alt="../_images/_imageMinecraft/69.png" class="align-center" src="../_images/69.png" />
+<p>Ne mund ta testojmë programin duke shypyr butonin <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/15.png" style="width: 40px;" /></a>.</p>
 <img alt="_images/71.png" class="align-center" src="_images/71.png" />
-<p>After the testing is complete, we can see that the agent did not construct the entire square.</p>
-<p>To achieve this, we need to move the agent. We can do this by introducing the block <img alt="move" src="../_images/_imageMinecraft/s12.png" /> and choosing the option <code class="docutils literal notranslate"><span class="pre">up</span></code> from the drop-down list. We move the agent for one block, which is why we need to put <code class="docutils literal notranslate"><span class="pre">1</span></code> as the value of the third parameter:</p>
-<img alt="../_images/_imageMinecraft/73.png" class="align-center" src="../_images/_imageMinecraft/73.png" />
-<p>Now we will test the program again, and this time we will receive a square:</p>
+<p>Pasi të përfundojë testimi, mund të shohim që agjenti nuk ndërtoi tërë sheshin.</p>
+<p>Për ta arritur këtë, duhet të lëvizim agjentin. Ne mund ta bëjmë këtë duke prezantuar bllokun <img alt="move" src="../_images/s12.png" /> dhe zgjedhja e opsionit <code class="docutils literal notranslate"><span class="pre">lart</span></code> nga lista rënëse. Ne e lëvizim agjentin për një bllok, për këtë duhet të vendosim <code class="docutils literal notranslate"><span class="pre">1</span></code> si vlerë të parametrit të tretë:</p>
+<img alt="../_images/_imageMinecraft/73.png" class="align-center" src="../_images/73.png" />
+<p>Tani do ta testojmë programin përsëri, dhe kësaj radhe do të marrim një shesh:</p>
 <img alt="_images/72.png" class="align-center" src="_images/72.png" />
-<p>Based on the code above, we can see that the agent is not in the position, which is one block above the initial position. To place the agent in the desired position we will introduce two blocks <img alt="turn" src="../_images/_imageMinecraft/s13.png" /> and <img alt="move" src="../_images/_imageMinecraft/s12.png" />:</p>
-<img alt="../_images/_imageMinecraft/74.png" class="align-center" src="../_images/_imageMinecraft/74.png" />
-<p>During the testing of the program, we can see that the agent leaves the block after the movement is complete. We don’t want this to happen. This is why we introduce two blocks, which will put the agent without the block into the position for building the wall:</p>
-<img alt="../_images/_imageMinecraft/75.png" class="align-center" src="../_images/_imageMinecraft/75.png" />
-<p>What remains for us to do is to create the program for building the pillar, which will be 10 blocks high.</p>
-<p>We can do this by introducing a new loop where we will insert the already completed loop (which creates the square). We will introduce the block <img alt="repeat" src="../_images/_imageMinecraft/s10.png" /> and set the value of the counter to <code class="docutils literal notranslate"><span class="pre">10</span></code>:</p>
-<p>Placing one loop inside the body of another loop is called <strong>nesting</strong>.</p>
-<img alt="../_images/_imageMinecraft/77.png" class="align-center" src="../_images/_imageMinecraft/77.png" />
-<p>The final look of the code, which will enable the construction of a pillar which is 10 blocks high and has a 5x5 square base:</p>
-<img alt="../_images/_imageMinecraft/78.png" class="align-center" src="../_images/_imageMinecraft/78.png" />
-<p><strong>Stage 3</strong></p>
-<p>Testing the program.
-Click the button <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/_imageMinecraft/15.png" style="width: 40px;" /></a>.</p>
+<p>Bazuar në kodin e mësipërm, mund të shohim që agjenti nuk është në pozicion, që është një bllok mbi pozicionin fillestar. Për ta vendosur agjentin në pozicionin e dëshiruar do të prezantojmë dy blloqe <img alt="turn" src="../_images/s13.png" /> dhe <img alt="move" src="../_images/s12.png" />:</p>
+<img alt="../_images/_imageMinecraft/74.png" class="align-center" src="../_images/74.png" />
+<p>Gjatë testimit të programit, ne mund të shohim që agjenti largohet nga blloku pasi lëvizja të ketë përfunduar. Ne nuk duam që kjo të ndodhë. Kjo është arsyeja pse ne prezantojmë dy blloqe, të cilat do ta vendosin agjentin pa bllok në pozicionin për ndërtimin e murit:</p>
+<img alt="../_images/_imageMinecraft/75.png" class="align-center" src="../_images/75.png" />
+<p>Ajo që mbetet për ne të bëjmë është të krijojmë programin për ndërtimin e shtyllës, e cila do të jetë e lartë 10 blloqe.</p>
+<p>Ne mund ta bëjmë këtë duke prezantuar një cikël të ri, ku do të futim ciklin e përfunduar tashmë (i cili krijon katrorin). Ne do të prezantojmë bllokun <img alt="repeat" src="../_images/s10.png" /> dhe vendosni vlerën e numërsuesit në <code class="docutils literal notranslate"><span class="pre">10</span></code>:</p>
+<p>Vendosja e një cikli brenda trupit të një cikël tjetër quhet <strong>fole</strong>.</p>
+<img alt="../_images/_imageMinecraft/77.png" class="align-center" src="../_images/77.png" />
+<p>Pamja përfundimtare e kodit, e cila do të mundësojë ndërtimin e një shtylle e cila është 10 blloqe e lartë dhe ka një bazë katrore 5x5:</p>
+<img alt="../_images/_imageMinecraft/78.png" class="align-center" src="../_images/78.png" />
+<p><strong>Hapi 3</strong></p>
+<p>Testo programin.
+Kliko butonin <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/15.png" style="width: 40px;" /></a>.</p>
 <img alt="_images/76.png" class="align-center" src="_images/76.png" />
-<p>This way, we have created a pillar which is 10 blocks high and has a 5x5 square base.</p>
+<p>Në këtë mënyrë, ne kemi krijuar një shtyllë e cila është 10 blloqe e lartë dhe ka një bazë katrore 5x5.</p>
 </div>
 
 
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Project Task - How many trees are there?' data-toggle="tooltip"><a href="Project Task - How many trees are there.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Detyrë - Sa pemë janë?' data-toggle="tooltip"><a href="Project Task - How many trees are there.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Project Task - Hot and Cold' data-toggle="tooltip"><a href="Project Task - Hot and Cold.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Detyrë - Hot and Cold' data-toggle="tooltip"><a href="Project Task - Hot and Cold.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Project Task - How many trees are there?' data-toggle="tooltip"><a href="Project Task - How many trees are there.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Detyrë - Sa pemë janë?' data-toggle="tooltip"><a href="Project Task - How many trees are there.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Project Task - Hot and Cold' data-toggle="tooltip"><a href="Project Task - Hot and Cold.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Detyrë - Hot and Cold' data-toggle="tooltip"><a href="Project Task - Hot and Cold.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

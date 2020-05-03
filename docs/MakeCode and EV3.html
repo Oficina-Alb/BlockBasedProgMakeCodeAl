@@ -2,54 +2,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>EV3 – Basic Characteristics and Components &#8212; Block-based programming in MakeCode</title>
+    <meta charset="utf-8" />
+    <title>EV3 - Karakteristikat themelore dhe përbërësit &#8212; Block-based programming in MakeCode</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
-    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
     <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css" />
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/flatly.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/petlja.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/runestonebase.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/reveal.js"></script>
-    <script type="text/javascript" src="_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="_static/parsons.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/jquery.highlight.js"></script>
     <script type="text/javascript" src="_static/bookfuncs.js"></script>
     <script type="text/javascript" src="_static/codemirror.js"></script>
@@ -58,38 +43,52 @@
     <script type="text/javascript" src="_static/python.js"></script>
     <script type="text/javascript" src="_static/htmlmixed.js"></script>
     <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
     <script type="text/javascript" src="_static/skulpt.min.js"></script>
     <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="_static/activecode.js"></script>
     <script type="text/javascript" src="_static/clike.js"></script>
     <script type="text/javascript" src="_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
     <script type="text/javascript" src="_static/mchoice.js"></script>
     <script type="text/javascript" src="_static/timedmc.js"></script>
     <script type="text/javascript" src="_static/timed.js"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
     <script type="text/javascript" src="_static/clickable.js"></script>
     <script type="text/javascript" src="_static/timedclickable.js"></script>
-    <script type="text/javascript" src="_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
     <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="_static/pytutor.js"></script>
     <script type="text/javascript" src="_static/codelens.js"></script>
-    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/dragndrop.js"></script>
     <script type="text/javascript" src="_static/timeddnd.js"></script>
     <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/matrixeq.js"></script>
     <script type="text/javascript" src="_static/fitb.js"></script>
     <script type="text/javascript" src="_static/timedfitb.js"></script>
     <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
     <script type="text/javascript" src="_static/shortanswer.js"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
     <script type="text/javascript" src="_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
@@ -141,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Project Task - Robot Movement" href="Project Task - Robot Movement.html" />
-    <link rel="prev" title="Project Task - the Wire" href="Project Task - the Wire.html" />
+    <link rel="next" title="Detyrë - Lëvizja e robotit" href="Project Task - Robot Movement.html" />
+    <link rel="prev" title="Detyrë - the Wire" href="Project Task - the Wire.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -205,148 +204,168 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="ev3-basic-characteristics-and-components">
-<h1>EV3 – Basic Characteristics and Components<a class="headerlink" href="#ev3-basic-characteristics-and-components" title="Permalink to this headline">¶</a></h1>
-<p>Before we start talking about programming Mindstorm Lego EV3 robots by using the MakeCode online platform, let us first learn about the basic characteristics of the EV3 robots and the MakeCode interface.</p>
-<div class="section" id="the-basics-of-lego-ev3-robots-hardware">
-<h2>The Basics of LEGO EV3 Robots - hardware<a class="headerlink" href="#the-basics-of-lego-ev3-robots-hardware" title="Permalink to this headline">¶</a></h2>
-<p>The LEGO Mindstorms EV3 set is composed of a variety of mechanical and electrical parts from which robots of various shapes and purposes can be assembled.</p>
+  <div class="section" id="ev3-karakteristikat-themelore-dhe-perberesit">
+<h1>EV3 - Karakteristikat themelore dhe përbërësit<a class="headerlink" href="#ev3-karakteristikat-themelore-dhe-perberesit" title="Permalink to this headline">¶</a></h1>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/MakeCode and EV3.rst</span>, line 2)</p>
+<p>Title underline too short.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">EV3</span> <span class="o">-</span> <span class="n">Karakteristikat</span> <span class="n">themelore</span> <span class="n">dhe</span> <span class="n">përbërësit</span>
+<span class="o">===========================================</span>
+</pre></div>
+</div>
+</div>
+<p>Para se të fillojmë të flasim për programimin e robotëve Mindstorm Lego EV3 duke përdorur platformën online MakeCode, le të mësojmë së pari për karakteristikat themelore të robotëve EV3 dhe ndërfaqen MakeCode.</p>
+<div class="section" id="bazat-e-roboteve-lego-ev3-pajisje-harduerike">
+<h2>Bazat e robotëve LEGO EV3 - pajisje harduerike<a class="headerlink" href="#bazat-e-roboteve-lego-ev3-pajisje-harduerike" title="Permalink to this headline">¶</a></h2>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/MakeCode and EV3.rst</span>, line 7)</p>
+<p>Title underline too short.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Bazat</span> <span class="n">e</span> <span class="n">robotëve</span> <span class="n">LEGO</span> <span class="n">EV3</span> <span class="o">-</span> <span class="n">pajisje</span> <span class="n">harduerike</span>
+<span class="p">:::::::::::::::::::::::::::::::::::::::::</span>
+</pre></div>
+</div>
+</div>
+<p>Seti LEGO Mindstorms EV3 është i përbërë nga një larmi pjesësh mekanike dhe elektrike nga të cilat mund të mblidhen robotë me forma dhe qëllime të ndryshme.</p>
 <a class="reference internal image-reference" href="_images/setEV3.jpg"><img alt="_images/setEV3.jpg" class="align-center" src="_images/setEV3.jpg" style="width: 600px;" /></a>
-<p>A robot needs have sensors, which collect information from its environment (the robot’s senses), a processor which analyzes this information, i.e. thinks (the robot’s brain), mechanical parts that move and perform a certain activity, as well as a power source, which provides the energy for specific parts of the robot and breathes life into it.</p>
-<p>The main parts of the robot are:</p>
+<p>Një robot ka nevojë për sensorë, të cilët mbledhin informacione nga mjedisi i tij (shqisat e robotit), një procesor që analizon këtë informacion, d.m.th. mendon (trurin e robotit), pjesë mekanike që lëvizin dhe kryejnë një aktivitet të caktuar, si dhe një burim energjie, i cili siguron energji për pjesë specifike të robotit dhe merr frymë në të në jetë.</p>
+<p>Pjesët kryesore të robotit janë:</p>
 <ul class="simple">
-<li>Control unit</li>
-<li>Power source</li>
-<li>Ports</li>
-<li>Servo Motors</li>
-<li>Sensors</li>
+<li><p>Njësia e kontrollit</p></li>
+<li><p>Burimi i energjisë</p></li>
+<li><p>Portat</p></li>
+<li><p>Servo Motors</p></li>
+<li><p>Sensorë</p></li>
 </ul>
-<p><strong>Control Unit (EV3 Brick)</strong></p>
-<p>At first glance, it becomes obvious that the central part of the robot is occupied by the square EV3 unit where the processor is located.
-It is connected to the sensors, from which it receives and processes information, via cable and ports. Based on the parameters that we set in programs we create, it can send control signals to mechanical parts, i.e. motors, and it can also issue certain audible warnings. The communication between the computer and the control unit is established either via Bluetooth or a USB cable.</p>
-<p>In fact, the robot’s operation is controlled by two programmable AVR microcontrollers. These are devices that, in addition to the processor, contain some peripherals, such as memory, timers, A/D converters, so they can be programmed several times.</p>
-<p>Of course, this integration is done at the expense of memory reduction over the standard computer processor, so programs have to be deleted frequently in order for the user to download new ones.</p>
-<p>The following figure shows the control unit along with the screen through which we control the operations performed on the robot.</p>
+<p><strong>Njësia e Kontrollit (Brick EV3)</strong></p>
+<p>Në shikim të parë, bëhet e qartë se pjesa qendrore e robotit është e zënë nga njësia katrore EV3 ku ndodhet procesori.
+Është i lidhur me sensorët, nga i cili merr dhe përpunon informacion, përmes kabllove dhe porteve. Bazuar në parametrat që vendosëm në programet që krijojmë, ai mund të dërgojë sinjale kontrolli në pjesët mekanike, d.m.th., dhe gjithashtu mund të lëshojë paralajmërime të caktuara të dëgjueshme. Komunikimi midis kompjuterit dhe njësisë së kontrollit vendoset ose përmes Bluetooth ose kabllit USB.</p>
+<p>Në fakt, funksionimi i robotit kontrollohet nga dy mikrokontrollorë të programueshëm AVR. Këto janë pajisje që përveç procesorit, përmbajnë disa periferikë, si memorie, timer, konvertues A / D, kështu që ato mund të programohen disa herë.</p>
+<p>Sigurisht, ky integrim bëhet në kurriz të zvogëlimit të kujtesës mbi procesorin standard të kompjuterit, kështu që programet duhet të fshihen shpesh në mënyrë që përdoruesi të shkarkojë të reja.</p>
+<p>Figura e mëposhtme tregon njësinë e kontrollit së bashku me ekranin përmes të cilit ne kontrollojmë operacionet e kryera në robot.</p>
 <img alt="_images/brick1.png" class="align-center" src="_images/brick1.png" />
 <img alt="_images/brick2.png" class="align-center" src="_images/brick2.png" />
-<p>To turn on the EV3 Brick, the user needs to press the button in the center. When the button is pressed, the cube light will be red, and the home screen will appear.</p>
-<p>When the light changes to green, the EV3 Brick is ready to go. To turn off the EV3 cube, you need to press the back button until the power off screen appears. By clicking on the confirmation sign and pressing the button in the center, the EV3 cube will shut down. In case you select the X option, you will return to the Run Recent screen.</p>
-<p><strong>Power Source</strong></p>
-<p>Like any electro-mechanical construction, the LEGO Mindstorms EV3 robot requires power. The standard LEGO robot power supply is composed of 6 AA 1.5V batteries. Electric motors are powered by 9V, and one of the microcontrollers and some of the integrated circuits are powered by 5V. The main microcontroller is powered by 3.3V. The output ports are powered by 4.3V and have overcurrent protection.</p>
-<p>Newer versions of the robot have rechargeable batteries like mobile phones. Energy can be obtained from solar cells that the robot can carry, as well as from the city grid if the robot doesn’t move.</p>
-<p><strong>Ports</strong></p>
-<p>We have already mentioned that the control unit receives data from the environment through sensors, processes them, and then transmits corresponding control signals to the motors. Communication with peripheral devices is done through ports.</p>
-<p>According to the data direction, the ports can be divided into input and output ports. There are 4 ports each.</p>
+<p>Për të aktivizuar Brick EV3, përdoruesi duhet të shtypë butonin në qendër. Kur shtypet butoni, drita e kubit do të jetë e kuqe dhe ekrani fillestar do të shfaqet.</p>
+<p>Kur drita ndryshon në jeshile, Brick EV3 është e gatshme të shkojë. Për të fikur kubikun EV3, duhet të shtypni butonin e pasëm derisa të shfaqet ekrani i fikjes së energjisë. Duke klikuar në shenjën e konfirmimit dhe duke shtypur butonin në qendër, Brick EV3 do të fiket. Në rast se ju zgjidhni opsionin X, do të ktheheni në ekranin Run Recent.</p>
+<p><strong>Burimi i energjisë</strong></p>
+<p>Si çdo ndërtim elektromekanik, roboti LEGO Mindstorms EV3 kërkon fuqi. Furnizimi standard me energji robot LEGO është i përbërë nga 6 bateri AA 1.5V. Motorët elektrikë mundësohen nga 9V, dhe një nga mikrokontrolluesit dhe disa qarqe të integruar mundësohet nga 5V. Mikrokontrolluesi kryesor mundësohet nga 3.3V. Portet e daljes mundësohen nga 4.3V dhe kanë mbrojtje të tepërt.</p>
+<p>Versione më të reja të robotit kanë bateri të rimbushshme si telefonat. Energjia mund të merret nga panelet diellore që roboti mund të ketë, si dhe nga rrjeti i qytetit nëse roboti nuk lëviz.</p>
+<p><strong>Portat</strong></p>
+<p>Ne kemi përmendur tashmë që njësia e kontrollit merr të dhëna nga mjedisi përmes sensorë, i përpunon ato dhe pastaj transmeton sinjalet përkatëse të kontrollit tek motorët. Komunikimi me pajisjet periferike bëhet përmes porteve.</p>
+<p>Sipas drejtimit të të dhënave, portat mund të ndahen në porte hyrëse dhe dalëse. Ekzistojnë 4 porte secila.</p>
 <img alt="_images/brick3.png" class="align-center" src="_images/brick3.png" />
-<p>The output unit is composed of motors, and the input unit is composed of sensors. Unless the user changes something while writing the program, by default the output ports are divided and used as follows:</p>
+<p>Njësia e daljes përbëhet nga motorë, dhe njësia hyrëse është e përbërë nga sensorë. Nëse përdoruesi nuk ndryshon diçka gjatë shkrimit të programit, si parazgjedhje portat e daljes ndahen dhe përdoren si më poshtë:</p>
 <ul class="simple">
-<li>port A for medium motors</li>
-<li>port B and C for two combined large motors</li>
-<li>port D for one large motor</li>
+<li><p>porta A për motorët e mesëm</p></li>
+<li><p>porta B dhe C për dy motorë të mëdhenj të kombinuar</p></li>
+<li><p>porta D për një motor të madh</p></li>
 </ul>
-<p>Also, unless the user defines otherwise, by default the input ports are assigned as follows:</p>
+<p>Gjithashtu, përveç nëse përdoruesi e përcakton ndryshe, si parazgjedhje portat e hyrjes caktohen si më poshtë:</p>
 <ul class="simple">
-<li>port 1 for the touch sensor</li>
-<li>port 2 for the temperature sensor or the gyro sensor (gyroscope)</li>
-<li>port 3 for the color sensor (lighting)</li>
-<li>port 4 for the detection of infrared light or ultrasonic sensor</li>
+<li><p>porta 1 për sensorin e prekjes</p></li>
+<li><p>porta 2 për sensorin e temperaturës ose sensorin gyro (gjiroskop)</p></li>
+<li><p>porta 3 për sensorin e ngjyrave (ndriçimi)</p></li>
+<li><p>porta 4 për zbulimin e dritës infra të kuqe ose sensorit tejzanor</p></li>
 </ul>
-<p><strong>Motors</strong></p>
-<p>Any kind of movement made by the robot would be unimaginable without the motors. Most often, there are three servo motors available, these motors receive electrical signals through their ports, which enable them to function.
-Servo motors are most commonly used when small forces have to be overcome, such as opening small doors, carrying loads of small dimensions over short distances, and the like. That is why they are mostly used for making small robots, robotic arms and other manipulators. Servo motors do not require a strong power supply, they are easy to control, and they are reliable.</p>
+<p><strong>Motorët</strong></p>
+<p>Çdo lloj lëvizjeje e bërë nga roboti do të ishte e paimagjinueshme pa motorët. Më shpesh, ekzistojnë tre servo motorë në dispozicion, këta motorë marrin sinjale elektrike përmes portave të tyre, të cilat u mundësojnë atyre të funksionojnë.
+Motorët servo më së shpeshti përdoren kur forcat e vogla duhet të kapërcehen, siç janë hapja e dyerve të vogla, mbajtja e ngarkesave me dimensione të vogla në distanca të shkurtra dhe të ngjashme. Kjo është arsyeja pse ata kryesisht përdoren për të bërë robotë të vegjël, armë robotike dhe manipulues të tjerë. Motorët servo nuk kërkojnë një furnizim të fortë me energji elektrike, ata janë të lehtë për t’u kontrolluar, dhe janë të besueshëm.</p>
 <a class="reference internal image-reference" href="_images/brick4.png"><img alt="_images/brick4.png" class="align-center" src="_images/brick4.png" style="width: 350px;" /></a>
-<p>The basis of a servo motor is actually a one-way motor with a certain number of gears, and their operation is based on the principle of pulse width modulation - PWM. The microcontroller processes the data on the PWM signal fill factor (number from 0 to 100, and from 0 to -100), and based on that number the duration percentage of the PWM signal is determined.</p>
-<p>Positive numbers refer to moving forward and negative to moving backwards. In addition to the obvious size difference, motors vary in the number of RPM (rotations per minute). The larger engine is slower but provides more power.</p>
-<p>The medium motor is faster and more stable. It contains tachographs, which provide information about the number of rotations and various other useful data.</p>
+<p>Baza e një servo motori është në të vërtetë një motor me një drejtim me një numër të caktuar ingranazhesh, dhe funksionimi i tyre bazohet në parimin e modulimit të gjerësisë së pulsit - PWM. Mikrokontrolluesi përpunon të dhënat në faktorin e mbushjes së sinjalit PWM (numri nga 0 në 100, dhe nga 0 në -100), dhe në bazë të këtij numri përcaktohet përqindja e kohëzgjatjes së sinjalit PWM.</p>
+<p>Numrat pozitivë i referohen lëvizjes përpara dhe negative ndaj lëvizjes prapa. Përveç diferencës së dukshme në madhësi, motorët ndryshojnë në numrin e RPM (rotacionet në minutë). Motori më i madh është më i ngadalshëm por siguron më shumë fuqi.</p>
+<p>Motori i mesëm është më i shpejtë dhe më i qëndrueshëm. Ai përmban tahografe, të cilët japin informacione për numrin e rrotullimeve dhe të dhëna të ndryshme të dobishme.</p>
 <a class="reference internal image-reference" href="_images/brick5.png"><img alt="_images/brick5.png" class="align-center" src="_images/brick5.png" style="width: 300px;" /></a>
-<p>With the proper construction layout and program usability, you can create different mechanisms for movement with which the robot can move by using wheels and caterpillars; it can jump like a frog, move like a scorpion, as well as catch and push objects, and place them in specific spots.</p>
-<p><strong>Sensors</strong></p>
-<p>Like humans, robots need senses to analyze their environment.</p>
-<p>The standard LEGO robot has four types of sensors:</p>
+<p>Me paraqitjen e duhur të ndërtimit dhe përdorueshmërinë e programit, ju mund të krijoni mekanizma të ndryshëm për lëvizje me të cilët roboti mund të lëvizë duke përdorur rrota dhe vemje; ajo mund të kërcejë si një bretkosë, të lëvizë si akrep, si dhe të kapë dhe të shtyjë objektet, dhe t’i vendosë ato në pika specifike.</p>
+<p><strong>Sensore</strong></p>
+<p>Si njerëzit, robotët kanë nevojë për shqisat për të analizuar mjedisin e tyre.</p>
+<p>Roboti standard LEGO ka katër lloje sensorë:</p>
 <ul class="simple">
-<li>ultrasonic (the one that looks like eyes), which is used to determine the distance between the robot and an obstacle,</li>
-<li>optical (color sensor), which, as it is implied by the name, reacts to the light level in its environment, i.e. detects the color as a value of the electromagnetic spectrum,</li>
-<li>sound sensor, which reacts to the sound level in its environment; touch sensor, which, you guessed it, reacts to touch, i.e. to the button being pressed,</li>
-<li>gyro sensor (gyroscope), measures the object’s (robot’s) rotational motion and changes in its orientation.</li>
+<li><p>ultrasonic (ai që duket si sy), i cili përdoret për të përcaktuar distancën midis robotit dhe një pengese,</p></li>
+<li><p>optik (sensori i ngjyrave), i cili siç nënkupton emri, reagon ndaj nivelit të dritës në mjedisin e tij, d.m.th zbulon ngjyrën si një vlerë të spektrit elektromagnetik,</p></li>
+<li><p>sensori i zërit, i cili reagon ndaj nivelit të tingullit në mjedisin e tij; sensori i prekjes, i cili, e keni besuar, reagon ndaj prekjes, d.m.th. në butonin që shtypet,</p></li>
+<li><p>sensori gyro (xhiroskop), mat lëvizjen rrotulluese të objektit (robotit) dhe ndryshimet në orientimin e tij.</p></li>
 </ul>
-<p><strong>Ultrasonic Sensor</strong></p>
-<p>This is a digital sensor, which measures the distance to an object.</p>
-<p>In addition to the ultrasound receiver, which is a kind of a special microphone, this sensor also has an ultrasound transmitter. The transmitter sends an ultrasonic wave that bounces off the obstacle and reflects back to the robot. This returning wave is picked up by the receiver, which is the actual sensor. The robot calculates the distance to an obstacle by measuring the time elapsed from the moment the ultrasonic wave was emitted until the echo of this wave, which has reflected back from an object, came back.</p>
+<p><strong>Sensori Ultrasonic</strong></p>
+<p>Ky është një sensor dixhital, i cili mat distancën nga një objekt.</p>
+<p>Përveç marrësit me ultratinguj, i cili është një lloj mikrofoni special, ky sensor ka edhe një transmetues me ultratinguj. Transmetuesi dërgon një valë ultrasonice që lëshon pengesën dhe reflekton përsëri në robot. Kjo valë e kthimit merret nga marrësi, i cili është sensori aktual. Roboti llogarit largësinë në një pengesë duke matur kohën e kaluar nga momenti kur u lëshua vala ulrasonice derisa të kthehej jehona e kësaj valë, e cila ka reflektuar përsëri nga një objekt.</p>
 <a class="reference internal image-reference" href="_images/brick6.jpg"><img alt="_images/brick6.jpg" class="align-center" src="_images/brick6.jpg" style="width: 250px;" /></a>
-<p>The distance can be measured in inches or centimeters. When the centimeter sale is used, the measurable distance is between 3 and 250cm, with the accuracy of +/- 1cm. When inches are used, the measurable distance is between 1 and 99 inches, with the accuracy of +/- 0.394 inches).
-The speed of the ultrasound is about 300 m/s, and the sound wave travels from the transmitter to the obstacle and back, crossing the distance that is double the distance from the robot to the obstacle. The processor just needs to use the formula s=v*t, to calculate the distance from the obstacle.</p>
+<p>Distanca mund të matet në inç ose centimetra. Kur përdoret shitje centimetri, distanca e matshme është midis 3 dhe 250cm, me saktësinë e +/- 1cm. Kur përdoren inç, distanca e matshme është midis 1 dhe 99 inç, me saktësinë e +/- 0.394 inç).
+Shpejtësia e ultrasound është rreth 300 m / s, dhe vala e zërit udhëton nga transmetuesi në pengesë dhe mbrapa, duke kaluar distancën që është dyfishi i distancës nga roboti në pengesë. Procesori duhet vetëm të përdorë formulën s = v * t, për të llogaritur distancën nga pengesa.</p>
 <img alt="_images/brick7.png" class="align-center" src="_images/brick7.png" />
-<p>For a more accurate measurement, other aspects have to be taken into account, like the fact that the speed of the ultrasound in the air depends on the ambient temperature and on the frequency of ultrasound emitted by the transmitter associated with the sensor.
-It is not difficult to see that this feature reminds us of a bat that, although with a scarce sense of sight, is unmistakably orientated in space thanks to its echo locators.</p>
-<p><strong>Optical Sensor</strong></p>
-<p>The Color Sensor is a digital sensor that can detect the color or intensity of light that enters through the small window on the face of the sensor. It reads 1 kHz/sec.</p>
+<p>Për një matje më të saktë, duhet të merren parasysh aspekte të tjera, si fakti që shpejtësia e ultrazërit në ajër varet nga temperatura e ambientit dhe nga frekuenca e ultrazërit të emetuar nga transmetuesi i lidhur me sensorin.
+Nuk është e vështirë të shihet se kjo karakteristikë na kujton një lakuriq nate që, megjithëse me një pamje të pamjaftueshme, është i orientuar në mënyrë të pakuptueshme në hapësirë falë gjetësve të saj të jehonës.</p>
+<p><strong>Sensori optik</strong></p>
+<p>Sensori i ngjyrave është një sensor dixhital që mund të zbulojë ngjyrën ose intensitetin e dritës që hyn në dritaren e vogël në fytyrën e sensorit. Lexohet 1 kHz / sek.</p>
 <a class="reference internal image-reference" href="_images/brick8.png"><img alt="_images/brick8.png" class="align-center" src="_images/brick8.png" style="width: 250px;" /></a>
-<p>This sensor reacts to light or changes in ambient light. Previously, the sensors were black and white, and they could recognize some shades of grey. Nowadays, sensors are more complex and they can recognize color, i.e. the level in the electromagnetic spectrum. This is why they are often referred to as color sensors.
-Human beings (unlike animals) have a developed sense of sight thanks to a highly developed brain, which is able to receive and process a large amount of information, which results in image recognition.</p>
-<p>The sensor can be used for:</p>
+<p>Ky sensor reagon ndaj dritës ose ndryshimeve në dritën e ambientit. Më parë, sensorët ishin të zinj dhe të bardhë, dhe ata mund të njihnin disa hije gri. Në ditët e sotme, sensorët janë më kompleks dhe ata mund të njohin ngjyrën, d.m.th nivelin në spektrin elektromagnetik. Kjo është arsyeja pse ata shpesh quhen sensorë të ngjyrave.
+Qeniet njerëzore (ndryshe nga kafshët) kanë një sens të zhvilluar të shikimit falë një truri shumë të zhvilluar, i cili është në gjendje të marrë dhe përpunojë një sasi të madhe informacioni, gjë që rezulton në njohjen e imazhit.</p>
+<p>Sensori mund të përdoret për:</p>
 <ol class="arabic simple">
-<li>Reading colors: the robot recognizes seven colors (black, blue, green, yellow, red, white, brown and plus no color). For example, the robot can be programmed to sort colored blocks, say the names of colors it recognizes, or stop action when it recognizes red.</li>
-<li>Reflecting light: the robot uses a lamp to emit red light and measures the intensity of light reflected off the object. It uses a scale from 0 (very dark) to 100 (very light). For example, the robot can be programmed to move around on the white surface until it comes across a black surface.</li>
-<li>Ambient light (environment): the robot measures the strength of light received from the environment, for example, the light coming from a lamp. It uses the same scale as in the second option. For example, the robot can be programmed to set off a wake-up alarm when the Sun rises.</li>
+<li><p>Ngjyrat e leximit: roboti njeh shtatë ngjyra (e zezë, blu, jeshile, e verdhë, e kuqe, e bardhë, kafe dhe plus asnjë ngjyrë). Për shembull, roboti mund të programohet për të renditur blloqet me ngjyra, të themi emrat e ngjyrave që njeh, ose të ndalojë veprimet kur njeh të kuqen.</p></li>
+<li><p>Reflektimi i dritës: roboti përdor një llambë për të lëshuar dritën e kuqe dhe mat intensitetin e dritës që reflektohet nga objekti. Përdor një shkallë nga 0 (shumë e errët) në 100 (shumë e lehtë). Për shembull, roboti mund të programohet të lëvizë mbi sipërfaqen e bardhë derisa të dalë në një sipërfaqe të zezë.</p></li>
+<li><p>Drita e ambientit (ambienti): roboti mat forcën e dritës së marrë nga mjedisi, për shembull, drita që vjen nga një llambë. Përdor të njëjtën shkallë si në opsionin e dytë. Për shembull, roboti mund të programohet për të ndezur një alarm zgjimi kur Dielli lind.</p></li>
 </ol>
-<p>There are clear limitations when it comes to sensors, i.e. robots; therefore, orienting in space based on images in the form of a large number of dots is difficult. That is why this sensor, and the communication through it, is a big challenge for constructors.</p>
-<p><strong>Touch Sensor</strong></p>
+<p>Ka kufizime të qarta kur bëhet fjalë për sensorë, d.m.th. robotë; Prandaj, orientimi në hapësirë ​​bazuar në imazhe në formën e një numri të madh pikash është i vështirë. Kjo është arsyeja pse ky sensor, dhe komunikimi përmes tij, është një sfidë e madhe për ndërtuesit.</p>
+<p><strong>Sensori i Prekjes</strong></p>
 <a class="reference internal image-reference" href="_images/brick9.png"><img alt="_images/brick9.png" class="align-center" src="_images/brick9.png" style="width: 250px;" /></a>
-<p>This is actually a switch, which has two conditions:</p>
+<p>Ky është në të vërtetë një ndërprerës, i cili ka dy kushte:</p>
 <ul class="simple">
-<li>pressed (when the robot touches an obstacle) or</li>
-<li>released (when the sensor is not touching any object).</li>
+<li><p>shtypur (kur roboti prek një pengesë) ose</p></li>
+<li><p>lëshuar (kur sensori nuk po prek asnjë objekt).</p></li>
 </ul>
-<p><strong>Gyroscope</strong></p>
-<p>Gyroscope is a digital sensor, which detects movement and changes in the movement of the robot. When the robot moves, this sensor will present this as the change in the rotation speed in degrees per second (deg/s). The maximum rate is 440 deg/s.</p>
+<p><strong>Xhiroskop</strong></p>
+<p>Xhiroskop është një sensor dixhital, i cili zbulon lëvizjen dhe ndryshimet në lëvizjen e robotit. Kur roboti lëviz, ky sensor do ta paraqesë këtë si ndryshimin në shpejtësinë e rrotullimit në gradë për sekondë (deg / s). Shkalla maksimale është 440 deg / s.</p>
 <a class="reference internal image-reference" href="_images/brick10.png"><img alt="_images/brick10.png" class="align-center" src="_images/brick10.png" style="width: 300px;" /></a>
-<p>Based on this data, the user can determine whether the robot is turning, and also to program these turns (with the accuracy of +/- 3 degrees for a 90-degree turn).
-In order for the sensor to produce accurate results, it is necessary to keep the robot motionless before turning it on, so the sensor can properly calibrate.</p>
-<p>Apart from the ones mentioned above, there are other types of sensors available, such as sound sensor, temperature sensor, infrared sensor, etc.</p>
-<p><strong>The Main Menu of the EV3</strong></p>
-<p>EV3 Brick contains four basic screens, which give you access to a wide range of functions unique to the EV3 Brick (from something as simple as starting and stopping a program, to writing the program itself).</p>
-<p><strong>Run Recent</strong></p>
-<p>A list of downloaded and running programs will be displayed on this screen. The program at the top of the list is the program that was last used.</p>
-<p><strong>File Navigation</strong></p>
-<p>From this screen, the user can access and manage all files on EV3 Brick, including files stored on SD cards.</p>
-<p><strong>Applications</strong></p>
-<p>EV3 Brick comes with four applications. Apart from that, the user can create his/her own applications by using the EV3 Software.</p>
-<p><strong>Port View</strong></p>
-<p>On the first screen on the Port View, the user can see which ports have sensors and motors attached, that is, which ports are occupied. By using the EV3 Brick navigation buttons, the user can check which ports are occupied and see the current readings from the sensors and motors.</p>
-<p><strong>Motor Control</strong></p>
-<p>The user can control the movement of any motor connected to one of four output ports.</p>
-<p><strong>IR Control (Infrared control)</strong></p>
-<p>Controls the movement of any motor connected to one of the four output ports by using the “remote control” - Remote Infrared Beacon, and the “receiver” - Infrared Sensor.</p>
-<p><strong>Brick Program</strong></p>
-<p>EV3 Brick comes with an on-brick application similar to a software that would be installed on a computer. This way simple programs can be created, which is why it is suitable for beginners. Another reason is that the user can create and test programs on the robot itself without using a computer.</p>
-<p><strong>Brick Dialog</strong></p>
-<p>Reading the values of sensors and motors. If sensors and motors are connected to the brick, a graph will show current readings from one of the sensors or motors, similar to an oscilloscope.</p>
-<p><strong>Settings</strong></p>
-<p>This screen enables the access to various general settings on the EV3 Brick, such as the volume of the sound, establishing Bluetooth or Wi-Fi connections, visibility or technical specifications for the EV3 Brick itself. Screen and volume settings, as well as sleep settings, i.e. inactive time that passes before the unit goes into sleep mode.</p>
+<p>Bazuar në këto të dhëna, përdoruesi mund të përcaktojë nëse robot po kthehet, dhe gjithashtu të programojë këto kthesa (me saktësinë e +/- 3 gradë për një kthesë 90-shkallë).
+Në mënyrë që sensori të prodhojë rezultate të sakta, është e nevojshme ta mbani robotin pa lëvizje para se ta ndizni, në mënyrë që sensori të mund të kalibrojë siç duhet.</p>
+<p>Përveç atyre që u përmendën më lart, ekzistojnë edhe lloje të tjerë sensorë në dispozicion, siç janë sensori i zërit, sensori i temperaturës, sensori infra të kuqe, etj.</p>
+<p><strong>Menyja kryesore e EV3</strong></p>
+<p>EV3 Brick përmban katër ekrane themelorë, të cilët ju japin mundësinë e përdorimit të një game të gjerë funksionesh unike për EV3 Brick (nga diçka aq e thjeshtë sa fillimi dhe ndalimi i një programi, për të shkruar vetë programin).</p>
+<p><strong>Drejtimi i fundit</strong></p>
+<p>Një listë e programeve të shkarkuar dhe ekzekutues do të shfaqet në këtë ekran. Programi në krye të listës është programi që u përdor për herë të fundit.</p>
+<p><strong>Navigimi i skedarëve</strong></p>
+<p>Nga ky ekran, përdoruesi mund të hyjë dhe të menaxhojë të gjitha skedarët në EV3 Brick, përfshirë skedarët e ruajtur në kartat SD.</p>
+<p><strong>Aplikimet</strong></p>
+<p>Brick EV3 vjen me katër aplikime. Përveç kësaj, përdoruesi mund të krijojë aplikacionet e tij / saj duke përdorur Softuerin EV3.</p>
+<p><strong>Pamja e Portit</strong></p>
+<p>Në ekranin e parë në Port View, përdoruesi mund të shohë se cilat porte kanë bashkangjitur sensorë dhe motorë, domethënë, cilat porte janë të okupuar. Duke përdorur butonat e navigimit EV3 Brick, përdoruesi mund të kontrollojë se cilat porte janë të okupuara dhe të shihni leximet aktuale nga sensorët dhe motorët.</p>
+<p><strong>Kontrolli motorik</strong></p>
+<p>Përdoruesi mund të kontrollojë lëvizjen e çdo motori të lidhur me njërën nga katër portat dalëse.</p>
+<p><a href="#id1"><span class="problematic" id="id2">**</span></a>Kontrolli IR (kontrolli infra të kuqe **</p>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/MakeCode and EV3.rst</span>, line 212); <em><a href="#id2">backlink</a></em></p>
+<p>Inline strong start-string without end-string.</p>
 </div>
-<div class="section" id="interface-software">
-<h2>Interface – Software<a class="headerlink" href="#interface-software" title="Permalink to this headline">¶</a></h2>
-<p>For more demanding applications, more advanced programs and development environments are used, which offer great opportunities for program creation. Due to their increasing popularity and application, programmers have developed (and are still developing) multiple classes in popular programming languages ​​like C#, MatLab, and others, specifically for creating applications which control LEGO robots. It is up to the users to choose whether they will stack blocks or write a program as a series of instructions in one of the programming languages.</p>
-<p>In this part of the course, we will address the possibilities MakeCode development platform. In this programming interface, you can create simple programs like “Go right for 5 seconds and stop”, and you can also let your imagination run wild and create more complex programs by involving different sensors and motors.</p>
-<p>When we access the MakeCode programming interface (<a class="reference external" href="https://makecode.mindstorms.com/">https://makecode.mindstorms.com/</a>),</p>
-<img alt="../_images/_imageEV3/2.png" class="align-center" src="../_images/_imageEV3/2.png" />
-<p>as with most programs, we notice that we are expected to create a new project (<a class="reference internal" href="../_images/_imageEV3/3.png"><img alt="Project" src="../_images/_imageEV3/3.png" style="width: 80px;" /></a>) or to open an already existing program. To learn more about the EV3 programming interface, and to learn how to create the first program, you can use the Getting Started options or watch various Tutorials.</p>
-<p>By clicking on the button <a class="reference internal" href="../_images/_imageEV3/3.png"><img alt="Project" src="../_images/_imageEV3/3.png" style="width: 80px;" /></a> or by opening one of the existing projects, you can access the programming interface, which contains blocks that you can use to control the robots.</p>
-<img alt="../_images/_imageEV3/4.png" class="align-center" src="../_images/_imageEV3/4.png" />
-<p>All programming blocks used to control the robot are located in the block palette in the middle of the programming interface. Program blocks are divided into categories by type and purpose. The advantage of this interface is the existence of a robot simulation.</p>
+<p>Kontrollon lëvizjen e çdo motori të lidhur me njërën nga katër portat dalëse duke përdorur “telekomandën” - Remote Infrared Beacon, dhe “marrësin” - Sensorin Infra të kuqe.</p>
+<p><strong>Programi i tullave</strong></p>
+<p>EV3 Brick vjen me një aplikacion në tulla të ngjashëm me një softuer që do të instalohej në një kompjuter. Në këtë mënyrë mund të krijohen programe të thjeshta, kjo është arsyeja pse është e përshtatshme për fillestarët. Një arsye tjetër është se përdoruesi mund të krijojë dhe testojë programe në vetë robot pa përdorur një kompjuter.</p>
+<p><strong>Dialogu i tullave</strong></p>
+<p>Leximi i vlerave të sensorëve dhe motorëve. Nëse sensorët dhe motorët janë të lidhur me tullën, një grafik do të tregojë leximet aktuale nga një prej sensorëve ose motorëve, të ngjashëm me një oshiloskop.</p>
+<p><strong>Cilësimet</strong></p>
+<p>Ky ekran mundëson hyrjen në cilësime të ndryshme të përgjithshme në Brick EV3, siç është vëllimi i tingullit, vendosja e lidhjeve Bluetooth ose Wi-Fi, dukshmëria ose specifikimet teknike për vetë Brick EV3. Cilësimet e ekranit dhe vëllimit, si dhe cilësimet e gjumit, d.m.th. koha joaktive që kalon para se njësia të kalojë në modalitetin e gjumit.</p>
 </div>
-<div class="section" id="projects">
-<h2>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h2>
-<p>In the following tutorials, we will introduce some interesting projects for programming EV3 robots by using the MakeCode platform. All projects are done step by step, so everyone can do them again. All procedures for constructing projects are elaborated, from how the program is created to how it’s tested.</p>
+<div class="section" id="nderfaqja-software">
+<h2>Ndërfaqja - Software<a class="headerlink" href="#nderfaqja-software" title="Permalink to this headline">¶</a></h2>
+<p>Për aplikime më të kërkuara, përdoren programe më të avancuara dhe mjedise zhvillimi, të cilat ofrojnë mundësi të mëdha për krijimin e programeve. Për shkak të popullaritetit dhe aplikimit të tyre në rritje, programuesit kanë zhvilluar (dhe janë ende duke zhvilluar) klasa të shumta në gjuhë programimi të njohura si C#, MatLab, dhe të tjera, posaçërisht për krijimin e aplikacioneve që kontrollojnë robotët LEGO. Varet nga përdoruesit të zgjedhin nëse ata do të grumbullojnë blloqe apo të shkruajnë një program si një seri udhëzimesh në njërën nga gjuhët e programimit.</p>
+<p>Në këtë pjesë të kursit, ne do të trajtojmë mundësitë e platformës së zhvillimit të MakeCode. Në këtë ndërfaqe programuese, ju mund të krijoni programe të thjeshta si “Ecni djathtas për 5 sekonda dhe ndaloni”, dhe gjithashtu mund të lini që imagjinata tuaj të lirë dhe të krijoni programe më komplekse duke përfshirë sensorë dhe motorë të ndryshëm.</p>
+<p>Kur ne aksesojmë interfaqen Makecode (<a class="reference external" href="https://makecode.mindstorms.com/">https://makecode.mindstorms.com/</a>),</p>
+<img alt="../_images/_imageEV3/2.png" class="align-center" src="../_images/2.png" />
+<p>si me shumicën e programeve, vërejmë se pritet të krijojmë një projekt të ri (<a class="reference internal" href="../_images/_imageEV3/3.png"><img alt="Project" src="../_images/3.png" style="width: 80px;" /></a>) ose të hapim një program tashmë ekzistues. Për të mësuar më shumë rreth ndërfaqes së programimit EV3 dhe për të mësuar se si të krijoni programin e parë, mund të përdorni opsionet Start ose të shikoni tutoriale të ndryshme.</p>
+<p>Duke klikuar në butonin <a class="reference internal" href="../_images/_imageEV3/3.png"><img alt="Project" src="../_images/3.png" style="width: 80px;" /></a> ose duke hapur një nga projektet ekzistuese, mund të hyni në ndërfaqen e programimit, e cila përmban blloqe që mund të përdorni për të kontrolluar robotët.</p>
+<img alt="../_images/_imageEV3/4.png" class="align-center" src="../_images/4.png" />
+<p>Të gjitha blloqet e programimit të përdorura për të kontrolluar robotin janë të vendosura në paletën e bllokut në mes të ndërfaqes programuese. Blloqet e programit ndahen në kategori sipas llojit dhe qëllimit. Avantazhi i kësaj ndërfaqe është ekzistenca e një simulimi të robotëve.</p>
+</div>
+<div class="section" id="projektet">
+<h2>Projektet<a class="headerlink" href="#projektet" title="Permalink to this headline">¶</a></h2>
+<p>Në mësimet e mëposhtme, ne do të prezantojmë disa projekte interesante për programimin e robotëve EV3 duke përdorur platformën MakeCode. Të gjitha projektet bëhen hap pas hapi, kështu që të gjithë mund t’i bëjnë përsëri. Të gjitha procedurat për ndërtimin e projekteve janë shtjelluar, nga mënyra se si është krijuar programi deri në atë se si është testuar.</p>
 <blockquote>
 <div><div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="Project Task - Robot Movement.html">Project Task - Robot Movement</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Project Task - Displaying Text and Graphics.html">Project Task - Displaying Text and Graphics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Project Task - Using the Sensors.html">Project Task - Using the Sensors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Project Task - Happy or Sad.html">Project Task - Happy or Sad</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Project Task - Forward and Backward.html">Project Task - Forward and Backward</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Project Task - Middle Button.html">Project Task - Middle Button</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Project Task - Robot Movement.html">Detyrë - Lëvizja e robotit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Project Task - Displaying Text and Graphics.html">Detyra e projektit - Afishimi i tekstit dhe grafikës</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Project Task - Using the Sensors.html">Detyrë - Përdorimi i sensorëve</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Project Task - Happy or Sad.html">Detyrë - Happy or Sad</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Project Task - Forward and Backward.html">Detyrë - Para dhe Pas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Project Task - Middle Button.html">Detyrë - Butoni i mesit</a></li>
 </ul>
 </div>
 </div></blockquote>
@@ -357,17 +376,17 @@ In order for the sensor to produce accurate results, it is necessary to keep the
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Project Task - the Wire' data-toggle="tooltip"><a href="Project Task - the Wire.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Detyrë - the Wire' data-toggle="tooltip"><a href="Project Task - the Wire.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Project Task - Robot Movement' data-toggle="tooltip"><a href="Project Task - Robot Movement.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Detyrë - Lëvizja e robotit' data-toggle="tooltip"><a href="Project Task - Robot Movement.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Project Task - the Wire' data-toggle="tooltip"><a href="Project Task - the Wire.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Detyrë - the Wire' data-toggle="tooltip"><a href="Project Task - the Wire.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Project Task - Robot Movement' data-toggle="tooltip"><a href="Project Task - Robot Movement.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Detyrë - Lëvizja e robotit' data-toggle="tooltip"><a href="Project Task - Robot Movement.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

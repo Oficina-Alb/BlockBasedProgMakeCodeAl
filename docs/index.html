@@ -2,54 +2,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Programming in MakeCode &#8212; Block-based programming in MakeCode</title>
+    <meta charset="utf-8" />
+    <title>Programimi në MakeCode &#8212; Block-based programming in MakeCode</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
-    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
     <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css" />
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/flatly.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/petlja.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/runestonebase.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/reveal.js"></script>
-    <script type="text/javascript" src="_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="_static/parsons.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/jquery.highlight.js"></script>
     <script type="text/javascript" src="_static/bookfuncs.js"></script>
     <script type="text/javascript" src="_static/codemirror.js"></script>
@@ -58,38 +43,52 @@
     <script type="text/javascript" src="_static/python.js"></script>
     <script type="text/javascript" src="_static/htmlmixed.js"></script>
     <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
     <script type="text/javascript" src="_static/skulpt.min.js"></script>
     <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="_static/activecode.js"></script>
     <script type="text/javascript" src="_static/clike.js"></script>
     <script type="text/javascript" src="_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
     <script type="text/javascript" src="_static/mchoice.js"></script>
     <script type="text/javascript" src="_static/timedmc.js"></script>
     <script type="text/javascript" src="_static/timed.js"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
     <script type="text/javascript" src="_static/clickable.js"></script>
     <script type="text/javascript" src="_static/timedclickable.js"></script>
-    <script type="text/javascript" src="_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
     <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="_static/pytutor.js"></script>
     <script type="text/javascript" src="_static/codelens.js"></script>
-    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/dragndrop.js"></script>
     <script type="text/javascript" src="_static/timeddnd.js"></script>
     <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/matrixeq.js"></script>
     <script type="text/javascript" src="_static/fitb.js"></script>
     <script type="text/javascript" src="_static/timedfitb.js"></script>
     <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
     <script type="text/javascript" src="_static/shortanswer.js"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
     <script type="text/javascript" src="_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
@@ -141,7 +140,7 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Micro:bit – Basic Features and Components" href="MakeCode and Microbit.html" />
+    <link rel="next" title="Micro:bit – Karakteristika bazike dhe komponentë" href="MakeCode and Microbit.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -204,13 +203,13 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="programming-in-makecode">
-<h1>Programming in MakeCode<a class="headerlink" href="#programming-in-makecode" title="Permalink to this headline">¶</a></h1>
-<p>This interactive manual will help you master the basics of programming in the visual work environment of MakeCode. Throughout this guide, we will demonstrate the basics of programming using the Micro:bit device, Mindstorm Lego EV3 robot and Minecraft 3D environment.</p>
+  <div class="section" id="programimi-ne-makecode">
+<h1>Programimi në MakeCode<a class="headerlink" href="#programimi-ne-makecode" title="Permalink to this headline">¶</a></h1>
+<p>Ky manual interaktiv do t’ju ndihmojë të zotëroni bazat e programimit në mjedisin vizual të punës të MakeCode. Përgjatë këtij udhëzuesi, ne do të demonstrojmë bazat e programimit duke përdorur pajisjen Micro:bit, robotin Mindstorm Lego EV3 dhe mjedisin Minecraft 3D.</p>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License" style="border-width:0"
 src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Block-based programming in MakeCode</span>
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Programimi në MakeCode</span>
 by <a xmlns:cc="http://creativecommons.org/ns#" href="Petlja.org" property="cc:attributionName" rel="cc:attributionURL">Petlja.org</a>
 is licensed under the
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<div class="line-block">
@@ -218,55 +217,54 @@ is licensed under the
 </div>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="MakeCode and Microbit.html">Micro:bit – Basic Features and Components</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and Microbit.html#id1">Micro:bit – Basic Features and Components</a></li>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and Microbit.html#work-environment">Work Environment</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Blocks from the Basic Category.html">Blocks from the Basic Category</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Input Category.html">Working with Blocks from the Input Category</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Blocks from the Music Category.html">Blocks from the Music Category</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Led Category.html">Working with Blocks from the Led Category</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Math and Variables Categories.html">Working with Blocks from the Math and Variables Categories</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Logic Category.html">Working with Blocks from the Logic Category</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Loops Category.html">Working with Blocks from the Loops Category</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Radio Category.html">Working with Blocks from the Radio Category</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MakeCode and Microbit.html">Micro:bit – Karakteristika bazike dhe komponentë</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and Microbit.html#id1">Micro:bit – Karakteristika bazike dhe komponentë</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and Microbit.html#ambjenti-i-punes">Ambjenti i punës</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Blocks from the Basic Category.html">Blloqe nga Kategoria Basic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Input Category.html">Puna me blloqet nga kategoria Input</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Blocks from the Music Category.html">Blloqe nga Kategoria Music</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Led Category.html">Puna me blloqet nga kategoria Led</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Logic Category.html">Puna me blloqet nga kategoria Logic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Loops Category.html">Puna me blloqet nga kategoria e Loops</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Working with Blocks from the Radio Category.html">Puna me Blloqe nga Kategoria e Radios</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and Microbit.html#projects">Projects</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - the Bracelet.html">Project Task - the Bracelet</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - the Singing Fruits.html">Project Task - the Singing Fruits</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - the Traffic Light.html">Project Task - the Traffic Light</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - the House Alarm.html">Project Task - the House Alarm</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - the Wire.html">Project Task - the Wire</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="MakeCode and EV3.html">EV3 – Basic Characteristics and Components</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and EV3.html#the-basics-of-lego-ev3-robots-hardware">The Basics of LEGO EV3 Robots - hardware</a></li>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and EV3.html#interface-software">Interface – Software</a></li>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and EV3.html#projects">Projects</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Robot Movement.html">Project Task - Robot Movement</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Displaying Text and Graphics.html">Project Task - Displaying Text and Graphics</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Using the Sensors.html">Project Task - Using the Sensors</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Happy or Sad.html">Project Task - Happy or Sad</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Forward and Backward.html">Project Task - Forward and Backward</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Middle Button.html">Project Task - Middle Button</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and Microbit.html#projekte">Projekte</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - the Bracelet.html">Detyrë - Byrzylyku</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - the Singing Fruits.html">Detyrë - Frutat që këndojnë</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - the Traffic Light.html">Detyrë - Semafori</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - the House Alarm.html">Detyrë - Alarmi i shtëpisë</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - the Wire.html">Detyrë - the Wire</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="MakeCode and Minecraft.html">Minecraft – Main Characteristics and Components</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#installing-the-minecraft-education-edition">Installing the Minecraft: Education Edition</a></li>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#connecting-minecraft-and-makecode">Connecting Minecraft and MakeCode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#minecraft-user-interface">Minecraft User Interface</a></li>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#makecode-user-interface">MakeCode User Interface</a></li>
-<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#projects">Projects</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Hello World.html">Project Task - Hello World</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Planting Trees.html">Project Task - Planting Trees</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - How many trees are there.html">Project Task - How many trees are there?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Pillar.html">Project Task - Pillar</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Hot and Cold.html">Project Task - Hot and Cold</a></li>
-<li class="toctree-l3"><a class="reference internal" href="Project Task - Fahrenheit.html">Project Task - Fahrenheit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MakeCode and EV3.html">EV3 - Karakteristikat themelore dhe përbërësit</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and EV3.html#bazat-e-roboteve-lego-ev3-pajisje-harduerike">Bazat e robotëve LEGO EV3 - pajisje harduerike</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and EV3.html#nderfaqja-software">Ndërfaqja - Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and EV3.html#projektet">Projektet</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Robot Movement.html">Detyrë - Lëvizja e robotit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Displaying Text and Graphics.html">Detyra e projektit - Afishimi i tekstit dhe grafikës</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Using the Sensors.html">Detyrë - Përdorimi i sensorëve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Happy or Sad.html">Detyrë - Happy or Sad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Forward and Backward.html">Detyrë - Para dhe Pas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Middle Button.html">Detyrë - Butoni i mesit</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="MakeCode and Minecraft.html">Minecraft – Karakteristikat kryesore dhe Komponentët</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#instalimi-i-minecraft-education-edition">Instalimi i Minecraft: Education Edition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#lidhja-e-minecraft-dhe-makecode">Lidhja e Minecraft dhe MakeCode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#nderfaqja-e-perdoruesit-minecraft">Ndërfaqja e përdoruesit Minecraft</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#nderfaqja-e-perdoruesit-ne-makecode">Ndërfaqja e përdoruesit në MakeCode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MakeCode and Minecraft.html#projekte">Projekte</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Hello World.html">Detyra e projektit - Hello World</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Planting Trees.html">Detyrë - Mbjellja e pemëve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - How many trees are there.html">Detyrë - Sa pemë janë?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Pillar.html">Detyrë - Pillar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Hot and Cold.html">Detyrë - Hot and Cold</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Project Task - Fahrenheit.html">dDetyrë - Fahrenheit</a></li>
 </ul>
 </li>
 </ul>
@@ -279,13 +277,13 @@ is licensed under the
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-next" title='Next chapter - Micro:bit – Basic Features and Components' data-toggle="tooltip"><a href="MakeCode and Microbit.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Micro:bit – Karakteristika bazike dhe komponentë' data-toggle="tooltip"><a href="MakeCode and Microbit.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Micro:bit – Basic Features and Components' data-toggle="tooltip"><a href="MakeCode and Microbit.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Micro:bit – Karakteristika bazike dhe komponentë' data-toggle="tooltip"><a href="MakeCode and Microbit.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

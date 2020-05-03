@@ -2,54 +2,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Project Task - Robot Movement &#8212; Block-based programming in MakeCode</title>
+    <meta charset="utf-8" />
+    <title>Detyrë - Lëvizja e robotit &#8212; Block-based programming in MakeCode</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
-    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
     <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css" />
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/flatly.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/petlja.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/runestonebase.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/reveal.js"></script>
-    <script type="text/javascript" src="_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="_static/parsons.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/jquery.highlight.js"></script>
     <script type="text/javascript" src="_static/bookfuncs.js"></script>
     <script type="text/javascript" src="_static/codemirror.js"></script>
@@ -58,38 +43,52 @@
     <script type="text/javascript" src="_static/python.js"></script>
     <script type="text/javascript" src="_static/htmlmixed.js"></script>
     <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
     <script type="text/javascript" src="_static/skulpt.min.js"></script>
     <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="_static/activecode.js"></script>
     <script type="text/javascript" src="_static/clike.js"></script>
     <script type="text/javascript" src="_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
     <script type="text/javascript" src="_static/mchoice.js"></script>
     <script type="text/javascript" src="_static/timedmc.js"></script>
     <script type="text/javascript" src="_static/timed.js"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
     <script type="text/javascript" src="_static/clickable.js"></script>
     <script type="text/javascript" src="_static/timedclickable.js"></script>
-    <script type="text/javascript" src="_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
     <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="_static/pytutor.js"></script>
     <script type="text/javascript" src="_static/codelens.js"></script>
-    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/dragndrop.js"></script>
     <script type="text/javascript" src="_static/timeddnd.js"></script>
     <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/matrixeq.js"></script>
     <script type="text/javascript" src="_static/fitb.js"></script>
     <script type="text/javascript" src="_static/timedfitb.js"></script>
     <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
     <script type="text/javascript" src="_static/shortanswer.js"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
     <script type="text/javascript" src="_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
@@ -141,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Project Task - Displaying Text and Graphics" href="Project Task - Displaying Text and Graphics.html" />
-    <link rel="prev" title="EV3 – Basic Characteristics and Components" href="MakeCode and EV3.html" />
+    <link rel="next" title="Detyra e projektit - Afishimi i tekstit dhe grafikës" href="Project Task - Displaying Text and Graphics.html" />
+    <link rel="prev" title="EV3 - Karakteristikat themelore dhe përbërësit" href="MakeCode and EV3.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -205,49 +204,49 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="project-task-robot-movement">
-<h1>Project Task - Robot Movement<a class="headerlink" href="#project-task-robot-movement" title="Permalink to this headline">¶</a></h1>
-<p>We will begin our adventure with a simple program, which allows the robot to move forward for 2 seconds and then moves backward for 2 seconds.</p>
-<p>The first step in our example is to start the motor. We need to select the block <img alt="tankmotor" src="../_images/_imageEV3/6.png" /> from the category <img alt="Motors" src="../_images/_imageEV3/5.png" />, and drag it onto the work surface and into the block <img alt="start" src="_images/8.png" />. Initially, we have to decide to which ports we will connect out motors. We have already mentioned that the EV3 has four ports for motors - A, B, C and D.</p>
-<p>In our case motors are connected to the ports B and C, and their speed 50%. Since, based on the setup of the task, the robot should move forward for 2 seconds, we need to click on the plus sign on the block <img alt="tankmotor" src="../_images/_imageEV3/6.png" />, this will give us the option to choose the manner in which the robot will move.</p>
-<p>In our case, we need to choose the option “seconds”.</p>
-<img alt="../_images/_imageEV3/7.png" class="align-center" src="../_images/_imageEV3/7.png" />
-<p>After this, we need to adjust the duration of the robot’s movement by entering 2 in the input field <img alt="broj" src="../_images/_imageEV3/10.png" />. This way, we will allow the robot to move for 2 seconds.</p>
-<p>The look of the code, which allows the robot to move for 2 seconds:</p>
-<img alt="../_images/_imageEV3/9.png" class="align-center" src="../_images/_imageEV3/9.png" />
-<p>Finally, to allow the robot to move backward, we need to set the motor speed value to be negative. We will set the value at -50.</p>
-<p>The look of the final code:</p>
-<img alt="../_images/_imageEV3/11.png" class="align-center" src="../_images/_imageEV3/11.png" />
-<p>Connect the EV3 Brick to the computer via USB cable and click on the download button located in the bottom of the screen. Follow the instruction on how to save the program on the EV3 Brick.</p>
-<p>Download the .uf2 file to your computer by clicking the button <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/_imageEV3/download.png" style="width: 199px;" /></a>. By dragging the file onto the EV3, it is ready to start working.</p>
-<p>To demonstrate how the robot moves, we will give another simple example of a program, which allows the robot to move from the starting line to the finishing line, and back. The distance to the finish is 50cm.</p>
+  <div class="section" id="detyre-levizja-e-robotit">
+<h1>Detyrë - Lëvizja e robotit<a class="headerlink" href="#detyre-levizja-e-robotit" title="Permalink to this headline">¶</a></h1>
+<p>Ne do ta fillojmë aventurën tonë me një program të thjeshtë, i cili lejon që roboti të ecë përpara për 2 sekonda dhe pastaj të kthehet prapa për 2 sekonda.</p>
+<p>Hapi i parë në shembullin tonë është fillimi i motorit. Duhet të zgjedhim bllokun <img alt="tankmotor" src="../_images/6.png" /> nga kategoria <img alt="Motors" src="../_images/5.png" />, dhe e tërhiqim atë në sipërfaqen e punës dhe në bllokun <a href="#id1"><span class="problematic" id="id2">|onstart|</span></a>. Fillimisht, ne duhet të vendosim se në cilat porta do të lidhim motorët. Ne kemi përmendur tashmë se EV3 ka katër porta për motorë - A, B, C dhe D.</p>
+<p>Në rastin tonë motorët janë të lidhur me portet B dhe C, dhe shpejtësia e tyre 50%. Meqenëse, bazuar në vendosjen e detyrës, roboti duhet të ecë përpara për 2 sekonda, duhet të klikojmë në shenjën plus në bllokun <img alt="tankmotor" src="../_images/6.png" />, kjo do të na japë mundësinë për të zgjedhur mënyrën në të cilën lëviz roboti .</p>
+<p>Në rastin tonë, duhet të zgjedhim opsionin “sekonda”.</p>
+<img alt="../_images/_imageEV3/7.png" class="align-center" src="../_images/7.png" />
+<p>Pas kësaj, ne duhet të rregullojmë kohëzgjatjen e lëvizjes së robotit duke shtypur 2 në fushën e hyrjes <img alt="broj" src="../_images/10.png" />. Në këtë mënyrë, ne do të lejojmë që roboti të lëvizë për 2 sekonda.</p>
+<p>Pamja e kodit, e cila lejon që roboti të lëvizë për 2 sekonda:</p>
+<img alt="../_images/_imageEV3/9.png" class="align-center" src="../_images/9.png" />
+<p>Më në fund, për të lejuar që roboti të lëvizë prapa, duhet të vendosim vlerën e shpejtësisë së motorit të jetë negative. Ne do ta vendosim vlerën në -50.</p>
+<p>Pamja e kodit përfundimtar:</p>
+<img alt="../_images/_imageEV3/11.png" class="align-center" src="../_images/11.png" />
+<p>Lidheni Brick EV3 me kompjuterin përmes kabllit USB dhe klikoni në butonin e shkarkimit të vendosur në fund të ekranit. Ndiqni udhëzimet se si të ruani programin në tullën EV3.</p>
+<p>Shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/download.png" style="width: 199px;" /></a>. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.</p>
+<p>Për të demonstruar se si lëviz roboti, do të japim një shembull tjetër të thjeshtë të një programi, i cili lejon që roboti të lëvizë nga vija e fillimit në vijën e mbarimit, dhe mbrapa. Distanca deri në fund është 50cm.</p>
 <img alt="_images/11_.png" class="align-center" src="_images/11_.png" />
-<p>Based on the setup of the task, the robot is moving forward 5 rotations (360 degreed = 1 rotation), therefore, we need to drag the block <img alt="tankmotor" src="../_images/_imageEV3/6.png" /> from the category <img alt="Motors" src="../_images/_imageEV3/5.png" />, onto the work surface and into the block <img alt="start" src="_images/8.png" />.</p>
-<p>In our case, the motors are connected to the B and C ports at 50% speed. Since, based on the setup of the task, the robot moves 5 rotations, we need to click on the plus sign on the block, which will open the option for choosing the manner in which the robot will move. This time, we need to select the option “rotation”.
-Then, we need to set the duration of the robot’s movement by entering the value 5 in the input field. This way, the robot will move for 5 rotations.</p>
-<p>The part of the code, which allows the robot to move 5 rotations:</p>
-<img alt="../_images/_imageEV3/12.png" class="align-center" src="../_images/_imageEV3/12.png" />
-<p>We will use the block to rotate the robot. Turning is defined as the change in the speed of one motor in relation to another motor, or more precisely, if we want to make a quick or sharp turn to the right, the left motor must run at least twice as fast as the right. In order for the robot to make any type of turn, we need to use the input field <code class="docutils literal notranslate"><span class="pre">turn</span> <span class="pre">ratio</span></code>. If we want the robot to turn left, we will set a negative value, and if we want it to turn right, we will set a positive value. To allow the robot to come back from the finishing line to the starting line, we will use the same block. To stop the functioning of all motors we will use the block <img alt="blok1" src="_images/14.png" />.</p>
-<p>The look of the code, which allows the robot to move from the starting to the finishing line:</p>
-<img alt="../_images/_imageEV3/15.png" class="align-center" src="../_images/_imageEV3/15.png" />
-<p>Download the .uf2 file to your computer by clicking the button <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/_imageEV3/download.png" style="width: 199px;" /></a>. By dragging the file onto the EV3, it is ready to start working.</p>
+<p>Bazuar në vendosjen e detyrës, roboti po ecën përpara 5 rotacione (360 degreed = 1 rotacion), prandaj, duhet të tërheqim bllokun <img alt="tankmotor" src="../_images/6.png" /> nga kategoria <img alt="Motors" src="../_images/5.png" />, mbi sipërfaqen e punës dhe në bllokun <a href="#id3"><span class="problematic" id="id4">|onstart|</span></a>.</p>
+<p>Në rastin tonë, motorët janë të lidhur me portet B dhe C me shpejtësi 50%. Meqenëse, bazuar në vendosjen e detyrës, roboti lëviz 5 rotacione, duhet të klikojmë në shenjën plus në bllok, i cili do të hapë mundësinë për të zgjedhur mënyrën në të cilën roboti do të lëvizë. Këtë herë, duhet të zgjedhim opsionin “rotation”.
+Pastaj, duhet të vendosim kohëzgjatjen e lëvizjes së robotit duke futur vlerën 5 në fushën e hyrjes. Në këtë mënyrë, roboti do të lëvizë për 5 rrotullime.</p>
+<p>Pjesa e kodit, e cila lejon që roboti të lëvizë 5 rotacione:</p>
+<img alt="../_images/_imageEV3/12.png" class="align-center" src="../_images/12.png" />
+<p>Ne do të përdorim bllokun për të rrotulluar robotin. Kthimi përcaktohet si ndryshim në shpejtësinë e një motori në raport me një motor tjetër, ose më saktë, nëse duam të bëjmë një kthesë të shpejtë ose të mprehtë në të djathtë, motori i majtë duhet të funksionojë të paktën dy herë më shpejt se sa djathtas. Në mënyrë që roboti të bëjë ndonjë lloj kthesash, duhet të përdorim fushën e hyrjes <code class="docutils literal notranslate"><span class="pre">turn</span> <span class="pre">ratio</span></code>. Nëse duam që roboti të kthehet majtas, do të vendosim një vlerë negative, dhe nëse duam që ai të kthehet djathtas, do të vendosim një vlerë pozitive. Për të lejuar që roboti të kthehet nga vija e mbarimit në vijën e fillimit, ne do të përdorim të njëjtin bllok. Për të ndaluar funksionimin e të gjithë motorëve ne do të përdorim bllokun <img alt="blok1" src="_images/14.png" />.</p>
+<p>Pamja e kodit, e cila lejon që roboti të lëvizë nga fillimi në vijën e mbarimit:</p>
+<img alt="../_images/_imageEV3/15.png" class="align-center" src="../_images/15.png" />
+<p>Shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin <a class="reference internal" href="../_images/_imageEV3/download.png"><img alt="dugme1" src="../_images/download.png" style="width: 199px;" /></a>. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.</p>
 </div>
 
 
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - EV3 – Basic Characteristics and Components' data-toggle="tooltip"><a href="MakeCode and EV3.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - EV3 - Karakteristikat themelore dhe përbërësit' data-toggle="tooltip"><a href="MakeCode and EV3.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Project Task - Displaying Text and Graphics' data-toggle="tooltip"><a href="Project Task - Displaying Text and Graphics.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Detyra e projektit - Afishimi i tekstit dhe grafikës' data-toggle="tooltip"><a href="Project Task - Displaying Text and Graphics.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - EV3 – Basic Characteristics and Components' data-toggle="tooltip"><a href="MakeCode and EV3.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - EV3 - Karakteristikat themelore dhe përbërësit' data-toggle="tooltip"><a href="MakeCode and EV3.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Project Task - Displaying Text and Graphics' data-toggle="tooltip"><a href="Project Task - Displaying Text and Graphics.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Detyra e projektit - Afishimi i tekstit dhe grafikës' data-toggle="tooltip"><a href="Project Task - Displaying Text and Graphics.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

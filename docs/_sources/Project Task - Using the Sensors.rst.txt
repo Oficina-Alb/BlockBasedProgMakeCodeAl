@@ -1,91 +1,91 @@
-Project Task - Using the Sensors
+Detyrë - Përdorimi i sensorëve
 =================================
 
-**Using the Touch Sensor**
+**Përdorimi i sensorit të prekjes**
 
-First, we will create a program that allows the robot to move until the user touchs the touch sensor with his/her hand. The goal of this program is to keep the robot moving until someone touches the sensor.
+Së pari, ne do të krijojmë një program që lejon që roboti të lëvizë derisa përdoruesi të prekë sensorin e prekjes me dorën e tij / saj. Qëllimi i këtij programi është mbajtja në lëvizje e robotit derisa dikush të prekë sensorin.
 
 .. image:: ../_images/_imageEV3/17_.png
       :align: center
 
-Based on the setup of the task, the robot should move forward. We will achieve this by adding the block |pravo| (the robot moves forward).
+Bazuar në vendosjen e detyrës, roboti duhet të ecë përpara. Ne do ta arrijmë këtë duke shtuar bllokun |pravo| (roboti ec përpara).
 
 .. |pravo| image:: ../_images/_imageEV3/6.png
 
-The next step would be to drag the block |Pause| from the category |senzor|. From the drop-down list of this block, we will choose the option 1, which represents the port connected to the touch sensor.
-Then, we need to choose the option pressed, which represents the condition of the touch sensor. (When a hand touches the sensor).
-Afterward, based on the setup of the task, the robot should stop, which will be achieved by adding the block |Stop|. This way, the robot is stopped.
+Hapi tjetër do të ishte tërheqja e bllokut |Pause| nga kategoria |senzor|. Nga lista rënëse e këtij blloku, ne do të zgjedhim opsionin 1, i cili përfaqëson portin e lidhur me sensorin e prekjes.
+Pastaj, duhet të zgjedhim opsionin e shtypur, i cili paraqet gjendjen e sensorit të prekjes. (Kur një dorë prek sensorin).
+Më pas, bazuar në vendosjen e detyrës, roboti duhet të ndalojë, i cili do të arrihet duke shtuar bllokun |Stop|. Në këtë mënyrë, roboti është ndalur.
 
 .. |senzor| image:: ../_images/_imageEV3/22.png
 .. |Pause| image:: ../_images/_imageEV3/23.png
 .. |Stop| image:: ../_images/_imageEV3/14.png
 
-The look of the program:
+Pamja e programit:
 
 .. image:: ../_images/_imageEV3/24.png
       :align: center
 
-Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button |dugme1|. By dragging the file onto the EV3, it is ready to start working.
+Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.
 
 .. |dugme1| image:: ../_images/_imageEV3/download.png
             :width: 199px
 
-**Using the Color Sensor**
+**Përdorimi i  sensorit të ngjyrave**
 
-The color sensor is a digital sensor that can detect the color or intensity of light that enters through the small window on the face of the sensor. This sensor can be used in three different ways:
+Sensori i ngjyrave është një sensor dixhital që mund të zbulojë ngjyrën ose intensitetin e dritës që hyn në dritaren e vogël në fytyrën e sensorit. Ky sensor mund të përdoret në tre mënyra të ndryshme:
 
-•	Color Mode,
+• Mënyra e ngjyrave,
 
-•	Reflected Light Intensity Mode, and
+• Mënyra e reflektuar e Intensitetit të Dritës, dhe
 
-•	Ambient Light Intensity Mode.
+• Mënyra e Intensitetit të Dritës së Ambientit.
 
-In Color Mode, color sensor recognizes seven colors - black, blue, green, yellow, red, white, and brown plus no color:
+Në modalitetin e ngjyrave, sensori i ngjyrave njeh shtatë ngjyra - të zeza, blu, jeshile, të verdhë, të kuqe, të bardhë dhe kafe plus asnjë ngjyrë:
 
 .. image:: ../_images/_imageEV3/24_.png
       :align: center
 
-This ability to differentiate between colors means that the robot can be programmed to sort colored balls or blocks, say the names of detected colors, or stop when it sees red. 
+Kjo aftësi për të bërë dallimin midis ngjyrave do të thotë që roboti mund të programohet për të renditur topa ose blloqe me ngjyrë, të themi emrat e ngjyrave të njohura ose të ndalet kur sheh të kuqe.
 
 .. image:: ../_images/_imageEV3/27.png
       :align: center
 
-In Reflected Light Intensity Mode, color sensor measures the intensity of reflected light. The sensor uses the option dark (very dark) and light (very light). This means that the robot can be programmed to move around on a white surface until it detects a black line or to interpret the color-coded surface of an identification card.
+Në modalitetin e reflektuar të intensitetit të dritës, sensori i ngjyrave mat intensitetin e dritës së reflektuar. Sensori përdor opsionin e errët (shumë e errët) dhe drita (shumë e lehtë). Kjo do të thotë që roboti mund të programohet të lëvizë në një sipërfaqe të bardhë derisa të zbulojë një vijë të zezë ose të interpretojë sipërfaqen e koduar me ngjyra të një karte identifikimi.
 
-In Ambient Light Intensity Mode, color sensor measures the strength of light that enters through the window from its environment, such as sunlight or beam of a flashlight. The sensor uses the option dark (very dark) and light (very light). This means that the robot can be programmed to set off a wake-up alarm when the Sun rises in the morning, or to stop working when the lights go out.
+Në modalitetin e intensitetit të dritës së ambientit, sensori i ngjyrave mat forcën e dritës që hyn në dritare nga ambienti i tij, siç janë rrezet e diellit ose rrezja e një elektrik dore. Sensori përdor opsionin e errët (shumë e errët) dhe e çelur (shumë e lehtë). Kjo do të thotë që roboti mund të programohet për të ndezur një alarm zgjimi kur Dielli lind në mëngjes, ose të ndalojë së punuari kur dritat të dalin jashtë.
 
 .. image:: ../_images/_imageEV3/28.png
       :align: center
 
-We will demonstrate the use of the color sensor by creating a program, which will allow the robot to move until it sees the color green. When the robot sees green, it will stop. 
+Ne do të demonstrojmë përdorimin e sensorit të ngjyrave duke krijuar një program, i cili do të lejojë që roboti të lëvizë derisa të shohë ngjyrën e gjelbër. Kur roboti sheh jeshil, ai do të ndalet.
 
-Based on the setup of the task, the robot should move forward. This will be achieved by adding the block |pravo| (the robot moves forward). Then, from the category |Senzor| we will choose the block |PauseColor|. From the drop-down list of this block, we will choose the option 3, which represents the port connected to the color sensor. The next step is choosing the color from the drop-down list |Boja| by clicking on the desired color (in our case green). And then, based on the task conditions, the robot should stop, which will be achieved with adding the block |Stop|. This way, the robot will stop. 
+Bazuar në vendosjen e detyrës, roboti duhet të ecë përpara. Kjo do të arrihet duke shtuar bllokun |pravo| (roboti ec përpara). Pastaj, nga kategoria |Senzor| ne do të zgjedhim bllokun |PauseColor|. Nga lista rënëse e këtij blloku, ne do të zgjedhim opsionin 3, i cili përfaqëson portin e lidhur me sensorin e ngjyrave. Hapi tjetër është zgjedhja e ngjyrës nga lista rënëse |Boja| duke klikuar në ngjyrën e dëshiruar (në rastin tonë jeshil). Dhe pastaj, bazuar në kushtet e detyrave, roboti duhet të ndalojë, i cili do të arrihet me shtimin e bllokut |Stop|. Në këtë mënyrë, roboti do të ndalet.
 
 .. |PauseColor| image:: ../_images/_imageEV3/29.png
 .. |Boja| image:: ../_images/_imageEV3/30.png
 
-The code of the program and the look of the simulation (the robot is moving until it sees the color green):
+Kodi i programit dhe pamja e simulimit (roboti po lëviz derisa të shohë ngjyrën e gjelbër):
 
 .. image:: ../_images/_imageEV3/313233.png
       :align: center
 
-Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button |dugme1|. By dragging the file onto the EV3, it is ready to start working.
+Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.
 
 
-**Using the Ultrasonic Sensor**
+**Përdorimi i sensorit ultrasonic **
 
-We will demonstrate the use of the ultrasonic sensor by creating a program, which will allow the robot to move until it comes across an obstacle.
+Ne do të demonstrojmë përdorimin e sensorit ultrasonik duke krijuar një program, i cili do të lejojë që roboti të lëvizë derisa të hasë në një pengesë.
 
-Based on the setup of the task, the robot should move forward. This will be achieved by adding the block |pravo| (the robot moves forward).
+Bazuar në vendosjen e detyrës, roboti duhet të ecë përpara. Kjo do të arrihet duke shtuar bllokun |pravo| (roboti ec përpara).
 
-Then, from the category |Senzor| we will choose the block |ultra|. From the drop-down list of this block, we will choose the option ``4``, which represents the port connected to the ultrasonic sensor. From the drop-down menu |meni| we will choose the option ``near``. Since based on the task conditions, the robot should stop. This will be achieved with adding the block |Stop|. This way, the robot will stop.
+Pastaj, nga kategoria |Senzor| ne do të zgjedhim bllokun |ultra|. Nga lista drop.down e këtij blloku, ne do të zgjedhim opsionin ``4``, i cili paraqet portin e lidhur me sensorin tejzanor. Nga menyja drop-down |meni| do të zgjedhim opsionin ``near``. Meqenëse bazuar në kushtet e detyrës, roboti duhet të ndalet. Kjo do të arrihet me shtimin e bllokut |Stop|. Në këtë mënyrë, roboti do të ndalet.
 
 .. |ultra| image:: ../_images/_imageEV3/38.png
 .. |meni| image:: ../_images/_imageEV3/39.png
 
-The code of the program and the look of the simulation (the robot is moving until it sees an object):
+Kodi i programit dhe pamja e simulimit (roboti po lëviz derisa të shohë një objekt):
 
 .. image:: ../_images/_imageEV3/353637.png
       :align: center
 
-Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button |dugme1|. By dragging the file onto the EV3, it is ready to start working.
+Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.

@@ -1,107 +1,107 @@
-Project Task - Forward and Backward
+Detyrë - Para dhe Pas
 ====================================
 
-In more complex applications, it is necessary to perform an action several times, until some of the conditions for its termination are fulfilled.
+Në aplikime më komplekse, është e nevojshme të kryeni një veprim disa herë, derisa të përmbushen disa nga kushtet për përfundimin e tij.
 
 .. image:: ../_images/_imageEV3/64.png
       :align: center
 
-**Loops** provide the ability to repeat the same code sequence until one of the conditions for breaking it is fulfilled.7
+**Ciklet** sigurojnë mundësinë për të përsëritur sekuencën e të njëjtit kod derisa të përmbushet një prej kushteve për thyerjen e tij.
 
-The running of the loop can be controlled in a number of ways:
+Drejtimi i ciklit mund të kontrollohet në një numër mënyrash:
 
-•	Unlimited (no limitations),
+• Pafund (pa kufizime),
 
-•	Sensor (it runs until the program reacts to one of the sensors),
+• Sensori (funksionon derisa programi të reagojë te njëri prej sensorëve),
 
-•	Time (it can be time-limited),
+• Koha (mund të jetë e kufizuar me kohë),
 
-•	Count (a number of times it repeats can be determined in advance) and
+• Me numërim (një numër herë që përsëritet mund të përcaktohet paraprakisht) dhe
 
-•	Logic (it can run until a logical condition has been fulfilled).
+• Logjika (mund të funksionojë derisa të përmbushet një kusht logjik).
 
-We will first explain the loops in a simple example of the infinite movement of a robot forward and backward.
+Ne së pari do t'i shpjegojmë ciklet në një shembull të thjeshtë të lëvizjes së pafundme të një roboti përpara dhe prapa.
 
-We will solve this task by dividing it into two parts. The first part will consist of two blocks with which the robot will move forward and backward. 
+Ne do ta zgjidhim këtë detyrë duke e ndarë atë në dy pjesë. Pjesa e parë do të përbëhet nga dy blloqe me të cilat roboti do të ecë përpara dhe prapa.
 
-Drag the block |tank| to the work surface, click on the sign ``+`` and choose the option "rotations". Then, set the number of rotations to 1.
+Zvarrit bllokun |tank| në sipërfaqen e punës, klikoni në shenjën ``+`` dhe zgjidhni opsionin "rotation". Pastaj, vendosni numrin e rrotullimeve në 1.
 
 .. |tank| image:: ../_images/_imageEV3/63.png
 
-Finally, for the robot to move forward, the value (representing power) has to be positive, we will set it to be 50.
+Më në fund, që roboti të ecë përpara, vlera (fuqia përfaqësuese) duhet të jetë pozitive, ne do ta vendosim atë të jetë 50.
 
-In the second block, we will set the power of the motor to be -50, so the robot can move backward. To allow the robot to move continuously (without stopping), we need to put the block presented above into an infinite loop, we will achieve this by adding the block |Forever|, which will enable the robot to go forward and backward continuously (an infinite number of times), until the program is stopped by force. 
+Në bllokun e dytë, ne do të vendosim fuqinë e motorit të jetë -50, në mënyrë që roboti të lëvizë prapa. Për të lejuar që roboti të lëvizë vazhdimisht (pa ndalur), duhet ta vendosim bllokun e paraqitur më sipër në një cikël të pafund, do ta arrijmë këtë duke shtuar bllokun |forever|, i cili do të mundësojë që roboti të shkojë përpara dhe prapa vazhdimisht (një numri i pafund i herave), derisa programi të ndalet me forcë.
 
 .. |Forever| image:: ../_images/_imageEV3/46.png
 
-The look of the program:
+Pamja e programit:
 
 .. image:: ../_images/_imageEV3/65.png
       :align: center
 
-Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button |dugme1|. By dragging the file onto the EV3, it is ready to start working.
+Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.
 
-We can also limit the robot's movement; for example, we want the robot to move forward and backward three times.
+Ne gjithashtu mund të kufizojmë lëvizjen e robotit; për shembull, ne duam që roboti të lëvizë përpara dhe prapa tre herë.
 
-To do this, we will use the loop where blocks run a determined number of times. The robot will move forward and backward three times.
+Për ta bërë këtë, ne do të përdorim cikël ku blloqet ekzekutojnë një numër të caktuar herë. Roboti do të ecë përpara dhe prapa tre herë.
 
-To set the code sequence to stop after a certain number of repetitions, you need to drag the block |Repeat|, where we will define how many times an action should be repeated, into the block |Start|. In our case, the value will be 3.
+Për të vendosur sekuencën e kodit për të ndaluar pas një numri të caktuar përsëritjesh, duhet të tërhiqni bllokun |repeat|, ku do të përcaktojmë se sa herë duhet të përsëritet një veprim, në bllokun |onstart| Në rastin tonë, vlera do të jetë 3.
 
 .. |Start| image:: ../_images/_imageEV3/8.png
 .. |Repeat| image:: ../_images/_imageEV3/66.png
 
-The look of the program:
+Pamja e programit:
 
 .. image:: ../_images/_imageEV3/67.png
       :align: center
 
-Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button |dugme1|. By dragging the file onto the EV3, it is ready to start working.
+Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.
 
 .. |dugme1| image:: ../_images/_imageEV3/download.png
             :width: 199px
 
-The third way we can repeat a certain action is by using the block that will repeat it until a specified condition has been fulfilled. This block should be used when we don't know how many times we need to repeat some part of the code, so we want it to keep repeating until a specific condition has been fulfilled.
+Mënyra e tretë për të përsëritur një veprim të caktuar është duke përdorur bllokun që do ta përsëris atë derisa të plotësohet një kusht i caktuar. Ky bllok duhet të përdoret kur nuk e dimë se sa herë na duhet të përsërisim një pjesë të kodit, kështu që duam që ai të vazhdojë të përsëritet derisa të përmbushet një kusht specifik.
 
-To demonstrate conditional repetition, we will create a program which will allow the robot to move around a box in the shape of a square until it encounters an obstacle (touches the box).
+Për të demonstruar përsëritjen e kushtëzuar, ne do të krijojmë një program i cili do të lejojë që roboti të lëvizë rreth një kuti në formën e një sheshi derisa të hasë një pengesë (prek kutinë).
 
-The code looks like this:
+Kodi duket si ky:
 
 .. image:: ../_images/_imageEV3/68.png
       :align: center
 
-Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button |dugme1|. By dragging the file onto the EV3, it is ready to start working.
+Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.
 
-This task can be solved by using **functions**.
+Kjo detyrë mund të zgjidhet duke përdorur **funksionet**.
 
-Some complex problems can be solved more easily if they are divided into smaller units that can be solved independently. In other programming languages, these units are called subprograms: functions and procedures. We know that we can simplify the code by using repetition commands. However, this is often not enough. 
+Disa probleme komplekse mund të zgjidhen më lehtë nëse ato ndahen në njësi më të vogla që mund të zgjidhen në mënyrë të pavarur. Në gjuhët e tjera të programimit, këto njësi quhen nënprogram: funksione dhe procedura. Ne e dimë që ne mund të thjeshtojmë kodin duke përdorur komanda të përsëritjes. Sidoqoftë, kjo shpesh nuk është e mjaftueshme.
 
-Whenever we want the robot to repeat some activity within a program, or in another program, we can use procedures, or more specifically, the block |Funkcije|.
+Kurdoherë që duam që roboti të përsërisë disa aktivitete brenda një programi, ose në një program tjetër, mund të përdorim procedura, ose më saktë, bllokun |Funkcije|.
 
 .. |Funkcije| image:: ../_images/_imageEV3/82.png
 
-Since we have been using the forward and backward motion of the robot in our previous examples, we will try to use these two blocks to create our own function forward and backward. How is this done?
+Meqenëse në shembujt e mëparshëm kemi përdorur lëvizjen përpara dhe prapa të robotit, ne do të përpiqemi t'i përdorim këto dy blloqe për të krijuar funksionin tonë përpara dhe prapa. Si bëhet kjo?
 
-The first step is to create the Function with activities which will be repeated. In our case, this will be the robot moving forward and backward repeatedly.
+Hapi i parë është krijimi i Funksionit me aktivitete që do të përsëriten. Në rastin tonë, ky do të jetë robot që shkon përpara dhe prapa në mënyrë të përsëritur.
 
-We create a Function by, opening the category ``Function`` (1), clicking on the button ``Make a Function`` (2) and entering the name of the function we would like to create (3). We have finished creating a function when we click on the ``OK`` button (4).
+Ne krijojmë një Funksion duke, duke hapur kategorinë ``Function`` (1), duke klikuar në butonin ``Make a Function` (2) dhe duke futur emrin e funksionit që do të donim të krijonim (3). Ne kemi përfunduar krijimin e një funksioni kur klikojmë në butonin ``OK`` (4).
 
 .. image:: ../_images/_imageEV3/85.png
       :align: center
 
-Add the two movement blocks, the first block will enable the robot to move one rotation forward, and the second block will enable it to move one rotation backward.
+Shtoni dy blloqet e lëvizjes, blloku i parë do të mundësojë që roboti të lëvizë një rrotullim përpara, dhe blloku i dytë do t'i mundësojë që të lëvizë një rrotullim prapa.
 
-Look of the function forward and backward:
+Pamja e funksionit para dhe pas:
 
 .. image:: ../_images/_imageEV3/86.png
       :align: center
 
-In order for a function to be used in a program, it is necessary to "call" it using the block |pozovi|.
+Në mënyrë që një funksion të përdoret në një program, është e nevojshme ta "thirrni" atë duke përdorur bllokun |pozovi|.
 
 .. |pozovi| image:: ../_images/_imageEV3/87.png
 
-The look of the code for moving forward and backward by using the function:
+Pamja e kodit për të ecur përpara dhe prapa duke përdorur funksionin:
 
 .. image:: ../_images/_imageEV3/88.png
       :align: center
 
-Connect the EV3 Brick to the computer via USB cable and download the .uf2 file to your computer by clicking the button |dugme1|. By dragging the file onto the EV3, it is ready to start working.
+Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.

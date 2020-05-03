@@ -1,83 +1,83 @@
-Project Task - Hello World
+Detyra e projektit - Hello World
 ===============================================
 
-Let this be a simple example, where the message "Hello, World!" will appear in Minecraft.
+Le të jetë ky një shembull i thjeshtë, ku mesazhi "Hello, World!" do të paraqitet në Minecraft.
 
-The procedure for solving any task (problem) involves going through each of the following stages:
+Procedura për zgjidhjen e çdo detyre (problemi) përfshin përshkimin e secilës nga fazat vijuese:
 
-  Stage 1: Think about the task and write or draw an algorithm (steps) to solve it.
+  Faza 1: Mendoni për detyrën dhe shkruani ose vizatoni një algoritëm (hapa) për ta zgjidhur atë.
 
-  Stage 2: Enter commands so that the program runs according to the algorithm.
+  Faza 2: Vendosni komandat në mënyrë që programi të funksionojë sipas algoritmit.
 
-  Stage 3: Test the program and correct mistakes (if there are any).
+  Faza 3: Testoni programin dhe korrigjoni gabimet (nëse ka).
 
-We will go through all of the stages together, and we will create a program in which the Minecraft environment (created world) says hello.
+Ne do të kalojmë në të gjitha fazat së bashku, dhe do të krijojmë një program në të cilin ambienti i Minecraft (bota e krijuar) thotë përshëndetje.
 
-**Stage 1**
+**Faza 1**
 
-**Thinking about the task:** We need to display the greeting "Hello, World!" in the created world.
+**Duke menduar për detyrën:** Duhet të shfaqim përshëndetjen "Hello, World" në botën e krijuar.
 
-**Stage 2**
+**Faza 2**
 
-Open ``Code Builder`` (by pressing the key ``C``); an editor window will appear where you can stack blocks.
+Hapni ``Code Builder`` (duke shtypur butonin ``C``); do të shfaqet një dritare redaktori ku mund të vendosni blloqe.
 
-Based on the algorithm, we need to display the desired message (text: "Hello, World!").
+Bazuar në algoritëm, duhet të shfaqim mesazhin e dëshiruar (teksti: "Hello, World!").
 
-To display the message we have to use the block |print| from the category |Blocks|.
+Për të shfaqur mesazhin duhet të përdorim bllokun |print| nga kategoria |Blocks|.
 
 .. |print| image:: ../_images/_imageMinecraft/33.png
 
 .. |Blocks| image:: ../_images/_imageMinecraft/33_.png
 
-This block has four parameters, which define how and where the message will be displayed (written) in the Minecraft world:
+Ky bllok ka katër parametra, të cilët përcaktojnë se si dhe ku do të shfaqet (shkruhet) mesazhi në botën e Minecraft:
 
-- In the text input field of the block ``print``, we will type the desired text. In our case, this will be the message ``Hello, World!``.
+- Në fushën e futjes së tekstit të bllokut ``print``, do të shtypim tekstin e dëshiruar. Në rastin tonë, ky do të jetë porosia ``Hello, World!``.
 
-- In the field ``of``, we can choose the type of block that will be used to create the text.
+- Në fushën ``of``, ne mund të zgjedhim llojin e bllokut që do të përdoret për krijimin e tekstit.
 
-- In the field ``at``, we will define the position, or more precisely the coordinates where we want the text to be displayed in our world.  Minecraft is a three-dimensional world defined by three coordinates (X, Y, Z):
+- Në fushën ``at``, ne do të përcaktojmë pozicionin, ose më saktë koordinatat ku duam që teksti të shfaqet në botën tonë. Minecraft është një botë tre-dimensionale e përcaktuar nga tre koordinata (X, Y, Z):
 
-    •	X – coordinate east/west
+     • X - koordinoni lindje / perëndim
 
-    •	Y – coordinate up/down (how far up or down the block is positioned in relation to the base)
+     • Y - koordinoni lart / poshtë (sa lart ose poshtë bllokohet pozicionimi në lidhje me bazën)
 
-    •	Z – coordinate south/north
+     • Z - koordinoni në jug / veri
 
-- In the field ``along``, we can define the orientation, or more specifically, the axis along which the text is displayed (printed).
+- Në fushën ``along``, mund të përcaktojmë orientimin, ose më saktë, boshtin përgjatë të cilit shfaqet (printohet) teksti.
 
-Into the block ``on start`` we will drag the block ``print`` where will put the following:
+Në bllokun ``onstart`` ne do të tërheqim bllokun ``print`` ku do të vendosim sa vijon:
 
-	In the text input field ``Hello, World!``
+	Në fushën e vendosjes së tekstit ``Hello, World!``
 
-	In the field ``of``, we will choose ``Block of Diamond`` from the list, this will be the "material" which we will use to write the message.
+	Në fushën ``of``, do zgjedhim ``Block of Diamond`` nga lista, ky do të jetë "materiali" që do të përdorim për të shkruar mesazhin.
 
 .. image:: ../_images/_imageMinecraft/35.png
       :align: center
       :width: 350px
 
-	In the field ``at``, in the x coordinate input field, we will put the value 1.
+	Në fushën ``at``, në fushën e vendosjes së koordinatave x, do të vendosim vlerën 1.
 
-	We will define the field ``along`` by choosing the option ``East (positive X)`` from the drop-down list.
+	Do të përcaktojmë fushën ``along`` duke zgjedhur opsionin``East (positive X)`` nga lista drop-down.
 
 .. image:: ../_images/_imageMinecraft/36.png
       :align: center
 
-After all the changes, the program which will display the greeting will look like this:
+Pas të gjitha ndryshimeve, programi i cili do të shfaqë përshëndetjen do të duket si ky:
 
 .. image:: ../_images/_imageMinecraft/37.png
       :align: center
 
-**Stage 3**
+**Faza 3**
 
-Testing the program.
-Click on the button |Play|.
+Testimi i programit.
+Klikoni në butonin |Play|
 
 .. |Play| image:: ../_images/_imageMinecraft/15.png
           :width: 40px
 
-"Hello, World!" is displayed in the Minecraft world:
+"Hello, World!" shfaqet në botën Minecraft:
 
 .. image:: ../_images/_imageMinecraft/38.png
       :align: center
 
-Once we have tested the program, we can conclude that it did what we wanted. Our greeting is displayed when we open our Minecraft world.
+Pasi të kemi testuar programin, mund të konkludojmë se ai bëri atë që donim. Përshëndetja jonë shfaqet kur hapim botën tonë të Minecraft.

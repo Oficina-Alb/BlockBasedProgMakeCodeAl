@@ -2,54 +2,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Working with Blocks from the Loops Category &#8212; Block-based programming in MakeCode</title>
+    <meta charset="utf-8" />
+    <title>Puna me blloqet nga kategoria e Loops &#8212; Block-based programming in MakeCode</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
-    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
     <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css" />
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/flatly.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/petlja.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/runestonebase.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/reveal.js"></script>
-    <script type="text/javascript" src="_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="_static/parsons.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/jquery.highlight.js"></script>
     <script type="text/javascript" src="_static/bookfuncs.js"></script>
     <script type="text/javascript" src="_static/codemirror.js"></script>
@@ -58,38 +43,52 @@
     <script type="text/javascript" src="_static/python.js"></script>
     <script type="text/javascript" src="_static/htmlmixed.js"></script>
     <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
     <script type="text/javascript" src="_static/skulpt.min.js"></script>
     <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="_static/activecode.js"></script>
     <script type="text/javascript" src="_static/clike.js"></script>
     <script type="text/javascript" src="_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
     <script type="text/javascript" src="_static/mchoice.js"></script>
     <script type="text/javascript" src="_static/timedmc.js"></script>
     <script type="text/javascript" src="_static/timed.js"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
     <script type="text/javascript" src="_static/clickable.js"></script>
     <script type="text/javascript" src="_static/timedclickable.js"></script>
-    <script type="text/javascript" src="_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
     <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="_static/pytutor.js"></script>
     <script type="text/javascript" src="_static/codelens.js"></script>
-    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/dragndrop.js"></script>
     <script type="text/javascript" src="_static/timeddnd.js"></script>
     <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/matrixeq.js"></script>
     <script type="text/javascript" src="_static/fitb.js"></script>
     <script type="text/javascript" src="_static/timedfitb.js"></script>
     <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
     <script type="text/javascript" src="_static/shortanswer.js"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
     <script type="text/javascript" src="_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
@@ -141,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Working with Blocks from the Radio Category" href="Working with Blocks from the Radio Category.html" />
-    <link rel="prev" title="Working with Blocks from the Logic Category" href="Working with Blocks from the Logic Category.html" />
+    <link rel="next" title="Puna me Blloqe nga Kategoria e Radios" href="Working with Blocks from the Radio Category.html" />
+    <link rel="prev" title="Puna me blloqet nga kategoria Logic" href="Working with Blocks from the Logic Category.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -205,84 +204,97 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="working-with-blocks-from-the-loops-category">
-<h1>Working with Blocks from the Loops Category<a class="headerlink" href="#working-with-blocks-from-the-loops-category" title="Permalink to this headline">¶</a></h1>
-<p>There are processes in nature that are repeated constantly or from time to time. As in nature, in programming, sometimes it is necessary to repeat certain parts of the program several times. We have already mentioned that repeating one or more commands (blocks) is a powerful concept in programming. When some of the program commands are repeated several times, we say that the program contains loops. We have used this concept several times before.</p>
-<p>Repeating commands is a very common occurrence in programming.</p>
-<p>MakeCode has three types of blocks into which other blocks, whose execution needs to be repeated, can be inserted. Blocks can be repeated:</p>
+  <div class="section" id="puna-me-blloqet-nga-kategoria-e-loops">
+<h1>Puna me blloqet nga kategoria e Loops<a class="headerlink" href="#puna-me-blloqet-nga-kategoria-e-loops" title="Permalink to this headline">¶</a></h1>
+<p>Ka procese në natyrë që përsëriten vazhdimisht ose herë pas here. Ashtu si në natyrë, në programim, ndonjëherë është e nevojshme të përsërisni disa pjesë të programit disa herë. Ne kemi përmendur tashmë se përsëritja e një ose më shumë komandave (blloqeve) është një koncept i fuqishëm në programim. Kur disa nga komandat e programit përsëriten disa herë, ne themi se programi përmban sythe. Ne e kemi përdorur këtë koncept disa raste më parë.</p>
+<p>Përsëritja e komandave është një dukuri shumë e zakonshme në programim.</p>
+<p>MakeCode ka tre lloje të blloqeve në të cilat blloqe të tjerë, ekzekutimi i të cilave duhet të përsëritet, mund të futen. Blloqet mund të përsëriten:</p>
 <blockquote>
 <div><ul class="simple">
-<li>a certain number of times:</li>
+<li><p>disa herë:</p></li>
 </ul>
-<img alt="../_images/_imageMicroBit/p68.png" class="align-center" src="../_images/_imageMicroBit/p68.png" />
-<p>We should use this block when we know the exact number of repetitions in advance (they are also called iterations).</p>
-<ul class="simple">
-<li>an infinite number of times (continuously, until the user stops the program):</li>
-</ul>
-<img alt="_images/s1.png" class="align-center" src="_images/s1.png" />
-<p>This is one of the most frequently used blocks. The running of this block is stopped when the user clicks the stop button (<img alt="stop" src="../_images/_imageMicroBit/p2.png" />).</p>
-<ul class="simple">
-<li>until a certain condition is fulfilled:</li>
-</ul>
-<img alt="../_images/_imageMicroBit/p68.png" class="align-center" src="../_images/_imageMicroBit/p68.png" />
-<p>We should use this block when we do not know how many times blocks inserted into the repetition block should be executed, and therefore, we want them to run until a certain condition is fulfilled.
-Blocks, which need to be repeated, are dragged and inserted into repetition blocks.</p>
+<img alt="../_images/_imageMicroBit/p68.png" class="align-center" src="../_images/p68.png" />
+<p>Ne duhet ta përdorim këtë bllok kur e dimë paraprakisht numrin e saktë të përsëritjeve (ato quhen edhe përsëritje).</p>
 </div></blockquote>
-<p>The block, which will repeat other blocks an exact number of times, can be used to reproduce the tone C three times.</p>
-<p>The look of the code:</p>
-<img alt="../_images/_imageMicroBit/p70.png" class="align-center" src="../_images/_imageMicroBit/p70.png" />
-<p>The block for repeating commands will be executed an infinite number of times. The running will never stop on its own. We can stop the running by clicking on the stop button (<img alt="stop" src="../_images/_imageMicroBit/p2.png" />).</p>
-<p>We used the blocks for repeating in our previous lessons when we displayed the animation of a square.</p>
-
-            <div class="course-box course-box-question course-content">
-            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L7Z1">
-            Q-9: Analyze the look of the blocks. You can see that the forever block used for repeating commands indefinitely does not have the option for connecting to other blocks, other blocks cannot be added onto it. Why?
-            <li data-component="answer" data-correct id="L7Z1_opt_a">New blocks can be inserted into the block itself, so there is no need to continue the script.</li><li data-component="feedback" id="L7Z1_opt_a"></li>
-            
-            <li data-component="answer"  id="L7Z1_opt_b">It is a bug in MakeCode. The block that repeats commands an infinite number of times must have the option to continue stacking the script.</li><li data-component="feedback" id="L7Z1_opt_b">The answer is not correct!</li>
-            
-            <li data-component="answer"  id="L7Z1_opt_c">Adding further blocks would be pointless since they would never be executed.    :feedback_a: The answer is correct!</li><li data-component="feedback" id="L7Z1_opt_c">The answer is not correct!</li>
-            
-
-            </ul>
-            </div>
-            <p>The block which repeats other blocks (commands) runs until a specific condition is fulfilled. The blocks within this block are executed based on checking whether the condition is fulfilled or not. We use this block when we do not know how many times we need to repeat the commands inside it, and we want them to run until a specific condition is fulfilled.</p>
+<p>   - një numër i pafund herësh (vazhdimisht, derisa përdoruesi të ndalojë programin):</p>
+<blockquote>
+<div><img alt="_images/s1.png" class="align-center" src="_images/s1.png" />
+<p>Ky është një nga blloqet më të përdorura. Ekzekutimi i këtij blloku ndalet kur përdoruesi klikon butonin stop (<img alt="stop" src="../_images/p2.png" />).</p>
+</div></blockquote>
+<p>   - derisa të përmbushet një kusht i caktuar:</p>
+<blockquote>
+<div><img alt="../_images/_imageMicroBit/p68.png" class="align-center" src="../_images/p68.png" />
+<p>Ne duhet ta përdorim këtë bllok kur nuk e dimë se sa herë blloqet e futura në bllokun e përsëritjes duhet të ekzekutohen, dhe për këtë arsye, duam që ata të ecin derisa të përmbushet një gjendje e caktuar.</p>
+</div></blockquote>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Working with Blocks from the Loops Category.rst</span>, line 33)</p>
+<p>Block quote ends without a blank line; unexpected unindent.</p>
+</div>
+<p>   Blloqet, të cilat duhet të përsëriten, tërhiqen dhe futen në blloqe përsëritje.</p>
+<p>Blloku, i cili do të përsërisë blloqe të tjera në një numër të saktë, mund të përdoret për të riprodhuar tonin C tre herë.</p>
+<p>Pamja e kodit:</p>
+<img alt="../_images/_imageMicroBit/p70.png" class="align-center" src="../_images/p70.png" />
+<p>Blloku për përsëritjen e komandave do të ekzekutohet një numër të pafund herësh. Vrapimi nuk do të ndalet kurrë më vete. Mund të ndalojmë ekzekutimin duke klikuar në butonin stop (<img alt="stop" src="../_images/p2.png" />).</p>
+<p>Ne i përdorëm blloqet për të përsëritur në mësimet tona të mëparshme kur shfaqëm animacionin e një katrori.</p>
+<div class="system-message">
+<p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Working with Blocks from the Loops Category.rst</span>, line 46)</p>
+<p>No correct answer specified.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">mchoice</span><span class="p">::</span> <span class="n">L7Z1</span>
+     <span class="p">:</span> <span class="n">answer_a</span><span class="p">:</span> <span class="n">Blloqe</span> <span class="n">të</span> <span class="n">reja</span> <span class="n">mund</span> <span class="n">të</span> <span class="n">futen</span> <span class="n">në</span> <span class="n">bllok</span> <span class="n">vetë</span><span class="p">,</span> <span class="n">kështu</span> <span class="n">që</span> <span class="n">nuk</span> <span class="n">ka</span> <span class="n">nevojë</span> <span class="n">për</span> <span class="n">të</span> <span class="n">vazhduar</span> <span class="n">skenarin</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Working with Blocks from the Loops Category.rst</span>, line 48)</p>
+<p>Explicit markup ends without a blank line; unexpected unindent.</p>
+</div>
+<p>     : answer_b: ashtë një gabim në MakeCode. Blloku që përsërit komandat një numër të pafund herësh duhet të ketë mundësinë që të vazhdojë stacking skenarin.
+     : answer_c: Shtimi i blloqeve të mëtejshme do të ishte i kotë pasi ato nuk do të ekzekutoheshin kurrë.
+     : feedback_a: Përgjigja është e saktë!
+     : e saktë: a
+     : feedback_b: Përgjigja nuk është e saktë!
+     : feedback_c: Përgjigja nuk është e saktë!</p>
+<blockquote>
+<div><p>Analizoni pamjen e blloqeve. Ju mund të shihni që blloku foever i përdorur për përsëritjen e komandave në kohë të pacaktuar nuk ka mundësinë e lidhjes me blloqe të tjera, blloqe të tjera nuk mund të shtohen në të. Pse?</p>
+</div></blockquote>
+<p>Blloku që përsërit blloqet e tjera (komandat) funksionon derisa të përmbushet një kusht specifik. Blloqet brenda këtij blloku ekzekutohen bazuar në kontrollin nëse kushti është përmbushur apo jo. Ne e përdorim këtë bllok kur nuk e dimë sa herë duhet të përsërisim komandat brenda tij, dhe duam që ata të ekzekutojnë derisa të përmbushet një kusht specifik.</p>
 
             <div class="course-box course-box-question course-content">
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L7Z2">
-            Q-10: You want to create a program, which continuously turns on the LED on the screen with coordinates (2,2) until the light level drops below a certain value. Which blocks will you use for repeating commands?
-            <li data-component="answer"  id="L7Z2_opt_a">The block that repeats commands a certain number of times.</li><li data-component="feedback" id="L7Z2_opt_a">The answer is not correct!</li>
+            <p>Q-9: Ju dëshironi të krijoni një program, i cili vazhdimisht ndizet LED në ekran me koordinatat (2,2) derisa niveli i dritës të bjerë nën një vlerë të caktuar. Cilat blloqe do të përdorni për përsëritjen e komandave?</p>
+
+            <li data-component="answer"  id="L7Z2_opt_a">Blloku që përsërit komandat një numër të caktuar herësh.</li><li data-component="feedback" id="L7Z2_opt_a">Përgjigja nuk është e saktë!</li>
             
-            <li data-component="answer"  id="L7Z2_opt_b">The block that repeats commands an infinite number of times.</li><li data-component="feedback" id="L7Z2_opt_b">The answer is not correct!</li>
+            <li data-component="answer"  id="L7Z2_opt_b">Blloku që përsërit komandon një numër të pafund herësh.</li><li data-component="feedback" id="L7Z2_opt_b">Përgjigja nuk është e saktë!</li>
             
-            <li data-component="answer" data-correct id="L7Z2_opt_c">The block that repeats commands until a certain condition is fulfilled.</li><li data-component="feedback" id="L7Z2_opt_c">The answer is correct!</li>
+            <li data-component="answer" data-correct id="L7Z2_opt_c">Blloku që përsërit komandat derisa të përmbushet një kusht i caktuar.</li><li data-component="feedback" id="L7Z2_opt_c">Përgjigja është e saktë!</li>
             
 
             </ul>
             </div>
-            <p>We will demonstrate the use of this block by creating a program that plays a tune as long as the light level is lower than 120.</p>
-<p>For the purposes of this program, we will define the variable <img alt="svetlost" src="../_images/_imageMicroBit/p71.png" />, which will store the value of the light level reading. As long as the light level value is less than 120, a sound signal will be emitted.
-In the figure below you can find our suggestion for the code, along with comments which explain it. Programmers consider commenting on scripts and explaining what each block does to be useful. Commenting makes it easier for other programmers to understand and upgrade programs we created.
-You can add a comment by right-clicking on the script and selecting the option <strong>Add comment</strong>.</p>
-<img alt="../_images/_imageMicroBit/p72.png" class="align-center" src="../_images/_imageMicroBit/p72.png" />
-<p>To test the program, we will run it in the simulator by clicking the <img alt="play" src="../_images/_imageMicroBit/p3.png" /> button.</p>
+            <p>Ne do të demonstrojmë përdorimin e këtij blloku duke krijuar një program që luan një ton për aq kohë sa niveli i dritës është më i ulët se 120.</p>
+<p>Për qëllimet e këtij programi, ne do të përcaktojmë variablin <img alt="svetlost" src="../_images/p71.png" />, e cila do të ruajë vlerën e leximit të nivelit të dritës. Për sa kohë që vlera e nivelit të dritës është më pak se 120, një sinjal i zërit do të lëshohet.
+Në figurën më poshtë mund të gjeni sugjerimin tonë për kodin, së bashku me komentet që e shpjegojnë atë. Programuesit konsiderojnë të komentojnë skriptet dhe të shpjegojnë se çfarë është e dobishme në secilin bllok. Komentimi ua lehtëson programuesve të tjerë të kuptojnë dhe azhornojnë programet që kemi krijuar.
+Mund të shtoni një koment duke klikuar me të djathtën në skenar dhe duke zgjedhur opsionin <strong>Add comment</strong>.</p>
+<img alt="../_images/_imageMicroBit/p72.png" class="align-center" src="../_images/p72.png" />
+<p>Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar butonin <img alt="play" src="../_images/p3.png" />.</p>
 </div>
 
 
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Working with Blocks from the Logic Category' data-toggle="tooltip"><a href="Working with Blocks from the Logic Category.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Puna me blloqet nga kategoria Logic' data-toggle="tooltip"><a href="Working with Blocks from the Logic Category.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Working with Blocks from the Radio Category' data-toggle="tooltip"><a href="Working with Blocks from the Radio Category.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Puna me Blloqe nga Kategoria e Radios' data-toggle="tooltip"><a href="Working with Blocks from the Radio Category.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Working with Blocks from the Logic Category' data-toggle="tooltip"><a href="Working with Blocks from the Logic Category.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Puna me blloqet nga kategoria Logic' data-toggle="tooltip"><a href="Working with Blocks from the Logic Category.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Working with Blocks from the Radio Category' data-toggle="tooltip"><a href="Working with Blocks from the Radio Category.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Puna me Blloqe nga Kategoria e Radios' data-toggle="tooltip"><a href="Working with Blocks from the Radio Category.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

@@ -1,32 +1,32 @@
-Project Task - Planting Trees
+Detyrë - Mbjellja e pemëve
 ===================================
 
-Events are occurrences, which are usually results of something the user did (clicking the mouse, pressing keys on the keyboard, drag and drop, etc.). An event causes a reaction. An event in computer science is an action detected (performed) by a computer. For example, by clicking the mouse, we open an application, when it starts raining people open umbrellas. 
-In programming, an event handler is the part of the program (function) which is activated as a result of some event. In MakeCode event handlers are blocks which usually start with the word **on**:
+Ngjarjet janë dukuri, të cilat zakonisht janë rezultat i diçkaje që bëri përdoruesi (klikimi i mouse, shtypja e tasteve në tastierë, zvarritja dhe rënia, etj.). Një ngjarje shkakton një reagim. Një ngjarje në shkencën e kompjuterit është një veprim i zbuluar (realizuar) nga një kompjuter. Për shembull, duke klikuar mouse, ne hapim një aplikacion, kur fillon të bjerë shi njerëzit me çadra të hapura.
+Në programim, një mbajtës i ngjarjeve është pjesë e programit (funksionit) i cili aktivizohet si rezultat i ndonjë ngjarje. Në mbajtësit e ngjarjes MakeCode janë blloqe që zakonisht fillojnë me fjalën **on**:
 
 .. image:: ../_images/_imageMinecraft/31.png
       :align: center
 
-We will use an event to simulate planting trees and displaying the current position of the character in the Minecraft world, by adding the command **position**.
+Ne do të përdorim një ngjarje për të simuluar mbjelljen e pemëve dhe për të shfaqur pozicionin aktual të personazhit në botën e Minecraft, duke shtuar komandën **position**.
 
-**Stage 1.**
+**Faza 1.**
 
-**Thinking about the task:** The character interacts with the world by moving around, i.e. trees are planted. The character plants trees by moving around the Minecraft world. Sending a message (through chat) displays the current position of the character.
+**Të menduarit për detyrën** Karakteri ndërvepron me botën duke lëvizur rreth, mbillen pemë. Karakteri mbjell pemë duke lëvizur nëpër botën e Minecraft. Dërgimi i një mesazhi (përmes chat) tregon pozicionin aktual të personazhit.
 
-**Stage 2**
+**Faza 2**
 
-Open ``Code Builder`` (by pressing the key ``C``); an editor window will appear where you can stack blocks.
+Hapni ``Code Builder`` (duke shtypur butonin ``C``); do të shfaqet një dritare redaktori ku mund të vendosni blloqe.
 
-To start the chat, or more specifically, to trigger an event which will display character's current position, we need to drag the block |onchat| from the category |Basic| to the work surface, and then type the word **position** into the input field of this block.
+Për të filluar bisedën, ose më saktë, për të nxitur një ngjarje e cila do të shfaq pozicionin aktual të personazhit, duhet të tërheqim bllokun |onchat| nga kategoria |Basic| në sipërfaqen e punës, dhe më pas shtypni fjalën **position** në fushën e hyrjes së këtij blloku.
 
 .. |onchat| image:: ../_images/_imageMinecraft/40.png
               :width: 250px
 
 .. |Basic| image:: ../_images/_imageMinecraft/40_.png
 
-Within this block, we need to add blocks that will say the current position. To say any message (e.g. My current position is:) we need to use the block |say| from the category |Player|.
+Brenda këtij blloku, duhet të shtojmë blloqe që do të thonë pozicionin aktual. Për të thënë ndonjë mesazh (psh. Pozicioni im aktual është:) duhet të përdorim bllokun |say| nga kategoria |Player|
 
-The character's (player's) position is stored in the block |position| from the category |Player|. Since we want to display the position of the player in chat, we need to use the block |string| form the category |Pozicija|. Instead of the option ``position``, we will insert the block |position| into the field:
+Pozicioni i personazhit (lojtarit) ruhet në bllokun | position| nga kategoria |Player| Meqenëse duam të shfaqim pozicionin e luajtësit në chat, duhet të përdorim bllokun |string| formoni kategorinë |Pozicija|. Në vend të opsionit ``position``, ne do të futim bllokun |position| në fushë:
 
 .. |say| image:: ../_images/_imageMinecraft/27.png
 .. |Player| image:: ../_images/_imageMinecraft/27_.png
@@ -38,9 +38,9 @@ The character's (player's) position is stored in the block |position| from the c
       :align: center
       :width: 350px
 
-Let's test this part of the code by clicking the button |Play|.
+Le ta testojmë këtë pjesë të kodit duke klikuar butonin |Play|
 
-After testing the program, we can see that we got what we wanted. When the user presses the key ``T``, opens the chat and types in the message **position**, player's current position in the world will be displayed.
+Pas testimit të programit, ne mund të shohim se kemi marrë atë që donim. Kur përdoruesi shtyp butonin ``T``, hap bisedën dhe shkruan në mesazh **pozicionin**, pozicioni aktual i lojtarit në botë do të shfaqet.
 
 .. |Play| image:: ../_images/_imageMinecraft/15.png
           :width: 40px
@@ -51,7 +51,7 @@ After testing the program, we can see that we got what we wanted. When the user 
 .. image:: ../_images/_imageMinecraft/42.png
           :align: center
 
-Now we need to create an event for the character, which will enable it to plant trees in the Minecraft world with its movement. This will be achieved with the block |walk|. From the drop-down list of this block we will choose the option ``walk``:
+Tani duhet të krijojmë një ngjarje për personazhin, e cila do t'i mundësojë asaj të mbjellë pemë në botën e Minecraft me lëvizjen e saj. Kjo do të arrihet me bllokun |walk|. Nga lista drop-down e këtij blloku ne do të zgjedhim opsionin ``walk``:
 
 .. |walk| image:: ../_images/_imageMinecraft/1_.png
 
@@ -59,7 +59,7 @@ Now we need to create an event for the character, which will enable it to plant 
           :align: center
 
 
-And finally, we need to place the block |place| from the category |Blocks| within this block. We use this block to place (or in our case plant) a tree. From the drop-down list of this block we will choose the block which represents a tree:
+Dhe së fundi, duhet të vendosim bllokun |place| nga kategoria |Blocks| brenda këtij blloku. Ne e përdorim këtë bllok për të vendosur (ose në rastin tonë bimë) një pemë. Nga lista drop-down e këtij blloku ne do të zgjedhim bllokun i cili përfaqëson një pemë:
 
 .. |place| image:: ../_images/_imageMinecraft/45.png
               :width: 350px
@@ -70,21 +70,20 @@ And finally, we need to place the block |place| from the category |Blocks| withi
           :align: center
           :width: 450px
 
-In the ``at`` part of the block, where we need to define the position of the block we want to place in the world, we will leave all three values to be 0 |nula|. This will allow the trees to be planted in the same plane the character is located.
+Në pjesën ``at`` të bllokut, ku duhet të përcaktojmë pozicionin e bllokut që duam të vendosim në botë, do t’i lëmë të tre vlerat të jenë 0 |nula|. Kjo do të lejojë që pemët të mbillen në të njëjtin plan karakteri është i vendosur.
 
-After all the changes, the part of the code for planting trees is presented in the figure below:
+Pas të gjitha ndryshimeve, pjesa e kodit për mbjelljen e pemëve është paraqitur në figurën më poshtë:
 
 .. |nula| image:: ../_images/_imageMinecraft/47.png
 
 .. image:: ../_images/_imageMinecraft/49.png
           :align: center
 
-**Stage 3**
-
-Testing the program.
-Click on the button |Play|.
+**faza 3**
+Testo programin.
+Kliko butonin |Play|.
 
 .. image:: ../_images/_imageMinecraft/48.png
           :align: center
 
-Once we have tested the program, we can conclude that it did what we wanted. The character is planting trees by moving around.
+Pasi të kemi testuar programin, mund të konkludojmë se bëri atë që donim. Personazhi po mbjell e pemë duke lëvizur përreth.

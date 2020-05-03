@@ -1,32 +1,32 @@
-Project Task - Hot and Cold
+Detyrë - Hot and Cold
 ==================================
 
-Same as you, the programs in MakeCode can make decisions. Until now, all the programs we have created were linear programs, or more specifically, programs where commands are executed consecutively, one after the other until the end of the program. Unlike these programs, where every step, i.e. every command, is executed once, in decision-making algorithms, or more precisely, conditional (branch) algorithms some of the commands will be executed, and some won't, which will depend on whether the condition has been fulfilled or not.
+Njësoj si ju, programet në MakeCode mund të marrin vendime. Deri më tani, të gjitha programet që kemi krijuar ishin programe lineare, ose më saktë, programe ku komandat ekzekutohen rresht, njëra pas tjetrës deri në fund të programit. Për dallim nga këto programe, ku çdo hap, d.m.th. çdo komandë, ekzekutohet një herë, në algoritme vendimmarrjeje, ose më saktë, algoritme të kushtëzuara (degë) disa nga komandat do të ekzekutohen, dhe disa jo, të cilat do të varen nëse kushti është përmbushur apo jo.
 
-We will demonstrate this concept by programming the Hot and Cold game. Based on the position of the character (player), a message is displayed how far it is from an object placed somewhere in the world. If the character is close the word Hot will be said, and if the character is far away from the object the word Cold will be said. If the character (player) is very close to the object the program will say Scorching, and if it is very far away, the program will say Freezing.
+Ne do ta demonstrojmë këtë koncept duke programuar lojën Hot and Cold. Bazuar në pozicionin e personazhit (lojtari), shfaqet një mesazh se sa larg ndodhet nga një objekt i vendosur diku në botë. Nëse personazhi është afër do të thuhet fjala Nxehtë dhe nëse personazhi është larg objektit do të thuhet fjala Cold. Nëse personazhi (lojtari) është shumë afër objektit programi do të thotë Scorching, dhe nëse është shumë larg, programi do të thotë ngrirje.
 
 
-**Stage 1.**
+**Faza 1.**
 
-**Thinking about the task:** To determine the distance of an object to the character (player) we need to measure the distance between them, and based on those values we will get the desired message.
+**Të menduarit për detyrën:** Për të përcaktuar distancën e një objekti nga personazhi (lojtari) duhet të matim distancën midis tyre, dhe bazuar në ato vlera do të marrim mesazhin e dëshiruar.
 
-**Stage 2**
+**Faza 2**
 
-Open ``Code Builder`` (by pressing the key ``C``); an editor window will appear where you can stack blocks.
+Hapni ``Code Builder`` (duke shtypur butonin ``C``); do të shfaqet një dritare redaktori ku mund të vendosni blloqe.
 
-At the very beginning we need to define the object and place it in the world, which we will do in the on start block. We will define the position in such a way that the coordinate X has a random value from the interval 0 to 600, and the remaining two coordinates have the value Y and Z of the player.
+Në fillim, duhet të përcaktojmë objektin dhe ta vendosim atë në botë, gjë që do të bëjmë në bllokun e fillimit. Ne do ta përcaktojmë pozicionin në atë mënyrë që koordinata X të ketë një vlerë të rastësishme nga intervali 0 deri në 600, dhe dy koordinatat e mbetura kanë vlerën Y dhe Z të lojtarit.
 
-To achieve this we need to create the variables ``X, Y, Z`` (they store the coordinates of the object's position) and ``Block`` (stores the object). We also need to set initial values for the variables we created.
+Për ta arritur këtë duhet të krijojmë variablat ``X, Y, Z`` (ata ruajnë koordinatat e pozicionit të objektit) dhe ``Block`` ruan objektin). Gjithashtu duhet të vendosim vlera fillestare për variablat që krijuam.
 
-In the block |start| we will define the position and the type of the object by dragging the blocks in the following manner:
+Në bllokun |onstart| ne do të përcaktojmë pozicionin dhe llojin e objektit duke tërhequr blloqet në mënyrën e mëposhtme:
 
-- we define the coordinate x with the variable ``X``, which will have the random value from the interval 0 to 600, this is achieved with the block |random| from the category |Math|.
+- ne përcaktojmë koordinatën x me variablin ``X``, e cila do të ketë vlerën e rastit nga intervali 0 deri në 600, kjo arrihet me bllokun |random| nga kategoria |Math|.
 
-- we define the coordinate y with the variable ``Y``, which will have the value of the y coordinate of the player's position in the world. This is achieved with the block |getY| from the category |Positions|, where we will put the variable ``Y`` instead of the variable **position**, and the block |world| from the category |Player|.
+- ne përcaktojmë koordinatën y me variablin ``Y``, e cila do të ketë vlerën e koordinatës y të pozicionit të lojtarit në botë. Kjo arrihet me bllokun |getY| nga kategoria |Positions|, ku do të vendosim variablin `` Y`` në vend të variablit **position**, dhe bllokut |world| nga kategoria |Player|
 
-- we define the coordinate z with the variable ``Z``, which will have the value of the z coordinate of the player's position in the world. This is achieved with the block |getZ| from the category |Positions|, where we will put the variable ``Z`` instead of the variable **position**, and the block |world| from the category |Player|.
+- ne përcaktojmë koordinatën z me variablin ``Z``, e cila do të ketë vlerën e koordinatës z të pozicionit të lojtarit në botë. Kjo arrihet me bllokun |getZ| nga kategoria |Positions|, ku do të vendosim variablin ``Z`` në vend të variablit **position**, dhe bllokut |world| nga kategoria |Player|
 
-- we define the object to be placed somewhere in the world. This is achieved by using the block |blok| from the category |Blocks|.
+- ne përcaktojmë objektin që do të vendoset diku në botë. Kjo arrihet duke përdorur bllok |blok| nga kategoria |Blocks|.
 
 .. |start| image:: ../_images/_imageMinecraft/28.png
               :width: 150px
@@ -54,13 +54,13 @@ In the block |start| we will define the position and the type of the object by d
 .. |blok| image:: ../_images/_imageMinecraft/79.png
               :width: 80px
 
-The look of the code after defining the variables:
+Pamja e kodit pas përcaktimit të variablave:
 
 .. image:: ../_images/_imageMinecraft/80.png
       :align: center
 
-Once the variables and the object have been defined, we need to drag the block, which will physically place that object somewhere in the world.
-For this we will use the block |place| from the category |Blocks|. This block has two argument blocks, in the first argument block we will drag the variable |b1|, and in the second we will put the coordinates |X|, |Y| and |Z| for defining the position of the object by using the block |b2| from the category |Positions|.
+Pasi të jenë përcaktuar variablat dhe objekti, duhet të tërheqim bllokun, i cili fizikisht do ta vendosë atë objekt diku në botë.
+Për këtë ne do të përdorim bllokun |place| nga kategoria |Blocks|. Ky bllok ka dy blloqe argumentesh, në bllokun e parë të argumenteve do të tërheqim variablin |b1|, dhe në të dytën do të vendosim koordinatat |X|, |Y| dhe |Z| për përcaktimin e pozitës së objektit duke përdorur bllokun |b2| nga kategoria |Positions|.
 
 .. |place| image:: ../_images/_imageMinecraft/s19.png
 
@@ -74,12 +74,12 @@ For this we will use the block |place| from the category |Blocks|. This block ha
 
 .. |b2| image:: ../_images/_imageMinecraft/82.png
 
-The look of the modified code:
+Pamja e kodit të modifikuar:
 
 .. image:: ../_images/_imageMinecraft/81.png
       :align: center
 
-This way, we completed the positioning of the object in the Minecraft world. If we want to see its coordinates we can use the block |say|. For displaying this information we can use the block |join| from the subcategory |Text| of the category |Advanced|.
+Në këtë mënyrë, ne përfunduam pozicionimin e objektit në botën e Minecraft. Nëse duam të shohim koordinatat e saj mund të përdorim bllokun |say|. Për shfaqjen e këtij informacioni mund të përdorim bllokun |join| nga nënkategoria |Text| të kategorisë |Advanced|.
 
 .. |say| image:: ../_images/_imageMinecraft/27.png
 
@@ -91,52 +91,52 @@ This way, we completed the positioning of the object in the Minecraft world. If 
 .. |Advanced| image:: ../_images/_imageMinecraft/s24.png
             :width: 100px
 
-The look of the program after the addition of this block:
+Pamja e programit pas shtimit të këtij blloku:
 
 .. image:: ../_images/_imageMinecraft/83.png
       :align: center
 
-Our next step would be to drag the blocks, which we will use to determine the distance between the object placed in the world and the character (player), into the block |chat|. We will do this by defining variables which will store the position of the character (player), i.e. they store the x, y and z coordinates of the character. The individual coordinates are obtained using the block |world| and block |getof|.
+Hapi ynë tjetër do të ishte tërheqja e blloqeve, të cilat do të përdorim për të përcaktuar distancën midis objektit të vendosur në botë dhe personazhit (lojtar), në bllokun |chat| Ne do ta bëjmë këtë duke përcaktuar variabel të cilat do të ruajnë pozicionin e personazhit (luajtës), d.m.th. ato ruajnë koordinatat x, y dhe z të karakterit. Koordinatat individuale merren duke përdorur bllokun |world| dhe bllok |getof|.
 
 .. |chat| image:: ../_images/_imageMinecraft/s27.png
 .. |getof| image:: ../_images/_imageMinecraft/s28.png
 
-We create the variables **X1, Y1** and **Z1** and we give them the values of the character's position coordinates:
+Ne krijojmë variablat **X1, Y1** dhe **Z1** dhe u japim atyre vlerat e koordinatave të pozicionit të personazhit:
 
 .. image:: ../_images/_imageMinecraft/84.png
       :align: center
 
-To calculate the distance between the character and the object, we need to apply the formula also used in mathematics for determining the distance in 3D between two points A (x1, y1, z1) and B(x2, y2, z2):
+Për të llogaritur distancën midis karakterit dhe objektit, duhet të aplikojmë formulën e përdorur edhe në matematikë për përcaktimin e distancës në 3D midis dy pikave A (x1, y1, z1) dhe B(x2, y2, z2):
 
 .. image:: ../_images/_imageMinecraft/s29.png
       :align: center
 
-We create the variable **distance**, and we give the value which is obtained by using the formula for calculating the distance between two points.
+Ne krijojmë variablin **distance**, dhe japim vlerën e cila fitohet duke përdorur formulën për llogaritjen e distancës midis dy pikave.
 
-In MakeCode, mathematical operations are located in the category |Math|. We will construct the formula mentioned above by simply adding appropriate blocks (``+``, ``-``, and square ``**``, as well as square root):
+Në MakeCode, operacionet matematikore janë të vendosura në kategorinë | Matematikë | Ne do të ndërtojmë formulën e përmendur më lart duke thjesht shtuar blloqe të përshtatshme (``+``, ``-``, dhe katrori ``**``, si dhe rrënja katrore):
 
 .. image:: ../_images/_imageMinecraft/85.png
       :align: center
 
-The look of the upgraded code:
+Pamja e kodit të përditësuar:
 
 .. image:: ../_images/_imageMinecraft/86.png
       :align: center
 
-Now that we have the value of the variable **distance**, we can complete our game Hot and Cold.
+Tani që kemi vlerën e variablit **distance**, mund ta përfundojmë lojën tonë Nxehtë dhe të Ftohtë.
 
-Based on how far the character (player) is from the object, Minecraft informs the character (player) about the location of the object with short messages such as **Hot**, if the object is close, and **Cold**, if the object is far away. If the character (player) is very close to the object, the program will say **Scorching**, and if it is very far away, the program will say **Freezing**.
+Bazuar në atë se sa larg karakterit (lojtari) është nga objekti, Minecraft informon personazhin (luajtësin) për vendndodhjen e objektit me mesazhe të shkurtra si **Hot**, nëse objekti është afër, dhe **Cold**, nëse objekti është larg. Nëse personazhi (luajtësi) është shumë afër objektit, programi do të thotë **Scorching**, dhe nëse është shumë larg, programi do të thotë **Freezing**.
 
-Based on the setup of the task:
+Bazuar në përcaktimin e detyrës:
 
-- If the distance between the character (player) and the object is more than 100 blocks, the program should say Freezing.
-- If the distance between the character (player) and the object is more than 50 blocks, the program should say Cold.
-- If the distance between the character (player) and the object is more than 25 blocks, the program should say Hot.
-- If the distance between the character (player) and the object is more than 12 blocks, the program should say Scorching.
-- If the object is located next to the player (the distance is 0), the program should say Found.
+- Nëse distanca midis karakterit (luajtësit) dhe objektit është më shumë se 100 blloqe, programi duhet të thotë Freezing.
+- Nëse distanca midis karakterit (luajtësit) dhe objektit është më shumë se 50 blloqe, programi duhet të thotë Cold.
+- Nëse distanca midis karakterit (luajtësit) dhe objektit është më shumë se 25 blloqe, programi duhet të thotë Hot.
+- Nëse distanca midis karakterit (luajtësit) dhe objektit është më shumë se 12 blloqe, programi duhet të thotë Scorching.
+- Nëse objekti ndodhet pranë luajtësit (distanca është 0), programi duhet të thotë Found.
 
-For this, we will use the block |ifthen| and the comparison operators (> and =) from the category |Logic|. We add the branches by clicking the sign +.
-The look of the code after adding these blocks:
+Për këtë, ne do të përdorim bllokun |ifthen| dhe operatorët e krahasimit (> dhe =) nga kategoria |Logic| Ne shtojmë degët duke klikuar në shenjën +.
+Pamja e kodit pas shtimit të këtyre blloqeve:
 
 .. image:: ../_images/_imageMinecraft/88.png
       :align: center
@@ -144,20 +144,20 @@ The look of the code after adding these blocks:
 .. |ifthen| image:: ../_images/_imageMinecraft/s32.png
 .. |Logic| image:: ../_images/_imageMinecraft/s31.png
 
-The look of the final program for the Hot and Cold game:
+Pamja finale e programit për lojën Hot and Cold:
 
 .. image:: ../_images/_imageMinecraft/89.png
       :align: center
 
-**Stage 3**
+**Faza 3**
 
-Testing the program.
-Click on the button |Play|.
+Testo programin.
+Kliko butonin |Play|.
 
 .. |Play| image:: ../_images/_imageMinecraft/15.png
           :width: 40px
 
-We start the chat by pressing the key T on the keyboard, and we enter the word where in the chat, which will be the "trigger" for starting the game.
+Ne e fillojmë bisedën duke shtypur tastin T në tastierë, dhe fusim fjalën në chat, i cili do të jetë "shkas" për fillimin e lojës.
 
 .. image:: ../_images/_imageMinecraft/90.png
       :align: center

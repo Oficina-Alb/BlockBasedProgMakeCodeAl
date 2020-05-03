@@ -2,54 +2,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Project Task - How many trees are there? &#8212; Block-based programming in MakeCode</title>
+    <meta charset="utf-8" />
+    <title>Detyrë - Sa pemë janë? &#8212; Block-based programming in MakeCode</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
-    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
     <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css" />
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/flatly.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/petlja.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/runestonebase.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/reveal.js"></script>
-    <script type="text/javascript" src="_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="_static/parsons.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/jquery.highlight.js"></script>
     <script type="text/javascript" src="_static/bookfuncs.js"></script>
     <script type="text/javascript" src="_static/codemirror.js"></script>
@@ -58,38 +43,52 @@
     <script type="text/javascript" src="_static/python.js"></script>
     <script type="text/javascript" src="_static/htmlmixed.js"></script>
     <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
     <script type="text/javascript" src="_static/skulpt.min.js"></script>
     <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="_static/activecode.js"></script>
     <script type="text/javascript" src="_static/clike.js"></script>
     <script type="text/javascript" src="_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
     <script type="text/javascript" src="_static/mchoice.js"></script>
     <script type="text/javascript" src="_static/timedmc.js"></script>
     <script type="text/javascript" src="_static/timed.js"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
     <script type="text/javascript" src="_static/clickable.js"></script>
     <script type="text/javascript" src="_static/timedclickable.js"></script>
-    <script type="text/javascript" src="_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
     <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="_static/pytutor.js"></script>
     <script type="text/javascript" src="_static/codelens.js"></script>
-    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/dragndrop.js"></script>
     <script type="text/javascript" src="_static/timeddnd.js"></script>
     <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/matrixeq.js"></script>
     <script type="text/javascript" src="_static/fitb.js"></script>
     <script type="text/javascript" src="_static/timedfitb.js"></script>
     <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
     <script type="text/javascript" src="_static/shortanswer.js"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
     <script type="text/javascript" src="_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
@@ -141,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Project Task - Pillar" href="Project Task - Pillar.html" />
-    <link rel="prev" title="Project Task - Planting Trees" href="Project Task - Planting Trees.html" />
+    <link rel="next" title="Detyrë - Pillar" href="Project Task - Pillar.html" />
+    <link rel="prev" title="Detyrë - Mbjellja e pemëve" href="Project Task - Planting Trees.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -205,63 +204,63 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="project-task-how-many-trees-are-there">
-<h1>Project Task - How many trees are there?<a class="headerlink" href="#project-task-how-many-trees-are-there" title="Permalink to this headline">¶</a></h1>
-<p>A computer needs containers for storing numbers, texts, and other information, so it can make some decisions based on that information. For example, if we want to do a weather forecast, we need variables such as temperature, time of day, days of the week, precipitation, etc.</p>
-<p>A variable can be understood as a space in the computer memory, something like a box, in which, during the execution of the program, we can store some interim values. (e.g. Number of trees planted in the world).</p>
-<p>Every variable stores a specific type of information. The first time we use it, we need to define its type (number, string (text - a string of alphanumeric characters), logical (true, false)). From that moment until the end of the program, we can only store that specific type of information in that variable.</p>
-<p>Variables have names. When we want to use the value of the variable, it is enough to use its name.</p>
-<p><strong>Important</strong>: Choosing the right name for the variable makes it easier to understand the programs we created. For example, if we want to store the number of player’s lives in a game, we can name the variable number_lives, which would be better than alive or number. The names of variables contain letters, numbers, and special character _(underscore), and they must always begin with a letter.</p>
-<p>In the previous example, we saw that the position of an object (character, world) is a special kind of variable, which contains three numbers that describe a particular location in the three-dimensional space. These numbers are called X, Y and Z coordinates.</p>
-<p>We will use an example of a program, which counts the number of trees planted by the character while moving around in the world, to demonstrate how we can create and use variables.</p>
-<p><strong>Stage 1.</strong></p>
-<p><strong>Thinking about the task:</strong> Trees are planted by moving around in the world. Every time a tree is planted, the number of trees in the world rises.</p>
-<p><strong>Stage 2</strong></p>
-<p>Open <code class="docutils literal notranslate"><span class="pre">Code</span> <span class="pre">Builder</span></code> (by pressing the key <code class="docutils literal notranslate"><span class="pre">C</span></code>); an editor window will appear where you can stack blocks.</p>
-<p>To count the planted trees, we will upgrade the program from the project Planting trees:</p>
-<img alt="../_images/_imageMinecraft/55.png" class="align-center" src="../_images/_imageMinecraft/55.png" />
-<p>We need to create the variable <strong>Counter</strong>, which will store the number of planted trees.</p>
-<p>A variable is created in the following manner, in the category <code class="docutils literal notranslate"><span class="pre">Variables</span></code> (1), click on the button <code class="docutils literal notranslate"><span class="pre">Make</span> <span class="pre">a</span> <span class="pre">variable</span></code> (2) and type in the name of that variable in the field (3), in our case <strong>Counter</strong> . By clicking the button OK (4), you have created a variable (5):</p>
-<img alt="../_images/_imageMinecraft/53.png" class="align-center" src="../_images/_imageMinecraft/53.png" />
-<p>The initial value of the variable <strong>Counter</strong> is 0.</p>
-<p>Setting the initial value (resetting to the initial value) is defined with the block <a class="reference internal" href="_images/28.png"><img alt="start" src="_images/28.png" style="width: 150px;" /></a>. This means that every time the program starts, Minecraft sets the value of the counter to 0, and the counting of trees can begin.</p>
-<p>From the category <a class="reference internal" href="../_images/_imageMinecraft/2_.png"><img alt="Loops" src="../_images/_imageMinecraft/2_.png" style="width: 100px;" /></a> choose the block <a class="reference internal" href="_images/28.png"><img alt="start" src="_images/28.png" style="width: 150px;" /></a>. We will use this block as the “trigger” for resetting the variable <strong>Counter</strong>.</p>
-<p>From the category <a class="reference internal" href="../_images/_imageMinecraft/3_.png"><img alt="Variables" src="../_images/_imageMinecraft/3_.png" style="width: 100px;" /></a> drag the block <img alt="set" src="_images/4_1.png" /> Counter to <code class="docutils literal notranslate"><span class="pre">0</span></code>:</p>
-<img alt="../_images/_imageMinecraft/54.png" class="align-center" src="../_images/_imageMinecraft/54.png" />
+  <div class="section" id="detyre-sa-peme-jane">
+<h1>Detyrë - Sa pemë janë?<a class="headerlink" href="#detyre-sa-peme-jane" title="Permalink to this headline">¶</a></h1>
+<p>Një kompjuter ka nevojë për kontejnerë për ruajtjen e numrave, teksteve dhe informacioneve të tjera, kështu që ai mund të marrë disa vendime bazuar në atë informacion. Për shembull, nëse duam të bëjmë një parashikim të motit, na duhen ndryshore siç janë temperatura, koha e ditës, ditët e javës, reshjet, etj.</p>
+<p>Një variabël mund të kuptohet si një hapësirë ​​në kujtesën e kompjuterit, diçka si kuti, në të cilën, gjatë ekzekutimit të programit, ne mund të ruajmë disa vlera të përkohshme. (psh. numri i pemëve të mbjella në botë).</p>
+<p>Çdo variabël ruan një lloj informacioni specifik. Herën e parë që e përdorim, duhet të përcaktojmë llojin e tij (numrin, vargun (teksti - një varg personazhesh alfanumerike)), logjike (të vërteta, false). Nga ai moment deri në fund të programit, ne mund të ruajmë vetëm atë lloj specifik informacioni në atë ndryshore.</p>
+<p>Variablat kanë emra. Kur duam të përdorim vlerën e variblit, mjafton të përdorim emrin e saj.</p>
+<p><strong>E rëndësishme</strong>: Zgjedhja e emrit të duhur për variablib e bën më të lehtë kuptimin e programeve që kemi krijuar. Për shembull, nëse duam të ruajmë numrin e jetës së lojtarit në një lojë, mund të emërtojmë numrin e ndryshueshëm_live, i cili do të ishte më i mirë se i gjallë ose i numrit. Emrat e variablave përmbajnë shkronja, numra dhe karakter të veçantë _, dhe ato gjithmonë duhet të fillojnë me një letër.</p>
+<p>Në shembullin e mëparshëm, ne pamë se pozicioni i një objekti (personazhi, bota) është një lloj i veçantë i variablit, e cila përmban tre numra që përshkruajnë një vendndodhje të veçantë në hapësirën tre-dimensionale. Këta numra quhen koordinata X, Y dhe Z.</p>
+<p>Ne do të përdorim një shembull të një programi, i cili numëron numrin e pemëve të mbjella nga personazhi ndërsa lëviz në botë, për të demonstruar se si mund të krijojmë dhe përdorim variabla.</p>
+<p><strong>Hapi 1.</strong></p>
+<p><strong>Të menduarit për detyrën:</strong> Pemët mbillen duke lëvizur nëpër botë. Sa herë që mbillet një pemë, rritet numri i pemëve në botë.</p>
+<p><strong>Hapi 2.</strong></p>
+<p>Hapni <code class="docutils literal notranslate"><span class="pre">Code</span> <span class="pre">Builder</span></code> (duke shtypur butonin <code class="docutils literal notranslate"><span class="pre">C</span></code>); do të shfaqet një dritare redaktori ku mund të vendosni blloqe.</p>
+<p>Për të numëruar pemët e mbjella, ne do të përmirësojmë programin nga projekti mbjellja e pemëve:</p>
+<img alt="../_images/_imageMinecraft/55.png" class="align-center" src="../_images/55.png" />
+<p>Duhet të krijojmë ndryshoren <strong>Counter</strong>, e cila do të ruajë numrin e pemëve të mbjella.</p>
+<p>Një variabël është krijuar në mënyrën e mëposhtme, në kategorinë `` Variabël`` (1), klikoni në butonin <code class="docutils literal notranslate"><span class="pre">Make</span> <span class="pre">a</span> <span class="pre">variable</span></code> (2) dhe shkruani emrin e atij variabli në fushën (3), në rastin tonë <strong>Counter</strong>. Duke klikuar butonin OK (4), ju keni krijuar një ndryshore (5):</p>
+<img alt="../_images/_imageMinecraft/53.png" class="align-center" src="../_images/53.png" />
+<p>Vlera fillestare e variablit <strong>Counter</strong> është 0.</p>
+<p>Vendosja e vlerës fillestare (rivendosja në vlerën fillestare) përcaktohet me bllokun <a href="#id1"><span class="problematic" id="id2">|onstart|</span></a> Kjo do të thotë se sa herë që fillon programi, Minecraft vendos vlerën e banakut në 0, dhe numërimi i pemëve mund të fillojë.</p>
+<p>Nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/2_.png"><img alt="Loops" src="../_images/2_.png" style="width: 100px;" /></a> zgjidhni bllokun <a href="#id3"><span class="problematic" id="id4">|onstart|</span></a>. Ne do ta përdorim këtë bllok si “shkas” për rivendosjen e variablit <strong>Counter</strong>.</p>
+<p>Nga kategoria <a href="#id5"><span class="problematic" id="id6">|Variable|</span></a> tërhiqni bllokun <img alt="set" src="_images/4_1.png" /> Kundër <code class="docutils literal notranslate"><span class="pre">0</span></code>:</p>
+<img alt="../_images/_imageMinecraft/54.png" class="align-center" src="../_images/54.png" />
 <p>And now, we will upgrade the program for Planting trees:</p>
-<img alt="../_images/_imageMinecraft/55.png" class="align-center" src="../_images/_imageMinecraft/55.png" />
-<p>by adding the part which will register when the value of the variable <strong>Counter</strong> changes.</p>
-<p>Now we need to use the variable <strong>Counter</strong>, whose value is set to 0. The value of this variable will change (increase by one) every time the character places a block, i.e. plants a tree.</p>
-<p>For this, we will use the block <img alt="change" src="../_images/_imageMinecraft/6_.png" /> from the category <code class="docutils literal notranslate"><span class="pre">Variables</span></code>. We will drag this block to the part of the code which is used for placing (planting) trees, as well as the block which we will use to display (say) how many trees have been planted.</p>
-<p>The look of the code after the changes:</p>
-<img alt="../_images/_imageMinecraft/56.png" class="align-center" src="../_images/_imageMinecraft/56.png" />
-<p>Finally, in order to see how many trees were planted, we will introduce the block <img alt="chat" src="../_images/_imageMinecraft/8_.png" /> into which we will drag the block <a class="reference internal" href="_images/27.png"><img alt="say" src="_images/27.png" style="width: 100px;" /></a>. Into this block, we will insert the block <img alt="Broj" src="../_images/_imageMinecraft/9_.png" />.</p>
-<p>The look of the code:</p>
-<img alt="../_images/_imageMinecraft/58.png" class="align-center" src="../_images/_imageMinecraft/58.png" />
-<p>The look of the program for counting trees:</p>
-<img alt="../_images/_imageMinecraft/59.png" class="align-center" src="../_images/_imageMinecraft/59.png" />
-<p><strong>Stage 3</strong></p>
-<p>Testing the program.
-Click on the button <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/_imageMinecraft/15.png" style="width: 40px;" /></a>.</p>
+<img alt="../_images/_imageMinecraft/55.png" class="align-center" src="../_images/55.png" />
+<p>duke shtuar pjesën që do të regjistrohet kur ndryshon vlera e variablit <strong>Counter</strong>.</p>
+<p>Tani duhet të përdorim variablin <strong>Counter</strong>, vlera e së cilës vendoset në 0. Vlera e kësaj ndryshore do të ndryshojë (rritet me një) sa herë që personazhi vendos një bllok, d.m.th. mbjell një pemë.</p>
+<p>Për këtë, ne do të përdorim bllokun <img alt="change" src="../_images/6_.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Variable</span></code>. Ne do ta tërheqim këtë bllok në pjesën e kodit që përdoret për vendosjen (mbjelljen) e pemëve, si dhe bllokun që do të përdorim për të shfaqur (të themi) sa pemë janë mbjellë.</p>
+<p>Pamja e kodit pas ndryshimit:</p>
+<img alt="../_images/_imageMinecraft/56.png" class="align-center" src="../_images/56.png" />
+<p>Më në fund, për të parë se sa pemë u mbollën, ne do të prezantojmë bllokun <img alt="chat" src="../_images/8_.png" /> në të cilën ne do të tërheqim bllokun <a class="reference internal" href="_images/27.png"><img alt="say" src="_images/27.png" style="width: 100px;" /></a>. Në këtë bllok, ne do të futim bllokun <img alt="Broj" src="../_images/9_.png" />.</p>
+<p>Pamja e kodit:</p>
+<img alt="../_images/_imageMinecraft/58.png" class="align-center" src="../_images/58.png" />
+<p>Pamja e programit për numërimin e pemëve:</p>
+<img alt="../_images/_imageMinecraft/59.png" class="align-center" src="../_images/59.png" />
+<p><strong>Hapi 3.</strong></p>
+<p>Testimi i programi:
+Kliko butonin <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/15.png" style="width: 40px;" /></a>.</p>
 <img alt="_images/57.png" class="align-center" src="_images/57.png" />
-<p>Once we have tested the program, we can conclude that it did what we wanted. It counts how many trees the character planted by moving around in the world.</p>
+<p>Pasi të kemi testuar programin, mund të konkludojmë se ai bëri atë që donim. Numëron sa pemë personazhi ka mbjellur duke lëvizur në botë.</p>
 </div>
 
 
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Project Task - Planting Trees' data-toggle="tooltip"><a href="Project Task - Planting Trees.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Detyrë - Mbjellja e pemëve' data-toggle="tooltip"><a href="Project Task - Planting Trees.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Project Task - Pillar' data-toggle="tooltip"><a href="Project Task - Pillar.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Detyrë - Pillar' data-toggle="tooltip"><a href="Project Task - Pillar.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Project Task - Planting Trees' data-toggle="tooltip"><a href="Project Task - Planting Trees.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Detyrë - Mbjellja e pemëve' data-toggle="tooltip"><a href="Project Task - Planting Trees.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Project Task - Pillar' data-toggle="tooltip"><a href="Project Task - Pillar.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Detyrë - Pillar' data-toggle="tooltip"><a href="Project Task - Pillar.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

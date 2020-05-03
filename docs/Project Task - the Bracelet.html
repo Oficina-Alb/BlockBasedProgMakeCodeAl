@@ -2,54 +2,39 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Project Task - the Bracelet &#8212; Block-based programming in MakeCode</title>
+    <meta charset="utf-8" />
+    <title>Detyrë - Byrzylyku &#8212; Block-based programming in MakeCode</title>
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
-    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="_static/codemirror.css" />
-    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
     <link rel="stylesheet" type="text/css" href="_static/clickable.css" />
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/video.css" />
-    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/datafile.css" />
     <link rel="stylesheet" type="text/css" href="_static/dragndrop.css" />
-    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
     <link rel="stylesheet" type="text/css" href="_static/fitb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="_static/lib/prettify.css" />
     <link rel="stylesheet" type="text/css" href="_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_static/video.css" />
     <link rel="stylesheet" type="text/css" href="_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="_static/user-highlights.css" />
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/flatly.min.css" />
-    <link rel="stylesheet" type="text/css" href="_static/petlja.css" />
+    <link rel="stylesheet" href="_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/petlja.css" type="text/css" />
     <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/runestonebase.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/language_data.js"></script>
-    <script type="text/javascript" src="_static/reveal.js"></script>
-    <script type="text/javascript" src="_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="_static/parsons.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/timedparsons.js"></script>
     <script type="text/javascript" src="_static/jquery.highlight.js"></script>
     <script type="text/javascript" src="_static/bookfuncs.js"></script>
     <script type="text/javascript" src="_static/codemirror.js"></script>
@@ -58,38 +43,52 @@
     <script type="text/javascript" src="_static/python.js"></script>
     <script type="text/javascript" src="_static/htmlmixed.js"></script>
     <script type="text/javascript" src="_static/javascript.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="_static/activecode-i18n.en.js"></script>
     <script type="text/javascript" src="_static/skulpt.min.js"></script>
     <script type="text/javascript" src="_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="_static/activecode.js"></script>
     <script type="text/javascript" src="_static/clike.js"></script>
     <script type="text/javascript" src="_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="_static/showEval.js"></script>
+    <script type="text/javascript" src="_static/animationbase.js"></script>
     <script type="text/javascript" src="_static/mchoice.js"></script>
     <script type="text/javascript" src="_static/timedmc.js"></script>
     <script type="text/javascript" src="_static/timed.js"></script>
     <script type="text/javascript" src="_static/mchoice-i18n.en.js"></script>
     <script type="text/javascript" src="_static/clickable.js"></script>
     <script type="text/javascript" src="_static/timedclickable.js"></script>
-    <script type="text/javascript" src="_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/d3.v2.min.js"></script>
     <script type="text/javascript" src="_static/jquery.ba-bbq.min.js"></script>
     <script type="text/javascript" src="_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="_static/pytutor.js"></script>
     <script type="text/javascript" src="_static/codelens.js"></script>
-    <script type="text/javascript" src="_static/animationbase.js"></script>
+    <script type="text/javascript" src="_static/datafile.js"></script>
     <script type="text/javascript" src="_static/dragndrop.js"></script>
     <script type="text/javascript" src="_static/timeddnd.js"></script>
     <script type="text/javascript" src="_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="_static/matrixeq.js"></script>
     <script type="text/javascript" src="_static/fitb.js"></script>
     <script type="text/javascript" src="_static/timedfitb.js"></script>
     <script type="text/javascript" src="_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/matrixeq.js"></script>
+    <script type="text/javascript" src="_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="_static/parsons.js"></script>
+    <script type="text/javascript" src="_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="_static/timedparsons.js"></script>
+    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/reveal.js"></script>
     <script type="text/javascript" src="_static/shortanswer.js"></script>
     <script type="text/javascript" src="_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="_static/showEval.js"></script>
     <script type="text/javascript" src="_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="_static/poll.js"></script>
+    <script type="text/javascript" src="_static/runestonevideo.js"></script>
     <script type="text/javascript" src="_static/karelCorner.js"></script>
     <script type="text/javascript" src="_static/karelRobot.js"></script>
     <script type="text/javascript" src="_static/karelWorld.js"></script>
@@ -141,8 +140,8 @@
     <script type="text/javascript" src="_static/jquery-migrate-1.2.1.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Project Task - the Singing Fruits" href="Project Task - the Singing Fruits.html" />
-    <link rel="prev" title="Working with Blocks from the Radio Category" href="Working with Blocks from the Radio Category.html" />
+    <link rel="next" title="Detyrë - Frutat që këndojnë" href="Project Task - the Singing Fruits.html" />
+    <link rel="prev" title="Puna me Blloqe nga Kategoria e Radios" href="Working with Blocks from the Radio Category.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -205,65 +204,65 @@
 
 <div class="container col-md-8 col-md-offset-2" id="main-content">
   
-  <div class="section" id="project-task-the-bracelet">
-<h1>Project Task - the Bracelet<a class="headerlink" href="#project-task-the-bracelet" title="Permalink to this headline">¶</a></h1>
-<p>In one elementary school, at the end of the second grade, students present to their parents what they learned during the second grade. During the event, several students should be wearing bracelets, which should display flowers when students wearing them move their hands.</p>
-<p>A bracelet, which displays flowers can be made by using a Micro:bit device. The appearance of flowers will be simulated by LEDs turning on and off every time the user moves his/her hand.</p>
-<img alt="../_images/_imageMicroBit/Narukvica1.png" class="align-center" src="../_images/_imageMicroBit/Narukvica1.png" />
-<p>For making the bracelet, you will need:</p>
+  <div class="section" id="detyre-byrzylyku">
+<h1>Detyrë - Byrzylyku<a class="headerlink" href="#detyre-byrzylyku" title="Permalink to this headline">¶</a></h1>
+<p>Në një shkollë fillore, në fund të klasës së dytë, nxënësit u paraqesin prindërve të tyre atë që mësuan gjatë klasës së dytë. Gjatë ngjarjes, disa studentë duhet të mbajnë rrathë, të cilat duhet të shfaqin lule kur studentët që i veshin lëvizin duart.</p>
+<p>Një byzylyk, i cili shfaq lule mund të bëhet duke përdorur një pajisje Micro:bit. Shfaqja e luleve do të simulohet nga LED që ndizen dhe fiken çdo herë që përdoruesi lëviz dorën e tij / saj.</p>
+<img alt="../_images/_imageMicroBit/Narukvica1.png" class="align-center" src="../_images/Narukvica1.png" />
+<p>Për të bërë byzylyk, do t’ju duhet:</p>
 <ul class="simple">
-<li>1 Micro:bit</li>
-<li>Fabric or decorative paper</li>
-<li>Scissors</li>
-<li>Adhesive tape/Thread</li>
+<li><p>1 Micro:bit</p></li>
+<li><p>Pëlhurë ose letër dekorative</p></li>
+<li><p>Gërshërë</p></li>
+<li><p>Shirit ngjitës / Thread</p></li>
 </ul>
-<p>It is necessary to program the Micro:bit to show a flower on its display (5x5 LED grid) every time the user shakes his/her hand.</p>
-<p><strong>Step 1</strong></p>
-<p>Go to <a class="reference external" href="https://makecode.microbit.org/">https://makecode.microbit.org/</a>.</p>
-<p>We want to create a program, which will allow the Micro:bit display to show a flower every time a movement is made, more precisely, we want to register any type of movement with the Micro:bit device by using its accelerometer. The display puts out the desired image (by turning on the LEDs) only when a movement is detected.</p>
-<p>For solving this task, we will use one of the conditional blocks (branching blocks) with the condition being that a movement has been made. Which line (branch) of the code will be used depends on whether the condition has been fulfilled or not. If a movement has been registered, the Micro:bit device will display a flower, and if not, the LEDs will stay turned off.</p>
-<p><strong>Step 2</strong></p>
-<p>Start a new project and drag the block <img alt="if..then" src="_images/s3.png" /> from the category <img alt="Logic" src="../_images/_imageMicroBit/s4.png" /> into the block <img alt="forever" src="_images/s1.png" />, located in the category <img alt="Basic" src="../_images/_imageMicroBit/s2.png" />.</p>
-<p>The blocks placed inside the <code class="docutils literal notranslate"><span class="pre">forever</span></code> block will run until the Micro:bit is turned off.</p>
-<p>Drag the block <img alt="uslov1" src="_images/s7.png" /> (located in the category <img alt="Input" src="../_images/_imageMicroBit/s6.png" />) into the input field for the condition <img alt="uslov" src="../_images/_imageMicroBit/s5.png" />.</p>
-<p>From the drop-down list of the block <img alt="uslov1" src="_images/s7.png" />:</p>
-<img alt="../_images/_imageMicroBit/s8.png" class="align-center" src="../_images/_imageMicroBit/s8.png" />
-<p>choose the <img alt="shake" src="../_images/_imageMicroBit/s9.png" /> option. This option registers movements.</p>
+<p>Është e nevojshme të programoni Micro:bit për të treguar një lule në ekranin e tij (rrjet 5 LED LED) sa herë që përdoruesi shtrëngon dorën e tij / saj.</p>
+<p><strong>Hapi 1</strong></p>
+<p>Shkoni në <a class="reference external" href="https://makecode.microbit.org/">https://makecode.microbit.org/</a>.</p>
+<p>Ne duam të krijojmë një program, i cili do të lejojë që ekrani Micro:bit të tregojë një lule sa herë që bëhet një lëvizje, më saktë, ne duam të regjistrojmë çdo lloj lëvizjeje me pajisjen Micro:bit duke përdorur përshpejtimin e tij. Ekrani nxjerr pamjen e dëshiruar (duke ndezur LED) vetëm kur zbulohet një lëvizje.</p>
+<p>Për zgjidhjen e kësaj detyre, ne do të përdorim një nga blloqet e kushtëzuar (blloqet degëzuese) me kushtin që të jetë bërë një lëvizje. Cila linjë (degë) e kodit do të përdoret nëse varet nëse kushti është përmbushur apo jo. Nëse një lëvizje është regjistruar, pajisja Micro:bit do të shfaqë një lule, dhe nëse jo, LED do të qëndrojnë të fikur.</p>
+<p><strong>Hapi 2</strong></p>
+<p>Filloni një projekt të ri dhe tërhiqni bllokun <img alt="if..then" src="_images/s3.png" /> nga kategoria <img alt="Logic" src="../_images/s4.png" /> në bllokun <img alt="forever" src="_images/s1.png" />, të vendosura në kategorinë <img alt="Basic" src="../_images/s2.png" />.</p>
+<p>Blloqet e vendosura brenda bllokut <code class="docutils literal notranslate"><span class="pre">foever</span></code> do të funksionojnë derisa të fiket Micro:bit.</p>
+<p>Zvarrit bllokun <img alt="uslov1" src="_images/s7.png" /> (vendosur në kategorinë <img alt="Input" src="../_images/s6.png" />) në fushën hyrëse për gjendjen <img alt="uslov" src="../_images/s5.png" />.</p>
+<p>Nga lista drop-down e bllokut <img alt="uslov1" src="_images/s7.png" />:</p>
+<img alt="../_images/_imageMicroBit/s8.png" class="align-center" src="../_images/s8.png" />
+<p>zgjidh opsionin <img alt="shake" src="../_images/s9.png" />. Ky opsion regjistron lëvizjet.</p>
 <img alt="_images/s10.png" class="align-center" src="_images/s10.png" />
-<p>Based on the setup of the task, a flower will be displayed on the Micro:bit when a movement has been registered (i.e. in our case when the condition has been fulfilled). It is necessary to drag the blocks for displaying the flower (which turn on specific LEDs) from the <code class="docutils literal notranslate"><span class="pre">Basic</span></code> category into the branch (condition fulfilled, or branch YES):</p>
+<p>Bazuar në vendosjen e detyrës, një lule do të shfaqet në Micro:bit kur të jetë regjistruar një lëvizje (d.m.th. në rastin tonë kur kushti është përmbushur). Është e nevojshme të tërhiqni blloqet për shfaqjen e luleve (të cilat ndizni LED të veçantë) nga kategoria <code class="docutils literal notranslate"><span class="pre">Basic</span></code> në degë (kushti i përmbushur, ose dega YES):</p>
 <img alt="_images/s12.png" class="align-center" src="_images/s12.png" />
-<p>We will use three <code class="docutils literal notranslate"><span class="pre">show</span> <span class="pre">leds</span></code> blocks for displaying the flower. These blocks will be used for displaying the desired image of a flower.
-The look of the program when a movement has been made:</p>
+<p>Ne do të përdorim tre blloqe <code class="docutils literal notranslate"><span class="pre">show</span> <span class="pre">led</span></code> për shfaqjen e luleve. Këto blloqe do të përdoren për të shfaqur imazhin e dëshiruar të një lule.
+Pamja e programit kur është bërë një lëvizje:</p>
 <img alt="_images/s13.png" class="align-center" src="_images/s13.png" />
-<p>Based on the setup of the task, there is also a condition which says that if a movement has not been registered, nothing should be displayed on the Micro:bit. To achieve this, we need to add a branch, which will run certain blocks when the condition has not been fulfilled (in our case, when there is no movement). We can add this branch by clicking on the sign <img alt="plus" src="../_images/_imageMicroBit/s15.png" />. To this branch we will add the block <img alt="clear" src="_images/s14.png" />, which is used to clear the Micro:bit display.</p>
-<p>The final look of the code for the bracelet:</p>
+<p>Bazuar në vendosjen e detyrës, ekziston gjithashtu një kusht që thotë se nëse një lëvizje nuk është regjistruar, asgjë nuk duhet të shfaqet në Micro:bit. Për ta arritur këtë, duhet të shtojmë një degë, e cila do të ekzekutojë blloqe të caktuara kur kushti nuk është përmbushur (në rastin tonë, kur nuk ka lëvizje). Ne mund ta shtojmë këtë degë duke klikuar në shenjën <img alt="plus" src="../_images/s15.png" />. Në këtë degë do të shtojmë bllokun <img alt="clear" src="_images/s14.png" />, i cili përdoret për të pastruar ekranin Micro:bit.</p>
+<p>Pamja finale e byrzylykut:</p>
 <img alt="_images/s16.png" class="align-center" src="_images/s16.png" />
-<p>Simulation:</p>
+<p>Stimulimi:</p>
 <blockquote>
-<div><img alt="../_images/_imageMicroBit/s17.png" class="align-center" src="../_images/_imageMicroBit/s17.png" />
+<div><img alt="../_images/_imageMicroBit/s17.png" class="align-center" src="../_images/s17.png" />
 </div></blockquote>
-<p><strong>Step 3</strong></p>
-<p>Download the .hex file to your computer by clicking on the button <img alt="dugme1" src="../_images/_imageMicroBit/s19.png" /> or button <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/_imageMicroBit/29.png" style="width: 199px;" /></a>. The Micro:bit will be ready to start working once you have dragged the file onto it.</p>
-<p>When you finish programming the Micro:bit, place it into the already made bracelet case and start using it.</p>
-<p>Bracelet:</p>
-<img alt="../_images/_imageMicroBit/Narukvica2.png" class="align-center" src="../_images/_imageMicroBit/Narukvica2.png" />
+<p><strong>Hapi 3</strong></p>
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/s19.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
+<p>Kur të përfundoni programimin e Micro:bit, vendoseni në rastin e bërë tashmë me byzylyk dhe filloni ta përdorni.</p>
+<p>Byzylyku:</p>
+<img alt="../_images/_imageMicroBit/Narukvica2.png" class="align-center" src="../_images/Narukvica2.png" />
 </div>
 
 
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - Working with Blocks from the Radio Category' data-toggle="tooltip"><a href="Working with Blocks from the Radio Category.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Puna me Blloqe nga Kategoria e Radios' data-toggle="tooltip"><a href="Working with Blocks from the Radio Category.html">Previous chapter</a></li>
     
-        <li id="relations-next" title='Next chapter - Project Task - the Singing Fruits' data-toggle="tooltip"><a href="Project Task - the Singing Fruits.html">Next chapter</a></li>
+        <li id="relations-next" title='Next chapter - Detyrë - Frutat që këndojnë' data-toggle="tooltip"><a href="Project Task - the Singing Fruits.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Working with Blocks from the Radio Category' data-toggle="tooltip"><a href="Working with Blocks from the Radio Category.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Puna me Blloqe nga Kategoria e Radios' data-toggle="tooltip"><a href="Working with Blocks from the Radio Category.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Project Task - the Singing Fruits' data-toggle="tooltip"><a href="Project Task - the Singing Fruits.html">Следеће поглавље</a></li> -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Detyrë - Frutat që këndojnë' data-toggle="tooltip"><a href="Project Task - the Singing Fruits.html">Следеће поглавље</a></li> -->
     <!-- -->
 <!-- </ul> -->
 

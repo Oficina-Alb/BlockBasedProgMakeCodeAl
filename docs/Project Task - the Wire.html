@@ -243,15 +243,15 @@ Tani, ne dëshirojmë të programojmë zbulimin e gabimeve, më saktë ne duam t
 Bazuar në pajisjen fizike Wire, mund të konkludojmë se kutia <code class="docutils literal notranslate"><span class="pre">P0</span></code> është “shkas” për të gjitha ngjarjet.</p>
 <p>Meqenëse kunja <code class="docutils literal notranslate"><span class="pre">P0</span></code> është e lidhur përmes klipeve të krokodilit në goditje, gabimi zbulohet duke prekur telin kryesor dhe Micro:bit duhet të shfaqë një kryq (ne po programojmë zbulimin e gabimit).</p>
 <p><strong>Hapi 3</strong></p>
-<p>Nga kategoria <img alt="Input" src="../_images/s6.png" /> zgjidh bllokun <img alt="press" src="_images/3.png" /> dhe nga lista drop-down zgjidh pinin <code class="docutils literal notranslate"><span class="pre">P0</span></code>.</p>
+<p>Nga kategoria <img alt="Input" src="../_images/_imageMicroBit/s6.png" /> zgjidh bllokun <img alt="press" src="_images/3.png" /> dhe nga lista drop-down zgjidh pinin <code class="docutils literal notranslate"><span class="pre">P0</span></code>.</p>
 <p>Ky bllok do të jetë “nxitësi” ynë për shfaqjen vizuale të gabimit.</p>
 <p><strong>Hapi 4</strong></p>
 <p>Tani, duhet të shtojmë bllokun që tregon shenjën e kryqit në ekran, i cili do të shfaqet kur përdoruesi prek tela kryesore me pin.
-Zgjidhni kategorinë <img alt="Basic" src="../_images/s2.png" /> dhe bllokun <img alt="leds" src="_images/s12.png" />.</p>
+Zgjidhni kategorinë <img alt="Basic" src="../_images/_imageMicroBit/s2.png" /> dhe bllokun <img alt="leds" src="_images/s12.png" />.</p>
 <p>Pamja e kodit dhe gabimi i simulatorit:</p>
-<img alt="../_images/_imageMicroBit/4_5.png" class="align-center" src="../_images/4_5.png" />
+<img alt="../_images/_imageMicroBit/4_5.png" class="align-center" src="../_images/_imageMicroBit/4_5.png" />
 <p>Në kod, ne do të shtojmë bllokun për pauzë me të cilin sigurojmë përgjigjen në kohë të sistemit (Pajisja me tela).
-Zgjidh kategorinë <img alt="Basic" src="../_images/s2.png" /> dhe bllokun <img alt="Pause" src="_images/s39.png" /> ku mund të vendosni kohën në milisekonda (1000 milliseconds = 1 second).</p>
+Zgjidh kategorinë <img alt="Basic" src="../_images/_imageMicroBit/s2.png" /> dhe bllokun <img alt="Pause" src="_images/s39.png" /> ku mund të vendosni kohën në milisekonda (1000 milliseconds = 1 second).</p>
 <p>Pamja e kodit:</p>
 <img alt="_images/7.png" class="align-center" src="_images/7.png" />
 <p><strong>Hapi 5</strong></p>
@@ -261,13 +261,13 @@ Zgjidhja për këtë problem është prezantimi i <strong>variablës</strong>.</
 <p>Një variabël mund të kuptohet si një hapësirë në kujtesën e kompjuterit, diçka si kuti, në të cilën, gjatë ekzekutimit të programit, ne mund të ruajmë disa vlera të përkohshme.
 Variablat kanë emra. Kur duam të përdorim vlerën e variablës, mjafton të përdorim emrin e saj.</p>
 <p>Një variabël është krijuar në mënyrën e mëposhtme, në kategorinë Variable (1), klikoni në butonin Make a variable (2) dhe shkruani emrin e asaj variable në fushën (3), në rastin tonë emrin Counter. Duke klikuar butonin OK (4), ju keni krijuar një variabël (5).</p>
-<img alt="../_images/_imageMicroBit/s29.png" class="align-center" src="../_images/s29.png" />
+<img alt="../_images/_imageMicroBit/s29.png" class="align-center" src="../_images/_imageMicroBit/s29.png" />
 <p><strong>Hapi 6</strong></p>
 <p>At the start of the “exercise”, the number on the counter will be 0. Setting the starting value (reset to the starting value) will be defined by the user pressing button A. This means that when the user presses the button on the Micro:bit the counter value will be set to zero, and the counting of the mistakes can begin.</p>
-<p>From the category <img alt="Input" src="../_images/s6.png" /> choose the block <img alt="Button" src="_images/13.png" />, and from the drop-down list choose button A.</p>
+<p>From the category <img alt="Input" src="../_images/_imageMicroBit/s6.png" /> choose the block <img alt="Button" src="_images/13.png" />, and from the drop-down list choose button A.</p>
 <p>Ky bllok do të jetë “nxitësi” ynë për rivendosjen e variablës <strong>Counter</strong>.</p>
 <p>Nga kategoria <code class="docutils literal notranslate"><span class="pre">Variabël</span></code> tërhiqni bllokun <img alt="set" src="_images/141.png" />.</p>
-<p>Ne do ta lidhim këtë bllok në bllokun e mësipërm dhe me bllokun që tregon vlerën e variablës. (Nga kategoria <img alt="Basic" src="../_images/s2.png" /> zgjedhim bllokun <img alt="prikaz" src="_images/15.png" /> në të cilin do të tërheqim bllokun <img alt="brojac" src="_images/161.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Variable</span></code>, dhe e vendosim atë në hapësirë me numrin 0 të shkruar.
+<p>Ne do ta lidhim këtë bllok në bllokun e mësipërm dhe me bllokun që tregon vlerën e variablës. (Nga kategoria <img alt="Basic" src="../_images/_imageMicroBit/s2.png" /> zgjedhim bllokun <img alt="prikaz" src="_images/15.png" /> në të cilin do të tërheqim bllokun <img alt="brojac" src="_images/161.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Variable</span></code>, dhe e vendosim atë në hapësirë me numrin 0 të shkruar.
 Në këtë mënyrë, ne krijojmë një bllok që tregon vlerën e variablës <strong>Counter</strong>.</p>
 <p>Pjesë e kodit për rivendosjen dhe shfaqjen e variablit <strong>Counter</strong>:</p>
 <img alt="_images/18.png" class="align-center" src="_images/18.png" />
@@ -276,48 +276,48 @@ Në këtë mënyrë, ne krijojmë një bllok që tregon vlerën e variablës <st
 Për këtë, ne do të përdorim bllokun <img alt="change" src="_images/191.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Variable</span></code>.</p>
 <p>Ne do ta tërheqim këtë bllok në pjesën e kodit në të cilin kemi zbuluar një gabim duke shfaqur shenjën X.</p>
 <p>Pamja e kodit dhe ekzekutimi në simulator:</p>
-<img alt="../_images/_imageMicroBit/202122.png" class="align-center" src="../_images/202122.png" />
+<img alt="../_images/_imageMicroBit/202122.png" class="align-center" src="../_images/_imageMicroBit/202122.png" />
 <p><strong>Hapi 8</strong></p>
 <p>Në hapin tonë tjetër, ne duam të përmirësojmë projektin duke shtuar tingullin sa herë që përdoruesi prek telat kryesorë.</p>
-<p>Për këtë, ne do të duhet të bëjmë lidhjen midis dy Micro:bitëve, ose më saktë për të përdorur opsionin e komunikimit radio midis tyre. Së pari dhe më e rëndësishmja, ne duhet të krijojmë identitetin e grupit, i cili përdoret për të “krijuar” hapësirën në të cilën, në rastin tonë, të dy Micro:bit do të komunikojnë. Për të krijuar ID, ne do të përdorim bllokun <img alt="radioset" src="_images/231.png" /> nga kategoria <img alt="Radio" src="../_images/s21.png" />. Çdo numër mund të zgjidhet. Ne do të lëmë 1 si ID të grupit. Ne do ta tërheqim këtë bllok në bllok <img alt="Forever" src="../_images/s2.png" /> nga kategoria <img alt="Basic" src="../_images/s2.png" />.</p>
+<p>Për këtë, ne do të duhet të bëjmë lidhjen midis dy Micro:bitëve, ose më saktë për të përdorur opsionin e komunikimit radio midis tyre. Së pari dhe më e rëndësishmja, ne duhet të krijojmë identitetin e grupit, i cili përdoret për të “krijuar” hapësirën në të cilën, në rastin tonë, të dy Micro:bit do të komunikojnë. Për të krijuar ID, ne do të përdorim bllokun <img alt="radioset" src="_images/231.png" /> nga kategoria <img alt="Radio" src="../_images/_imageMicroBit/s21.png" />. Çdo numër mund të zgjidhet. Ne do të lëmë 1 si ID të grupit. Ne do ta tërheqim këtë bllok në bllok <img alt="Forever" src="../_images/_imageMicroBit/s2.png" /> nga kategoria <img alt="Basic" src="../_images/_imageMicroBit/s2.png" />.</p>
 <p>Pjesë e kodit,që krijon në grup komunikimi:</p>
 <img alt="_images/24.png" class="align-center" src="_images/24.png" />
 <p>Për të dërguar një sinjal radio në një pajisje tjetër, e cila do të “reagojë” bazuar në atë duke lëshuar tingullin kur të bëhet një gabim, duhet të prezantojmë bllokun e mëposhtëm, në pjesën e kodit që zbulon dhe numëron gabimet.</p>
 <p>Kod i azhornuar për zbulimin dhe numërimin e gabimeve:</p>
 <img alt="_images/261.png" class="align-center" src="_images/261.png" />
 <p>Kodi i plotë për Micro:bit e parë:</p>
-<img alt="../_images/_imageMicroBit/27.png" class="align-center" src="../_images/27.png" />
-<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/28.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
+<img alt="../_images/_imageMicroBit/27.png" class="align-center" src="../_images/_imageMicroBit/27.png" />
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/_imageMicroBit/28.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/_imageMicroBit/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
 <p><strong>Hapi 9</strong></p>
 <p>Hapi ynë tjetër është të krijojmë programin për Micro:bit tjetër, i cili do të kontrollojë tingullin sa herë që përdoruesi bën një gabim.
 Dy Micro:bitet tona duhet të komunikojnë në hapësirë me grupin e identitetit 1.</p>
-<p>Ne tërheqim bllokun <img alt="radioset" src="_images/231.png" /> nga kategoria <img alt="Radio" src="../_images/s21.png" /> në bllokun <img alt="Forever" src="../_images/s2.png" /> nga kategoria <img alt="Basic" src="../_images/s2.png" />.</p>
+<p>Ne tërheqim bllokun <img alt="radioset" src="_images/231.png" /> nga kategoria <img alt="Radio" src="../_images/_imageMicroBit/s21.png" /> në bllokun <img alt="Forever" src="../_images/_imageMicroBit/s2.png" /> nga kategoria <img alt="Basic" src="../_images/_imageMicroBit/s2.png" />.</p>
 <p>Një pjesë e kodit, i cili krijon grupin e komunikimit:</p>
 <img alt="_images/24.png" class="align-center" src="_images/24.png" />
-<p>Hapi tjetër është për këtë Micro:bit për të marrë informacionin (në rastin tonë një numër) në bazë të të cilit do të “reagojë” duke lëshuar një tingull. Për këtë, ne do të tërheqim bllokun e mëposhtëm nga kategoria <img alt="Radio" src="../_images/s21.png" />:</p>
+<p>Hapi tjetër është për këtë Micro:bit për të marrë informacionin (në rastin tonë një numër) në bazë të të cilit do të “reagojë” duke lëshuar një tingull. Për këtë, ne do të tërheqim bllokun e mëposhtëm nga kategoria <img alt="Radio" src="../_images/_imageMicroBit/s21.png" />:</p>
 <img alt="_images/301.png" class="align-center" src="_images/301.png" />
-<p>Në këtë bllok, ne do të tërheqim bllokun <img alt="Play" src="_images/31_.png" />, i cili riprodhon tingullin, nga kategoria <img alt="Music" src="../_images/s66.png" />.
+<p>Në këtë bllok, ne do të tërheqim bllokun <img alt="Play" src="_images/31_.png" />, i cili riprodhon tingullin, nga kategoria <img alt="Music" src="../_images/_imageMicroBit/s66.png" />.
 Nga lista drop-down e këtij blloku, ne do të zgjedhim tonin dhe kohëzgjatjen e tonit.</p>
-<img alt="../_images/_imageMicroBit/3132.png" class="align-center" src="../_images/3132.png" />
+<img alt="../_images/_imageMicroBit/3132.png" class="align-center" src="../_images/_imageMicroBit/3132.png" />
 <p>Pamja e kodit, që riprodhon tingullin:</p>
 <img alt="_images/33.png" class="align-center" src="_images/33.png" />
 <p><strong>Shënim</strong>: Për të riprodhuar tingullin, Micro:bit duhet të lidhet me folësit ose me kufjet në mënyrën e mëposhtme:</p>
-<img alt="../_images/_imageMicroBit/34.png" class="align-center" src="../_images/34.png" />
+<img alt="../_images/_imageMicroBit/34.png" class="align-center" src="../_images/_imageMicroBit/34.png" />
 <p>Kodi i plotë për Micro:bit, i cili aktivizon tingullin:</p>
-<img alt="../_images/_imageMicroBit/35.png" class="align-center" src="../_images/35.png" />
+<img alt="../_images/_imageMicroBit/35.png" class="align-center" src="../_images/_imageMicroBit/35.png" />
 <p>Në këtë mënyrë, ne kemi krijuar zbulimin, numërimin dhe tingullin e gabimeve të bëra nga përdoruesi kur preket teli kryesor.</p>
 <p><strong>Hapi 10</strong></p>
 <p>Për të krijuar pajisjen, e cila do të matë sa kohë përdoruesi ka nevojë për të përfunduar “ushtrimin” e aftësive të tij motorike, duhet të prezantojmë dy pajisje shtesë Micro:bit. Njëra do të jetë vetëm një “shkas” që fillon orën në Micro:bit tjetër.</p>
 <p>Duke klikuar butonin A, pajisja është rivendosur dhe ekrani pastrohet. Opsioni <code class="docutils literal notranslate"><span class="pre">reset</span></code> ndodhet në kategorinë <code class="docutils literal notranslate"><span class="pre">Advanced</span> <span class="pre">-</span> <span class="pre">Control</span></code>.</p>
-<p>Opsioni për pastrimin e ekranit është në nënkategorinë More të kategorisë <img alt="Basic" src="../_images/s2.png" />.</p>
+<p>Opsioni për pastrimin e ekranit është në nënkategorinë More të kategorisë <img alt="Basic" src="../_images/_imageMicroBit/s2.png" />.</p>
 <p>Një pjesë e kodit:</p>
 <img alt="_images/37.png" class="align-center" src="_images/37.png" />
 <p>Pastaj krijojmë hapësirën për komunikim me grupin e identitetit 50:</p>
-<img alt="../_images/_imageMicroBit/36.png" class="align-center" src="../_images/36.png" />
+<img alt="../_images/_imageMicroBit/36.png" class="align-center" src="../_images/_imageMicroBit/36.png" />
 <p>Pini <code class="docutils literal notranslate"><span class="pre">P1</span></code> është kunja me të cilën lidhja është e lidhur përmes klipeve të krokodilit.
-Kjo kunj do të përdoret si koha “shkas”. Më saktësisht, goditje që prek telin dërgon një sinjal radio, i cili fillon kohën. Për më tepër, për t’i mundësuar përdoruesit të shohë kur filloi koha, imazhi <img alt="slika" src="../_images/37_.png" /> do të shfaqet në ekranin e Micro:bit.</p>
+Kjo kunj do të përdoret si koha “shkas”. Më saktësisht, goditje që prek telin dërgon një sinjal radio, i cili fillon kohën. Për më tepër, për t’i mundësuar përdoruesit të shohë kur filloi koha, imazhi <img alt="slika" src="../_images/_imageMicroBit/37_.png" /> do të shfaqet në ekranin e Micro:bit.</p>
 <p>Kodi i plotësuar për Micro:bit, i cili sinjalizon fillimin e kohës së matjes.</p>
-<img alt="../_images/_imageMicroBit/39.png" class="align-center" src="../_images/39.png" />
+<img alt="../_images/_imageMicroBit/39.png" class="align-center" src="../_images/_imageMicroBit/39.png" />
 <p><strong>Hapi 11</strong></p>
 <p>Duhet të përcaktojmë dy variabel:</p>
 <ul class="simple">
@@ -325,14 +325,14 @@ Kjo kunj do të përdoret si koha “shkas”. Më saktësisht, goditje që prek
 <li><p>Variabli <strong>Counter</strong> e cila ka dy vlera të mundshme të vërteta dhe false - teli është prekur ose nuk është prekur.</p></li>
 </ul>
 <p>Klikimi në butonin A rivendos pajisjen dhe vendos vlerat fillestare të variablave <strong>Time</strong> dhe <strong>Counter</strong>.
-Vlerat për variablin <strong>Counter</strong> mund të gjenden në kategorinë <img alt="Logic" src="../_images/s4.png" />:</p>
+Vlerat për variablin <strong>Counter</strong> mund të gjenden në kategorinë <img alt="Logic" src="../_images/_imageMicroBit/s4.png" />:</p>
 <img alt="_images/40.png" class="align-center" src="_images/40.png" />
 <p>Hapi tjetër është krijimi i hapësirës për komunikim me grupin e identitetit 50:</p>
-<img alt="../_images/_imageMicroBit/36.png" class="align-center" src="../_images/36.png" />
+<img alt="../_images/_imageMicroBit/36.png" class="align-center" src="../_images/_imageMicroBit/36.png" />
 <p>Pini <code class="docutils literal notranslate"><span class="pre">P1</span></code> është kunja me të cilën lidhja është e lidhur përmes klipeve të krokodilit. Kjo kunj do të përdoret si koha që jep “shkas”:</p>
 <img alt="_images/41.png" class="align-center" src="_images/41.png" />
 <p>Kur përdoruesi klikon butonin B, koha e nevojshme për përdoruesin për të përfunduar “ushtrimin” do të shfaqet:</p>
-<img alt="../_images/_imageMicroBit/42.png" class="align-center" src="../_images/42.png" />
+<img alt="../_images/_imageMicroBit/42.png" class="align-center" src="../_images/_imageMicroBit/42.png" />
 <p>Kur Micro:bit pranon sinjalin e radios (numrin) nga pajisja tjetër Micro:bit, ora fillon dhe vlera e variablit <strong>Koha</strong> ndryshon me 1, pas çdo sekondi deri në fund të “ushtrimit”:</p>
 <img alt="_images/431.png" class="align-center" src="_images/431.png" />
 <p>Kodi i kompletur për Micro:bit, i cili mat kohën nga fillimi i “lojës”:</p>

@@ -1,5 +1,5 @@
 Minecraft – Karakteristikat kryesore dhe Komponentët
-=================================================
+=====================================================
 
 Minecraft është një lojë jashtëzakonisht e popullarizuar, argëtuese dhe krijuese 3D, ku lojtarët mund të përdorin mjetet ekzistuese për të ndërtuar struktura dhe mjete të tjera. Ka shumë mënyra që Minecraft mund të përdoret për të zhvilluar kreativitet dhe aftësi për zgjidhjen e problemeve te lojtarët.
 
@@ -86,7 +86,7 @@ Që të shkruani kod në Minecraft: Education Edition, kliko butonin |Play|.
 .. |Play| image:: ../_images/_imageMinecraft/15.png
 
 Ndërfaqja e përdoruesit Minecraft
-::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::
 
 .. image:: ../_images/_imageMinecraft/48.png
       :align: center
@@ -130,7 +130,7 @@ D - Lëvizni djathtas
 Mouse përdoret për të kontrolluar kamerën, domethënë për të parë botën përreth nesh. Shtypja e butonit ``F5`` ndryshon këndin e kamerës.
 
 Ndërfaqja e përdoruesit në MakeCode
-:::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::
 
 Ky redaktues në internet siguron mundësinë e kodimit në JavaScript ose programim grafik (bllok), ku komandat janë grumbulluar duke përdorur teknikën "drag and drop".
 

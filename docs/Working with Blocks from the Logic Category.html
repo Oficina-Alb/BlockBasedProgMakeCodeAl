@@ -141,7 +141,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Puna me blloqet nga kategoria e Loops" href="Working with Blocks from the Loops Category.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="Working with Blocks from the Math and Variables Categories.html" />
+    <link rel="prev" title="Puna me blloqet nga kategoria Math dhe Varibles" href="Working with Blocks from the Math and Variables Categories.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -206,7 +206,7 @@
   
   <div class="section" id="puna-me-blloqet-nga-kategoria-logic">
 <h1>Puna me blloqet nga kategoria Logic<a class="headerlink" href="#puna-me-blloqet-nga-kategoria-logic" title="Permalink to this headline">¶</a></h1>
-<p>Programet që kemi krijuar deri më tani janë ekzekutuar në bllok, nga blloku i parë deri tek i fundit. Ky lloj ekzekutimi i programit quhet <strong>sekuencial</strong>. Në ekzekutimin vijues (linear), bllokimi (bllokimi) nuk është i mundur. Ata të gjithë ekzekutohen një herë (nëse janë brenda bllokut <img alt="onstart" src="_images/s20.png" />) ose shumë herë (nëse janë brenda bllokut <a href="#id1"><span class="problematic" id="id2">|foever|</span></a>).</p>
+<p>Programet që kemi krijuar deri më tani janë ekzekutuar në bllok, nga blloku i parë deri tek i fundit. Ky lloj ekzekutimi i programit quhet <strong>sekuencial</strong>. Në ekzekutimin vijues (linear), bllokimi (bllokimi) nuk është i mundur. Ata të gjithë ekzekutohen një herë (nëse janë brenda bllokut <img alt="onstart" src="_images/s20.png" />) ose shumë herë (nëse janë brenda bllokut <img alt="forever" src="_images/s1.png" />).</p>
 <p>Sidoqoftë, mund të ndodhë që detyra për të cilën po punoni kërkon që të ndryshoni mënyrën e ekzekutimit të programit.</p>
 <p>Për shembull, nëse jeni duke krijuar një program që do të përdoret nga studentët më të rinj për të mësuar llogaritjen (aritmetikën), mund të dëshironi të ekzekutoni blloqe të caktuara, të cilat i përdorni për të vlerësuar përgjigjen e saktë ose mund të dëshironi të ekzekutoni blloqe krejtësisht të ndryshme, të cilat jepni komente për përgjigjet e pasakta.</p>
 <p>Bazuar në faktin nëse një përgjigje është e saktë ose e pasaktë, mund të keni nevojë të ekzekutoni grupe të ndryshme blloqesh. Kjo është arsyeja pse ne themi që programi formon degë, d.m.th që blloqe nga një degë po ekzekutohen, ndërsa blloqet nga një degë tjetër nuk janë.</p>
@@ -215,25 +215,25 @@
 <p>Në lidhje me vendimmarrjen, MakeCode ofron:</p>
 <p>  • Operatorët e Krahasimit</p>
 <p>  • Blloqe vendimmarrjeje (blloqe të kushtëzuara, të cilat formojnë degë brenda programit)</p>
-<img alt="../_images/_imageMicroBit/p59.png" class="align-center" src="../_images/p59.png" />
-<img alt="../_images/_imageMicroBit/p60.png" class="align-center" src="../_images/p60.png" />
+<img alt="../_images/_imageMicroBit/p59.png" class="align-center" src="../_images/_imageMicroBit/p59.png" />
+<img alt="../_images/_imageMicroBit/p60.png" class="align-center" src="../_images/_imageMicroBit/p60.png" />
 <p>Duke përdorur një operator krahasimi, ju mund të krahasoni vlerat dhe të përcaktoni nëse njëra është më e madhe / më e vogël se tjetri ose nëse ato janë të barabarta. Rezultati i krahasimit mund të jetë <code class="docutils literal notranslate"><span class="pre">TRUE</span></code> ose <code class="docutils literal notranslate"><span class="pre">FALSE</span></code>.</p>
 <div class="system-message">
 <p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Working with Blocks from the Logic Category.rst</span>, line 34)</p>
 <p>No correct answer specified.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">mchoice</span><span class="p">::</span> <span class="n">L6Z1</span>
-    <span class="p">:</span><span class="n">answer_a</span><span class="p">:</span> <span class="n">Si</span> <span class="n">rezultat</span> <span class="n">i</span> <span class="n">ekzekutimit</span> <span class="n">të</span> <span class="n">bllokut</span> <span class="n">A</span><span class="p">,</span> <span class="n">programi</span> <span class="n">do</span> <span class="n">të</span> <span class="n">tregojë</span> <span class="n">vlerën</span> <span class="n">e</span> <span class="n">temperaturës</span> <span class="n">në</span> <span class="n">dhomë</span><span class="o">.</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>.. mchoice:: L6Z1
+    :answer_a: Si rezultat i ekzekutimit të bllokut A, programi do të tregojë vlerën e temperaturës në dhomë.
+    :answer_b: Ekzekutimi i blloqeve A dhe B do të ketë të njëjtin rezultat - programi do të shkruajë temperaturën e dhomës.
+    :answer_c: Si rezultat i ekzekutimit të bllokut B, programi do të shfaqë një kryq të vogël.
+    :feedback_a: Përgjigja nuk është e saktë!
 </pre></div>
 </div>
 </div>
 <div class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Working with Blocks from the Logic Category.rst</span>, line 36)</p>
+<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Working with Blocks from the Logic Category.rst</span>, line 39)</p>
 <p>Explicit markup ends without a blank line; unexpected unindent.</p>
 </div>
-<p>    :answer_b: Ekzekutimi i blloqeve A dhe B do të ketë të njëjtin rezultat - programi do të shkruajë temperaturën e dhomës.
-    :answer_c: Si rezultat i ekzekutimit të bllokut B, programi do të shfaqë një kryq të vogël.
-    :feedback_a: Përgjigja nuk është e saktë!
-    :feedback_b: Përgjigja është e saktë!
+<p>    :feedback_b: Përgjigja është e saktë!
     :feedback_c: Përgjigja nuk është e saktë!</p>
 <div class="system-message">
 <p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Working with Blocks from the Logic Category.rst</span>, line 41)</p>
@@ -248,23 +248,23 @@
 </div></blockquote>
 <p>Temperatura në dhomë është 28 gradë celsius. Analizoni blloqet e dhëna në figurë dhe shënoni fjalinë e saktë.</p>
 <blockquote>
-<div><img alt="../_images/_imageMicroBit/p61.png" class="align-center" src="../_images/p61.png" />
+<div><img alt="../_images/_imageMicroBit/p61.png" class="align-center" src="../_images/_imageMicroBit/p61.png" />
 </div></blockquote>
 <p>Le të shkruajmë disa programe!</p>
 <p>Ekziston një sfidë para jush, nëse një numër i zgjedhur rastësisht (nga intervali 0 deri në 100) është një numër i barabartë, duhet të shfaqni tekstin “Numri është i barabartë.”, Dhe nëse numri është një numër i çuditshëm, ju duhet të tregojë tekstin “Numri është i rastësishëm”.</p>
 <p>Kur është një numër madje, dhe kur është i çuditshëm? Nëse duke përdorur ndarjen e numrave të plotë, ne ndajmë një numër me 2, dhe nuk ka mbetur, numri konsiderohet i barabartë. Nëse, kur përdorim ndarjen e numrave të plotë për të ndarë një numër me 2, pjesa e mbetur është 1, atëherë e dimë se është një numër i çuditshëm.</p>
 <p>Për shembull, nëse përdorim ndarjen e plotë për të ndarë 10 me 2, rezultati do të jetë 5 sepse 5 * 2 është i barabartë me 10. Megjithatë, nëse ndajmë 9 me 2, marrim 4; 4 * 2 është 8, dhe ne kemi mbetur me pjesën e mbetur 1. Nga këtu mund të konkludojmë se, nëse nuk ka mbetje kur një numër është i ndarë me 2 duke përdorur ndarje të plotë, atëherë është një numër i barabartë. Përndryshe, numri është i çuditshëm.</p>
-<p>Në MakeCode, ju mund të shkruani ndarjen e numrit të plotë duke përdorur operacionin <img alt="deljenje" src="../_images/p62.png" />, dhe pjesën e mbetur duke përdorur bllokun <img alt="celobrojno" src="../_images/p63.png" />, i cili siguron vlerën për pjesën e mbetur.</p>
-<p>Bazuar në mësimin e mëparshëm, ne do të përcaktojmë variablin <code class="docutils literal notranslate"><span class="pre">Number</span></code>, e cila ruan vlerën e marrë nga përdorimi i bllokut <a href="#id3"><span class="problematic" id="id4">|choose|</span></a> intervalit <code class="docutils literal notranslate"><span class="pre">nga</span> <span class="pre">0</span> <span class="pre">në</span> <span class="pre">100</span></code>.</p>
+<p>Në MakeCode, ju mund të shkruani ndarjen e numrit të plotë duke përdorur operacionin <img alt="deljenje" src="../_images/_imageMicroBit/p62.png" />, dhe pjesën e mbetur duke përdorur bllokun <img alt="celobrojno" src="../_images/_imageMicroBit/p63.png" />, i cili siguron vlerën për pjesën e mbetur.</p>
+<p>Bazuar në mësimin e mëparshëm, ne do të përcaktojmë variablin <code class="docutils literal notranslate"><span class="pre">Number</span></code>, e cila ruan vlerën e marrë nga përdorimi i bllokut <img alt="pickrandom" src="../_images/_imageMicroBit/p49.png" /> intervalit <code class="docutils literal notranslate"><span class="pre">nga</span> <span class="pre">0</span> <span class="pre">në</span> <span class="pre">100</span></code>.</p>
 <p>Hapi tjetër do të ishte të kontrolloni nëse ka një pjesë të pjesshme në ndarjen e plotë të Numrit me 2. Nëse është e vërtetë që nuk ka asnjë të mbetur, atëherë mesazhi “Numri është i barabartë”. do të shfaqet. Përndryshe, nëse kushti nuk është përmbushur, dhe ka një pjesë të mbetur, atëherë mesazhi “Numri është i çuditshëm”. do të shfaqet.</p>
 <p>Para se të kontrollojmë gjendjen, do të duhet të krijojmë variablit <code class="docutils literal notranslate"><span class="pre">Reminder</span></code>, dhe të vendosim një vlerë për ndarjen e plotë të <code class="docutils literal notranslate"><span class="pre">Number</span></code> dhe <code class="docutils literal notranslate"><span class="pre">number</span> <span class="pre">2</span></code>:</p>
-<img alt="../_images/_imageMicroBit/p64.png" class="align-center" src="../_images/p64.png" />
+<img alt="../_images/_imageMicroBit/p64.png" class="align-center" src="../_images/_imageMicroBit/p64.png" />
 <p>Tani, hapi tjetër do të ishte të kontrolloni nëse numri është në rregull apo jo. Kjo do të bëhet duke prezantuar bllokun <code class="docutils literal notranslate"><span class="pre">if</span> <span class="pre">....</span> <span class="pre">else</span> <span class="pre">...</span> <span class="pre">then</span></code> dhe një operator krahasimi. Nëse Mbajtësi i ndryshueshëm është 0, numri është i barabartë dhe mesazhi “Numri është i barabartë”. do të shfaqet. Përndryshe, nëse Rikujtuesi i ndryshueshëm nuk është 0, numri është i rastësishëm dhe mesazhi “Numri është i rastësishëm”. do të shfaqet.</p>
-<img alt="../_images/_imageMicroBit/p65.png" class="align-center" src="../_images/p65.png" />
+<img alt="../_images/_imageMicroBit/p65.png" class="align-center" src="../_images/_imageMicroBit/p65.png" />
 <p>Pamja finale e bllokut:</p>
-<img alt="../_images/_imageMicroBit/p66.png" class="align-center" src="../_images/p66.png" />
+<img alt="../_images/_imageMicroBit/p66.png" class="align-center" src="../_images/_imageMicroBit/p66.png" />
 <p>Ju mund ta shihni kodin në lidhjen e mëposhtme: <a class="reference external" href="https://makecode.microbit.org/_WDmbuk3kKXW5">https://makecode.microbit.org/_WDmbuk3kKXW5</a></p>
-<p>Për të provuar programin, do ta ekzekutojmë në simulator duke klikuar në butonin <img alt="play" src="../_images/p3.png" />.</p>
+<p>Për të provuar programin, do ta ekzekutojmë në simulator duke klikuar në butonin <img alt="play" src="../_images/_imageMicroBit/p3.png" />.</p>
 <p><strong>Detyrë:</strong> Shkruaj një program, i cili simulon zare. Nëse rezultati i rrotullës (një lëvizje - shkundje është regjistruar) është numri 1, ky numër duhet të përfaqësohet nga një pikë; nëse rezultati është 2, ai duhet të përfaqësohet nga dy pika, etj.</p>
 <p>Krahasoni zgjidhjen tuaj me tonën: <a class="reference external" href="https://makecode.microbit.org/_HsxKqAC90d5m">https://makecode.microbit.org/_HsxKqAC90d5m</a></p>
 <p><strong>Shtesa:</strong> Ju mund të përdorni operatorë logjikë (Boolean) për kushtet e lidhjes.</p>
@@ -273,21 +273,21 @@
 <p><img alt="or" src="_images/s51.png" /> - lidh dy kushte dhe kthimin e vërtetë si rezultat vetëm nëse të paktën një kusht është i vërtetë.</p>
 <p><a class="reference internal" href="_images/s52.png"><img alt="no" src="_images/s52.png" style="width: 100px;" /></a> - vendoset para një kushti dhe kthehet i vërtetë pasi rezultati në rast se kushti nuk plotësohet.</p>
 <p>Kushti për të kontrolluar që temperatura e matur është më e lartë se 28, dhe niveli i dritës është më i lartë se 150 (niveli i dritës së bllokut) kontrollohet nga ky bllok:</p>
-<img alt="../_images/_imageMicroBit/p67.png" class="align-center" src="../_images/p67.png" />
+<img alt="../_images/_imageMicroBit/p67.png" class="align-center" src="../_images/_imageMicroBit/p67.png" />
 </div>
 
 
   
       <div class="col-md-12">
 <ul class="pager">
-        <li id="relations-prev" title='Previous chapter - &lt;no title&gt;' data-toggle="tooltip"><a href="Working with Blocks from the Math and Variables Categories.html">Previous chapter</a></li>
+        <li id="relations-prev" title='Previous chapter - Puna me blloqet nga kategoria Math dhe Varibles' data-toggle="tooltip"><a href="Working with Blocks from the Math and Variables Categories.html">Previous chapter</a></li>
     
         <li id="relations-next" title='Next chapter - Puna me blloqet nga kategoria e Loops' data-toggle="tooltip"><a href="Working with Blocks from the Loops Category.html">Next chapter</a></li>
 </ul>
 
 <!-- <ul class="pager"> -->
     <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - &lt;no title&gt;' data-toggle="tooltip"><a href="Working with Blocks from the Math and Variables Categories.html">Претходно поглавље</a></li> -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Puna me blloqet nga kategoria Math dhe Varibles' data-toggle="tooltip"><a href="Working with Blocks from the Math and Variables Categories.html">Претходно поглавље</a></li> -->
     <!--  -->
     <!-- -->
         <!-- <li id="relations-next" title='Следеће поглавље - Puna me blloqet nga kategoria e Loops' data-toggle="tooltip"><a href="Working with Blocks from the Loops Category.html">Следеће поглавље</a></li> -->

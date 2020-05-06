@@ -48,9 +48,8 @@ In the category |Basic| you can also find blocks for displaying defined images |
 
 Ju mund ta krahasoni zgjidhjen tuaj me tonën: https://makecode.microbit.org/_CAdaFfKsY46a
 
-
-.. mchoice :: L1Z1
-    :answer_a: Blloku onstart.
+.. mchoice:: L1Z1
+    :answer_a: Blloku onstart.
     :answer_b: Blloko forever.
     :feedback_a: Përgjigja nuk është e saktë. Blloku në onstart është një nga blloqet nga kategoria Basic, dhe blloqet brenda tij ekzekutohen vetëm një herë gjatë ekzekutimit të programit.
     :feedback_b: Bravo! Blloku forever është blloku brenda të cilit komandat do të ekzekutohen pafundësisht. Drejtimi i këtij blloku nuk do të ndalet kurrë më vete. Për të ndaluar funksionimin e këtij blloku, duhet të shtypni butonin stop (|stop|).

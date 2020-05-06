@@ -1,10 +1,10 @@
 EV3 - Karakteristikat themelore dhe përbërësit
-===========================================
+===============================================
 
 Para se të fillojmë të flasim për programimin e robotëve Mindstorm Lego EV3 duke përdorur platformën online MakeCode, le të mësojmë së pari për karakteristikat themelore të robotëve EV3 dhe ndërfaqen MakeCode.
 
 Bazat e robotëve LEGO EV3 - pajisje harduerike
-:::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 Seti LEGO Mindstorms EV3 është i përbërë nga një larmi pjesësh mekanike dhe elektrike nga të cilat mund të mblidhen robotë me forma dhe qëllime të ndryshme.
 
@@ -209,7 +209,7 @@ Në ekranin e parë në Port View, përdoruesi mund të shohë se cilat porte ka
 
 Përdoruesi mund të kontrollojë lëvizjen e çdo motori të lidhur me njërën nga katër portat dalëse.
 
-**Kontrolli IR (kontrolli infra të kuqe **
+**Kontrolli IR (kontrolli infra të kuqe**
 
 Kontrollon lëvizjen e çdo motori të lidhur me njërën nga katër portat dalëse duke përdorur "telekomandën" - Remote Infrared Beacon, dhe "marrësin" - Sensorin Infra të kuqe.
 

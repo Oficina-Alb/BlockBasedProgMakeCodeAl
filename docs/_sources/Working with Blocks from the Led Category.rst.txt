@@ -74,11 +74,10 @@ Ju mund ta krahasoni zgjidhjen tuaj me tonën: https://makecode.microbit.org/_TR
     :answer_c: Drita do të ndizet pas 1 milisekondi.
     :feedback_a: Përgjigja nuk është e saktë!
     :feedback_b: Përgjigja është e saktë!
-    :eedback_c: Përgjigja nuk është e saktë!
+    :feedback_c: Përgjigja nuk është e saktë
     :correct: b
 
-
-     Shiko me kujdes bllokun.
+Shiko me kujdes bllokun.
 
     .. image:: ../_images/_imageMicroBit/p32.png
           :align: center

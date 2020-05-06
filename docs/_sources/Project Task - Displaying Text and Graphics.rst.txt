@@ -1,5 +1,5 @@
 Detyra e projektit - Afishimi i tekstit dhe grafikës
-============================================
+======================================================
 
 Ky është një tjetër shembull i thjeshtë i krijimit të një programi, i cili lejon që roboti të thotë "Forward" dhe të shfaq të njëjtin mesazh në ekran, dhe pastaj të ecë përpara.
 

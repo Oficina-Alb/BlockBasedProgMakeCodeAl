@@ -45,7 +45,7 @@ Ne gjithashtu mund të kufizojmë lëvizjen e robotit; për shembull, ne duam q�
 
 Për ta bërë këtë, ne do të përdorim cikël ku blloqet ekzekutojnë një numër të caktuar herë. Roboti do të ecë përpara dhe prapa tre herë.
 
-Për të vendosur sekuencën e kodit për të ndaluar pas një numri të caktuar përsëritjesh, duhet të tërhiqni bllokun |repeat|, ku do të përcaktojmë se sa herë duhet të përsëritet një veprim, në bllokun |onstart| Në rastin tonë, vlera do të jetë 3.
+Për të vendosur sekuencën e kodit për të ndaluar pas një numri të caktuar përsëritjesh, duhet të tërhiqni bllokun |repeat|, ku do të përcaktojmë se sa herë duhet të përsëritet një veprim, në bllokun |start| Në rastin tonë, vlera do të jetë 3.
 
 .. |Start| image:: ../_images/_imageEV3/8.png
 .. |Repeat| image:: ../_images/_imageEV3/66.png

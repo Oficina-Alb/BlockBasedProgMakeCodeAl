@@ -1,5 +1,5 @@
- Puna me blloqet nga kategoria Math dhe Varibles
-===========================================================
+Puna me blloqet nga kategoria Math dhe Varibles
+==========================================================
 
 MakeCode mbështet katër operacione themelore aritmetike:
 - mbledhja (+),
@@ -111,13 +111,13 @@ Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në
 .. |play| image:: ../_images/_imageMicroBit/p3.png
 
 .. mchoice:: L5Z2
-     :answer_a: Çdo vlerë nga intervali 0 deri në 15, pa përfshirë 0.
-     :answer_b: Çdo vlerë nga intervali 0 deri 15, përfshirë ato vlera.
-     :answer_c: Çdo vlerë nga intervali 0 deri në 15, pa përfshirë 15.
-     :e saktë: b
-     :feedback_a: Përgjigja nuk është e saktë!
-     :feedback_b: Përgjigja është e saktë!
-     :feedback_c: Përgjigja nuk është e saktë!
+    :answer_a: Çdo vlerë nga intervali 0 deri në 15, pa përfshirë 0.
+    :answer_b: Çdo vlerë nga intervali 0 deri 15, përfshirë ato vlera.
+    :answer_c: Çdo vlerë nga intervali 0 deri në 15, pa përfshirë 15.
+    :correct: b
+    :feedback_a: Përgjigja nuk është e saktë!
+    :feedback_b: Përgjigja është e saktë!
+    :feedback_c: Përgjigja nuk është e saktë!
 
     Studio bllokun me kujdes:
 

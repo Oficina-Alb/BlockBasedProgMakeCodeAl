@@ -18,7 +18,7 @@ Në fillim, duhet të përcaktojmë objektin dhe ta vendosim atë në botë, gj�
 
 Për ta arritur këtë duhet të krijojmë variablat ``X, Y, Z`` (ata ruajnë koordinatat e pozicionit të objektit) dhe ``Block`` ruan objektin). Gjithashtu duhet të vendosim vlera fillestare për variablat që krijuam.
 
-Në bllokun |onstart| ne do të përcaktojmë pozicionin dhe llojin e objektit duke tërhequr blloqet në mënyrën e mëposhtme:
+Në bllokun |start| ne do të përcaktojmë pozicionin dhe llojin e objektit duke tërhequr blloqet në mënyrën e mëposhtme:
 
 - ne përcaktojmë koordinatën x me variablin ``X``, e cila do të ketë vlerën e rastit nga intervali 0 deri në 600, kjo arrihet me bllokun |random| nga kategoria |Math|.
 

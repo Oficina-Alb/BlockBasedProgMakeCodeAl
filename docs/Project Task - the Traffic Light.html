@@ -229,14 +229,14 @@
 <li><p>4 tela me gjatësi të ndryshme.</p></li>
 </ul>
 <p>Para se të fillojmë lidhjen e Micro:bit me diodat, duhet të kujtojmë se një Micro:bit ka 25 kunja, pesë kunja të mëdha - 0, 1, 2, 3V dhe GND. 20 kunjat e mbetura mund të përdoren për lidhjen e Micro: bit me pajisje të tjera.</p>
-<img alt="../_images/_imageMicroBit/67.png" class="align-center" src="../_images/67.png" />
+<img alt="../_images/_imageMicroBit/67.png" class="align-center" src="../_images/_imageMicroBit/67.png" />
 <p>Duke përdorur tela / kapëse krokodili, ne do të lidhim Micro:bit përmes GND me ndonjë nga kunjat në protoboard, kështu që ne mund ta lidhim atë me diodën GND.</p>
 <p>Funksionimi i diodës kërkon fuqi; ne do të kufizojmë furnizimin me energji duke përdorur rezistorë (ata sigurojnë disa rezistencë që kufizojnë rrjedhën e rrymës dhe kontrollojnë tensionin në qark).</p>
 <p>Figura më poshtë tregon lidhjen e Micro:bit me një nga LED:</p>
-<img alt="../_images/_imageMicroBit/semafor1.png" class="align-center" src="../_images/semafor1.png" />
+<img alt="../_images/_imageMicroBit/semafor1.png" class="align-center" src="../_images/_imageMicroBit/semafor1.png" />
 <p>Ne lidhim Micro bit përmes pin P0 dhe një nga kunjat në protoboard në anën e majtë të rezistorëve (figura më poshtë). Ne do të lidhim pjesën më të gjatë (+) të diodës së dritës me pin P0 duke përdorur kapëse krokodili, dhe ajo më e shkurtër, duke përdorur edhe klipet e krokodilit, në pinin GND (shiko foton më poshtë).</p>
 <p>Ne do t’i lidhim dy LED të tjera në të njëjtën mënyrë.</p>
-<img alt="../_images/_imageMicroBit/semafor2.png" class="align-center" src="../_images/semafor2.png" />
+<img alt="../_images/_imageMicroBit/semafor2.png" class="align-center" src="../_images/_imageMicroBit/semafor2.png" />
 <p>Ne do të përdorim këtë logjikë të lidhjes për të bërë fizikisht një semafor nga sfungjeri.</p>
 <p><strong>Programim</strong></p>
 <p>Duhet të krijojmë një program, i cili lejon që LED-të të ndizen dhe fiken.</p>
@@ -246,14 +246,14 @@
 <p>Krijoni një projekt të ri.</p>
 <p>Tani, ne duam të programojmë diodat që të ndizen dhe fiken.</p>
 <p><strong>Hapi 3</strong></p>
-<p>Për të krijuar një kod, i cili do të lejojë që LED-të të ndizen dhe fiken, duhet të tërheqim bllokun <img alt="digital" src="_images/s37.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Advanced</span> <span class="pre">-</span> <span class="pre">Pins</span></code> në bllokun <img alt="forever" src="_images/s1.png" /> nga kategoria <img alt="Basic" src="../_images/s2.png" />.</p>
-<p>Në mënyrë që drita të ndizet, duhet të vendosim numrin 1 në hapësirë <img alt="blokcic" src="../_images/s38.png" />. Nëse vlera është vendosur në 0, drita do të fiket.</p>
+<p>Për të krijuar një kod, i cili do të lejojë që LED-të të ndizen dhe fiken, duhet të tërheqim bllokun <img alt="digital" src="_images/s37.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Advanced</span> <span class="pre">-</span> <span class="pre">Pins</span></code> në bllokun <img alt="forever" src="_images/s1.png" /> nga kategoria <img alt="Basic" src="../_images/_imageMicroBit/s2.png" />.</p>
+<p>Në mënyrë që drita të ndizet, duhet të vendosim numrin 1 në hapësirë <img alt="blokcic" src="../_images/_imageMicroBit/s38.png" />. Nëse vlera është vendosur në 0, drita do të fiket.</p>
 <img alt="_images/s41.png" class="align-center" src="_images/s41.png" />
 <p>Në lidhje me ndezjen dhe fikjen e dritës, duhet gjithashtu të vendosim një interval kohor brenda të cilit do të ndodhin këto ndryshime.
-Do të vendosim që drita të mbetet e ndezur për 4 sekonda, një fikje për 2 sekonda. Për ta arritur këtë, ne do të përdorim bllokun <img alt="b1" src="_images/s39.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Basic</span></code>. Në fushë <img alt="b2" src="../_images/s40.png" /> ne do të vendosim 4000ms (që është 4 sekonda) që drita të ndizet, dhe 2000 që drita të mbetet e fikur.</p>
+Do të vendosim që drita të mbetet e ndezur për 4 sekonda, një fikje për 2 sekonda. Për ta arritur këtë, ne do të përdorim bllokun <img alt="b1" src="_images/s39.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Basic</span></code>. Në fushë <img alt="b2" src="../_images/_imageMicroBit/s40.png" /> ne do të vendosim 4000ms (që është 4 sekonda) që drita të ndizet, dhe 2000 që drita të mbetet e fikur.</p>
 <p>Pamja finale e kodit të semaforit:</p>
 <img alt="_images/s42.png" class="align-center" src="_images/s42.png" />
-<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/s43.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të</p>
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/_imageMicroBit/s43.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/_imageMicroBit/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të</p>
 </div>
 
 

@@ -50,7 +50,7 @@ Tani kemi funksionin **Conversion**:
 .. image:: ../_images/_imageMinecraft/96.png
       :align: center
 
-Për ta kthyer temperaturën nga Celsius në Fahrenheit, duhet ta quajmë funksionin e paraqitur më sipër në bllokun |chat
+Për ta kthyer temperaturën nga Celsius në Fahrenheit, duhet ta quajmë funksionin e paraqitur më sipër në bllokun |chat|
 
 Në bllokun e përmendur më parë, duhet të tërheqim blloqet e mëposhtme:
 

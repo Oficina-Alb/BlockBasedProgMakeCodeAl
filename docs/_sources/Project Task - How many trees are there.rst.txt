@@ -37,7 +37,7 @@ Një variabël është krijuar në mënyrën e mëposhtme, në kategorinë `` Va
 
 Vlera fillestare e variablit **Counter** është 0.
 
-Vendosja e vlerës fillestare (rivendosja në vlerën fillestare) përcaktohet me bllokun |onstart| Kjo do të thotë se sa herë që fillon programi, Minecraft vendos vlerën e banakut në 0, dhe numërimi i pemëve mund të fillojë.
+Vendosja e vlerës fillestare (rivendosja në vlerën fillestare) përcaktohet me bllokun |start| Kjo do të thotë se sa herë që fillon programi, Minecraft vendos vlerën e banakut në 0, dhe numërimi i pemëve mund të fillojë.
 
 .. |start| image:: ../_images/_imageMinecraft/28.png
           :width: 150px
@@ -50,9 +50,9 @@ Vendosja e vlerës fillestare (rivendosja në vlerën fillestare) përcaktohet m
 
 .. |set| image:: ../_images/_imageMinecraft/4_.png
 
-Nga kategoria |Loops| zgjidhni bllokun |onstart|. Ne do ta përdorim këtë bllok si "shkas" për rivendosjen e variablit **Counter**.
+Nga kategoria |Loops| zgjidhni bllokun |start|. Ne do ta përdorim këtë bllok si "shkas" për rivendosjen e variablit **Counter**.
 
-Nga kategoria |Variable| tërhiqni bllokun |set| Kundër ``0``:
+Nga kategoria |variable| tërhiqni bllokun |set| Kundër ``0``:
 
 .. image:: ../_images/_imageMinecraft/54.png
           :align: center

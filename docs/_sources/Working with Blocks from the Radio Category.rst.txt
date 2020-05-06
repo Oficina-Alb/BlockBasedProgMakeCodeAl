@@ -21,7 +21,7 @@ Për të krijuar një grup ID, duhet të tërheqim bllokun |radioset| nga katego
 
 SHENIM: Kur ne përdorim blloqet nga kategoria ``Radio`` do të ketë dy Micro:bit të shfaqura në simulues.
 
-Variabli ``Counter`` ruan vlerën e marrë nga përdorimi i bllokut |select|, ose më saktë, variabli ``Counter`` merr një nga vlerat e rastit nga intervali 0 deri në 100.
+Variabli ``Counter`` ruan vlerën e marrë nga përdorimi i bllokut |pickrandom|, ose më saktë, variabli ``Counter`` merr një nga vlerat e rastit nga intervali 0 deri në 100.
 Kur shtypet butoni A, biti Micro: dërgon vlerën e variablit ``Counter`` duke përdorur bllokun |send| nga kategoria |Radio|.
 
 Pamja e kodit:

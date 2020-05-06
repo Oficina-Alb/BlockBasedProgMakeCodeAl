@@ -20,7 +20,7 @@ Një variabël është krijuar në mënyrën e mëposhtme, në kategorinë Varia
 
 Ne do të demonstrojmë përdorimin e variablave duke krijuar një program, i cili tregon sa herë përdoruesi shtypi butonin e mesëm në EV3 Brick.
 
-Duhet të krijojmë variablin |Brojac|. Ne do ta vendosim vlerën fillestare të numërues të jetë 0, duke përdorur bllokun |setBrojac|. Ne pastaj e tërheqim këtë bllok në bllokun |onstart|. Brenda këtij blloku, ne do të tregojmë edhe vlerën e numëruesit që në fillim në ekranin e EV3 Brick duke përdorur bllokun |show|.
+Duhet të krijojmë variablin |Brojac|. Ne do ta vendosim vlerën fillestare të numërues të jetë 0, duke përdorur bllokun |setBrojac|. Ne pastaj e tërheqim këtë bllok në bllokun |start|. Brenda këtij blloku, ne do të tregojmë edhe vlerën e numëruesit që në fillim në ekranin e EV3 Brick duke përdorur bllokun |show|.
 
 .. |Brojac| image:: ../_images/_imageEV3/69.png
 .. |setBrojac| image:: ../_images/_imageEV3/70.png
@@ -65,7 +65,7 @@ Simulimi:
 Mund të demonstrojmë përdorimin e variablave me një shembull tjetër. Ne mund të krijojmë një program, i cili do të numërojë sa linja të zeza ka kaluar roboti LEGO.
 
 Le ta krijojmë ndryshoren |Brojac|. Duke përdorur bllokun |setBrojac|, do ta vendosim vlerën fillestare të jetë 0.
-Ne pastaj duhet ta tërheqim këtë bllok në bllokun |onstart|. Brenda këtij blloku, ne do të tregojmë edhe vlerën e numëruesit që në fillim në ekranin e EV3 Brick duke përdorur bllokun |show|. Ne gjithashtu do të tërheqim bllokun |pravo| në bllokun e dhënë, i cili do të mundësojë që roboti të lëvizë vazhdimisht.
+Ne pastaj duhet ta tërheqim këtë bllok në bllokun |start|. Brenda këtij blloku, ne do të tregojmë edhe vlerën e numëruesit që në fillim në ekranin e EV3 Brick duke përdorur bllokun |show|. Ne gjithashtu do të tërheqim bllokun |pravo| në bllokun e dhënë, i cili do të mundësojë që roboti të lëvizë vazhdimisht.
 
 .. |pravo| image:: ../_images/_imageEV3/6.png
 
@@ -79,7 +79,7 @@ Bazuar në konfigurimin e detyrës, ne kemi nevojë për sensorin për të regji
 .. image:: ../_images/_imageEV3/25.png
       :align: center
 
-Kur sensori regjistron të zezën, është e nevojshme të rritet vlera e numëruesit me 1. Ne mund ta bëjmë këtë duke përdorur bllokun |change| nga kategoria |Variable|. Për shfaqjen e vlerës së re të variablit Counter, ne do të përdorim bllokun |shpow|
+Kur sensori regjistron të zezën, është e nevojshme të rritet vlera e numëruesit me 1. Ne mund ta bëjmë këtë duke përdorur bllokun |change| nga kategoria |Variable|. Për shfaqjen e vlerës së re të variablit Counter, ne do të përdorim bllokun |show|
 
 Pamja e kodite:
 

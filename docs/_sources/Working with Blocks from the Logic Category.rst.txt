@@ -1,7 +1,7 @@
 Puna me blloqet nga kategoria Logic
 ============================================
 
-Programet që kemi krijuar deri më tani janë ekzekutuar në bllok, nga blloku i parë deri tek i fundit. Ky lloj ekzekutimi i programit quhet **sekuencial**. Në ekzekutimin vijues (linear), bllokimi (bllokimi) nuk është i mundur. Ata të gjithë ekzekutohen një herë (nëse janë brenda bllokut |onstart|) ose shumë herë (nëse janë brenda bllokut |foever|).
+Programet që kemi krijuar deri më tani janë ekzekutuar në bllok, nga blloku i parë deri tek i fundit. Ky lloj ekzekutimi i programit quhet **sekuencial**. Në ekzekutimin vijues (linear), bllokimi (bllokimi) nuk është i mundur. Ata të gjithë ekzekutohen një herë (nëse janë brenda bllokut |onstart|) ose shumë herë (nëse janë brenda bllokut |forever|).
 
 .. |onstart| image:: ../_images/_imageMicroBit/s20.png
 .. |forever| image:: ../_images/_imageMicroBit/s1.png
@@ -33,10 +33,10 @@ Duke përdorur një operator krahasimi, ju mund të krahasoni vlerat dhe të pë
 
 .. mchoice:: L6Z1
     :answer_a: Si rezultat i ekzekutimit të bllokut A, programi do të tregojë vlerën e temperaturës në dhomë.
-    :answer_b: Ekzekutimi i blloqeve A dhe B do të ketë të njëjtin rezultat - programi do të shkruajë temperaturën e dhomës.
-    :answer_c: Si rezultat i ekzekutimit të bllokut B, programi do të shfaqë një kryq të vogël.
-    :feedback_a: Përgjigja nuk është e saktë!
-    :feedback_b: Përgjigja është e saktë!
+    :answer_b: Ekzekutimi i blloqeve A dhe B do të ketë të njëjtin rezultat - programi do të shkruajë temperaturën e dhomës.
+    :answer_c: Si rezultat i ekzekutimit të bllokut B, programi do të shfaqë një kryq të vogël.
+    :feedback_a: Përgjigja nuk është e saktë!
+    :feedback_b: Përgjigja është e saktë!
     :feedback_c: Përgjigja nuk është e saktë!
     :correct: b
 
@@ -58,7 +58,7 @@ Në MakeCode, ju mund të shkruani ndarjen e numrit të plotë duke përdorur op
 .. |deljenje| image:: ../_images/_imageMicroBit/p62.png
 .. |celobrojno| image:: ../_images/_imageMicroBit/p63.png
 
-Bazuar në mësimin e mëparshëm, ne do të përcaktojmë variablin ``Number``, e cila ruan vlerën e marrë nga përdorimi i bllokut |choose| intervalit ``nga 0 në 100``.
+Bazuar në mësimin e mëparshëm, ne do të përcaktojmë variablin ``Number``, e cila ruan vlerën e marrë nga përdorimi i bllokut |pickrandom| intervalit ``nga 0 në 100``.
 
 .. |pickrandom| image:: ../_images/_imageMicroBit/p49.png
 

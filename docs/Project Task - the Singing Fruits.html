@@ -244,40 +244,40 @@ Ne do të përdorim Micro:bit për të prodhuar oktavën C, D, E, F, G, A, H (B)
 Tani, ne duam të programojmë Micro:bit për të dërguar informacion - numrat përkatës (për tonet përkatëse) kur shtypet një PIN specifik. Për më tepër, ne duhet të programojmë Micro:bit për të komunikuar me njëri-tjetrin. Në këtë mënyrë, në varësi të numrit (tonit) Micro:bitet “prodhojnë”, ose më saktë dërgoni, Micro:bit do të marrë atë numër, dhe kufjet do të riprodhojnë tonin e dëshiruar.</p>
 <p><strong>Hapi 3</strong></p>
 <p>Kur duam të krijojmë komunikim (për të përdorur radio komunikimin) ndërmjet Micro:biteve, të gjitha Micro:bit e përfshira duhet t’i përkasin të njëjtit grup, p.sh ata duhet të përdorin të njëjtin ID të grupit. Duke krijuar grupin e identitetit, ne në fakt po krijojmë hapësirën në të cilën pajisjet do të komunikojnë.</p>
-<p>Për të krijuar një grup ID, duhet të tërheqim bllokun <img alt="radioset" src="_images/s22.png" /> nga kategoria <img alt="Radio" src="../_images/s21.png" /> në bllokun <img alt="onstart" src="_images/onstart.png" /> nga kategoria <img alt="Basic" src="../_images/s2.png" />. Në hapësirën <img alt="ID" src="../_images/s23.png" /> shtypni numrin e dëshiruar për ID të grupit. Ky mund të jetë çdo numër. Do ta lëmë numrin 1. Në këtë mënyrë, ne kemi krijuar grupin me ID 1 në të cilin do të komunikojnë të gjitha Micro:bit.</p>
+<p>Për të krijuar një grup ID, duhet të tërheqim bllokun <img alt="radioset" src="_images/s22.png" /> nga kategoria <img alt="Radio" src="../_images/_imageMicroBit/s21.png" /> në bllokun <img alt="onstart" src="_images/onstart.png" /> nga kategoria <img alt="Basic" src="../_images/_imageMicroBit/s2.png" />. Në hapësirën <img alt="ID" src="../_images/_imageMicroBit/s23.png" /> shtypni numrin e dëshiruar për ID të grupit. Ky mund të jetë çdo numër. Do ta lëmë numrin 1. Në këtë mënyrë, ne kemi krijuar grupin me ID 1 në të cilin do të komunikojnë të gjitha Micro:bit.</p>
 <p>Pjesa e kodit, e cila krijon grupin për komunikim:</p>
 <img alt="_images/s24.png" class="align-center" src="_images/s24.png" />
 <p><strong>Hapi 4</strong></p>
 <p>Duhet të shtojmë bllokun <img alt="radiosend" src="_images/s30.png" /> në pjesën e kodit, i cili është krijuar për të regjistruar një ngjarje (kur preket fruti), me qëllim dërgimin e sinjalit të radios në një pajisje tjetër në bazë të së cilës kjo pajisje tjetër do të “reagojë”, d.m.th. kur të prekim (shtypni) frutat do të dëgjojmë një ton.</p>
-<p>Ngjarja do të regjistrohet kur shtypet njëra nga kunjat në Micro:bit. Për ta arritur këtë, duhet të prezantojmë bllokun <img alt="onpin" src="_images/s25.png" /> nga kategoria <img alt="Input" src="../_images/s26.png" />. Nga lista rënëse e bllokut do të zgjedhim pin (P0, P1, P2), i cili inicon ngjarjen - dërgimin e numrit (tonin) që do të shfaqet.</p>
+<p>Ngjarja do të regjistrohet kur shtypet njëra nga kunjat në Micro:bit. Për ta arritur këtë, duhet të prezantojmë bllokun <img alt="onpin" src="_images/s25.png" /> nga kategoria <img alt="Input" src="../_images/_imageMicroBit/s26.png" />. Nga lista rënëse e bllokut do të zgjedhim pin (P0, P1, P2), i cili inicon ngjarjen - dërgimin e numrit (tonin) që do të shfaqet.</p>
 <p>Duhet të përcaktojmë mënyrën se si do të paraqesim (ruajmë) vlerat e toneve të dëshiruar (Middle C ose 262, D D Middle ose 294, E E Middle ose 330, Middle F ose 349, Middle G ose 392, Middle A ose 440, Middle H (B) ose 494). Përveç kësaj, ne gjithashtu duhet të përcaktojmë vlera për secilën prej shënimeve të përmendura më lart.
 Ne mund ta zgjidhim këtë problem duke prezantuar <strong>variablin</strong>.</p>
 <p>Një variabël mund të kuptohet si një hapësirë në kujtesën e kompjuterit, diçka si kuti, në të cilën, gjatë ekzekutimit të programit, ne mund të ruajmë disa vlera të përkohshme.
 Variablat kanë emra. Kur duam të përdorim vlerën e variablit, mjafton vetëm të përdorim emrin e saj.</p>
 <p>Një variabël është krijuar në mënyrën e mëposhtme, në kategorinë Variablat(1), klikoni në butonin Bëni njëvaribël (2) dhe shkruani emrin e asaj variabel në fushën (3), në rastin tonë emrin Tone. Duke klikuar butonin OK (4), ju keni krijuar një Varibël (5).</p>
-<img alt="../_images/_imageMicroBit/s29.png" class="align-center" src="../_images/s29.png" />
+<img alt="../_images/_imageMicroBit/s29.png" class="align-center" src="../_images/_imageMicroBit/s29.png" />
 <p>Vlera e variablës <code class="docutils literal notranslate"><span class="pre">Ton</span></code> do të shkojë nga 1 në 8.</p>
-<p>Në rast se shtypet <code class="docutils literal notranslate"><span class="pre">P1</span></code>, ne do të vendosim vlerën fillestare në 1 për variablin <code class="docutils literal notranslate"><span class="pre">Tone</span></code>, duke përdorur bllokun <img alt="setTon" src="../_images/n1.png" />.</p>
-<p>Ne mund të dërgojmë një sinjal radio në Micro:bit duke përdorur bllokun <img alt="radiosend" src="_images/s30.png" />, tjetër do të tërheqim variablin <code class="docutils literal notranslate"><span class="pre">Tone</span></code>, të cilën dëshirojmë ta dërgojmë, në pjesën <img alt="blok1" src="../_images/s32.png" />, d.m.th. do të krijojmë bllokun <img alt="Ton" src="_images/s33.png" />.</p>
+<p>Në rast se shtypet <code class="docutils literal notranslate"><span class="pre">P1</span></code>, ne do të vendosim vlerën fillestare në 1 për variablin <code class="docutils literal notranslate"><span class="pre">Tone</span></code>, duke përdorur bllokun <img alt="setTon" src="../_images/_imageMicroBit/n1.png" />.</p>
+<p>Ne mund të dërgojmë një sinjal radio në Micro:bit duke përdorur bllokun <img alt="radiosend" src="_images/s30.png" />, tjetër do të tërheqim variablin <code class="docutils literal notranslate"><span class="pre">Tone</span></code>, të cilën dëshirojmë ta dërgojmë, në pjesën <img alt="blok1" src="../_images/_imageMicroBit/s32.png" />, d.m.th. do të krijojmë bllokun <img alt="Ton" src="_images/s33.png" />.</p>
 <p>Ne krijojmë bllokun:</p>
-<img alt="../_images/_imageMicroBit/s34_.png" class="align-center" src="../_images/s34_.png" />
+<img alt="../_images/_imageMicroBit/s34_.png" class="align-center" src="../_images/_imageMicroBit/s34_.png" />
 <p>E njëjta procedurë duhet të përdoret për pinin <code class="docutils literal notranslate"><span class="pre">P2</span></code>. Sidoqoftë, ne do të vendosim vlerën fillestare të variablit <code class="docutils literal notranslate"><span class="pre">Tone</span></code> në 2, nëse shtypet pini <code class="docutils literal notranslate"><span class="pre">P2</span></code>.</p>
 <p>Pamja e kodit për çelësat e pianos (C, D):</p>
 <img alt="_images/s34.png" class="align-center" src="_images/s34.png" />
 <p>Vështrimi përfundimtar i programit, i cili dërgon informacione mbi cilën pin është shtypur (<code class="docutils literal notranslate"><span class="pre">P1</span></code> ose <code class="docutils literal notranslate"><span class="pre">P2</span></code>):</p>
-<img alt="../_images/_imageMicroBit/n7.png" class="align-center" src="../_images/n7.png" />
+<img alt="../_images/_imageMicroBit/n7.png" class="align-center" src="../_images/_imageMicroBit/n7.png" />
 <p>Hapi tjetër është për Micro:bit për të marrë informacionin (në rastin tonë një numër) në bazë të të cilit do të “reagojë” dhe do të prodhojë një tingull.</p>
 <p>Për këtë, ne do të tërheqim bllokun <img alt="onradio" src="_images/301.png" /> nga kategoria <code class="docutils literal notranslate"><span class="pre">Radio</span></code>. Në varësi të numrit të marrë (<code class="docutils literal notranslate"><span class="pre">1</span></code> ose <code class="docutils literal notranslate"><span class="pre">2</span></code>), ky Micro:bit do të riprodhojë tonin e dëshiruar.</p>
-<p>Do të përdorim blloun <img alt="ifthen" src="_images/s3.png" /> nga kategoria <img alt="Logic" src="../_images/s4.png" /> për këtë.</p>
-<p>Në fushën e hyrjes së gjendjes ne do të tërheqim bllokun <img alt="b1" src="../_images/n2.png" />, i cili përdoret për të kontrolluar nëse pin <code class="docutils literal notranslate"><span class="pre">P1</span></code> është shtypur apo jo:</p>
-<img alt="../_images/_imageMicroBit/n3.png" class="align-center" src="../_images/n3.png" />
-<p>Nëse shtypni pinin <code class="docutils literal notranslate"><span class="pre">P1</span></code>, do të dëgjohet toni <code class="docutils literal notranslate"><span class="pre">C</span></code>. Ne e arrijmë riprodhimin e tonit duke tërhequr bllokun <img alt="playton" src="_images/31_.png" /> nga kategoria <img alt="Music" src="../_images/s66.png" />, e cila përdoret për të riprodhuar tingullin. Në listën drop-down të këtij blloku do të zgjedhim tonin dhe kohëzgjatjen e tingullit.</p>
-<img alt="../_images/_imageMicroBit/3132.png" class="align-center" src="../_images/3132.png" />
+<p>Do të përdorim blloun <img alt="ifthen" src="_images/s3.png" /> nga kategoria <img alt="Logic" src="../_images/_imageMicroBit/s4.png" /> për këtë.</p>
+<p>Në fushën e hyrjes së gjendjes ne do të tërheqim bllokun <img alt="b1" src="../_images/_imageMicroBit/n2.png" />, i cili përdoret për të kontrolluar nëse pin <code class="docutils literal notranslate"><span class="pre">P1</span></code> është shtypur apo jo:</p>
+<img alt="../_images/_imageMicroBit/n3.png" class="align-center" src="../_images/_imageMicroBit/n3.png" />
+<p>Nëse shtypni pinin <code class="docutils literal notranslate"><span class="pre">P1</span></code>, do të dëgjohet toni <code class="docutils literal notranslate"><span class="pre">C</span></code>. Ne e arrijmë riprodhimin e tonit duke tërhequr bllokun <img alt="playton" src="_images/31_.png" /> nga kategoria <img alt="Music" src="../_images/_imageMicroBit/s66.png" />, e cila përdoret për të riprodhuar tingullin. Në listën drop-down të këtij blloku do të zgjedhim tonin dhe kohëzgjatjen e tingullit.</p>
+<img alt="../_images/_imageMicroBit/3132.png" class="align-center" src="../_images/_imageMicroBit/3132.png" />
 <p>Pamja e bllokut:</p>
-<img alt="../_images/_imageMicroBit/n4.png" class="align-center" src="../_images/n4.png" />
-<p>Ne do të shtojmë edhe një kusht më shumë (<code class="docutils literal notranslate"><span class="pre">P2</span></code> pin i shtypur) në bllokun <img alt="ifthen" src="_images/s3.png" /> duke klikuar në shenjën <img alt="plus" src="../_images/s15.png" />. Nëse shtypni pinin <code class="docutils literal notranslate"><span class="pre">P2</span></code>, toni <code class="docutils literal notranslate"><span class="pre">D</span></code> do të riprodhohet.</p>
+<img alt="../_images/_imageMicroBit/n4.png" class="align-center" src="../_images/_imageMicroBit/n4.png" />
+<p>Ne do të shtojmë edhe një kusht më shumë (<code class="docutils literal notranslate"><span class="pre">P2</span></code> pin i shtypur) në bllokun <img alt="ifthen" src="_images/s3.png" /> duke klikuar në shenjën <img alt="plus" src="../_images/_imageMicroBit/s15.png" />. Nëse shtypni pinin <code class="docutils literal notranslate"><span class="pre">P2</span></code>, toni <code class="docutils literal notranslate"><span class="pre">D</span></code> do të riprodhohet.</p>
 <p>Pamja e bllokut:</p>
-<img alt="../_images/_imageMicroBit/n5.png" class="align-center" src="../_images/n5.png" />
+<img alt="../_images/_imageMicroBit/n5.png" class="align-center" src="../_images/_imageMicroBit/n5.png" />
 <p><a href="#id1"><span class="problematic" id="id2">**</span></a>Shënim <a href="#id3"><span class="problematic" id="id4">**</span></a>: Micro:bit duhet të jetë i lidhur me altoparlantët ose kufjet, siç tregohet në figurën më poshtë, që tingulli të riprodhohet.</p>
 <div class="system-message" id="id1">
 <p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Project Task - the Singing Fruits.rst</span>, line 179); <em><a href="#id2">backlink</a></em></p>
@@ -287,18 +287,18 @@ Variablat kanë emra. Kur duam të përdorim vlerën e variablit, mjafton vetëm
 <p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Project Task - the Singing Fruits.rst</span>, line 179); <em><a href="#id4">backlink</a></em></p>
 <p>Inline strong start-string without end-string.</p>
 </div>
-<img alt="../_images/_imageMicroBit/34.png" class="align-center" src="../_images/34.png" />
+<img alt="../_images/_imageMicroBit/34.png" class="align-center" src="../_images/_imageMicroBit/34.png" />
 <p>Pamja përfundimtare e programit për riprodhimin e toneve <code class="docutils literal notranslate"><span class="pre">C</span></code> dhe <code class="docutils literal notranslate"><span class="pre">D</span></code>:</p>
-<img alt="../_images/_imageMicroBit/n6.png" class="align-center" src="../_images/n6.png" />
-<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/s36.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
+<img alt="../_images/_imageMicroBit/n6.png" class="align-center" src="../_images/_imageMicroBit/n6.png" />
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/_imageMicroBit/s36.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/_imageMicroBit/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
 <p>Mbajmë bananen në njërën dorë dhe përdorim dorën tjetër për të luajtur fruta të tjera.</p>
 <p>Ne mund të programojmë dy Micro:bitet të mbetura në të njëjtën mënyrë, për tonet e mesme E ose 330, F ose 349, Middle G ose 392, Middle A ose 440, Middle H (B) ose 494.</p>
 <p>Kodi përfundimtar i programit për Micro:bit i përdorur për të dërguar informacionin se në cilën pin është shtypur, bazuar në të cilat do të riprodhohen tonet <code class="docutils literal notranslate"><span class="pre">E</span></code>, <code class="docutils literal notranslate"><span class="pre">F</span></code> dhe <code class="docutils literal notranslate"><span class="pre">G</span></code>:</p>
-<img alt="../_images/_imageMicroBit/n8.png" class="align-center" src="../_images/n8.png" />
+<img alt="../_images/_imageMicroBit/n8.png" class="align-center" src="../_images/_imageMicroBit/n8.png" />
 <p>Pamja përfundimtare e kodit të programit për Micro:bit e përdorur për të dërguar informacionin mbi cilën pin është shtypur, bazuar në të cilat do të jenë tonet <code class="docutils literal notranslate"><span class="pre">A</span></code>, <code class="docutils literal notranslate"><span class="pre">H</span> <span class="pre">(B)</span></code> dhe <code class="docutils literal notranslate"><span class="pre">C</span></code> riprodhohet:</p>
-<img alt="../_images/_imageMicroBit/n9.png" class="align-center" src="../_images/n9.png" />
+<img alt="../_images/_imageMicroBit/n9.png" class="align-center" src="../_images/_imageMicroBit/n9.png" />
 <p>Pas gjithë kësaj, do të duhet të rifreskoni kodin për Micro:bit i përdorur si tingull “transmetues”:</p>
-<img alt="../_images/_imageMicroBit/n10.png" class="align-center" src="../_images/n10.png" />
+<img alt="../_images/_imageMicroBit/n10.png" class="align-center" src="../_images/_imageMicroBit/n10.png" />
 <p>Pasi të kemi lidhur të gjitha frutat dhe të kemi shkarkuar të gjitha kodet, mund të luajmë një këngë të këndshme në pianon tonë të frutave.</p>
 </div>
 

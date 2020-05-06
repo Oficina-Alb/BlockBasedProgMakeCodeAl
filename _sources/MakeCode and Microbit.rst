@@ -1,10 +1,10 @@
 Micro:bit – Karakteristika bazike dhe komponentë
-==========================================
+=================================================
 
 Para se të fillojmë mësimin e Programimit Micro:bit përmes MakeCode, le të njihemi me përbërësit themelorë dhe tiparet e Micro:bit dhe mjedisin e punës.
 
 Micro:bit – Karakteristika bazike dhe komponentë
-:::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::
 
 Micro:bit është një kompjuter portativ, i programueshëm për përdoruesin, i cili ka një procesor 32-bitësh ARM Cortex-M0 që punon në 16MHz me vetëm memorie RAM 16KB, si dhe sensorë dhe një ekran të bërë nga 25 LED. Ka lidhës, pesë hyrje dhe dalje (I / O) të përdorura për të lidhur Micro:bit me pajisje ose sensorë të tjerë, ai gjithashtu ka Bluetooth, dhe është i mundësuar nga dy bateri AA.
 Më e rëndësishmja, ajo ka aftësinë për të programuar.

@@ -25,7 +25,7 @@ Ne dëshirojmë të krijojmë një program i cili tregon temperaturën (në grad
     :feedback_b: Blloku përgjithmonë është blloku brenda të cilit komandat do të ekzekutohen një numër të pafund herë. Drejtimi i këtij blloku nuk do të ndalet kurrë më vete. Për të ndaluar funksionimin e këtij blloku, duhet të shtypni butonin stop (|stop|).
     :correct: a
 
-    Sa herë do të ekzekutohen blloqet brenda bllokut |onstart|?
+    Sa herë do të ekzekutohen blloqet brenda bllokut |start|?
 
 
 Siç kemi parë tashmë në shembujt e mësimit të mëparshëm, mënyra se si fillon dhe funksionon programi varet nga cili bllok është përdorur, |onstart| ose |forever|
@@ -44,9 +44,9 @@ Për shfaqjen e temperaturës, ne do të përdorim bllokun |shownumber| nga kate
 
 .. |Basic| image:: ../_images/_imageMicroBit/s2.png
 
-Pas lidhjes së këtyre dy blloqeve, ne do të zgjedhim bllokun |temperature| nga kategoria Input, të cilën do ta tërheqim në fushën hyrëse të komandës së numrit të shfaqjes. Blloku |temperature| ruan vlerën e marrë nga leximi i sensorit të temperaturës, i cili shfaqet në gradë Celsius.
+Pas lidhjes së këtyre dy blloqeve, ne do të zgjedhim bllokun temperature nga kategoria Input, të cilën do ta tërheqim në fushën hyrëse të komandës së numrit të shfaqjes. Blloku |temperature| ruan vlerën e marrë nga leximi i sensorit të temperaturës, i cili shfaqet në gradë Celsius.
 
-.. |temperatura| image:: ../_images/_imageMicroBit/s55.png
+.. |temperature| image:: ../_images/_imageMicroBit/s55.png
 
 Pamja finale e programit:
 
@@ -106,7 +106,7 @@ Ne do të përdorim simulatorin për të testuar programin. Programi do të ekze
     .. image:: ../_images/_imageMicroBit/p17.png
           :align: center
 
-**Detyrë.** Krijoni një program, i cili duhet të shfaqë një fytyrë Smiley (duke përdorur |show|) kur shtypet butoni A, kur shtypet butoni B, ai duhet të tregojë emrat tuaj, dhe kur A dhe B shtypen së bashku, ai duhet të tregojë sa vjeç je.
+**Detyrë.** Krijoni një program, i cili duhet të shfaqë një fytyrë Smiley (duke përdorur |showleds|) kur shtypet butoni A, kur shtypet butoni B, ai duhet të tregojë emrat tuaj, dhe kur A dhe B shtypen së bashku, ai duhet të tregojë sa vjeç je.
 
 Ju mund ta krahasoni zgjidhjen tuaj me tonën: https://makecode.microbit.org/_86uV0j7mt0hU
 

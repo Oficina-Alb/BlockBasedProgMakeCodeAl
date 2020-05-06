@@ -4,7 +4,7 @@ Detyrë - Pillar
 Ngjashëm me mënyrën sesi është në natyrë (ndryshimi i stinëve, qarkullimi i ujit, dita dhe nata, ngritja dhe rënia e nivelit të detit, etj.), Në programim mund të përsërisim hapa të caktuar disa herë. Ashtu si në natyrë, në programim, është e nevojshme të drejtoni pjesë të një programi disa herë për të përfunduar detyra të caktuara. Për këto lloje të programeve, ne themi se ato përmbajnë përsëritje, dhe këto përsëritje quhen **cikle**.
 
 Ne do të demonstrojmë përsëritjen duke krijuar një shtyllë në formë katrore, baza e së cilës është një shesh me anët e 5 blloqeve në gjatësi dhe 10 në lartësi.
-Në Minecraft, ne gjithashtu mund të përdorim një **agjent** për kryerjen e veprimeve të caktuara, të tilla si mbjellja dhe korrja, minierat, prerja e pemëve dhe ndërtimi i objekteve. Blloqet që kanë të bëjnë me agjentin gjenden në kategorinë |Agenz|:
+Në Minecraft, ne gjithashtu mund të përdorim një **agjent** për kryerjen e veprimeve të caktuara, të tilla si mbjellja dhe korrja, minierat, prerja e pemëve dhe ndërtimi i objekteve. Blloqet që kanë të bëjnë me agjentin gjenden në kategorinë |Agent|:
 
 .. |Agent| image:: ../_images/_imageMinecraft/s2.png
               :width: 100px
@@ -40,7 +40,7 @@ Do të krijojmë ndryshoren **position** në kategorinë ``Variable``:
       :align: center
 
 Në fillim, vlera e ndryshores **postion** është pozicioni aktual i personazhit në botë lëvizur dy blloqe në të majtë.
-Ne do të përcaktojmë vlerën fillestare me bllokun |onstart| Kjo do të thotë se çdo herë që fillon programi, Minecraft vendos vlerën e pozicionit në vendin e dëshiruar (agjenti lëvizet dy blloqe në të majtë nga karakteri (lojtari)), dhe ne mund të fillojmë ndërtimin e bazës katrore të shtyllës.
+Ne do të përcaktojmë vlerën fillestare me bllokun |start| Kjo do të thotë se çdo herë që fillon programi, Minecraft vendos vlerën e pozicionit në vendin e dëshiruar (agjenti lëvizet dy blloqe në të majtë nga karakteri (lojtari)), dhe ne mund të fillojmë ndërtimin e bazës katrore të shtyllës.
 
 Nga kategoria ``Variables`` ne tërheqim bllokun |set|, në të cilin do të futim bllokun që na jep pozicionin aktual të lojtarit të zhvendosur dy blloqe në të majtë.
 

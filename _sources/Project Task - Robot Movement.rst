@@ -3,7 +3,7 @@ Detyrë - Lëvizja e robotit
 
 Ne do ta fillojmë aventurën tonë me një program të thjeshtë, i cili lejon që roboti të ecë përpara për 2 sekonda dhe pastaj të kthehet prapa për 2 sekonda.
 
-Hapi i parë në shembullin tonë është fillimi i motorit. Duhet të zgjedhim bllokun |tankmotor| nga kategoria |Motors|, dhe e tërhiqim atë në sipërfaqen e punës dhe në bllokun |onstart|. Fillimisht, ne duhet të vendosim se në cilat porta do të lidhim motorët. Ne kemi përmendur tashmë se EV3 ka katër porta për motorë - A, B, C dhe D.
+Hapi i parë në shembullin tonë është fillimi i motorit. Duhet të zgjedhim bllokun |tankmotor| nga kategoria |Motors|, dhe e tërhiqim atë në sipërfaqen e punës dhe në bllokun |start|. Fillimisht, ne duhet të vendosim se në cilat porta do të lidhim motorët. Ne kemi përmendur tashmë se EV3 ka katër porta për motorë - A, B, C dhe D.
 
 .. |tankmotor| image:: ../_images/_imageEV3/6.png
 .. |Motors| image:: ../_images/_imageEV3/5.png
@@ -44,7 +44,7 @@ Për të demonstruar se si lëviz roboti, do të japim një shembull tjetër të
 .. image:: ../_images/_imageEV3/11_.png
       :align: center
 
-Bazuar në vendosjen e detyrës, roboti po ecën përpara 5 rotacione (360 degreed = 1 rotacion), prandaj, duhet të tërheqim bllokun |tankmotor| nga kategoria |Motors|, mbi sipërfaqen e punës dhe në bllokun |onstart|.
+Bazuar në vendosjen e detyrës, roboti po ecën përpara 5 rotacione (360 degreed = 1 rotacion), prandaj, duhet të tërheqim bllokun |tankmotor| nga kategoria |Motors|, mbi sipërfaqen e punës dhe në bllokun |start|.
 
 Në rastin tonë, motorët janë të lidhur me portet B dhe C me shpejtësi 50%. Meqenëse, bazuar në vendosjen e detyrës, roboti lëviz 5 rotacione, duhet të klikojmë në shenjën plus në bllok, i cili do të hapë mundësinë për të zgjedhur mënyrën në të cilën roboti do të lëvizë. Këtë herë, duhet të zgjedhim opsionin "rotation".
 Pastaj, duhet të vendosim kohëzgjatjen e lëvizjes së robotit duke futur vlerën 5 në fushën e hyrjes. Në këtë mënyrë, roboti do të lëvizë për 5 rrotullime.

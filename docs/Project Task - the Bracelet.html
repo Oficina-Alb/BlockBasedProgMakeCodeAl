@@ -208,7 +208,7 @@
 <h1>Detyrë - Byrzylyku<a class="headerlink" href="#detyre-byrzylyku" title="Permalink to this headline">¶</a></h1>
 <p>Në një shkollë fillore, në fund të klasës së dytë, nxënësit u paraqesin prindërve të tyre atë që mësuan gjatë klasës së dytë. Gjatë ngjarjes, disa studentë duhet të mbajnë rrathë, të cilat duhet të shfaqin lule kur studentët që i veshin lëvizin duart.</p>
 <p>Një byzylyk, i cili shfaq lule mund të bëhet duke përdorur një pajisje Micro:bit. Shfaqja e luleve do të simulohet nga LED që ndizen dhe fiken çdo herë që përdoruesi lëviz dorën e tij / saj.</p>
-<img alt="../_images/_imageMicroBit/Narukvica1.png" class="align-center" src="../_images/_imageMicroBit/Narukvica1.png" />
+<img alt="../_images/_imageMicroBit/Narukvica1.png" class="align-center" src="../_images/Narukvica1.png" />
 <p>Për të bërë byzylyk, do t’ju duhet:</p>
 <ul class="simple">
 <li><p>1 Micro:bit</p></li>
@@ -222,30 +222,30 @@
 <p>Ne duam të krijojmë një program, i cili do të lejojë që ekrani Micro:bit të tregojë një lule sa herë që bëhet një lëvizje, më saktë, ne duam të regjistrojmë çdo lloj lëvizjeje me pajisjen Micro:bit duke përdorur përshpejtimin e tij. Ekrani nxjerr pamjen e dëshiruar (duke ndezur LED) vetëm kur zbulohet një lëvizje.</p>
 <p>Për zgjidhjen e kësaj detyre, ne do të përdorim një nga blloqet e kushtëzuar (blloqet degëzuese) me kushtin që të jetë bërë një lëvizje. Cila linjë (degë) e kodit do të përdoret nëse varet nëse kushti është përmbushur apo jo. Nëse një lëvizje është regjistruar, pajisja Micro:bit do të shfaqë një lule, dhe nëse jo, LED do të qëndrojnë të fikur.</p>
 <p><strong>Hapi 2</strong></p>
-<p>Filloni një projekt të ri dhe tërhiqni bllokun <img alt="if..then" src="_images/s3.png" /> nga kategoria <img alt="Logic" src="../_images/_imageMicroBit/s4.png" /> në bllokun <img alt="forever" src="_images/s1.png" />, të vendosura në kategorinë <img alt="Basic" src="../_images/_imageMicroBit/s2.png" />.</p>
+<p>Filloni një projekt të ri dhe tërhiqni bllokun <img alt="if..then" src="_images/s3.png" /> nga kategoria <img alt="Logic" src="../_images/s4.png" /> në bllokun <img alt="forever" src="_images/s1.png" />, të vendosura në kategorinë <img alt="Basic" src="../_images/s2.png" />.</p>
 <p>Blloqet e vendosura brenda bllokut <code class="docutils literal notranslate"><span class="pre">foever</span></code> do të funksionojnë derisa të fiket Micro:bit.</p>
-<p>Zvarrit bllokun <img alt="uslov1" src="_images/s7.png" /> (vendosur në kategorinë <img alt="Input" src="../_images/_imageMicroBit/s6.png" />) në fushën hyrëse për gjendjen <img alt="uslov" src="../_images/_imageMicroBit/s5.png" />.</p>
+<p>Zvarrit bllokun <img alt="uslov1" src="_images/s7.png" /> (vendosur në kategorinë <img alt="Input" src="../_images/s6.png" />) në fushën hyrëse për gjendjen <img alt="uslov" src="../_images/s5.png" />.</p>
 <p>Nga lista drop-down e bllokut <img alt="uslov1" src="_images/s7.png" />:</p>
-<img alt="../_images/_imageMicroBit/s8.png" class="align-center" src="../_images/_imageMicroBit/s8.png" />
-<p>zgjidh opsionin <img alt="shake" src="../_images/_imageMicroBit/s9.png" />. Ky opsion regjistron lëvizjet.</p>
+<img alt="../_images/_imageMicroBit/s8.png" class="align-center" src="../_images/s8.png" />
+<p>zgjidh opsionin <img alt="shake" src="../_images/s9.png" />. Ky opsion regjistron lëvizjet.</p>
 <img alt="_images/s10.png" class="align-center" src="_images/s10.png" />
 <p>Bazuar në vendosjen e detyrës, një lule do të shfaqet në Micro:bit kur të jetë regjistruar një lëvizje (d.m.th. në rastin tonë kur kushti është përmbushur). Është e nevojshme të tërhiqni blloqet për shfaqjen e luleve (të cilat ndizni LED të veçantë) nga kategoria <code class="docutils literal notranslate"><span class="pre">Basic</span></code> në degë (kushti i përmbushur, ose dega YES):</p>
 <img alt="_images/s12.png" class="align-center" src="_images/s12.png" />
 <p>Ne do të përdorim tre blloqe <code class="docutils literal notranslate"><span class="pre">show</span> <span class="pre">led</span></code> për shfaqjen e luleve. Këto blloqe do të përdoren për të shfaqur imazhin e dëshiruar të një lule.
 Pamja e programit kur është bërë një lëvizje:</p>
 <img alt="_images/s13.png" class="align-center" src="_images/s13.png" />
-<p>Bazuar në vendosjen e detyrës, ekziston gjithashtu një kusht që thotë se nëse një lëvizje nuk është regjistruar, asgjë nuk duhet të shfaqet në Micro:bit. Për ta arritur këtë, duhet të shtojmë një degë, e cila do të ekzekutojë blloqe të caktuara kur kushti nuk është përmbushur (në rastin tonë, kur nuk ka lëvizje). Ne mund ta shtojmë këtë degë duke klikuar në shenjën <img alt="plus" src="../_images/_imageMicroBit/s15.png" />. Në këtë degë do të shtojmë bllokun <img alt="clear" src="_images/s14.png" />, i cili përdoret për të pastruar ekranin Micro:bit.</p>
+<p>Bazuar në vendosjen e detyrës, ekziston gjithashtu një kusht që thotë se nëse një lëvizje nuk është regjistruar, asgjë nuk duhet të shfaqet në Micro:bit. Për ta arritur këtë, duhet të shtojmë një degë, e cila do të ekzekutojë blloqe të caktuara kur kushti nuk është përmbushur (në rastin tonë, kur nuk ka lëvizje). Ne mund ta shtojmë këtë degë duke klikuar në shenjën <img alt="plus" src="../_images/s15.png" />. Në këtë degë do të shtojmë bllokun <img alt="clear" src="_images/s14.png" />, i cili përdoret për të pastruar ekranin Micro:bit.</p>
 <p>Pamja finale e byrzylykut:</p>
 <img alt="_images/s16.png" class="align-center" src="_images/s16.png" />
 <p>Stimulimi:</p>
 <blockquote>
-<div><img alt="../_images/_imageMicroBit/s17.png" class="align-center" src="../_images/_imageMicroBit/s17.png" />
+<div><img alt="../_images/_imageMicroBit/s17.png" class="align-center" src="../_images/s17.png" />
 </div></blockquote>
 <p><strong>Hapi 3</strong></p>
-<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/_imageMicroBit/s19.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/_imageMicroBit/29.png" style="width: 199px;" /></a>. Micro bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/s19.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
 <p>Kur të përfundoni programimin e Micro:bit, vendoseni në rastin e bërë tashmë me byzylyk dhe filloni ta përdorni.</p>
 <p>Byzylyku:</p>
-<img alt="../_images/_imageMicroBit/Narukvica2.png" class="align-center" src="../_images/_imageMicroBit/Narukvica2.png" />
+<img alt="../_images/_imageMicroBit/Narukvica2.png" class="align-center" src="../_images/Narukvica2.png" />
 </div>
 
 

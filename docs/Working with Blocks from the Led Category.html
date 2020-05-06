@@ -206,22 +206,22 @@
   
   <div class="section" id="puna-me-blloqet-nga-kategoria-led">
 <h1>Puna me blloqet nga kategoria Led<a class="headerlink" href="#puna-me-blloqet-nga-kategoria-led" title="Permalink to this headline">¶</a></h1>
-<p>Në këtë pjesë do të njihemi me blloqet nga kategoria <img alt="led" src="../_images/_imageMicroBit/p24.png" />, si dhe me atë se si mund të përcaktojmë vendndodhjen e LED në ekran, kështu që mund t’i kthejmë ato bazuar në pozicionin e tyre në ekran.</p>
+<p>Në këtë pjesë do të njihemi me blloqet nga kategoria <img alt="led" src="../_images/p24.png" />, si dhe me atë se si mund të përcaktojmë vendndodhjen e LED në ekran, kështu që mund t’i kthejmë ato bazuar në pozicionin e tyre në ekran.</p>
 <p>Sistemi i koordinatave Karteziane përdoret në matematikë për të përcaktuar pozicionin e pikave në një aeroplan. Në sistemin koordinativ Kartezian, ekzistojnë dy akse koordinative të përcaktuara: <code class="docutils literal notranslate"><span class="pre">x</span></code> dhe <code class="docutils literal notranslate"><span class="pre">y</span></code>.</p>
 <p>Ekranet e Micro:bit dhe simulimi MakeCode përdorin këtë sistem për të përcaktuar pozicionin e LED-ve në ekran. Akset <code class="docutils literal notranslate"><span class="pre">x</span></code> dhe `` y`` formojnë një rrjet 5 x 5, rrjetin e rreshtave dhe kolonave, ku ka 5 LED në akset horizontale, boshti koordinativ <code class="docutils literal notranslate"><span class="pre">x</span></code> (rreshti), dhe 5 LED në boshtet vertikale, boshti i koordinatave <code class="docutils literal notranslate"><span class="pre">y</span></code> (kolona). Këndi i sipërm i majtë ka koordinatat (0,0), ndërsa vlerat e x koordinatave shkojnë nga 0 në 4, dhe ato rriten me 1 nga e majta në të djathtë; vlerat e koordinatës y shkojnë nga 0 në 4, dhe ato rriten me 1 nga lart poshtë. Për shembull, nëse LED është e vendosur në rreshtin e parë dhe në kolonën e tretë, koordinatat e saj janë (0,2).</p>
-<img alt="../_images/_imageMicroBit/p25.png" class="align-center" src="../_images/_imageMicroBit/p25.png" />
+<img alt="../_images/_imageMicroBit/p25.png" class="align-center" src="../_images/p25.png" />
 <p>Krijoni një program, i cili do të ndizet LED me koordinatat (3,3).</p>
-<p>Zvarrit bllokun <img alt="plot" src="../_images/_imageMicroBit/p26.png" /> nga kategoria <img alt="led" src="../_images/_imageMicroBit/p24.png" /> në bllokun <img alt="onstart" src="_images/s20.png" />, i cili tashmë është në sipërfaqen e punës.</p>
+<p>Zvarrit bllokun <img alt="plot" src="../_images/p26.png" /> nga kategoria <img alt="led" src="../_images/p24.png" /> në bllokun <img alt="onstart" src="_images/s20.png" />, i cili tashmë është në sipërfaqen e punës.</p>
 <p>Pamja finale e kodit:</p>
-<img alt="../_images/_imageMicroBit/p29.png" class="align-center" src="../_images/_imageMicroBit/p29.png" />
-<p>Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në butonin <img alt="play" src="../_images/_imageMicroBit/p3.png" />.</p>
+<img alt="../_images/_imageMicroBit/p29.png" class="align-center" src="../_images/p29.png" />
+<p>Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në butonin <img alt="play" src="../_images/p3.png" />.</p>
 
             <div class="course-box course-box-question course-content">
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L4Z1">
             <p>Q-5: Shikoni me kujdes bllokun.</p>
-<img alt="../_images/_imageMicroBit/p31.png" class="align-center" src="../_images/_imageMicroBit/p31.png" />
+<img alt="../_images/_imageMicroBit/p31.png" class="align-center" src="../_images/p31.png" />
 <p>Cila LED do të ndizet në ekran pasi programi të fillojë të funksionojë?</p>
-<img alt="../_images/_imageMicroBit/p30.png" class="align-center" src="../_images/_imageMicroBit/p30.png" />
+<img alt="../_images/_imageMicroBit/p30.png" class="align-center" src="../_images/p30.png" />
 
             <li data-component="answer" data-correct id="L4Z1_opt_a">LED në simulatorin A.</li><li data-component="feedback" id="L4Z1_opt_a">Përgjigja është e saktë!</li>
             
@@ -232,13 +232,13 @@
 
             </ul>
             </div>
-            <p>Nëse duam të fikim LED-in, do të përdorim bllokun <img alt="unplot" src="../_images/_imageMicroBit/p27.png" />, në të cilin do të përcaktojmë pozicionin (koordinatat) e ZHEL që duam të fikim. Me fjalë të tjera, ne përcaktojmë koordinatat x dhe y të LED.</p>
+            <p>Nëse duam të fikim LED-in, do të përdorim bllokun <img alt="unplot" src="../_images/p27.png" />, në të cilin do të përcaktojmë pozicionin (koordinatat) e ZHEL që duam të fikim. Me fjalë të tjera, ne përcaktojmë koordinatat x dhe y të LED.</p>
 <p><strong>Detyrë.</strong> Bëni të ndezura të gjitha LED në fillim të programit. Kur përdoruesi shtyp butonin A, LED-et e vendosura në qoshet e ekranit do të fiken.</p>
 <p>Ju mund ta krahasoni zgjidhjen tuaj me tonën: <a class="reference external" href="https://makecode.microbit.org/_4e6RXM5FmA8M">https://makecode.microbit.org/_4e6RXM5FmA8M</a></p>
 <p><strong>Detyrë.</strong> Krijoni një program, i cili do të simulojë semaforët duke ndezur dhe fikur LED-et e vendosura në rreshtin e tretë dhe kolonën e dytë, të tretë dhe të katërt.</p>
 <p><strong>Ndihmë e vogël:</strong> Ndërsa semaforët ndizen dhe fiken në interval të caktuar (le të themi 1 sekondë), duhet të përdorni bllokun <img alt="pause" src="_images/s39.png" /> për të përcaktuar atë interval.</p>
 <p>Ju mund ta krahasoni zgjidhjen tuaj me tonën: <a class="reference external" href="https://makecode.microbit.org/_TRPRj98xj2Ap">https://makecode.microbit.org/_TRPRj98xj2Ap</a></p>
-<p><img alt="toogle" src="../_images/_imageMicroBit/p28.png" /> është blloku i përdorur për të ndezur LED nëse është i fikur ose për ta fikur nëse është i ndezur. Sigurisht, në këtë bllok, duhet të vendosim vlerat për koordinatat x dhe y.</p>
+<p><img alt="toogle" src="../_images/p28.png" /> është blloku i përdorur për të ndezur LED nëse është i fikur ose për ta fikur nëse është i ndezur. Sigurisht, në këtë bllok, duhet të vendosim vlerat për koordinatat x dhe y.</p>
 <div class="system-message">
 <p class="system-message-title">System Message: ERROR/3 (<span class="docutils literal">/home/izabela/BlockBasedProgMakeCodeAl/_sources/Working with Blocks from the Led Category.rst</span>, line 71)</p>
 <p>No correct answer specified.</p>
@@ -269,19 +269,19 @@
 </div></blockquote>
 <p>Shiko me kujdes bllokun.</p>
 <blockquote>
-<div><img alt="../_images/_imageMicroBit/p32.png" class="align-center" src="../_images/_imageMicroBit/p32.png" />
+<div><img alt="../_images/_imageMicroBit/p32.png" class="align-center" src="../_images/p32.png" />
 <p>Çfarë do të shfaqet pas ekzekutimit të blloqeve të paraqitura më lart?</p>
 </div></blockquote>
-<p>Shtesë: Për të analizuar të dhënat hyrëse (grafikisht), në rastin tonë, nivelin e dritës, mund të përdorim bllokun <img alt="plotbar" src="../_images/_imageMicroBit/p33.png" /> ku do të futim vlerën fillestare dhe përfundimtare të intervalit që duhet të analizohet.</p>
+<p>Shtesë: Për të analizuar të dhënat hyrëse (grafikisht), në rastin tonë, nivelin e dritës, mund të përdorim bllokun <img alt="plotbar" src="../_images/p33.png" /> ku do të futim vlerën fillestare dhe përfundimtare të intervalit që duhet të analizohet.</p>
 <p>Në rastin tonë, vlera fillestare do të jetë blloku <img alt="level" src="_images/s54.png" /> (e cila ruan vlerën e leximit të sensorit të dritës), dhe vlera përfundimtare do të jetë 255 sepse sasia e dritës së matur varion nga 0 në 255.</p>
-<p>Blloku <img alt="plotbar" src="../_images/_imageMicroBit/p33.png" /> është tërhequr në bllokun <img alt="forever" src="_images/s1.png" /> nga kategoria <img alt="Basic" src="../_images/_imageMicroBit/s2.png" />.</p>
+<p>Blloku <img alt="plotbar" src="../_images/p33.png" /> është tërhequr në bllokun <img alt="forever" src="_images/s1.png" /> nga kategoria <img alt="Basic" src="../_images/s2.png" />.</p>
 <p>Pamja e bllokut:</p>
-<img alt="../_images/_imageMicroBit/p34.png" class="align-center" src="../_images/_imageMicroBit/p34.png" />
-<p>Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në butonin <img alt="play" src="../_images/_imageMicroBit/p3.png" />.</p>
+<img alt="../_images/_imageMicroBit/p34.png" class="align-center" src="../_images/p34.png" />
+<p>Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në butonin <img alt="play" src="../_images/p3.png" />.</p>
 <p>Në këtë rast, ne do të hapim simulatorin, i cili tregon të dhënat si një graf.</p>
-<img alt="../_images/_imageMicroBit/p37.png" class="align-center" src="../_images/_imageMicroBit/p37.png" />
-<img alt="../_images/_imageMicroBit/p38.png" class="align-center" src="../_images/_imageMicroBit/p38.png" />
-<p>Ky imitues do të funksionojë derisa ta ndalojmë duke klikuar në butonin <img alt="stop" src="../_images/_imageMicroBit/p39.png" />. Nëse duam të shkarkojmë të dhënat e mbledhura të hyrjes, mund t’i shkarkojmë në kompjuterin tonë në formatin CSV, duke klikuar në butonin <img alt="preuzmi" src="../_images/_imageMicroBit/p36.png" />. Ky dokument përmban kolonat me kohën (në milisekonda) dhe nivelin e dritës së matur.</p>
+<img alt="../_images/_imageMicroBit/p37.png" class="align-center" src="../_images/p37.png" />
+<img alt="../_images/_imageMicroBit/p38.png" class="align-center" src="../_images/p38.png" />
+<p>Ky imitues do të funksionojë derisa ta ndalojmë duke klikuar në butonin <img alt="stop" src="../_images/p39.png" />. Nëse duam të shkarkojmë të dhënat e mbledhura të hyrjes, mund t’i shkarkojmë në kompjuterin tonë në formatin CSV, duke klikuar në butonin <img alt="preuzmi" src="../_images/p36.png" />. Ky dokument përmban kolonat me kohën (në milisekonda) dhe nivelin e dritës së matur.</p>
 </div>
 
 

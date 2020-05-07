@@ -176,7 +176,7 @@ Pamja e bllokut:
 .. image:: ../_images/_imageMicroBit/n5.png
       :align: center
 
-**Shënim **: Micro:bit duhet të jetë i lidhur me altoparlantët ose kufjet, siç tregohet në figurën më poshtë, që tingulli të riprodhohet.
+**Shënim**: Micro:bit duhet të jetë i lidhur me altoparlantët ose kufjet, siç tregohet në figurën më poshtë, që tingulli të riprodhohet.
 
 .. image:: ../_images/_imageMicroBit/34.png
       :align: center

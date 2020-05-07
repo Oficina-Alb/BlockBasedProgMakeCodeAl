@@ -32,13 +32,13 @@ Në lidhje me vendimmarrjen, MakeCode ofron:
 Duke përdorur një operator krahasimi, ju mund të krahasoni vlerat dhe të përcaktoni nëse njëra është më e madhe / më e vogël se tjetri ose nëse ato janë të barabarta. Rezultati i krahasimit mund të jetë ``TRUE`` ose ``FALSE``.
 
 .. mchoice:: L6Z1
-    :answer_a: Si rezultat i ekzekutimit të bllokut A, programi do të tregojë vlerën e temperaturës në dhomë.
-    :answer_b: Ekzekutimi i blloqeve A dhe B do të ketë të njëjtin rezultat - programi do të shkruajë temperaturën e dhomës.
-    :answer_c: Si rezultat i ekzekutimit të bllokut B, programi do të shfaqë një kryq të vogël.
-    :feedback_a: Përgjigja nuk është e saktë!
-    :feedback_b: Përgjigja është e saktë!
-    :feedback_c: Përgjigja nuk është e saktë!
-    :correct: b
+   :answer_a: Si rezultat i ekzekutimit të bllokut A, programi do të tregojë vlerën e temperaturës në dhomë.
+   :answer_b: Ekzekutimi i blloqeve A dhe B do të ketë të njëjtin rezultat - programi do të shkruajë temperaturën e dhomës.
+   :answer_c: Si rezultat i ekzekutimit të bllokut B, programi do të shfaqë një kryq të vogël.
+   :feedback_a: Përgjigja nuk është e saktë!
+   :feedback_b: Përgjigja është e saktë!
+   :feedback_c: Përgjigja nuk është e saktë!
+   :correct: b
 
 Temperatura në dhomë është 28 gradë celsius. Analizoni blloqet e dhëna në figurë dhe shënoni fjalinë e saktë.
 

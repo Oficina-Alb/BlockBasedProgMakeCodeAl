@@ -6,7 +6,7 @@ Kompjuteri përpunon të dhënat që merr nga hyrja (nga përdoruesi (duke shtyp
 |Input| është kategoria që përmban blloqe (komanda), të cilat përpunojnë të dhënat e marra nga përdoruesit (duke klikuar butonat) ose mjedisin (duke lexuar të dhëna shqisore).
 
 .. image:: ../_images/_imageMicroBit/p8.png
-      :align: center
+    :align: center
 
 Të dhënat hyrëse mund të merren nga shtypja e butonit ``A``, ``B`` ose ``A + B``, si dhe nga leximi i vlerave të sensorëve për dritën, temperaturën dhe aceleratorin.
 
@@ -19,13 +19,13 @@ Ne dëshirojmë të krijojmë një program i cili tregon temperaturën (në grad
 .. |forever| image:: ../_images/_imageMicroBit/s1.png
 
 .. mchoice:: L2Z1
-    :answer_a: një herë.
-    :answer_b: pafundësisht.
-    :feedback_a:Bravo! Blloku në onstart është një nga blloqet nga kategoria Basic, dhe blloqet brenda tij ekzekutohen vetëm një herë gjatë ekzekutimit të programit.
-    :feedback_b: Blloku përgjithmonë është blloku brenda të cilit komandat do të ekzekutohen një numër të pafund herë. Drejtimi i këtij blloku nuk do të ndalet kurrë më vete. Për të ndaluar funksionimin e këtij blloku, duhet të shtypni butonin stop (|stop|).
-    :correct: a
-
-    Sa herë do të ekzekutohen blloqet brenda bllokut |start|?
+   :answer_a: një herë.
+   :answer_b: pafundësisht.
+   :feedback_a: Bravo! Blloku në onstart është një nga blloqet nga kategoria Basic, dhe blloqet brenda tij ekzekutohen vetëm një herë gjatë ekzekutimit të programit.
+   :feedback_b: Blloku përgjithmonë është blloku brenda të cilit komandat do të ekzekutohen një numër të pafund herë. Drejtimi i këtij blloku nuk do të ndalet kurrë më vete. Për të ndaluar funksionimin e këtij blloku, duhet të shtypni butonin stop (|stop|).
+   :correct: a
+   
+   Sa herë do të ekzekutohen blloqet brenda bllokut |onstart|?
 
 
 Siç kemi parë tashmë në shembujt e mësimit të mëparshëm, mënyra se si fillon dhe funksionon programi varet nga cili bllok është përdorur, |onstart| ose |forever|
@@ -51,7 +51,7 @@ Pas lidhjes së këtyre dy blloqeve, ne do të zgjedhim bllokun temperature nga 
 Pamja finale e programit:
 
 .. image:: ../_images/_imageMicroBit/p10.png
-      :align: center
+    :align: center
 
 Ne do të përdorim simulatorin për të testuar programin. Programi do të ekzekutohet pasi |play| butoni klikohet.
 
@@ -59,52 +59,52 @@ Ne do të përdorim simulatorin për të testuar programin. Programi do të ekze
 
 
 .. mchoice:: L2Z2
-    :answer_a: Kur shtypet butoni A, do të shfaqet vlera e nivelit të dritës.
-    :answer_b: Kur shtypet butoni B, do të shfaqet vlera e nivelit të dritës.
-    :answer_c: Kur shtypen A dhe B në të njëjtën kohë, do të shfaqet vlera e nivelit të dritës.
-    :feedback_a: Bravo! Kur shtypet butoni A, do të shfaqet vlera e nivelit të dritës.
-    :feedback_b: Përgjigja nuk është e saktë! Kur shtypet butoni A, do të shfaqet vlera e nivelit të dritës.
-    :feedback_c: Përgjigja nuk është e saktë! Kur shtypet butoni A, do të shfaqet vlera e nivelit të dritës.
-    :correct: a
+   :answer_a: Kur shtypet butoni A, do të shfaqet vlera e nivelit të dritës.
+   :answer_b: Kur shtypet butoni B, do të shfaqet vlera e nivelit të dritës.
+   :answer_c: Kur shtypen A dhe B në të njëjtën kohë, do të shfaqet vlera e nivelit të dritës.
+   :feedback_a: Bravo! Kur shtypet butoni A, do të shfaqet vlera e nivelit të dritës.
+   :feedback_b: Përgjigja nuk është e saktë! Kur shtypet butoni A, do të shfaqet vlera e nivelit të dritës.
+   :feedback_c: Përgjigja nuk është e saktë! Kur shtypet butoni A, do të shfaqet vlera e nivelit të dritës.
+   :correct: a
+   
+   Cila do të jetë shkas për shfaqjen e nivelit të dritës:
 
-    Cila do të jetë shkas për shfaqjen e nivelit të dritës:
+.. image:: ../_images/_imageMicroBit/p11.png
+    :align: center
 
-    .. image:: ../_images/_imageMicroBit/p11.png
-          :align: center
-
-    Ndihmë e vogël: Blloku |level| ruan vlerën e marrë nga sensori i dritës i vendosur në ekran (LED-të luajnë rolin e sensorit të dritës).
+Ndihmë e vogël: Blloku |level| ruan vlerën e marrë nga sensori i dritës i vendosur në ekran (LED-të luajnë rolin e sensorit të dritës).
 
 .. |level| image:: ../_images/_imageMicroBit/s54.png
 
 .. mchoice:: L2Z3
-    :answer_a: Blloku A.
-    :answer_b: Blloku B.
-    :answer_c: Blloku C.
-    :answer_d: Blloku D.
-    :feedback_a: Përgjigja nuk është e saktë!
-    :feedback_b: Përgjigja nuk është e saktë!
-    :feedback_c: Përgjigja është e saktë!
-    :feedback_d: Përgjigja nuk është e saktë!
-    :correct: c
+   :answer_a: Blloku A.
+   :answer_b: Blloku B.
+   :answer_c: Blloku C.
+   :answer_d: Blloku D.
+   :feedback_a: Përgjigja nuk është e saktë!
+   :feedback_b: Përgjigja nuk është e saktë!
+   :feedback_c: Përgjigja është e saktë!
+   :feedback_d: Përgjigja nuk është e saktë!
+   :correct: c
+   
+   Shikoni me kujdes blloqet. Cili nga blloqet paraqet një program që do të tërheqë një lule kur të bëhet një lëvizje (shkundje)?
 
-    Shikoni me kujdes blloqet. Cili nga blloqet paraqet një program që do të tërheqë një lule kur të bëhet një lëvizje (shkundje)?
-
-    .. image:: ../_images/_imageMicroBit/p16.png
-          :align: center
+.. image:: ../_images/_imageMicroBit/p16.png
+    :align: center
 
 .. mchoice:: L2Z4
-    :answer_a: Kur shtypet butoni A, drejtimi do të shfaqet.
-    :answer_b: Kur shtypet butoni B, drejtimi do të shfaqet.
-    :answer_c: Kur A dhe B shtypen në të njëjtën kohë, drejtimi do të shfaqet.
-    :feedback_a: Përgjigja nuk është e saktë!
-    :feedback_b: Përgjigja nuk është e saktë!
-    :feedback_c: Përgjigja është e saktë.
-    :correct: c
+   :answer_a: Kur shtypet butoni A, drejtimi do të shfaqet.
+   :answer_b: Kur shtypet butoni B, drejtimi do të shfaqet.
+   :answer_c: Kur A dhe B shtypen në të njëjtën kohë, drejtimi do të shfaqet.
+   :feedback_a: Përgjigja nuk është e saktë!
+   :feedback_b: Përgjigja nuk është e saktë!
+   :feedback_c: Përgjigja është e saktë!
+   :correct: c
+   
+   Shikoni me kujdes bllokun. Cila do të jetë nxitësi (hyrja) për shfaqjen e drejtimit të vendosjes së pajisjes:
 
-    Shikoni me kujdes bllokun. Cila do të jetë nxitësi (hyrja) për shfaqjen e drejtimit të vendosjes së pajisjes:
-
-    .. image:: ../_images/_imageMicroBit/p17.png
-          :align: center
+.. image:: ../_images/_imageMicroBit/p17.png
+    :align: center
 
 **Detyrë.** Krijoni një program, i cili duhet të shfaqë një fytyrë Smiley (duke përdorur |showleds|) kur shtypet butoni A, kur shtypet butoni B, ai duhet të tregojë emrat tuaj, dhe kur A dhe B shtypen së bashku, ai duhet të tregojë sa vjeç je.
 

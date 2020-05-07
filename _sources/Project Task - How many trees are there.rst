@@ -52,7 +52,7 @@ Vendosja e vlerës fillestare (rivendosja në vlerën fillestare) përcaktohet m
 
 Nga kategoria |Loops| zgjidhni bllokun |start|. Ne do ta përdorim këtë bllok si "shkas" për rivendosjen e variablit **Counter**.
 
-Nga kategoria |Variable| tërhiqni bllokun |set| Kundër ``0``:
+Nga kategoria |Variables| tërhiqni bllokun |set| Kundër ``0``:
 
 .. image:: ../_images/_imageMinecraft/54.png
           :align: center

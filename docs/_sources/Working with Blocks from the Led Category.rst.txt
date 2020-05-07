@@ -29,23 +29,23 @@ Pamja finale e kodit:
 Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në butonin |play|.
 
 .. mchoice:: L4Z1
-    :answer_a: LED në simulatorin A.
-    :answer_b: LED në simulatorin B.
-    :answer_c: LED në simulatorin C.
-    :feedback_a: Përgjigja është e saktë!
-    :feedback_b: Përgjigja nuk është e saktë!
-    :feedback_c: Përgjigja nuk është e saktë!
-    :correct: a
+   :answer_a: LED në simulatorin A.
+   :answer_b: LED në simulatorin B.
+   :answer_c: LED në simulatorin C.
+   :feedback_a: Përgjigja është e saktë!
+   :feedback_b: Përgjigja nuk është e saktë!
+   :feedback_c: Përgjigja nuk është e saktë!
+   :correct: a
+   
+   Shikoni me kujdes bllokun.
 
-    Shikoni me kujdes bllokun.
+.. image:: ../_images/_imageMicroBit/p31.png
+      :align: center
 
-    .. image:: ../_images/_imageMicroBit/p31.png
-          :align: center
-
-    Cila LED do të ndizet në ekran pasi programi të fillojë të funksionojë?
+Cila LED do të ndizet në ekran pasi programi të fillojë të funksionojë?
 
     .. image:: ../_images/_imageMicroBit/p30.png
-          :align: center
+      :align: center
 
 
 Nëse duam të fikim LED-in, do të përdorim bllokun |unplot|, në të cilin do të përcaktojmë pozicionin (koordinatat) e ZHEL që duam të fikim. Me fjalë të tjera, ne përcaktojmë koordinatat x dhe y të LED.
@@ -69,14 +69,13 @@ Ju mund ta krahasoni zgjidhjen tuaj me tonën: https://makecode.microbit.org/_TR
 .. |toogle| image:: ../_images/_imageMicroBit/p28.png
 
 .. mchoice:: L4Z2
-    :answer_a: Drita do të fiket pas 1 milisekondi.
-    :answer_b: Drita do të ndizet dhe fiket çdo 1 milisekondi.
-    :answer_c: Drita do të ndizet pas 1 milisekondi.
-    :feedback_a: Përgjigja nuk është e saktë!
-    :feedback_b: Përgjigja është e saktë!
-    :feedback_c: Përgjigja nuk është e saktë
-    :correct: b
-
+   :answer_a: Drita do të fiket pas 1 milisekondi.
+   :answer_b: Drita do të ndizet dhe fiket çdo 1 milisekondi.
+   :answer_c: Drita do të ndizet pas 1 milisekondi.
+   :feedback_a: Përgjigja nuk është e saktë!:feedback_b: Përgjigja është e saktë!
+   :feedback_c: Përgjigja nuk është e sakte!
+   :correct: b
+   
 Shiko me kujdes bllokun.
 
     .. image:: ../_images/_imageMicroBit/p32.png

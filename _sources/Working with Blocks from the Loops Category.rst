@@ -44,28 +44,27 @@ Blloku për përsëritjen e komandave do të ekzekutohet një numër të pafund 
 Ne i përdorëm blloqet për të përsëritur në mësimet tona të mëparshme kur shfaqëm animacionin e një katrori.
 
 .. mchoice:: L7Z1
-     : answer_a: Blloqe të reja mund të futen në bllok vetë, kështu që nuk ka nevojë për të vazhduar skenarin.
-     : answer_b: ashtë një gabim në MakeCode. Blloku që përsërit komandat një numër të pafund herësh duhet të ketë mundësinë që të vazhdojë stacking skenarin.
-     : answer_c: Shtimi i blloqeve të mëtejshme do të ishte i kotë pasi ato nuk do të ekzekutoheshin kurrë.
-     : feedback_a: Përgjigja është e saktë!
-     : e saktë: a
-     : feedback_b: Përgjigja nuk është e saktë!
-     : feedback_c: Përgjigja nuk është e saktë!
+   :answer_a: Blloqe të reja mund të futen në bllok vetë, kështu që nuk ka nevojë për të vazhduar skenarin.
+   :answer_b: ashtë një gabim në MakeCode. Blloku që përsërit komandat një numër të pafund herësh duhet të ketë mundësinë që të vazhdojë stacking skenarin.
+   :answer_c: Shtimi i blloqeve të mëtejshme do të ishte i kotë pasi ato nuk do të ekzekutoheshin kurrë.
+   :feedback_a: Përgjigja është e saktë!
+   :correct: a
+   :feedback_b: Përgjigja nuk është e saktë!
+   :feedback_c: Përgjigja nuk është e saktë!
     
     Analizoni pamjen e blloqeve. Ju mund të shihni që blloku foever i përdorur për përsëritjen e komandave në kohë të pacaktuar nuk ka mundësinë e lidhjes me blloqe të tjera, blloqe të tjera nuk mund të shtohen në të. Pse?
 
 Blloku që përsërit blloqet e tjera (komandat) funksionon derisa të përmbushet një kusht specifik. Blloqet brenda këtij blloku ekzekutohen bazuar në kontrollin nëse kushti është përmbushur apo jo. Ne e përdorim këtë bllok kur nuk e dimë sa herë duhet të përsërisim komandat brenda tij, dhe duam që ata të ekzekutojnë derisa të përmbushet një kusht specifik.
 
 .. mchoice:: L7Z2
-    :answer_a: Blloku që përsërit komandat një numër të caktuar herësh.
-    :answer_b: Blloku që përsërit komandon një numër të pafund herësh.
-    :answer_c: Blloku që përsërit komandat derisa të përmbushet një kusht i caktuar.
-    :correct: c
-    :feedback_a: Përgjigja nuk është e saktë!
-    :feedback_b: Përgjigja nuk është e saktë!
-    :feedback_c: Përgjigja është e saktë!
+   :answer_a: Blloku që përsërit komandat një numër të caktuar herësh.
+   :answer_b: Blloku që përsërit komandon një numër të pafund herësh.
+   :answer_c: Blloku që përsërit komandat derisa të përmbushet një kusht i caktuar.
+   :correct: c
+   :feedback_a: Përgjigja nuk është e saktë!
+   :feedback_b: Përgjigja nuk është e saktë!
+   :feedback_c: Përgjigja është e saktë!
     
-
     Ju dëshironi të krijoni një program, i cili vazhdimisht ndizet LED në ekran me koordinatat (2,2) derisa niveli i dritës të bjerë nën një vlerë të caktuar. Cilat blloqe do të përdorni për përsëritjen e komandave?
 
 Ne do të demonstrojmë përdorimin e këtij blloku duke krijuar një program që luan një ton për aq kohë sa niveli i dritës është më i ulët se 120.

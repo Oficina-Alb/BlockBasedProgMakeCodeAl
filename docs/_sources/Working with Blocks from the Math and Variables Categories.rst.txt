@@ -58,16 +58,18 @@ Pamja finale e kodit:
       :align: center
 
 .. mchoice:: L5Z1
-    :answer_a: 2.
-    :answer_b: 10.
-    :answer_c: 4.
-    :feedback_a: Përgjigja është e saktë!
-    :feedback_b: Përgjigja nuk është e saktë!
-    :feedback_c: Përgjigja nuk është e saktë!
-    :correct: a
+   :answer_a: 2.
+   :answer_b: 10.
+   :answer_c: 4.
+   :feedback_a: Përgjigja është e saktë!
+   :feedback_b: Përgjigja nuk është e saktë!
+   :feedback_c: Përgjigja nuk është e saktë!
+   :correct: a
+   
 
-    Krijoni një program, i cili ka dy variabla: x dhe y. Vlera e caktuar e variablës x duhet të jetë 2 (x = 2), dhe vlera e caktuar e variblit y duhet të jetë 4 (y = 4).
-     Kur programi ekzekuton bllokun e treguar në figurën më poshtë, rezultati do të jetë:
+Krijoni një program, i cili ka dy variabla: x dhe y. Vlera e caktuar e variablës x duhet të jetë 2 (x = 2), dhe vlera e caktuar e variblit y duhet të jetë 4 (y = 4).
+
+Kur programi ekzekuton bllokun e treguar në figurën më poshtë, rezultati do të jetë:
 
     .. image:: ../_images/_imageMicroBit/p48.png
           :align: center
@@ -111,17 +113,18 @@ Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në
 .. |play| image:: ../_images/_imageMicroBit/p3.png
 
 .. mchoice:: L5Z2
-    :answer_a: Çdo vlerë nga intervali 0 deri në 15, pa përfshirë 0.
-    :answer_b: Çdo vlerë nga intervali 0 deri 15, përfshirë ato vlera.
-    :answer_c: Çdo vlerë nga intervali 0 deri në 15, pa përfshirë 15.
-    :correct: b
-    :feedback_a: Përgjigja nuk është e saktë!
-    :feedback_b: Përgjigja është e saktë!
-    :feedback_c: Përgjigja nuk është e saktë!
+   :answer_a: Çdo vlerë nga intervali 0 deri në 15, pa përfshirë 0.
+   :answer_b: Çdo vlerë nga intervali 0 deri 15, përfshirë ato vlera.
+   :answer_c: Çdo vlerë nga intervali 0 deri në 15, pa përfshirë 15.
+   :correct: b
+   :feedback_a: Përgjigja nuk është e saktë!
+   :feedback_b: Përgjigja është e saktë!
+   :feedback_c: Përgjigja nuk është e saktë!
 
-    Studio bllokun me kujdes:
+
+Studio bllokun me kujdes:
 
     .. image:: ../_images/_imageMicroBit/p53.png
           :align: center
 
-    Cila do të jetë vlera e variablit Counter kur të bëhet një lëvizje (tronditje)?
+Cila do të jetë vlera e variablit Counter kur të bëhet një lëvizje (tronditje)?

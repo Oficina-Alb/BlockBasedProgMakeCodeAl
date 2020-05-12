@@ -30,7 +30,8 @@ MakeCode ka tre lloje të blloqeve në të cilat blloqe të tjerë, ekzekutimi i
           :align: center
 
   Ne duhet ta përdorim këtë bllok kur nuk e dimë se sa herë blloqet e futura në bllokun e përsëritjes duhet të ekzekutohen, dhe për këtë arsye, duam që ata të ecin derisa të përmbushet një gjendje e caktuar.
-   Blloqet, të cilat duhet të përsëriten, tërhiqen dhe futen në blloqe përsëritje.
+   
+Blloqet, të cilat duhet të përsëriten, tërhiqen dhe futen në blloqe përsëritje.
 
 Blloku, i cili do të përsërisë blloqe të tjera në një numër të saktë, mund të përdoret për të riprodhuar tonin C tre herë.
 

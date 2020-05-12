@@ -72,7 +72,7 @@ Kodi i programit dhe pamja e simulimit (roboti po lëviz derisa të shohë ngjyr
 Lidhni EV3 Brick me kompjuterin përmes kabllit USB dhe shkarkoni skedarin .uf2 në kompjuterin tuaj duke klikuar butonin |dugme1|. Duke tërhequr skedarin mbi EV3, është gati të fillojë punën.
 
 
-**Përdorimi i sensorit ultrasonic **
+**Përdorimi i sensorit ultrasonic**
 
 Ne do të demonstrojmë përdorimin e sensorit ultrasonik duke krijuar një program, i cili do të lejojë që roboti të lëvizë derisa të hasë në një pengesë.
 

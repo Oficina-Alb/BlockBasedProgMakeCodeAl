@@ -206,32 +206,32 @@
   
   <div class="section" id="puna-me-blloqe-nga-kategoria-e-radios">
 <h1>Puna me Blloqe nga Kategoria e Radios<a class="headerlink" href="#puna-me-blloqe-nga-kategoria-e-radios" title="Permalink to this headline">¶</a></h1>
-<p>Në këtë mësim, do të njihemi me blloqet nga kategoria <img alt="Radio" src="../_images/s21.png" />, d.m.th. blloqet të cilat përdoren për krijimin e një lidhjeje dhe komunikimi midis dy ose më shumë pajisjeve Micro:bit. Ashtu si në këtë rast ne nuk do të përdorim Micro:bit, në ekranin e simulatorit do të shfaqen dy Micro: bit.
+<p>Në këtë mësim, do të njihemi me blloqet nga kategoria <img alt="Radio" src="_images/s211.png" />, d.m.th. blloqet të cilat përdoren për krijimin e një lidhjeje dhe komunikimi midis dy ose më shumë pajisjeve Micro:bit. Ashtu si në këtë rast ne nuk do të përdorim Micro:bit, në ekranin e simulatorit do të shfaqen dy Micro: bit.
 Në simulator, të gjitha kodet e krijuara do të funksionojnë në të dy Micro:bit virtuale.</p>
 <p>Krijoni një program i cili, kur shtypet butoni A, dërgon një numër të rastit nga intervali 0 në 100. Kur merret ky informacion, në mes të ekranit shfaqet një dritë, duke formuar një katror 3x3 nëse numri i marrë është i barabartë; përndryshe, shfaqet vlera e këtij numri.</p>
 <p>Duke krijuar një grup ID, ne në fakt krijojmë një hapësirë ku pajisjet do të komunikojnë.</p>
-<p>Për të krijuar një grup ID, duhet të tërheqim bllokun <img alt="radioset" src="_images/s22.png" /> nga kategoria <img alt="Radio" src="../_images/s21.png" /> në bllokun <img alt="onstart" src="_images/s20.png" />. Në fushën e hyrjes për numra dhe tekst, ne mund të vendosim numrin e dëshiruar për grupin e identitetit, i cili mund të jetë çdo numër. Do ta lëmë që të jetë 1. Në këtë mënyrë krijuam grupin ID 1, ku të dyja Microt:bitet mund të komunikojnë.</p>
-<img alt="_images/s24.png" class="align-center" src="_images/s24.png" />
+<p>Për të krijuar një grup ID, duhet të tërheqim bllokun <img alt="radioset" src="_images/s221.png" /> nga kategoria <img alt="Radio" src="_images/s211.png" /> në bllokun <img alt="onstart" src="_images/s20.png" />. Në fushën e hyrjes për numra dhe tekst, ne mund të vendosim numrin e dëshiruar për grupin e identitetit, i cili mund të jetë çdo numër. Do ta lëmë që të jetë 1. Në këtë mënyrë krijuam grupin ID 1, ku të dyja Microt:bitet mund të komunikojnë.</p>
+<img alt="_images/s241.png" class="align-center" src="_images/s241.png" />
 <p>SHENIM: Kur ne përdorim blloqet nga kategoria <code class="docutils literal notranslate"><span class="pre">Radio</span></code> do të ketë dy Micro:bit të shfaqura në simulues.</p>
-<p>Variabli <code class="docutils literal notranslate"><span class="pre">Counter</span></code> ruan vlerën e marrë nga përdorimi i bllokut <img alt="pickrandom" src="../_images/p49.png" />, ose më saktë, variabli <code class="docutils literal notranslate"><span class="pre">Counter</span></code> merr një nga vlerat e rastit nga intervali 0 deri në 100.
-Kur shtypet butoni A, biti Micro: dërgon vlerën e variablit <code class="docutils literal notranslate"><span class="pre">Counter</span></code> duke përdorur bllokun <img alt="send" src="_images/s30.png" /> nga kategoria <img alt="Radio" src="../_images/s21.png" />.</p>
+<p>Variabli <code class="docutils literal notranslate"><span class="pre">Counter</span></code> ruan vlerën e marrë nga përdorimi i bllokut <img alt="pickrandom" src="_images/p49.png" />, ose më saktë, variabli <code class="docutils literal notranslate"><span class="pre">Counter</span></code> merr një nga vlerat e rastit nga intervali 0 deri në 100.
+Kur shtypet butoni A, biti Micro: dërgon vlerën e variablit <code class="docutils literal notranslate"><span class="pre">Counter</span></code> duke përdorur bllokun <img alt="send" src="_images/s30.png" /> nga kategoria <img alt="Radio" src="_images/s211.png" />.</p>
 <p>Pamja e kodit:</p>
-<img alt="../_images/_imageMicroBit/p73.png" class="align-center" src="../_images/p73.png" />
-<p>Kur informacioni dërgohet (në rastin tonë Counter), këto informacione duhet të merren. Bazuar në këtë informacion, përcaktohet ekzekutimi i programit (sheshi do të shfaqet nëse numri i marrë është i barabartë; përndryshe, do të shfaqet vlera e numrit të marrë). Për këtë, ne do të tërheqim një bllok nga kategoria <img alt="Radio" src="../_images/s21.png" />:</p>
-<img alt="../_images/_imageMicroBit/p73.png" class="align-center" src="../_images/p73.png" />
+<img alt="_images/p73.png" class="align-center" src="_images/p73.png" />
+<p>Kur informacioni dërgohet (në rastin tonë Counter), këto informacione duhet të merren. Bazuar në këtë informacion, përcaktohet ekzekutimi i programit (sheshi do të shfaqet nëse numri i marrë është i barabartë; përndryshe, do të shfaqet vlera e numrit të marrë). Për këtë, ne do të tërheqim një bllok nga kategoria <img alt="Radio" src="_images/s211.png" />:</p>
+<img alt="_images/p73.png" class="align-center" src="_images/p73.png" />
 <p>Në këtë bllok, ne do të tërheqim bllokun që përcakton variablin <code class="docutils literal notranslate"><span class="pre">Remainder</span></code>, e cila ruan vlerën për ndarjen e plotë të <code class="docutils literal notranslate"><span class="pre">Counter</span></code> me 2:</p>
-<img alt="../_images/_imageMicroBit/p64.png" class="align-center" src="../_images/p64.png" />
-<p>Kjo pasohet nga blloku <img alt="ifthen" src="_images/s3.png" />. Në pjesën <img alt="uslov" src="../_images/s5.png" /> do të kontrollojmë nëse ka një pjesë të mbetur pas ndarjes së plotë të Counter me 2. Nëse kjo është e vërtetë, do të shfaqet një katror 3x3. Përndryshe, nëse kushti nuk është përmbushur, që do të thotë që pjesa tjetër nuk është 0, do të shfaqet vlera e variablit <code class="docutils literal notranslate"><span class="pre">Counter</span></code>:</p>
-<img alt="../_images/_imageMicroBit/p75.png" class="align-center" src="../_images/p75.png" />
+<img alt="_images/p64.png" class="align-center" src="_images/p64.png" />
+<p>Kjo pasohet nga blloku <img alt="ifthen" src="_images/s3.png" />. Në pjesën <img alt="uslov" src="_images/s51.png" /> do të kontrollojmë nëse ka një pjesë të mbetur pas ndarjes së plotë të Counter me 2. Nëse kjo është e vërtetë, do të shfaqet një katror 3x3. Përndryshe, nëse kushti nuk është përmbushur, që do të thotë që pjesa tjetër nuk është 0, do të shfaqet vlera e variablit <code class="docutils literal notranslate"><span class="pre">Counter</span></code>:</p>
+<img alt="_images/p75.png" class="align-center" src="_images/p75.png" />
 <p>Linku final i kodit:</p>
-<img alt="../_images/_imageMicroBit/p76.png" class="align-center" src="../_images/p76.png" />
+<img alt="_images/p76.png" class="align-center" src="_images/p76.png" />
 <p>Kinku për kodin: <a class="reference external" href="https://makecode.microbit.org/_f31EfHcv6Kpy">https://makecode.microbit.org/_f31EfHcv6Kpy</a></p>
-<p>Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në butonin <img alt="play" src="../_images/p3.png" />.</p>
+<p>Për të provuar programin, ne do ta ekzekutojmë në simulator duke klikuar në butonin <img alt="play" src="_images/p3.png" />.</p>
 
             <div class="course-box course-box-question course-content">
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L8Z1">
             <p>Q-13: Studio blloqet me kujdes.</p>
-<img alt="../_images/_imageMicroBit/p77.png" class="align-center" src="../_images/p77.png" />
+<img alt="_images/p77.png" class="align-center" src="_images/p77.png" />
 <p>Çfarë do të shfaqet pas ekzekutimit të blloqeve më lart?</p>
 
             <li data-component="answer" data-correct id="L8Z1_opt_a">Kur të dhënat janë marrë, asgjë nuk do të shfaqet.</li><li data-component="feedback" id="L8Z1_opt_a">Përgjigja është e saktë!</li>

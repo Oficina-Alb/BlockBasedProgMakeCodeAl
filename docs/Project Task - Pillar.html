@@ -208,8 +208,8 @@
 <h1>Detyrë - Pillar<a class="headerlink" href="#detyre-pillar" title="Permalink to this headline">¶</a></h1>
 <p>Ngjashëm me mënyrën sesi është në natyrë (ndryshimi i stinëve, qarkullimi i ujit, dita dhe nata, ngritja dhe rënia e nivelit të detit, etj.), Në programim mund të përsërisim hapa të caktuar disa herë. Ashtu si në natyrë, në programim, është e nevojshme të drejtoni pjesë të një programi disa herë për të përfunduar detyra të caktuara. Për këto lloje të programeve, ne themi se ato përmbajnë përsëritje, dhe këto përsëritje quhen <strong>cikle</strong>.</p>
 <p>Ne do të demonstrojmë përsëritjen duke krijuar një shtyllë në formë katrore, baza e së cilës është një shesh me anët e 5 blloqeve në gjatësi dhe 10 në lartësi.
-Në Minecraft, ne gjithashtu mund të përdorim një <strong>agjent</strong> për kryerjen e veprimeve të caktuara, të tilla si mbjellja dhe korrja, minierat, prerja e pemëve dhe ndërtimi i objekteve. Blloqet që kanë të bëjnë me agjentin gjenden në kategorinë <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>:</p>
-<img alt="../_images/_imageMinecraft/s5.png" class="align-center" src="../_images/s5.png" />
+Në Minecraft, ne gjithashtu mund të përdorim një <strong>agjent</strong> për kryerjen e veprimeve të caktuara, të tilla si mbjellja dhe korrja, minierat, prerja e pemëve dhe ndërtimi i objekteve. Blloqet që kanë të bëjnë me agjentin gjenden në kategorinë <a class="reference internal" href="_images/s210.png"><img alt="Agent" src="_images/s210.png" style="width: 100px;" /></a>:</p>
+<img alt="_images/s5.png" class="align-center" src="_images/s5.png" />
 <p><strong>Hapi 1.</strong></p>
 <p>Të menduarit për detyrën: Kalimi përpara 5 blloqeve dhe kthimi majtas dhe djathtas (me kënd 90 gradë) krijon një bazë në formë katrore. Lëvizja në boshtin z mundëson ndërtimin e kullës së lartë prej 10 blloqesh.</p>
 <p><strong>Hapi 2</strong></p>
@@ -220,59 +220,59 @@ Në Minecraft, ne gjithashtu mund të përdorim një <strong>agjent</strong> pë
 <li><p>krijimin e bazës katrore të shtyllës,</p></li>
 <li><p>krijimi i anës vertikale të shtyllës.</p></li>
 </ul>
-<p>Për të vendosur agjentin ku duam, do të përdorim bllokun <img alt="chat" src="../_images/s7.png" />. Futja e fjalës <strong>come</strong> bëhet shkas për vendosjen e agjentit në vendin e dëshiruar. Ne përdorim bllokun <a class="reference internal" href="../_images/_imageMinecraft/s6.png"><img alt="teleport" src="../_images/s6.png" style="width: 450px;" /></a> dhe formojmë kategorinë <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a> për të vendosur agjentin në vendin e dëshiruar. Ne do ta vendosim agjentin në pozicionin e karakterit tonë (lojtar) lëvizur dy blloqe (hapa) në të majtë. Për ta arritur këtë, ne do të përdorim variablin <strong>position</strong>, i cili ruan vlerën aktuale të pozicionit të personazhit (lojtarit).</p>
+<p>Për të vendosur agjentin ku duam, do të përdorim bllokun <img alt="chat" src="_images/s7.png" />. Futja e fjalës <strong>come</strong> bëhet shkas për vendosjen e agjentit në vendin e dëshiruar. Ne përdorim bllokun <a class="reference internal" href="_images/s61.png"><img alt="teleport" src="_images/s61.png" style="width: 450px;" /></a> dhe formojmë kategorinë <a class="reference internal" href="_images/s210.png"><img alt="Agent" src="_images/s210.png" style="width: 100px;" /></a> për të vendosur agjentin në vendin e dëshiruar. Ne do ta vendosim agjentin në pozicionin e karakterit tonë (lojtar) lëvizur dy blloqe (hapa) në të majtë. Për ta arritur këtë, ne do të përdorim variablin <strong>position</strong>, i cili ruan vlerën aktuale të pozicionit të personazhit (lojtarit).</p>
 <p>Do të krijojmë ndryshoren <strong>position</strong> në kategorinë <code class="docutils literal notranslate"><span class="pre">Variable</span></code>:</p>
-<img alt="../_images/_imageMinecraft/61.png" class="align-center" src="../_images/61.png" />
+<img alt="_images/611.png" class="align-center" src="_images/611.png" />
 <p>Në fillim, vlera e ndryshores <strong>postion</strong> është pozicioni aktual i personazhit në botë lëvizur dy blloqe në të majtë.
 Ne do të përcaktojmë vlerën fillestare me bllokun <a class="reference internal" href="_images/28.png"><img alt="start" src="_images/28.png" style="width: 150px;" /></a> Kjo do të thotë se çdo herë që fillon programi, Minecraft vendos vlerën e pozicionit në vendin e dëshiruar (agjenti lëvizet dy blloqe në të majtë nga karakteri (lojtari)), dhe ne mund të fillojmë ndërtimin e bazës katrore të shtyllës.</p>
-<p>Nga kategoria <code class="docutils literal notranslate"><span class="pre">Variables</span></code> ne tërheqim bllokun <img alt="set" src="../_images/s8.png" />, në të cilin do të futim bllokun që na jep pozicionin aktual të lojtarit të zhvendosur dy blloqe në të majtë.</p>
+<p>Nga kategoria <code class="docutils literal notranslate"><span class="pre">Variables</span></code> ne tërheqim bllokun <img alt="set" src="_images/s8.png" />, në të cilin do të futim bllokun që na jep pozicionin aktual të lojtarit të zhvendosur dy blloqe në të majtë.</p>
 <p>Kjo mund të arrihet në mënyrën e mëposhtme, duke përdorur bllokun:</p>
-<img alt="../_images/_imageMinecraft/62.png" class="align-center" src="../_images/62.png" />
-<p>nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/0.png"><img alt="Position" src="../_images/0.png" style="width: 100px;" /></a>.</p>
+<img alt="_images/621.png" class="align-center" src="_images/621.png" />
+<p>nga kategoria <a class="reference internal" href="_images/01.png"><img alt="Position" src="_images/01.png" style="width: 100px;" /></a>.</p>
 <p>Në pjesën e sipërme të bllokut, ne do të tërheqim bllokun <img alt="world" src="_images/28.png" />, i cili jep pozicionin aktual të personazhit (lojtarit) nga kategoria | Player| Në pjesën e poshtme të bllokut, në fushën e hyrjes së koordinatave x, do të vendosim numrin 2.</p>
 <p>Shihni bllokun <code class="docutils literal notranslate"><span class="pre">on</span> <span class="pre">start</span></code>:</p>
-<img alt="../_images/_imageMinecraft/63.png" class="align-center" src="../_images/63.png" />
-<p>Për ta vendosur agjentin në vendin e dëshiruar, do të përdorim agjentin e bllokut <a class="reference internal" href="../_images/_imageMinecraft/s6.png"><img alt="teleport" src="../_images/s6.png" style="width: 450px;" /></a> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>. Ne do ta vendosim ndryshoren <strong>position</strong> në bllokun e parë të argumenteve, dhe në bllokun e dytë të argumenteve, do të zgjedhim * East (X positive)** nga lista rënëse.</p>
+<img alt="_images/632.png" class="align-center" src="_images/632.png" />
+<p>Për ta vendosur agjentin në vendin e dëshiruar, do të përdorim agjentin e bllokut <a class="reference internal" href="_images/s61.png"><img alt="teleport" src="_images/s61.png" style="width: 450px;" /></a> nga kategoria <a class="reference internal" href="_images/s210.png"><img alt="Agent" src="_images/s210.png" style="width: 100px;" /></a>. Ne do ta vendosim ndryshoren <strong>position</strong> në bllokun e parë të argumenteve, dhe në bllokun e dytë të argumenteve, do të zgjedhim * East (X positive)** nga lista rënëse.</p>
 <p>Pamja e kodit:</p>
-<img alt="../_images/_imageMinecraft/65.png" class="align-center" src="../_images/65.png" />
+<img alt="_images/652.png" class="align-center" src="_images/652.png" />
 <p><strong>Hapi 3.</strong></p>
-<p>Ne e testojmë programin duke klikuar butonin <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/15.png" style="width: 40px;" /></a>:</p>
-<img alt="_images/64.png" class="align-center" src="_images/64.png" />
-<p>Në mënyrë që agjenti të jetë në gjendje të krijojë blloqe, duhet të sigurohemi që ai ka gjithçka që nevojitet për ndërtimin e shtyllave në inventarin e tij. Për këtë, ne do të përdorim bllokun <a class="reference internal" href="../_images/_imageMinecraft/s14.png"><img alt="setagent" src="../_images/s14.png" style="width: 350px;" /></a> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>:</p>
-<img alt="../_images/_imageMinecraft/70.png" class="align-center" src="../_images/70.png" />
+<p>Ne e testojmë programin duke klikuar butonin <a class="reference internal" href="_images/151.png"><img alt="Play" src="_images/151.png" style="width: 40px;" /></a>:</p>
+<img alt="_images/641.png" class="align-center" src="_images/641.png" />
+<p>Në mënyrë që agjenti të jetë në gjendje të krijojë blloqe, duhet të sigurohemi që ai ka gjithçka që nevojitet për ndërtimin e shtyllave në inventarin e tij. Për këtë, ne do të përdorim bllokun <a class="reference internal" href="_images/s141.png"><img alt="setagent" src="_images/s141.png" style="width: 350px;" /></a> nga kategoria <a class="reference internal" href="_images/s210.png"><img alt="Agent" src="_images/s210.png" style="width: 100px;" /></a>:</p>
+<img alt="_images/701.png" class="align-center" src="_images/701.png" />
 <p><strong>E rëndësishme:</strong> Inventari, i cili hapet duke shtypur butonin <code class="docutils literal notranslate"><span class="pre">E</span></code>, përdoret nga lojtari për të menaxhuar artikujt që zotëron (mbart). Ai përbëhet nga lojëra elektronike 1 deri në 9 në të cilat mund të “ruajë” sendet që i duhen për të krijuar objekte të ndryshme.
 Tani duhet të krijojmë bazën në formë katrore të shtyllës. Në mënyrë që agjenti të jetë në gjendje të krijojë bazën katrore, na duhet një lloj “shkas” për atë ngjarje. Për këtë, ne do të përdorim chat dhe fjalën katror.</p>
-<p>Për ta vendosur bllokun në një formë katrore, me gjatësinë prej 5 blloqeve, ne do të përdorim bllokun <img alt="repeat" src="../_images/s10.png" /> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/2_.png"><img alt="Loops" src="../_images/2_.png" style="width: 100px;" /></a>.</p>
+<p>Për ta vendosur bllokun në një formë katrore, me gjatësinë prej 5 blloqeve, ne do të përdorim bllokun <img alt="repeat" src="_images/s10.png" /> nga kategoria <a class="reference internal" href="_images/2_.png"><img alt="Loops" src="_images/2_.png" style="width: 100px;" /></a>.</p>
 <p>Një katror është një figurë gjeometrike e përbërë nga katër anët me gjatësi të barabartë, me anët e kundërta paralele dhe kënde midis palëve ngjitur 90 gradë. Katrori ka katër anët, kështu që ne do të futim numrin <code class="docutils literal notranslate"><span class="pre">4</span></code> në bllokun e përsëritjes:</p>
-<img alt="../_images/_imageMinecraft/66.png" class="align-center" src="../_images/66.png" />
-<p>Për të mundësuar që agjenti të vendosë blloqe duke lëvizur në botë, duhet të përdorim bllokun <img alt="placeagent" src="../_images/s11.png" /> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>.</p>
+<img alt="_images/662.png" class="align-center" src="_images/662.png" />
+<p>Për të mundësuar që agjenti të vendosë blloqe duke lëvizur në botë, duhet të përdorim bllokun <img alt="placeagent" src="_images/s11.png" /> nga kategoria <a class="reference internal" href="_images/s210.png"><img alt="Agent" src="_images/s210.png" style="width: 100px;" /></a>.</p>
 <p>Që ajo të jetë në gjendje të kryejë veprimin, duhet të vendosim bllokun e dytë të argumentit në <code class="docutils literal notranslate"><span class="pre">true</span></code>:</p>
-<img alt="../_images/_imageMinecraft/67.png" class="align-center" src="../_images/67.png" />
-<p>Gjatësia e brinjës, e cila është 5 blloqe, do të përcaktohet me bllokun <img alt="move" src="../_images/s12.png" /> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>:</p>
-<img alt="../_images/_imageMinecraft/68.png" class="align-center" src="../_images/68.png" />
-<p>Gjatësia e brinjës, e cila është 5 blloqe, do të përcaktohet me bllokun <img alt="move" src="../_images/s12.png" /> nga kategoria <a class="reference internal" href="../_images/_imageMinecraft/s2.png"><img alt="Agent" src="../_images/s2.png" style="width: 100px;" /></a>:</p>
-<img alt="../_images/_imageMinecraft/69.png" class="align-center" src="../_images/69.png" />
-<p>Ne mund ta testojmë programin duke shypyr butonin <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/15.png" style="width: 40px;" /></a>.</p>
+<img alt="_images/672.png" class="align-center" src="_images/672.png" />
+<p>Gjatësia e brinjës, e cila është 5 blloqe, do të përcaktohet me bllokun <img alt="move" src="_images/s121.png" /> nga kategoria <a class="reference internal" href="_images/s210.png"><img alt="Agent" src="_images/s210.png" style="width: 100px;" /></a>:</p>
+<img alt="_images/682.png" class="align-center" src="_images/682.png" />
+<p>Gjatësia e brinjës, e cila është 5 blloqe, do të përcaktohet me bllokun <img alt="move" src="_images/s121.png" /> nga kategoria <a class="reference internal" href="_images/s210.png"><img alt="Agent" src="_images/s210.png" style="width: 100px;" /></a>:</p>
+<img alt="_images/692.png" class="align-center" src="_images/692.png" />
+<p>Ne mund ta testojmë programin duke shypyr butonin <a class="reference internal" href="_images/151.png"><img alt="Play" src="_images/151.png" style="width: 40px;" /></a>.</p>
 <img alt="_images/71.png" class="align-center" src="_images/71.png" />
 <p>Pasi të përfundojë testimi, mund të shohim që agjenti nuk ndërtoi tërë sheshin.</p>
-<p>Për ta arritur këtë, duhet të lëvizim agjentin. Ne mund ta bëjmë këtë duke prezantuar bllokun <img alt="move" src="../_images/s12.png" /> dhe zgjedhja e opsionit <code class="docutils literal notranslate"><span class="pre">lart</span></code> nga lista rënëse. Ne e lëvizim agjentin për një bllok, për këtë duhet të vendosim <code class="docutils literal notranslate"><span class="pre">1</span></code> si vlerë të parametrit të tretë:</p>
-<img alt="../_images/_imageMinecraft/73.png" class="align-center" src="../_images/73.png" />
+<p>Për ta arritur këtë, duhet të lëvizim agjentin. Ne mund ta bëjmë këtë duke prezantuar bllokun <img alt="move" src="_images/s121.png" /> dhe zgjedhja e opsionit <code class="docutils literal notranslate"><span class="pre">lart</span></code> nga lista rënëse. Ne e lëvizim agjentin për një bllok, për këtë duhet të vendosim <code class="docutils literal notranslate"><span class="pre">1</span></code> si vlerë të parametrit të tretë:</p>
+<img alt="_images/73.png" class="align-center" src="_images/73.png" />
 <p>Tani do ta testojmë programin përsëri, dhe kësaj radhe do të marrim një shesh:</p>
 <img alt="_images/72.png" class="align-center" src="_images/72.png" />
-<p>Bazuar në kodin e mësipërm, mund të shohim që agjenti nuk është në pozicion, që është një bllok mbi pozicionin fillestar. Për ta vendosur agjentin në pozicionin e dëshiruar do të prezantojmë dy blloqe <img alt="turn" src="../_images/s13.png" /> dhe <img alt="move" src="../_images/s12.png" />:</p>
-<img alt="../_images/_imageMinecraft/74.png" class="align-center" src="../_images/74.png" />
+<p>Bazuar në kodin e mësipërm, mund të shohim që agjenti nuk është në pozicion, që është një bllok mbi pozicionin fillestar. Për ta vendosur agjentin në pozicionin e dëshiruar do të prezantojmë dy blloqe <img alt="turn" src="_images/s13.png" /> dhe <img alt="move" src="_images/s121.png" />:</p>
+<img alt="_images/741.png" class="align-center" src="_images/741.png" />
 <p>Gjatë testimit të programit, ne mund të shohim që agjenti largohet nga blloku pasi lëvizja të ketë përfunduar. Ne nuk duam që kjo të ndodhë. Kjo është arsyeja pse ne prezantojmë dy blloqe, të cilat do ta vendosin agjentin pa bllok në pozicionin për ndërtimin e murit:</p>
-<img alt="../_images/_imageMinecraft/75.png" class="align-center" src="../_images/75.png" />
+<img alt="_images/751.png" class="align-center" src="_images/751.png" />
 <p>Ajo që mbetet për ne të bëjmë është të krijojmë programin për ndërtimin e shtyllës, e cila do të jetë e lartë 10 blloqe.</p>
-<p>Ne mund ta bëjmë këtë duke prezantuar një cikël të ri, ku do të futim ciklin e përfunduar tashmë (i cili krijon katrorin). Ne do të prezantojmë bllokun <img alt="repeat" src="../_images/s10.png" /> dhe vendosni vlerën e numërsuesit në <code class="docutils literal notranslate"><span class="pre">10</span></code>:</p>
+<p>Ne mund ta bëjmë këtë duke prezantuar një cikël të ri, ku do të futim ciklin e përfunduar tashmë (i cili krijon katrorin). Ne do të prezantojmë bllokun <img alt="repeat" src="_images/s10.png" /> dhe vendosni vlerën e numërsuesit në <code class="docutils literal notranslate"><span class="pre">10</span></code>:</p>
 <p>Vendosja e një cikli brenda trupit të një cikël tjetër quhet <strong>fole</strong>.</p>
-<img alt="../_images/_imageMinecraft/77.png" class="align-center" src="../_images/77.png" />
+<img alt="_images/771.png" class="align-center" src="_images/771.png" />
 <p>Pamja përfundimtare e kodit, e cila do të mundësojë ndërtimin e një shtylle e cila është 10 blloqe e lartë dhe ka një bazë katrore 5x5:</p>
-<img alt="../_images/_imageMinecraft/78.png" class="align-center" src="../_images/78.png" />
+<img alt="_images/781.png" class="align-center" src="_images/781.png" />
 <p><strong>Hapi 3</strong></p>
 <p>Testo programin.
-Kliko butonin <a class="reference internal" href="../_images/_imageMinecraft/15.png"><img alt="Play" src="../_images/15.png" style="width: 40px;" /></a>.</p>
-<img alt="_images/76.png" class="align-center" src="_images/76.png" />
+Kliko butonin <a class="reference internal" href="_images/151.png"><img alt="Play" src="_images/151.png" style="width: 40px;" /></a>.</p>
+<img alt="_images/761.png" class="align-center" src="_images/761.png" />
 <p>Në këtë mënyrë, ne kemi krijuar një shtyllë e cila është 10 blloqe e lartë dhe ka një bazë katrore 5x5.</p>
 </div>
 

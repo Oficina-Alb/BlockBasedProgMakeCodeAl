@@ -240,64 +240,64 @@
 <p>Kur duam të krijojmë komunikim (për të përdorur komunikimin radio) midis Micro:bitëve, të gjitha të përfshira Micro:bit duhet t’i përkasin të njëjtit grup, d.m.th. duhet të përdorin të njëjtin ID të grupit.</p>
 <p><strong>Hapi 3</strong></p>
 <p>Duke krijuar ID-në e grupit, ne në fakt krijojmë një hapësirë ku pajisjet do të komunikojnë.</p>
-<p>Për të krijuar një grup ID, duhet të tërheqim bllokun <img alt="radioset" src="_images/s22.png" /> nga kategoria <img alt="Radio" src="../_images/s21.png" /> në bllokun <img alt="onstart" src="_images/onstart.png" /> nga kategoria <img alt="Basic" src="../_images/s2.png" />. Në hapësirën <img alt="ID" src="../_images/s23.png" /> shtypni numrin e dëshiruar për ID të grupit. Ky mund të jetë çdo numër. Do ta lëmë numrin 1. Në këtë mënyrë, ne kemi krijuar grupin me ID 1 në të cilin do të komunikojnë të gjitha Micro:bitet.</p>
+<p>Për të krijuar një grup ID, duhet të tërheqim bllokun <img alt="radioset" src="_images/s221.png" /> nga kategoria <img alt="Radio" src="_images/s211.png" /> në bllokun <img alt="onstart" src="_images/onstart.png" /> nga kategoria <img alt="Basic" src="_images/s2.png" />. Në hapësirën <img alt="ID" src="_images/s231.png" /> shtypni numrin e dëshiruar për ID të grupit. Ky mund të jetë çdo numër. Do ta lëmë numrin 1. Në këtë mënyrë, ne kemi krijuar grupin me ID 1 në të cilin do të komunikojnë të gjitha Micro:bitet.</p>
 <p>Pjesa e kodit, e cila krijon grupin për komunikim:</p>
-<img alt="_images/s24.png" class="align-center" src="_images/s24.png" />
+<img alt="_images/s241.png" class="align-center" src="_images/s241.png" />
 <p><strong>Hapi 4</strong></p>
-<p>Tërhiq bllokun <img alt="if..then" src="_images/s3.png" /> nga kategoria <img alt="Logic" src="../_images/s4.png" /> në bllokun <img alt="forever" src="_images/s1.png" />, nga kategoria <img alt="Basic" src="../_images/s2.png" />.</p>
-<p>Në fushën e hyrjes së kushteve <img alt="uslov" src="../_images/s5.png" /> tërhiqeni bllokun <img alt="uslov1" src="_images/s7.png" /> (vendosur në kategorinë <img alt="Input" src="../_images/s6.png" />).</p>
-<p>Nga lista drop-down e bllokut <img alt="uslov1" src="_images/s7.png" />:</p>
-<img alt="../_images/_imageMicroBit/s8.png" class="align-center" src="../_images/s8.png" />
-<p>zgjidh opsionin <img alt="shake" src="../_images/s9.png" />. Ky opsion dikton lëvizjet.</p>
-<img alt="_images/s10.png" class="align-center" src="_images/s10.png" />
+<p>Tërhiq bllokun <img alt="if..then" src="_images/s3.png" /> nga kategoria <img alt="Logic" src="_images/s4.png" /> në bllokun <img alt="forever" src="_images/s1.png" />, nga kategoria <img alt="Basic" src="_images/s2.png" />.</p>
+<p>Në fushën e hyrjes së kushteve <img alt="uslov" src="_images/s51.png" /> tërhiqeni bllokun <img alt="uslov1" src="_images/s71.png" /> (vendosur në kategorinë <img alt="Input" src="_images/s6.png" />).</p>
+<p>Nga lista drop-down e bllokut <img alt="uslov1" src="_images/s71.png" />:</p>
+<img alt="_images/s81.png" class="align-center" src="_images/s81.png" />
+<p>zgjidh opsionin <img alt="shake" src="_images/s9.png" />. Ky opsion dikton lëvizjet.</p>
+<img alt="_images/s101.png" class="align-center" src="_images/s101.png" />
 <p>Bazuar në vendosjen e detyrës, kur një lëvizje është e regjistruar (ose në rastin tonë kur plotësohen kushtet), Micro:bit do të dërgojë një vlerë të caktuar duke përdorur bllokun <img alt="radiosend" src="_images/s30.png" /></p>
-<p>Ne do ta vendosim numrin 5 në fushën e hyrjes <img alt="broj" src="../_images/s32.png" /> (çdo vlerë mund të futet). Që sensori të reagojë, d.m.th të zbulojë lëvizjen, duhet ta vendosim në mënyrë që të duhet një kohë e caktuar, le të vendosim 3 sekonda (ose 3000 milisekonda). Për këtë, ne do të përdorim bllokun <img alt="time" src="_images/s39.png" /> nga kategoria <img alt="Basic" src="../_images/s2.png" />. Në fushën e hyrjes <img alt="vreme" src="../_images/s40.png" /> ne do të vendosim 3000ms, që do të jetë koha e reagimit të sensorit, në lidhje me ndryshimin që ka ndodhur.</p>
+<p>Ne do ta vendosim numrin 5 në fushën e hyrjes <img alt="broj" src="_images/s321.png" /> (çdo vlerë mund të futet). Që sensori të reagojë, d.m.th të zbulojë lëvizjen, duhet ta vendosim në mënyrë që të duhet një kohë e caktuar, le të vendosim 3 sekonda (ose 3000 milisekonda). Për këtë, ne do të përdorim bllokun <img alt="time" src="_images/s39.png" /> nga kategoria <img alt="Basic" src="_images/s2.png" />. Në fushën e hyrjes <img alt="vreme" src="_images/s40.png" /> ne do të vendosim 3000ms, që do të jetë koha e reagimit të sensorit, në lidhje me ndryshimin që ka ndodhur.</p>
 <img alt="_images/s48.png" class="align-center" src="_images/s48.png" />
 <p><strong>Hapi 5</strong></p>
-<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/s49.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="_images/s49.png" /> ose butonin <a class="reference internal" href="_images/291.png"><img alt="dugme2" src="_images/291.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
 <p><strong>Hapi 6</strong></p>
 <p>Tani, duhet të programojmë Micro: bit për të zbuluar ndryshimet në temperaturë dhe nivelin e dritës, dhe për ta dërguar atë informacion në Micro:bit, i cili do të reagojë ndaj kësaj duke bërë një tingull.
 Në mënyrë që Micro:bitet të komunikojnë, ato duhet t’i përkasin të njëjtit grup ID.</p>
 <p>Tashmë kemi krijuar grupin me ID 1, ku të gjitha Micro:bitet tona do të komunikojnë:</p>
-<img alt="_images/s24.png" class="align-center" src="_images/s24.png" />
-<p>Tërhiq bllokun <img alt="if..then" src="_images/s3.png" /> formoni kategorinë <img alt="Logic" src="../_images/s4.png" /> në bllokun <img alt="forever" src="_images/s1.png" />. Ne gjithashtu duhet të tërheqim blloqet që përcaktojnë kushtet në fushën e hyrjes së kushteve <img alt="uslov" src="../_images/s5.png" />. Një kusht do të jetë që temperatura të jetë më e lartë se 30 gradë, dhe kushti tjetër do të jetë që niveli i dritës të jetë më i lartë se 150.</p>
+<img alt="_images/s241.png" class="align-center" src="_images/s241.png" />
+<p>Tërhiq bllokun <img alt="if..then" src="_images/s3.png" /> formoni kategorinë <img alt="Logic" src="_images/s4.png" /> në bllokun <img alt="forever" src="_images/s1.png" />. Ne gjithashtu duhet të tërheqim blloqet që përcaktojnë kushtet në fushën e hyrjes së kushteve <img alt="uslov" src="_images/s51.png" />. Një kusht do të jetë që temperatura të jetë më e lartë se 30 gradë, dhe kushti tjetër do të jetë që niveli i dritës të jetë më i lartë se 150.</p>
 <p>Kushtet mund të jenë komplekse (të krijuara duke lidhur kushte të thjeshta).</p>
 <p>Në rastin tonë, kushtet e thjeshta janë që temperatura të jetë më e lartë se 30, ose që niveli i dritës të jetë më i lartë se 150.</p>
 <p>Ne përcaktojmë kushtet tona të thjeshta me bllokun <img alt="poredjenje" src="_images/s53.png" />.</p>
 <p>Në rastin tonë, ne përcaktojmë kushtet si më poshtë:</p>
 <ul class="simple">
-<li><p>temperatura <img alt="temperatura" src="_images/s55.png" /> më i lartë se 30: <img alt="vece30" src="../_images/s56.png" />.</p></li>
-<li><p>Nivel i lartë <img alt="intenzitet" src="_images/s54.png" /> më i lartë se 150: <img alt="vece150" src="../_images/s57.png" />.</p></li>
+<li><p>temperatura <img alt="temperatura" src="_images/s55.png" /> më i lartë se 30: <img alt="vece30" src="_images/s56.png" />.</p></li>
+<li><p>Nivel i lartë <img alt="intenzitet" src="_images/s54.png" /> më i lartë se 150: <img alt="vece150" src="_images/s57.png" />.</p></li>
 </ul>
 <p>Ju përdorni operatorë logjikë (boolean) për të lidhur kushte të thjeshta (AND, OR, NOT).</p>
 <p>Në MakeCode, operatorët logjikë (boolean) përfaqësohen si më poshtë:</p>
 <p><img alt="and" src="_images/s50.png" /> - Lidh dy kushte dhe kthehet si rezultat True vetëm nëse të dyja kushtet janë të vërteta.</p>
-<p><img alt="or" src="_images/s51.png" /> - Lidh dy kushte dhe kthehet si rezultat True nëse të paktën një kusht është i vërtetë.</p>
+<p><img alt="or" src="_images/s511.png" /> - Lidh dy kushte dhe kthehet si rezultat True nëse të paktën një kusht është i vërtetë.</p>
 <p><img alt="not" src="_images/s52.png" /> - Vendoset para një kushti dhe kthehet True në rast se kushti nuk përmbushet.</p>
 <p>Gjendja, e cila kontrollon nëse ka pasur një ndryshim në temperaturën ose nivelin e dritës, përcaktohet nga blloku i mëposhtëm:</p>
-<img alt="../_images/_imageMicroBit/s58.png" class="align-center" src="../_images/s58.png" />
+<img alt="_images/s58.png" class="align-center" src="_images/s58.png" />
 <p>Pamja e bllokut të kushteve:</p>
 <img alt="_images/s60.png" class="align-center" src="_images/s60.png" />
-<p>Bazuar në konfigurimin e detyrës, kur është regjistruar ndryshimi i temperaturës ose nivelit të dritës, Micro:bit do të dërgojë një vlerë të caktuar duke përdorur bllokun <img alt="radiosend" src="_images/s30.png" /> Ne do të vendosim numrin 10 në fushën hyrëse <img alt="broj" src="../_images/s32.png" /> (çdo vlerë mund të futet). Që sensori të reagojë, d.m.th të zbulojë ndryshimet, duhet ta vendosim në mënyrë që të duhet një kohë e caktuar, le të vendosim 3 sekonda (ose 3000 milisekonda). Për këtë, ne do të përdorim bllokun <img alt="time" src="_images/s39.png" /> nga kategoria <img alt="Basic" src="../_images/s2.png" />. Në fushën e hyrjes <img alt="vreme" src="../_images/s40.png" /> ne do të vendosim 3000ms, që do të jetë koha e përgjigjes së sensorit, në lidhje me ndryshimin që ka ndodhur.</p>
+<p>Bazuar në konfigurimin e detyrës, kur është regjistruar ndryshimi i temperaturës ose nivelit të dritës, Micro:bit do të dërgojë një vlerë të caktuar duke përdorur bllokun <img alt="radiosend" src="_images/s30.png" /> Ne do të vendosim numrin 10 në fushën hyrëse <img alt="broj" src="_images/s321.png" /> (çdo vlerë mund të futet). Që sensori të reagojë, d.m.th të zbulojë ndryshimet, duhet ta vendosim në mënyrë që të duhet një kohë e caktuar, le të vendosim 3 sekonda (ose 3000 milisekonda). Për këtë, ne do të përdorim bllokun <img alt="time" src="_images/s39.png" /> nga kategoria <img alt="Basic" src="_images/s2.png" />. Në fushën e hyrjes <img alt="vreme" src="_images/s40.png" /> ne do të vendosim 3000ms, që do të jetë koha e përgjigjes së sensorit, në lidhje me ndryshimin që ka ndodhur.</p>
 <p>Pamja e programit kur zbulohet një ndryshim në temperaturë ose nivelin e dritës:</p>
 <img alt="_images/s59.png" class="align-center" src="_images/s59.png" />
 <p><strong>Hapi 7</strong></p>
-<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/s49.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="_images/s49.png" /> ose butonin <a class="reference internal" href="_images/291.png"><img alt="dugme2" src="_images/291.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
 <p><strong>Hapi 8</strong></p>
-<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/s49.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="_images/s49.png" /> ose butonin <a class="reference internal" href="_images/291.png"><img alt="dugme2" src="_images/291.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
 <p>Do krijojmë një grup me ID 1:</p>
-<img alt="_images/s24.png" class="align-center" src="_images/s24.png" />
-<p>Hapi tjetër për këtë Micro:bit është të marrë informacion (në rastin tonë një numër) mbi bazën e të cilit do të “përgjigjet” duke bërë një tingull. Për ta arritur këtë, ne do të tërheqim bllokun e mëposhtëm nga kategoria <img alt="Radio" src="../_images/s21.png" />:</p>
+<img alt="_images/s241.png" class="align-center" src="_images/s241.png" />
+<p>Hapi tjetër për këtë Micro:bit është të marrë informacion (në rastin tonë një numër) mbi bazën e të cilit do të “përgjigjet” duke bërë një tingull. Për ta arritur këtë, ne do të tërheqim bllokun e mëposhtëm nga kategoria <img alt="Radio" src="_images/s211.png" />:</p>
 <img alt="_images/s30.png" class="align-center" src="_images/s30.png" />
-<p>Në të, ne do të tërheqim bllokun <img alt="if..then" src="_images/s3.png" /> Në fushën e hyrjes së kushteve <img alt="uslov" src="../_images/s5.png" /> duhet të tërheqim gjendjen, e cila do të kontrollojë numrat (5, 10) të marrë nga dy Micro:bit të tjera.</p>
-<p>Përdorimi i shenjës <img alt="plus" src="../_images/s15.png" />, do të prezantojë edhe një kusht. Në degën me kushtin <img alt="uslov5" src="../_images/s63.png" /> dhe në degën me kushtin <img alt="uslov10" src="../_images/s64.png" />, do ta tërheqim bllokun <img alt="melodija" src="_images/s65.png" /> (nga lista drop-down e këtij blloku do të zgjedhim melodinë <code class="docutils literal notranslate"><span class="pre">ringtone</span></code>) nga kategoria <img alt="Music" src="../_images/s66.png" />, e cila përdoret për prodhimin e tingullit.
+<p>Në të, ne do të tërheqim bllokun <img alt="if..then" src="_images/s3.png" /> Në fushën e hyrjes së kushteve <img alt="uslov" src="_images/s51.png" /> duhet të tërheqim gjendjen, e cila do të kontrollojë numrat (5, 10) të marrë nga dy Micro:bit të tjera.</p>
+<p>Përdorimi i shenjës <img alt="plus" src="_images/s151.png" />, do të prezantojë edhe një kusht. Në degën me kushtin <img alt="uslov5" src="_images/s63.png" /> dhe në degën me kushtin <img alt="uslov10" src="_images/s64.png" />, do ta tërheqim bllokun <img alt="melodija" src="_images/s65.png" /> (nga lista drop-down e këtij blloku do të zgjedhim melodinë <code class="docutils literal notranslate"><span class="pre">ringtone</span></code>) nga kategoria <img alt="Music" src="_images/s66.png" />, e cila përdoret për prodhimin e tingullit.
 Përveç këtij blloku, ne do të shtojmë edhe një interval kohor prej një sekonde.</p>
 <p>Pamja finale e kodit:</p>
 <img alt="_images/s67.png" class="align-center" src="_images/s67.png" />
 <p><strong>Shënim</strong>: Micro:bit duhet të jetë i lidhur me altoparlantët ose kufjet, siç tregohet në figurën më poshtë, që tingulli të riprodhohet:</p>
-<img alt="../_images/_imageMicroBit/34.png" class="align-center" src="../_images/34.png" />
+<img alt="_images/34.png" class="align-center" src="_images/34.png" />
 <p><strong>Hapi 9</strong></p>
-<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="../_images/s49.png" /> ose butonin <a class="reference internal" href="../_images/_imageMicroBit/29.png"><img alt="dugme2" src="../_images/29.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
+<p>Shkarkoni skedarin .hex në kompjuterin tuaj duke klikuar në butonin <img alt="dugme1" src="_images/s49.png" /> ose butonin <a class="reference internal" href="_images/291.png"><img alt="dugme2" src="_images/291.png" style="width: 199px;" /></a>. Micro:bit do të jetë gati për të filluar punën pasi të keni tërhequr skedarin mbi të.</p>
 </div>
 
 
